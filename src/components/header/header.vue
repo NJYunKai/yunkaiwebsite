@@ -91,7 +91,7 @@
             <router-link to="/offers" class="link">协同育人</router-link>
           </MenuItem>
           <MenuItem name="6">
-            <router-link to="/contact" class="link">协同育人</router-link>
+            <router-link to="/contact" class="link">一带一路</router-link>
           </MenuItem>
           <!-- <Submenu name="2">
 						<template slot="title">
