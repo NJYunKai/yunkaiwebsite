@@ -167,7 +167,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-	height: 188px;
+	height: 400px;
 	margin-left: .7%;
 }
 @keyframes back {
@@ -188,8 +188,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .product-vessel {
 	overflow: hidden;
 	top: 37px;
-	width: 30000px;
-	height: 137px;
+	width: 1000px;
+	height: 400px;
+	margin-left: 2200px;
 }
 .product-prev {
 	left: 0px;
@@ -328,7 +329,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	display: inline-block;
 	float: left;
 	width: 194px;
-	margin: 32px 23px;
+	margin: 5px 23px;
 	text-align: center;
 }
 .product-roll img {
@@ -350,7 +351,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	text-align: center;
 }
 .product-header-slogan {
-	height: 14px;
+	height: 20px;
 	font-size: 12px;
 	color: #4A4A4A;
 	letter-spacing: 0;
@@ -618,7 +619,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	letter-spacing: 0;
 }
 .customer {
-	height: 328px;
+	height: 600px;
 	/* background: url(../img/detail_one/bg.png) no-repeat center; */
 }
 .copyright-photo:before {
@@ -1168,7 +1169,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	/* width: ; */
 }
 .product-header-slogan {
-	height: 14px;
+	height: 20px;
 	font-size: 12px;
 	width: 672px;
 	color: #4A4A4A;

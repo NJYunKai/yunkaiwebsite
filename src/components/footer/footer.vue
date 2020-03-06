@@ -2,15 +2,16 @@
 	<div class="footer">
 		<div class="footer-all">
 			<div class="footer-left">
-				<p>惠国征信服务股份有限公司</p>
+				<p>南京云开数据科技有限公司</p>
 			</div>
 			<div class="footer-right">
+				<!-- 第一列 -->
 				<ul class="list">
 					<li>
-						<a href="javascript:;">关于惠国</a>
+						<a href="javascript:;">关于云开</a>
 					</li>
 					<li>
-						<router-link to="/about/introduce">惠国简介</router-link>
+						<router-link to="/about/introduce">云开简介</router-link>
 					</li>
 					<li>
 						<router-link to="/about/honor">荣誉资质</router-link>
@@ -22,6 +23,7 @@
 						<router-link to="/about/partner">合作伙伴</router-link>
 					</li>
 				</ul>
+				<!-- 第二列 -->
 				<ul class="list">
 					<li>
 						<a href="javascript:;">新闻中心</a>
@@ -39,9 +41,10 @@
 						<router-link to="/news/industry" class="sub-link">行业新闻</router-link>
 					</li>
 				</ul>
-				<ul class="list">
+				<!-- 第三列 -->
+				<!-- <ul class="list">
 					<li>
-						<a href="javascript:;">金融征信</a>
+						<a href="javascript:;">智能征信</a>
 					</li>
 					<li>
 
@@ -58,19 +61,20 @@
 						<router-link to="/financial/banking" class="sub-link">金融行业经验</router-link>
 
 					</li>
-				</ul>
+				</ul> -->
+				<!-- 第四列 -->
 				<ul class="list">
 					<li>
-						<a href="javascript:;">政务征信</a>
+						<a href="javascript:;">智能征信</a>
 					</li>
 					<li>
 
-						<router-link to="/government/benevolent" class="link">惠政信用服务平台</router-link>
+						<router-link to="/government/benevolent" class="link">云开信用服务平台</router-link>
 
 					</li>
 					<li>
 
-						<router-link to="/government/supervise" class="link">互联网金融监管平台</router-link>
+						<router-link to="/government/supervise" class="link">互联网数据监管平台</router-link>
 						</a>
 					</li>
 					<li>
@@ -78,12 +82,14 @@
 						<router-link to="/government/system" class="link">社会信用体系建设</router-link>
                     </li>
 				</ul>
+				<!-- 第五列 -->
 				<ul class="list">
 					<li>
 						<!--<a href="javascript:;">招贤纳士</a>-->
 						<router-link to="/offers" class="link">招贤纳士</router-link>
 					</li>
 				</ul>
+				<!-- 第六列 -->
 				<ul class="list">
 					<li>
 						<!--<a href="javascript:;">联系我们</a>-->
@@ -95,13 +101,13 @@
 				<div class="public_security">
 					<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34020202000335">
 						<img :src="public" style="float:left;" />&nbsp;
-						<span>皖公网安备 34020202000335号</span>
+						<span>苏公网安备 32010202010078号</span>
 					</a>
 				</div>
 				<div class="line"></div>
 				<div class="message">
-					<p class="message-left">联系电话&nbsp;&nbsp;86-0553-5801256</p>
-					<p class="message-right">Copyright&nbsp;&nbsp;©&nbsp;&nbsp;惠国征信服务股份有限公司&nbsp;&nbsp;皖ICP备16019649号</p>
+					<p class="message-left">联系电话&nbsp;&nbsp;18651837835</p>
+					<p class="message-right">Copyright&nbsp;&nbsp;©&nbsp;&nbsp;南京云开数据科技有限公司&nbsp;&nbsp;南京市栖霞区尧化街道甘家边东108号01幢401室</p>
 				</div>
 			</div>
 		</div>
