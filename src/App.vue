@@ -20,20 +20,20 @@ import banner_02 from "./public/img/banner_02.jpg";
 //import banner_03 from "./public/img/banner_02.jpg";
 import header from "./components/header/header";
 import footer from "./components/footer/footer";
-import "swiper/dist/css/swiper.css";
+// import "swiper/dist/css/swiper.css";
 import "../static/css/index.css"
-import { swiper, swiperSlide } from "vue-awesome-swiper";
+// import { swiper, swiperSlide } from "vue-awesome-swiper";
 export default {
   name: "app",
   data: function() {
     return {
-      swiperOption: {
-        notNextTick: true,
-        pagination: ".swiper-pagination",
-        paginationClickable: true,
-        autoplay: 4000,
-        width: window.innerWidth
-      },
+      // swiperOption: {
+      //   notNextTick: true,
+      //   pagination: ".swiper-pagination",
+      //   paginationClickable: true,
+      //   autoplay: 4000,
+      //   width: window.innerWidth
+      // },
       banners: [banner_01, banner_02],
       imgHeight: 0,
       num: '1'
@@ -42,8 +42,8 @@ export default {
   components: {
     "h-header": header,
     "h-footer": footer,
-    swiper,
-    swiperSlide
+    // swiper,
+    // swiperSlide
   },
   methods: {
     setNavigationNum: function(val) {
@@ -51,9 +51,9 @@ export default {
     }
   },
   mounted() {
-    setTimeout(() => {
-      this.imgHeight = this.$refs.mySwiper.swiper.height;
-    }, 1000);
+    // setTimeout(() => {
+    //   // this.imgHeight = this.$refs.mySwiper.swiper.height;
+    // }, 1000);
   }
 };
 </script>
@@ -64,11 +64,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.swiper-wrapper {
-  margin: 0 auto;
-  .swiperImg {
-    width: 100%;
-    vertical-align: top;
-  }
-}
+// .swiper-wrapper {
+//   margin: 0 auto;
+//   .swiperImg {
+//     width: 100%;
+//     vertical-align: top;
+//   }
+// }
 </style>

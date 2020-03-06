@@ -26,176 +26,206 @@ import system from '@/pages/government/system';
 
 import offers from '@/pages/offers';
 import contact from '@/pages/contact';
+
 Vue.use(Router)
 
 export default new Router({
-	mode: 'history',
-	base: '/dist/',
-	linkActiveClass: "active",
-	routes: [
-		{
-			path: '/',
-			name: 'index',
-			meta: {
-				index: '1'
-			},
-			component: index
+  mode: 'history',
+  base: '/dist/',
+  linkActiveClass: "active",
+  routes: [{
+      path: '/',
+      name: 'index',
+      meta: {
+        index: '1'
+      },
+      component: index
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: about,
+      meta: {
+        index: '2'
+      },
+      children: [{
+        path: 'introduce',
+        name: 'introduce',
+        meta: {
+          index: '2-1'
+        },
+        component: introduce,
+      }, {
+        path: 'honor',
+        name: 'honor',
+        meta: {
+          index: '2-2'
+        },
+        component: honor,
+      }, {
+        path: 'culture',
+        name: 'culture',
+        meta: {
+          index: '2-3'
+        },
+        component: culture,
+      }, {
+        path: 'partner',
+        name: 'partner',
+        meta: {
+          index: '2-4'
+        },
+        component: partner,
+      }]
+    },
+    {
+      path: '/news',
+      name: 'news',
+      meta: {
+        index: '3'
+      },
+      component: news,
+      children: [{
+        path: 'index',
+        name: 'index',
+        meta: {
+          index: '3-1'
+        },
+        component: newsIndex,
+      }, {
+        path: 'index/:id',
+        name: 'index',
+        meta: {
+          index: '3-1'
+        },
+        component: newsIndex,
+      }, {
+        path: 'media',
+        name: 'media',
+        meta: {
+          index: '3-2'
+        },
+        component: media,
+      }, {
+        path: 'topic',
+        name: 'topic',
+        meta: {
+          index: '3-3'
+        },
+        component: topic,
+      }, {
+        path: 'industry',
+        name: 'industry',
+        meta: {
+          index: '3-4'
+        },
+        component: industry,
+      }]
+    }, {
+      path: '/financial',
+      name: 'financial',
+      component: financial,
+      meta: {
+        index: '4'
+      },
+      children: [{
+        path: 'credit',
+        name: 'credit',
+        meta: {
+          index: '4-1'
+        },
+        component: credit,
+      }, {
+        path: 'iot',
+        name: 'iot',
+        meta: {
+          index: '4-2'
+        },
+        component: iot,
+      }, {
+        path: 'banking',
+        name: 'banking',
+        meta: {
+          index: '4-3'
+        },
+        component: banking,
+      }]
+    },
+    {
+      path: '/government',
+      name: 'government',
+      component: government,
+      meta: {
+        index: '5'
+      },
+      children: [{
+        path: 'benevolent',
+        name: 'benevolent',
+        meta: {
+          index: '5-1'
+        },
+        component: benevolent,
+      }, {
+        path: 'supervise',
+        name: 'supervise',
+        meta: {
+          index: '5-2'
+        },
+        component: supervise,
+      }, {
+        path: 'system',
+        name: 'system',
+        meta: {
+          index: '4-3'
+        },
+        component: system,
+      }]
+	},
+	//专业服务路由引用定义
+	  {
+		path: '/services',
+		name: 'services',
+		meta: {
+		  requireAuth: true
 		},
-		{
-			path: '/about',
-			name: 'about',
-			component: about,
-			meta: {
-				index: '2'
-			},
-			children: [{
-				path: 'introduce',
-				name: 'introduce',
-				meta: {
-					index: '2-1'
-				},
-				component: introduce,
-			}, {
-				path: 'honor',
-				name: 'honor',
-				meta: {
-					index: '2-2'
-				},
-				component: honor,
-			}, {
-				path: 'culture',
-				name: 'culture',
-				meta: {
-					index: '2-3'
-				},
-				component: culture,
-			}, {
-				path: 'partner',
-				name: 'partner',
-				meta: {
-					index: '2-4'
-				},
-				component: partner,
-			}]
-		},
-		{
-			path: '/news',
-			name: 'news',
-			meta: {
-				index: '3'
-			},
-			component: news,
-			children: [{
-				path: 'index',
-				name: 'index',
-				meta: {
-					index: '3-1'
-				},
-				component: newsIndex,
-			}, {
-				path: 'index/:id',
-				name: 'index',
-				meta: {
-					index: '3-1'
-				},
-				component: newsIndex,
-			}, {
-				path: 'media',
-				name: 'media',
-				meta: {
-					index: '3-2'
-				},
-				component: media,
-			}, {
-				path: 'topic',
-				name: 'topic',
-				meta: {
-					index: '3-3'
-				},
-				component: topic,
-			}, {
-				path: 'industry',
-				name: 'industry',
-				meta: {
-					index: '3-4'
-				},
-				component: industry,
-			}]
-		},{
-			path: '/financial',
-			name: 'financial',
-			component: financial,
-			meta: {
-				index: '4'
-			},
-			children: [{
-				path: 'credit',
-				name: 'credit',
-				meta: {
-					index: '4-1'
-				},
-				component: credit,
-			}, {
-				path: 'iot',
-				name: 'iot',
-				meta: {
-					index: '4-2'
-				},
-				component: iot,
-			}, {
-				path: 'banking',
-				name: 'banking',
-				meta: {
-					index: '4-3'
-				},
-				component: banking,
-			}]
-		},
-        {
-			path: '/government',
-			name: 'government',
-			component: government,
-			meta: {
-				index: '5'
-			},
-			children: [{
-				path: 'benevolent',
-				name: 'benevolent',
-				meta: {
-					index: '5-1'
-				},
-				component: benevolent,
-			}, {
-				path: 'supervise',
-				name: 'supervise',
-				meta: {
-					index: '5-2'
-				},
-				component: supervise,
-			}, {
-				path: 'system',
-				name: 'system',
-				meta: {
-					index: '4-3'
-				},
-				component: system,
-			}]
-		},
-		{
-			path: '/offers',
-			name: 'offers',
-			meta: {
-				index: '6'
-			},
-			component: offers
-		},
-		{
-			path: '/contact',
-			name: 'contact',
-			meta: {
-				index: '7'
-			},
-			component: contact
-		},
-	]
+		component: () => import('../pages/services/services.vue'),
+		children: [{
+			path: '/services/apprenticeships',
+			name: 'apprenticeships',
+			component: () => import('../pages/services/apprenticeships/apprenticeships.vue')
+		  },
+		  {
+			path: '/services/labsolutions',
+			name: 'labsolutions',
+			component: () => import('../pages/services/labsolutions/labsolution.vue')
+		  },
+		  {
+			path: '/services/product',
+			name: 'product',
+			component: () => import('../pages/services/product/product.vue')
+		  },
+		  {
+			path: '/services/teachingresource',
+			name: 'teachingresource',
+			component: () => import('../pages/services/teachingresource/teachingresource.vue')
+		  }
+		]
+	  },
+    {
+      path: '/offers',
+      name: 'offers',
+      meta: {
+        index: '6'
+      },
+      component: offers
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      meta: {
+        index: '7'
+      },
+      component: contact
+    },
+  ]
 })
