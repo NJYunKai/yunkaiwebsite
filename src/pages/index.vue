@@ -108,6 +108,7 @@
     </div>
   </div>-->
   <div>
+    <!-- 轮播图链接 -->
     <div class="banner">
       <div class="banner-pic1">
         <a
@@ -160,7 +161,8 @@
         </div>
       </div>
     </div>
-    <div class="product">
+
+    <!-- <div class="product">
       <div class="product-demo">
         <h3 class="product-header">产品中心</h3>
         <p class="product-header-text">Produce&nbsp;center</p>
@@ -283,14 +285,16 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
+    <!-- 产品方案修改模块 -->
     <div class="case">
       <div class="case-demo">
-        <h3 class="product-header">客户案例</h3>
+        <h3 class="product-header">产品方案</h3>
         <p class="product-header-text">Curstem&nbsp;case</p>
         <p class="product-pic"></p>
         <p style="clear: both;"></p>
-        <p class="product-header-slogan">助力中小企业成长，促进地方经济发展</p>
+        <p class="product-header-slogan">助力学校实验建设，促进学生实体发展</p>
         <div class="case-frame">
           <a
             href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=35"
@@ -300,8 +304,8 @@
               <div class="case-frame-img">
                 <img src="http://www.creditstate.cn/uploadfile/2019/1206/20191206032503770.png" alt />
               </div>
-              <h3 class="case-title">政府</h3>
-              <p class="case-content">为各地市政府构建综合金融服务平台和社会信用体系，解决区域中小企业融资难融资贵问题，提升城市综合治理水平，优化营商环境</p>
+              <h3 class="case-title">1+x实验室</h3>
+              <p class="case-content">1+x实验室提供学生进行相关实训，并且提供相关证书</p>
             </div>
           </a>
           <a
@@ -331,13 +335,16 @@
         </div>
       </div>
     </div>
+
+    <!-- 新闻中心修改模块 -->
     <div class="new">
       <div class="new-demo">
         <h3 class="product-header">新闻中心</h3>
         <p class="product-header-text">News&nbsp;center</p>
         <p class="product-pic new-pic"></p>
-        <p class="product-header-slogan new-header-slogan">多角度展现企业动态，全方位呈现惠国风貌</p>
+        <p class="product-header-slogan new-header-slogan">多角度展现企业动态，全方位呈现云开风貌</p>
         <div class="news-content">
+          <!-- 新闻头部 -->
           <div class="ne-cont-header">
             <span class="ne-cont-bigfat">公司动态</span>
             <span class="ne-cont-twofat">Company&nbsp;dynamics</span>
@@ -349,6 +356,7 @@
               >更多&gt;</a>
             </span>
           </div>
+          <!-- 新闻图片文字叙述 -->
           <div class="news-carousel">
             <div class="vessel" style="left: -5985px;">
               <div class="new-carousel-content">
@@ -809,6 +817,7 @@
               <img src="http://www.creditstate.cn/assets/img/index/new_1.png" />
             </a>
           </div>
+          <!-- 行业新闻模块 -->
           <div class="ne-box">
             <div class="ne-cont-header">
               <span class="ne-cont-bigfat">行业新闻</span>
@@ -860,6 +869,7 @@
               </li>
             </ul>
           </div>
+          <!-- 媒体报道模块 -->
           <div class="ne-box">
             <div class="ne-cont-header">
               <span class="ne-cont-bigfat">媒体报道</span>
@@ -920,12 +930,14 @@
         </div>
       </div>
     </div>
+    
+    <!-- 合作伙伴模块 -->
     <div class="customer">
       <div class="new-demo">
         <h3 class="product-header">合作伙伴</h3>
         <p class="product-header-text">Cooperative&nbsp;partner</p>
         <p class="product-pic new-pic"></p>
-        <p class="product-header-slogan new-header-slogan">凝聚八方之力，共建惠国未来</p>
+        <p class="product-header-slogan new-header-slogan">凝聚八方之力，共建云开未来</p>
         <div class="product-box">
           <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
             <a href="javascript:;" title="中国人民银行" class="product-roll">
