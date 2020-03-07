@@ -110,9 +110,10 @@
   </div>-->
 
   <div>
+
     <!-- 轮播图   -->
     <div class="banner">
-      <div class="banner-pic1">
+      <!-- <div class="banner-pic1">
         <a
           href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=32"
           class="banner-title"
@@ -161,7 +162,12 @@
             <li class="banner-dot"></li>
           </ul>
         </div>
-      </div>
+      </div> -->
+      <el-carousel indicator-position="outside">
+        <el-carousel-item v-for="item in 4" :key="item" >
+          <h3>{{ item }}</h3>
+        </el-carousel-item>
+      </el-carousel>  
     </div>
 
     <!-- 产品中心模块 -->
@@ -1180,139 +1186,157 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.main {
-  display: flex;
-  width: 1000px;
-  margin: 0 auto;
-  padding: 35px 0 44px;
-  justify-content: space-between;
-  .main-list {
-    width: 320px;
-    .top {
-      position: relative;
-      padding: 8px 15px;
-      border-radius: 5px;
-      color: rgb(255, 255, 255);
-      background: rgb(179, 27, 36);
-      .text {
-        vertical-align: middle;
-        font-size: 16px;
-        small {
-          margin-left: 10px;
-        }
-      }
-      .fa-angle-right {
-        position: absolute;
-        right: 10px;
-        font-size: 21px;
-      }
-    }
-    .about,
-    .news,
-    .service {
-      height: 364px;
-      overflow: hidden;
-    }
-    .about {
-      overflow: hidden;
-      display: block;
-      .logo {
-        margin: 9px 5px;
-      }
-      .content {
-        padding: 0 5px;
-        .title {
-          font-size: 16px;
-        }
-        .describe {
-          font-size: 14px;
-          line-height: 1.75;
-          &:hover {
-            color: #b31b24;
-          }
-          .detail {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 4;
-            -webkit-box-orient: vertical;
-          }
-        }
-      }
-    }
-    .news {
-      .news-item {
-        position: relative;
-        max-height: 92px;
-        overflow: hidden;
-        margin: 25px 0 30px;
-        padding: 0 5px;
-        cursor: pointer;
-        &:hover {
-          color: #b31b24;
-        }
-        &:last-child {
-          margin-bottom: 0;
-        }
-        &::after {
-          content: "";
-          position: absolute;
-          bottom: -15px;
-          border-bottom: 2px dashed #e2e2e2;
-          width: 100%;
-        }
-        .title {
-          font-weight: bold;
-          text-overflow: ellipsis;
-          white-space: nowrap;
-          overflow: hidden;
-        }
-        .detail {
-          overflow: hidden;
-          line-height: 1.75;
-          font-size: 14px;
-          text-overflow: ellipsis;
-          display: -webkit-box;
-          -webkit-line-clamp: 3;
-          -webkit-box-orient: vertical;
-        }
-      }
-    }
-    .service {
-      .service-item {
-        display: flex;
-        margin: 15px 0;
-        padding: 0 5px;
-        &:last-child {
-          margin-bottom: 0;
-        }
-        .avatar {
-          display: flex;
-          flex: 1;
-          align-items: center;
-        }
-        .content {
-          flex: 1;
-          margin-left: 10px;
-          .title {
-            font-weight: bold;
-          }
-          .detail {
-            overflow: hidden;
-            max-height: 141px;
-            line-height: 1.75;
-            font-size: 14px;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            &:hover {
-              color: #b31b24;
-            }
-          }
-        }
-      }
-    }
+    .el-carousel__item h3 {
+    color: #475669;
+    font-size: 18px;
+    opacity: 0.75;
+    line-height: 300px;
+    margin: 0;
   }
-}
+  
+  .el-carousel__item:nth-child(2n) {
+    //background-color: #99a9bf;
+    background-image: url(img/lunbotu-1.jpg);
+  }
+  
+  .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+  }
+
+
+// .main {
+//   display: flex;
+//   width: 1000px;
+//   margin: 0 auto;
+//   padding: 35px 0 44px;
+//   justify-content: space-between;
+//   .main-list {
+//     width: 320px;
+//     .top {
+//       position: relative;
+//       padding: 8px 15px;
+//       border-radius: 5px;
+//       color: rgb(255, 255, 255);
+//       background: rgb(179, 27, 36);
+//       .text {
+//         vertical-align: middle;
+//         font-size: 16px;
+//         small {
+//           margin-left: 10px;
+//         }
+//       }
+//       .fa-angle-right {
+//         position: absolute;
+//         right: 10px;
+//         font-size: 21px;
+//       }
+//     }
+//     .about,
+//     .news,
+//     .service {
+//       height: 364px;
+//       overflow: hidden;
+//     }
+//     .about {
+//       overflow: hidden;
+//       display: block;
+//       .logo {
+//         margin: 9px 5px;
+//       }
+//       .content {
+//         padding: 0 5px;
+//         .title {
+//           font-size: 16px;
+//         }
+//         .describe {
+//           font-size: 14px;
+//           line-height: 1.75;
+//           &:hover {
+//             color: #b31b24;
+//           }
+//           .detail {
+//             overflow: hidden;
+//             text-overflow: ellipsis;
+//             display: -webkit-box;
+//             -webkit-line-clamp: 4;
+//             -webkit-box-orient: vertical;
+//           }
+//         }
+//       }
+//     }
+//     .news {
+//       .news-item {
+//         position: relative;
+//         max-height: 92px;
+//         overflow: hidden;
+//         margin: 25px 0 30px;
+//         padding: 0 5px;
+//         cursor: pointer;
+//         &:hover {
+//           color: #b31b24;
+//         }
+//         &:last-child {
+//           margin-bottom: 0;
+//         }
+//         &::after {
+//           content: "";
+//           position: absolute;
+//           bottom: -15px;
+//           border-bottom: 2px dashed #e2e2e2;
+//           width: 100%;
+//         }
+//         .title {
+//           font-weight: bold;
+//           text-overflow: ellipsis;
+//           white-space: nowrap;
+//           overflow: hidden;
+//         }
+//         .detail {
+//           overflow: hidden;
+//           line-height: 1.75;
+//           font-size: 14px;
+//           text-overflow: ellipsis;
+//           display: -webkit-box;
+//           -webkit-line-clamp: 3;
+//           -webkit-box-orient: vertical;
+//         }
+//       }
+//     }
+//     .service {
+//       .service-item {
+//         display: flex;
+//         margin: 15px 0;
+//         padding: 0 5px;
+//         &:last-child {
+//           margin-bottom: 0;
+//         }
+//         .avatar {
+//           display: flex;
+//           flex: 1;
+//           align-items: center;
+//         }
+//         .content {
+//           flex: 1;
+//           margin-left: 10px;
+//           .title {
+//             font-weight: bold;
+//           }
+//           .detail {
+//             overflow: hidden;
+//             max-height: 141px;
+//             line-height: 1.75;
+//             font-size: 14px;
+//             text-overflow: ellipsis;
+//             display: -webkit-box;
+//             -webkit-line-clamp: 6;
+//             -webkit-box-orient: vertical;
+//             &:hover {
+//               color: #b31b24;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 </style>

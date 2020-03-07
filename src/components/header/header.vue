@@ -5,7 +5,7 @@
         <img :src="logourl" alt="公司logo" />
       </div>
       <div class="menu">
-        <Menu mode="horizontal" :active-name="activeName">
+        <!-- <Menu mode="horizontal" :active-name="activeName">
           <MenuItem name="1">
             <router-link to="/" class="link">首页</router-link>
           </MenuItem>
@@ -26,7 +26,7 @@
             <MenuItem name="3-4">
               <router-link to="/about/partner" class="sub-link">专业教学资源库</router-link>
             </MenuItem>
-          </Submenu>
+          </Submenu> -->
           <!-- <Submenu name="4">
             <template slot="title">专业建设</template>
             <MenuItem name="4-1">
@@ -42,9 +42,8 @@
               <router-link to="/about/partner" class="sub-link">电子信息</router-link>
             </MenuItem>
           </Submenu>-->
-          <Submenu name="4">
+          <!-- <Submenu name="4">
             <template slot="title">
-              <!-- <Icon type="stats-bars"></Icon> -->
               专业建设
             </template>
             <Menu-group title="计算机类">
@@ -86,13 +85,13 @@
                 <router-link to="/about/partner" class="sub-link">电子信息</router-link>
               </MenuItem>
             </Menu-group>
-          </Submenu>
-          <MenuItem name="5">
+          </Submenu> -->
+          <!-- <MenuItem name="5">
             <router-link to="/offers" class="link">协同育人</router-link>
-          </MenuItem>
-          <MenuItem name="6">
+          </MenuItem> -->
+          <!-- <MenuItem name="6">
             <router-link to="/contact" class="link">一带一路</router-link>
-          </MenuItem>
+          </MenuItem> -->
           <!-- <Submenu name="2">
 						<template slot="title">
 							关于惠国
@@ -155,7 +154,42 @@
           <MenuItem name="7">
             <router-link to="/contact" class="link">联系我们</router-link>
           </MenuItem>-->
-        </Menu>
+        <!-- </Menu> -->
+        <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" background-color="#f5f5f5"  >
+          <el-menu-item index="1">首页</el-menu-item>
+          <el-menu-item index="2">关于我们</el-menu-item>
+          
+          <el-submenu index="3">
+            <template slot="title">业务服务</template>
+            <el-menu-item index="3-1">选项1</el-menu-item>
+            <el-menu-item index="3-2">选项2</el-menu-item>
+            <el-menu-item index="3-3">选项3</el-menu-item>
+            <el-submenu index="3-4">
+              <template slot="title">选项4</template>
+              <el-menu-item index="3-4-1">选项1</el-menu-item>
+              <el-menu-item index="3-4-2">选项2</el-menu-item>
+              <el-menu-item index="3-4-3">选项3</el-menu-item>
+            </el-submenu>
+          </el-submenu>
+
+          <el-menu-item index="4">协同育人</el-menu-item>
+          <el-menu-item index="5">一带一路</el-menu-item>
+
+          <el-submenu index="6">
+            <template slot="title">专业建设</template>
+            <el-menu-item index="6-1">选项1</el-menu-item>
+            <el-menu-item index="6-2">选项2</el-menu-item>
+            <el-menu-item index="6-3">选项3</el-menu-item>
+            <el-submenu index="6-4">
+              <template slot="title">选项4</template>
+              <el-menu-item index="6-4-1">选项1</el-menu-item>
+              <el-menu-item index="6-4-2">选项2</el-menu-item>
+              <el-menu-item index="6-4-3">选项3</el-menu-item>
+            </el-submenu>
+          </el-submenu>
+          <!-- <el-menu-item index="3" disabled>消息中心</el-menu-item>
+          <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item> -->
+        </el-menu>
       </div>
     </div>
   </div>
@@ -177,7 +211,9 @@ export default {
     return {
       theme1: "light",
       logourl: logo,
-      headerBg: "rgba(255, 255, 255, .3)"
+      headerBg: "rgba(255, 255, 255, .3)",
+      activeIndex: '1',
+      activeIndex2: '1'
     };
   },
   mounted() {
@@ -194,7 +230,11 @@ export default {
       } else {
         this.headerBg = "rgba(255, 255, 255, .3)";
       }
-    }
+    },
+
+     handleSelect(key, keyPath) {
+        console.log(key, keyPath);
+      }
   }
 };
 </script>
