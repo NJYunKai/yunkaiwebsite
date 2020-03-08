@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-            现代学徒制
+            专业教学资源库
         </h1>
     </div>
 </template>

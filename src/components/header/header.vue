@@ -154,7 +154,7 @@
             <template slot="title">业务服务</template>
             <el-menu-item index="/services/labsolutions_iot">实验室解决方案</el-menu-item>
             <el-menu-item index="/services/apprenticeships">现代学徒制</el-menu-item>
-            <el-menu-item index="/services/product">产品中心</el-menu-item>
+            <el-menu-item index="/services/product_intelligence_manufacture">产品中心</el-menu-item>
             <el-menu-item index="/services/teachingresource">专业教学资源库</el-menu-item>
           </el-submenu>
           <el-menu-item index="4">协同育人</el-menu-item>

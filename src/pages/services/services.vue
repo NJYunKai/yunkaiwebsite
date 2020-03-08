@@ -2,43 +2,21 @@
   <div class="r-news">
     <div class="r-news-content">
       <div class="content-title">
-        <!-- <span class="limb-head-list"></span>
-        <a
-          href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=9"
-        >关于惠国</a> &gt;
-        <a
-          href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=10"
-        >公司介绍</a> &gt;
-        <span class="limb-head-text limb-head-one">正文</span>-->
         <el-breadcrumb separator-class="el-icon-arrow-right">
           <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-          <el-breadcrumb-item>业务服务</el-breadcrumb-item>
-          <el-breadcrumb-item>实验室解决方案</el-breadcrumb-item>
+          <!-- <el-breadcrumb-item>业务服务</el-breadcrumb-item> -->
+          <el-breadcrumb-item v-for="(item,i) in breadList" :key="i">{{item}}</el-breadcrumb-item>
+          <!-- <el-breadcrumb-item>实验室解决方案</el-breadcrumb-item> -->
           <!-- <el-breadcrumb-item>活动详情</el-breadcrumb-item> -->
         </el-breadcrumb>
       </div>
       <div class="r-side r-white">
-        <!-- <a
-          href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=10"
-          class="orange"
+        <el-menu
+          :default-active="$route.path"
+          class="el-menu-vertical-demo"
+          :unique-opened="true"
+          router
         >
-          公司介绍
-          <span class="r-icon4"></span>
-        </a>
-        <hr />
-        <a
-          href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=11"
-        >荣誉资质</a>
-        <hr />
-        <a
-          href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=12"
-        >企业文化</a>
-        <hr />
-        <a
-          href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=13"
-        >合作伙伴</a>
-        <hr />-->
-        <el-menu default-active="1-4-1" class="el-menu-vertical-demo" router>
           <el-submenu index="/services/labsolutions">
             <template slot="title">
               <i class="el-icon-location"></i>
@@ -49,11 +27,11 @@
             <el-menu-item index="/services/labsolutions_ai">人工智能</el-menu-item>
             <el-menu-item index="/services/labsolutions_coldchain">冷链物流</el-menu-item>
           </el-submenu>
-          <el-menu-item index="2">
+          <el-menu-item index="/services/apprenticeships">
             <i class="el-icon-menu"></i>
             <span slot="title">现代学徒制</span>
           </el-menu-item>
-          <el-submenu index="/services/labsolutions">
+          <el-submenu index="/services/product_intelligence_manufacture">
             <template slot="title">
               <i class="el-icon-document"></i>
               <span slot="title">产品中心</span>
@@ -63,7 +41,7 @@
             <el-menu-item index="/services/product_iot_teaching">物联网基础教学</el-menu-item>
             <el-menu-item index="/services/product_iot_innovative">物联网创新应用套件</el-menu-item>
           </el-submenu>
-          <el-menu-item index="4">
+          <el-menu-item index="/services/teachingresource">
             <i class="el-icon-setting"></i>
             <span slot="title">专业教学资源库</span>
           </el-menu-item>
@@ -80,10 +58,68 @@
 export default {
   data: () => {
     return {
-      isCollapse: false
+      isCollapse: false,
+      breadList: ["专业服务"]
     };
   },
-  methods: {}
+  //监听路由变化，更改菜单activeIndex值
+  watch: {
+    $route: "getPath"
+  },
+  created() {
+    this.getPath();
+  },
+  methods: {
+    //动态刷新面包屑
+    getPath() {
+      this.breadList = ["专业服务"];
+      switch (this.$route.path) {
+        //实验室解决方案
+        case "/services/labsolutions_iot":
+          this.breadList.push("实验室解决方案");
+          this.breadList.push("物联网");
+          break;
+        case "/services/labsolutions_blockchain":
+          this.breadList.push("实验室解决方案");
+          this.breadList.push("区块链");
+          break;
+        case "/services/labsolutions_ai":
+          this.breadList.push("实验室解决方案");
+          this.breadList.push("物联人工智能网");
+          break;
+        case "/services/labsolutions_coldchain":
+          this.breadList.push("实验室解决方案");
+          this.breadList.push("冷链物流");
+          break;
+        //现代学徒制
+        case "/services/apprenticeships":
+          this.breadList.push("现代学徒制");
+          break;
+        //产品中心
+        case "/services/product_intelligence_manufacture":
+          this.breadList.push("产品中心");
+          this.breadList.push("智能制造");
+          break;
+        case "/services/product_industrial_iot":
+          this.breadList.push("产品中心");
+          this.breadList.push("工业物联网");
+          break;
+        case "/services/product_iot_teaching":
+          this.breadList.push("产品中心");
+          this.breadList.push("物联网基础教学");
+          break;
+        case "/services/product_iot_innovative":
+          this.breadList.push("产品中心");
+          this.breadList.push("物联网创新应用套件");
+          break;
+        //专业教学资源库
+        case "/services/teachingresource":
+          this.breadList.push("专业教学资源库");
+          break;
+      }
+      console.log(this.$route.path, this.breadList);
+    }
+  }
 };
 </script>
 <style lang="less" scoped>
