@@ -141,7 +141,6 @@
         </MenuItem>-->
         <!-- </Menu> -->
         <el-menu
-          :default-active="activeIndex"
           class="el-menu-demo"
           mode="horizontal"
           background-color="#f5f5f5"
@@ -197,7 +196,6 @@ export default {
       theme1: "light",
       logourl: logo,
       headerBg: "rgba(255, 255, 255, .3)",
-      activeIndex: "1",
     };
   },
   mounted() {
