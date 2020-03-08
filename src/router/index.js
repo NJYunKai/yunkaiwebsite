@@ -215,10 +215,25 @@ export default new Router({
             component: () => import('../pages/services/labsolutions/labsolutions_coldchain.vue')
             },
 		  {
-			path: '/services/product',
-			name: 'product',
-			component: () => import('../pages/services/product/product.vue')
-		  },
+			path: '/services/product_intelligence_manufacture',
+			name: 'product_intelligence_manufacture',
+			component: () => import('../pages/services/product/product_intelligence_manufacture.vue')
+      },
+      {
+        path: '/services/product_industrial_iot',
+        name: 'product_industrial_iot',
+        component: () => import('../pages/services/product/product_industrial_iot.vue')
+        },
+        {
+          path: '/services/product_iot_teaching',
+          name: 'product_iot_teaching',
+          component: () => import('../pages/services/product/product_iot_teaching.vue')
+          },
+          {
+            path: '/services/product_iot_innovative',
+            name: 'product_iot_innovative',
+            component: () => import('../pages/services/product/product_iot_innovative.vue')
+            },
 		  {
 			path: '/services/teachingresource',
 			name: 'teachingresource',

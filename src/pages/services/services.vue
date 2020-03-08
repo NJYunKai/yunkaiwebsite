@@ -38,29 +38,31 @@
           href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=13"
         >合作伙伴</a>
         <hr />-->
-        <el-menu
-          default-active="1-4-1"
-          class="el-menu-vertical-demo"
-          router
-        >
+        <el-menu default-active="1-4-1" class="el-menu-vertical-demo" router>
           <el-submenu index="/services/labsolutions">
             <template slot="title">
               <i class="el-icon-location"></i>
               <span slot="title">实验室解决方案</span>
             </template>
-              <el-menu-item index="/services/labsolutions_iot">物联网</el-menu-item>
-              <el-menu-item index="/services/labsolutions_blockchain">区块链</el-menu-item>
-              <el-menu-item index="/services/labsolutions_ai">人工智能</el-menu-item>
-              <el-menu-item index="/services/labsolutions_coldchain">冷链物流</el-menu-item>
+            <el-menu-item index="/services/labsolutions_iot">物联网</el-menu-item>
+            <el-menu-item index="/services/labsolutions_blockchain">区块链</el-menu-item>
+            <el-menu-item index="/services/labsolutions_ai">人工智能</el-menu-item>
+            <el-menu-item index="/services/labsolutions_coldchain">冷链物流</el-menu-item>
           </el-submenu>
           <el-menu-item index="2">
             <i class="el-icon-menu"></i>
             <span slot="title">现代学徒制</span>
           </el-menu-item>
-          <el-menu-item index="3">
-            <i class="el-icon-document"></i>
-            <span slot="title">产品中心</span>
-          </el-menu-item>
+          <el-submenu index="/services/labsolutions">
+            <template slot="title">
+              <i class="el-icon-document"></i>
+              <span slot="title">产品中心</span>
+            </template>
+            <el-menu-item index="/services/product_intelligence_manufacture">智能制造</el-menu-item>
+            <el-menu-item index="/services/product_industrial_iot">工业物联网</el-menu-item>
+            <el-menu-item index="/services/product_iot_teaching">物联网基础教学</el-menu-item>
+            <el-menu-item index="/services/product_iot_innovative">物联网创新应用套件</el-menu-item>
+          </el-submenu>
           <el-menu-item index="4">
             <i class="el-icon-setting"></i>
             <span slot="title">专业教学资源库</span>
