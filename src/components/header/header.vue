@@ -11,23 +11,8 @@
           </MenuItem>
           <MenuItem name="2">
             <router-link to="/contact" class="link">关于我们</router-link>
-          </MenuItem>
-          <Submenu name="3">
-            <template slot="title">业务服务</template>
-            <MenuItem name="3-1">
-              <router-link to="/about/introduce" class="sub-link">实验室解决方案</router-link>
-            </MenuItem>
-            <MenuItem name="3-2">
-              <router-link to="/about/honor" class="sub-link">现代学徒制度</router-link>
-            </MenuItem>
-            <MenuItem name="3-3">
-              <router-link to="/about/culture" class="sub-link">产品中心</router-link>
-            </MenuItem>
-            <MenuItem name="3-4">
-              <router-link to="/about/partner" class="sub-link">专业教学资源库</router-link>
-            </MenuItem>
-          </Submenu> -->
-          <!-- <Submenu name="4">
+          </MenuItem>-->
+        <!-- <Submenu name="4">
             <template slot="title">专业建设</template>
             <MenuItem name="4-1">
               <router-link to="/about/introduce" class="sub-link">计算机类</router-link>
@@ -41,8 +26,8 @@
             <MenuItem name="4-4">
               <router-link to="/about/partner" class="sub-link">电子信息</router-link>
             </MenuItem>
-          </Submenu>-->
-          <!-- <Submenu name="4">
+        </Submenu>-->
+        <!-- <Submenu name="4">
             <template slot="title">
               专业建设
             </template>
@@ -85,14 +70,14 @@
                 <router-link to="/about/partner" class="sub-link">电子信息</router-link>
               </MenuItem>
             </Menu-group>
-          </Submenu> -->
-          <!-- <MenuItem name="5">
+        </Submenu>-->
+        <!-- <MenuItem name="5">
             <router-link to="/offers" class="link">协同育人</router-link>
-          </MenuItem> -->
-          <!-- <MenuItem name="6">
+        </MenuItem>-->
+        <!-- <MenuItem name="6">
             <router-link to="/contact" class="link">一带一路</router-link>
-          </MenuItem> -->
-          <!-- <Submenu name="2">
+        </MenuItem>-->
+        <!-- <Submenu name="2">
 						<template slot="title">
 							关于惠国
 						</template>
@@ -108,8 +93,8 @@
 						<MenuItem name="2-4">
 						<router-link to="/about/partner" class="sub-link">合作伙伴</router-link>
 						</MenuItem>
-          </Submenu>-->
-          <!-- <Submenu name="3">
+        </Submenu>-->
+        <!-- <Submenu name="3">
             <template slot="title">新闻中心</template>
             <MenuItem name="3-1">
               <router-link to="/news/index" class="sub-link">公司动态</router-link>
@@ -147,31 +132,31 @@
             <MenuItem name="5-3">
               <router-link to="/government/system" class="link">社会信用体系建设</router-link>
             </MenuItem>
-          </Submenu>-->
-          <!-- <MenuItem name="6">
+        </Submenu>-->
+        <!-- <MenuItem name="6">
             <router-link to="/offers" class="link">招贤纳士</router-link>
           </MenuItem>
           <MenuItem name="7">
             <router-link to="/contact" class="link">联系我们</router-link>
-          </MenuItem>-->
+        </MenuItem>-->
         <!-- </Menu> -->
-        <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" background-color="#f5f5f5"  >
+        <el-menu
+          :default-active="activeIndex"
+          class="el-menu-demo"
+          mode="horizontal"
+          background-color="#f5f5f5"
+          router
+        >
           <el-menu-item index="1">首页</el-menu-item>
           <el-menu-item index="2">关于我们</el-menu-item>
-          
-          <el-submenu index="3">
-            <template slot="title">业务服务</template>
-            <el-menu-item index="3-1">选项1</el-menu-item>
-            <el-menu-item index="3-2">选项2</el-menu-item>
-            <el-menu-item index="3-3">选项3</el-menu-item>
-            <el-submenu index="3-4">
-              <template slot="title">选项4</template>
-              <el-menu-item index="3-4-1">选项1</el-menu-item>
-              <el-menu-item index="3-4-2">选项2</el-menu-item>
-              <el-menu-item index="3-4-3">选项3</el-menu-item>
-            </el-submenu>
-          </el-submenu>
 
+          <el-submenu index="/services">
+            <template slot="title">业务服务</template>
+            <el-menu-item index="/services/labsolutions">实验室解决方案</el-menu-item>
+            <el-menu-item index="/services/apprenticeships">现代学徒制</el-menu-item>
+            <el-menu-item index="/services/product">产品中心</el-menu-item>
+            <el-menu-item index="/services/teachingresource">专业教学资源库</el-menu-item>
+          </el-submenu>
           <el-menu-item index="4">协同育人</el-menu-item>
           <el-menu-item index="5">一带一路</el-menu-item>
 
@@ -188,7 +173,7 @@
             </el-submenu>
           </el-submenu>
           <!-- <el-menu-item index="3" disabled>消息中心</el-menu-item>
-          <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item> -->
+          <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>-->
         </el-menu>
       </div>
     </div>
@@ -212,8 +197,7 @@ export default {
       theme1: "light",
       logourl: logo,
       headerBg: "rgba(255, 255, 255, .3)",
-      activeIndex: '1',
-      activeIndex2: '1'
+      activeIndex: "1",
     };
   },
   mounted() {
@@ -232,9 +216,9 @@ export default {
       }
     },
 
-     handleSelect(key, keyPath) {
-        console.log(key, keyPath);
-      }
+    // handleSelect(key, keyPath) {
+    //   console.log(key, keyPath);
+    // }
   }
 };
 </script>
