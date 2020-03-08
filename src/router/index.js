@@ -183,7 +183,7 @@ export default new Router({
 	},
 	//专业服务路由引用定义
 	  {
-		path: '/services',
+		path: '/construction',
 		name: 'services',
 		meta: {
 		  requireAuth: true
@@ -210,7 +210,37 @@ export default new Router({
 			component: () => import('../pages/services/teachingresource/teachingresource.vue')
 		  }
 		]
-	  },
+    },
+    	//专业建设路由引用定义
+	  {
+      path: '/services',
+      name: 'services',
+      meta: {
+        requireAuth: true
+      },
+      component: () => import('../pages/services/services.vue'),
+      children: [{
+        path: '/services/apprenticeships',
+        name: 'apprenticeships',
+        component: () => import('../pages/services/apprenticeships/apprenticeships.vue')
+        },
+        {
+        path: '/services/labsolutions',
+        name: 'labsolutions',
+        component: () => import('../pages/services/labsolutions/labsolution.vue')
+        },
+        {
+        path: '/services/product',
+        name: 'product',
+        component: () => import('../pages/services/product/product.vue')
+        },
+        {
+        path: '/services/teachingresource',
+        name: 'teachingresource',
+        component: () => import('../pages/services/teachingresource/teachingresource.vue')
+        }
+      ]
+      },
     {
       path: '/offers',
       name: 'offers',
