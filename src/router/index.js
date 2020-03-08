@@ -195,10 +195,25 @@ export default new Router({
 			component: () => import('../pages/services/apprenticeships/apprenticeships.vue')
 		  },
 		  {
-			path: '/services/labsolutions',
-			name: 'labsolutions',
-			component: () => import('../pages/services/labsolutions/labsolution.vue')
-		  },
+			path: '/services/labsolutions_iot',
+			name: 'labsolutions_iot',
+			component: () => import('../pages/services/labsolutions/labsolution_iot.vue')
+      },
+      {
+        path: '/services/labsolutions_blockchain',
+        name: 'labsolutions_blockchain',
+        component: () => import('../pages/services/labsolutions/labsolutions_blockchain.vue')
+        },
+        {
+          path: '/services/labsolutions_ai',
+          name: 'labsolutions_ai',
+          component: () => import('../pages/services/labsolutions/labsolutions_ai.vue')
+          },
+          {
+            path: '/services/labsolutions_coldchain',
+            name: 'labsolutions_coldchain',
+            component: () => import('../pages/services/labsolutions/labsolutions_coldchain.vue')
+            },
 		  {
 			path: '/services/product',
 			name: 'product',
