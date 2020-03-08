@@ -27,6 +27,8 @@ import system from '@/pages/government/system';
 import offers from '@/pages/offers';
 import contact from '@/pages/contact';
 
+
+
 Vue.use(Router)
 
 export default new Router({
@@ -180,7 +182,43 @@ export default new Router({
         },
         component: system,
       }]
-	},
+  },
+  //首页路由引用定义
+  {
+    path:'/homepage',
+    name:'homepage',
+    meta:{
+      requireAuth:true
+    },
+    component: () => import('../pages/index.vue'),
+  },
+  //产品中心方案页面
+  {
+    path:'/productcenter/1+x',
+    name:'1+x',
+    meta:{
+      requireAuth:true
+    },
+    component: 1+x,
+  },
+  //协同育人路由引用定义
+  {
+    path:'/cooperative-education',
+    name:'cooperative-education',
+    meta:{
+      requireAuth:true
+    },
+    component: () => import('../pages/cooperative-education/cooperative-education'),
+  },
+  //一带一路路由引用定义
+  {
+    path:'/beltroad',
+    name:'beltroad',
+    meta:{
+      requireAuth:true
+    },
+    component: () => import('../pages/beltroad/beltroad'),
+  },
 	//专业服务路由引用定义
 	  {
 		path: '/services',
