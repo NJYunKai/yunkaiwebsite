@@ -180,67 +180,67 @@ export default new Router({
         },
         component: system,
       }]
-	},
-	//专业服务路由引用定义
-	  {
-		path: '/services',
-		name: 'services',
-		meta: {
-		  requireAuth: true
-		},
-		component: () => import('../pages/services/services.vue'),
-		children: [{
-			path: '/services/apprenticeships',
-			name: 'apprenticeships',
-			component: () => import('../pages/services/apprenticeships/apprenticeships.vue')
-		  },
-		  {
-			path: '/services/labsolutions_iot',
-			name: 'labsolutions_iot',
-			component: () => import('../pages/services/labsolutions/labsolution_iot.vue')
+    },
+    //专业服务路由引用定义
+    {
+      path: '/services',
+      name: 'services',
+      meta: {
+        requireAuth: true
       },
-      {
-        path: '/services/labsolutions_blockchain',
-        name: 'labsolutions_blockchain',
-        component: () => import('../pages/services/labsolutions/labsolutions_blockchain.vue')
+      component: () => import('../pages/services/services.vue'),
+      children: [{
+          path: '/services/apprenticeships',
+          name: 'apprenticeships',
+          component: () => import('../pages/services/apprenticeships/apprenticeships.vue')
+        },
+        {
+          path: '/services/labsolutions_iot',
+          name: 'labsolutions_iot',
+          component: () => import('../pages/services/labsolutions/labsolution_iot.vue')
+        },
+        {
+          path: '/services/labsolutions_blockchain',
+          name: 'labsolutions_blockchain',
+          component: () => import('../pages/services/labsolutions/labsolutions_blockchain.vue')
         },
         {
           path: '/services/labsolutions_ai',
           name: 'labsolutions_ai',
           component: () => import('../pages/services/labsolutions/labsolutions_ai.vue')
-          },
-          {
-            path: '/services/labsolutions_coldchain',
-            name: 'labsolutions_coldchain',
-            component: () => import('../pages/services/labsolutions/labsolutions_coldchain.vue')
-            },
-		  {
-			path: '/services/product_intelligence_manufacture',
-			name: 'product_intelligence_manufacture',
-			component: () => import('../pages/services/product/product_intelligence_manufacture.vue')
-      },
-      {
-        path: '/services/product_industrial_iot',
-        name: 'product_industrial_iot',
-        component: () => import('../pages/services/product/product_industrial_iot.vue')
+        },
+        {
+          path: '/services/labsolutions_coldchain',
+          name: 'labsolutions_coldchain',
+          component: () => import('../pages/services/labsolutions/labsolutions_coldchain.vue')
+        },
+        {
+          path: '/services/product_intelligence_manufacture',
+          name: 'product_intelligence_manufacture',
+          component: () => import('../pages/services/product/product_intelligence_manufacture.vue')
+        },
+        {
+          path: '/services/product_industrial_iot',
+          name: 'product_industrial_iot',
+          component: () => import('../pages/services/product/product_industrial_iot.vue')
         },
         {
           path: '/services/product_iot_teaching',
           name: 'product_iot_teaching',
           component: () => import('../pages/services/product/product_iot_teaching.vue')
-          },
-          {
-            path: '/services/product_iot_innovative',
-            name: 'product_iot_innovative',
-            component: () => import('../pages/services/product/product_iot_innovative.vue')
-            },
-		  {
-			path: '/services/teachingresource',
-			name: 'teachingresource',
-			component: () => import('../pages/services/teachingresource/teachingresource.vue')
-		  }
-		]
-	  },
+        },
+        {
+          path: '/services/product_iot_innovative',
+          name: 'product_iot_innovative',
+          component: () => import('../pages/services/product/product_iot_innovative.vue')
+        },
+        {
+          path: '/services/teachingresource',
+          name: 'teachingresource',
+          component: () => import('../pages/services/teachingresource/teachingresource.vue')
+        }
+      ]
+    },
     {
       path: '/offers',
       name: 'offers',
