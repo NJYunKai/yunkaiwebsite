@@ -5,6 +5,14 @@
         <h-header :imgHeight="imgHeight" :activeName="num"></h-header>
       </el-header>
       <el-main>
+        <!-- 轮播图   -->
+        <div class="banner">
+          <el-carousel>
+            <el-carousel-item v-for="item in 4" :key="item">
+              <h3>{{ item }}</h3>
+            </el-carousel-item>
+          </el-carousel>
+        </div>
         <router-view v-on:setNav="setNavigationNum" />
       </el-main>
       <el-footer>
@@ -59,15 +67,35 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.banner .el-carousel__item h3 {
+  color: #475669;
+  font-size: 18px;
+  opacity: 0.75;
+  line-height: 300px;
+  margin: 0;
+}
+
+.banner .el-carousel__item:nth-child(2n) {
+  //background-color: #99a9bf;
+  background-image: url(/static/img/background.png);
+}
+
+.banner .el-carousel__item:nth-child(2n + 1) {
+  // background-color: blue;
+    background-image: url(/static/img/background.png);
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.el-footer {
-    padding: 0;
+.el-header {
+  padding: 0;
 }
-.el-main{
+.el-footer {
+  padding: 0;
+}
+.el-main {
   padding: 0;
 }
 </style>
