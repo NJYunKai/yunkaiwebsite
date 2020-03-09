@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-            现代学徒制
+            一带一路
         </h1>
     </div>
 </template>

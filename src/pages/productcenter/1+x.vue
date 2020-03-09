@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-            现代学徒制
+            1+x实验室
         </h1>
     </div>
 </template>

@@ -141,24 +141,23 @@
         </MenuItem>-->
         <!-- </Menu> -->
         <el-menu
-          :default-active="activeIndex"
           class="el-menu-demo"
           mode="horizontal"
           background-color="#f5f5f5"
           router
         >
-          <el-menu-item index="1">首页</el-menu-item>
+          <el-menu-item index="homepage">首页</el-menu-item>
           <el-menu-item index="2">关于我们</el-menu-item>
 
           <el-submenu index="/services">
             <template slot="title">业务服务</template>
-            <el-menu-item index="/services/labsolutions">实验室解决方案</el-menu-item>
+            <el-menu-item index="/services/labsolutions_iot">实验室解决方案</el-menu-item>
             <el-menu-item index="/services/apprenticeships">现代学徒制</el-menu-item>
-            <el-menu-item index="/services/product">产品中心</el-menu-item>
+            <el-menu-item index="/services/product_intelligence_manufacture">产品中心</el-menu-item>
             <el-menu-item index="/services/teachingresource">专业教学资源库</el-menu-item>
           </el-submenu>
-          <el-menu-item index="4">协同育人</el-menu-item>
-          <el-menu-item index="5">一带一路</el-menu-item>
+          <el-menu-item index="cooperative-education">协同育人</el-menu-item>
+          <el-menu-item index="beltroad">一带一路</el-menu-item>
 
           <el-submenu index="6">
             <template slot="title">专业建设</template>
@@ -212,7 +211,6 @@ export default {
       theme1: "light",
       logourl: logo,
       headerBg: "rgba(255, 255, 255, .3)",
-      activeIndex: "1",
     };
   },
   mounted() {

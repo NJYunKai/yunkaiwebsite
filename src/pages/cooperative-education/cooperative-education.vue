@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-            现代学徒制
+            协同育人
         </h1>
     </div>
 </template>
