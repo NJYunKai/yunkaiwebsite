@@ -213,7 +213,16 @@ export default new Router({
       meta: {
         requireAuth: true
       },
-      component: () => import('../pages/cooperative-education/cooperative-education'),
+      component: () => import('../pages/cooperative-education/cooperative-education.vue'),
+    },
+    //关于我们路由引用定义
+    {
+      path: '/aboutus',
+      name: 'aboutus',
+      meta: {
+        requireAuth: true
+      },
+      component: () => import('../pages/aboutus/aboutus.vue'),
     },
     //一带一路路由引用定义
     {
