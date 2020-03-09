@@ -193,14 +193,14 @@ export default new Router({
     component: () => import('../pages/index.vue'),
   },
   //产品中心方案页面
-  {
-    path:'/productcenter/1+x',
-    name:'1+x',
-    meta:{
-      requireAuth:true
-    },
-    component: 1+x,
-  },
+  // {
+  //   path:'/productcenter/1+x',
+  //   name:'1+x',
+  //   meta:{
+  //     requireAuth:true
+  //   },
+  //   component: 1+x,
+  // },
   //协同育人路由引用定义
   {
     path:'/cooperative-education',
@@ -281,32 +281,67 @@ export default new Router({
     },
     	//专业建设路由引用定义
 	  {
-      path: '/services',
-      name: 'services',
+      path: '/construction',
+      name: 'construction',
       meta: {
         requireAuth: true
       },
-      component: () => import('../pages/services/services.vue'),
+      component: () => import('../pages/construction/construction.vue'),
       children: [{
-        path: '/services/apprenticeships',
-        name: 'apprenticeships',
-        component: () => import('../pages/services/apprenticeships/apprenticeships.vue')
+        path: '/construction/construction_iot',
+        name: 'construction_iot',
+        component: () => import('../pages/construction/computer/construction_iot.vue')
         },
         {
-        path: '/services/labsolutions',
-        name: 'labsolutions',
-        component: () => import('../pages/services/labsolutions/labsolution.vue')
+        path: '/construction/construction_bd',
+        name: 'construction_bd',
+        component: () => import('../pages/construction/computer/construction_bd.vue')
         },
         {
-        path: '/services/product',
-        name: 'product',
-        component: () => import('../pages/services/product/product.vue')
+        path: '/construction/construction_cc',
+        name: 'construction_cc',
+        component: () => import('../pages/construction/computer/construction_cc.vue')
         },
         {
-        path: '/services/teachingresource',
-        name: 'teachingresource',
-        component: () => import('../pages/services/teachingresource/teachingresource.vue')
-        }
+        path: '/construction/construction_ai',
+        name: 'construction_ai',
+        component: () => import('../pages/construction/computer/construction_ai.vue')
+        },
+        {
+        path: '/construction/construction_ce',
+        name: 'construction_ce',
+        component: () => import('../pages/construction/computer/construction_ce.vue')
+        },
+        {
+        path: '/construction/construction_bc',
+        name: 'construction_bc',
+        component: () => import('../pages/construction/computer/construction_bc.vue')
+        },
+        {
+        path: '/construction/mechanical_ei',
+        name: 'mechanical_ei',
+        component: () => import('../pages/construction/mechanical/mechanical_ei.vue')
+        },
+       {
+        path: '/construction/mechanical_ir',
+        name: 'mechanical_ir',
+        component: () => import('../pages/construction/mechanical/mechanical_ir.vue')
+       },
+       {
+        path: '/construction/mechanical_ict',
+        name: 'mechanical_ict',
+        component: () => import('../pages/construction/mechanical/mechanical_ict.vue')
+       },
+       {
+        path: '/construction/other_de',
+        name: 'other_de',
+        component: () => import('../pages/construction/other/other_de.vue')
+       },
+       {
+        path: '/construction/electronic_de',
+        name: 'electronic_de',
+        component: () => import('../pages/construction/electronic/electronic_de.vue')
+       }
       ]
       },
     {
