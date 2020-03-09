@@ -16,7 +16,7 @@
         >
           <el-submenu index="/construction/computer">
             <template slot="title">
-              <i class="el-icon-location"></i>
+              <span class="iconfont">&#xe60a;</span>
               <span slot="title">计算机类</span>
             </template>
             <el-menu-item index="/construction/construction_iot">物联网</el-menu-item>
@@ -29,7 +29,7 @@
 
          <el-submenu index="/construction/mechanical">
             <template slot="title">
-              <i class="el-icon-document"></i>
+             <span class="iconfont">&#xe60d;</span>
               <span slot="title">机电类</span>
             </template>
             <el-menu-item index="/construction/mechanical_ei">电子信息</el-menu-item>
@@ -38,12 +38,12 @@
           </el-submenu>
 
           <el-menu-item index="/construction/other_de">
-            <i class="el-icon-menu"></i>
+            <span class="iconfont">&#xe6eb;</span>
             <span slot="title">物流+电商</span>
           </el-menu-item>
 
           <el-menu-item index="/construction/electronic_de">
-            <i class="el-icon-setting"></i>
+           <span class="iconfont">&#xe611;</span>
             <span slot="title">电子信息</span>
           </el-menu-item>
 
