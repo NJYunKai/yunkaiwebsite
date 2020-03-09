@@ -1,11 +1,11 @@
 <template>
-  <div class="header" :style="{background:headerBg}">
+  <div class="header">
     <div class="nav clearfix">
       <div class="logo-wrapper">
         <img :src="logourl" alt="公司logo" />
       </div>
       <div class="menu">
-        <el-menu class="el-menu-demo" mode="horizontal" background-color="#f5f5f5" router>
+        <el-menu class="el-menu-demo" mode="horizontal" router>
           <el-menu-item index="/homepage">首页</el-menu-item>
           <el-submenu index="/services">
             <template slot="title">业务服务</template>
@@ -47,7 +47,7 @@ export default {
     return {
       theme1: "light",
       logourl: logo,
-      headerBg: "rgba(255, 255, 255, .3)"
+      headerBg: "rgba(255, 255, 255, 0.3)"
     };
   },
   mounted() {
@@ -62,7 +62,7 @@ export default {
       if (scrollTop > this.imgHeight - 60) {
         this.headerBg = "rgba(245,245,245,1)";
       } else {
-        this.headerBg = "rgba(255, 255, 255, .3)";
+        this.headerBg = "rgba(255, 255, 255, 0.1)";
       }
     }
 
@@ -74,13 +74,16 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.el-menu {
+  background-color: #fff0;
+}
 .header {
   z-index: 999;
   position: fixed;
   top: 0;
   width: 100%;
   height: 60px;
-  opacity: 0.7;
+  background-color: rgba(255, 255, 255, 0.2);
   .nav {
     width: 80%;
     height: 100%;

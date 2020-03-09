@@ -13,7 +13,9 @@
             </el-carousel-item>
           </el-carousel>
         </div>
+        <div class="content_bg">
         <router-view v-on:setNav="setNavigationNum" />
+        </div>
       </el-main>
       <el-footer>
         <h-footer></h-footer>
@@ -77,12 +79,12 @@ export default {
 
 .banner .el-carousel__item:nth-child(2n) {
   //background-color: #99a9bf;
-  background-image: url(/static/img/background.png);
+  background-image: url(/static/img/header.png);
 }
 
 .banner .el-carousel__item:nth-child(2n + 1) {
   // background-color: blue;
-    background-image: url(/static/img/background.png);
+    background-image: url(/static/img/bg-topbackground.png);
 }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;

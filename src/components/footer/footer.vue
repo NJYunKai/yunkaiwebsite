@@ -112,7 +112,7 @@
 </template>
 
 <script>
-import url from "./img/gaba.png"
+import url from "./img/gaba.png";
 export default {
   data: function() {
     return {
@@ -141,7 +141,7 @@ a {
 .footer {
   height: 300px;
   width: 100%;
-  background: #2c2c2e;
+  background-color: rgba(53, 87, 115, 0.9);
   overflow: hidden;
   .footer-all {
     height: 100%;
