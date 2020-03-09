@@ -1,54 +1,57 @@
 <template>
-  <div class="r-news">
-    <div class="r-news-content">
-      <div class="content-title">
-        <el-breadcrumb separator-class="el-icon-arrow-right">
-          <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-          <!-- <el-breadcrumb-item>业务服务</el-breadcrumb-item> -->
-          <el-breadcrumb-item v-for="(item,i) in breadList" :key="i">{{item}}</el-breadcrumb-item>
-          <!-- <el-breadcrumb-item>实验室解决方案</el-breadcrumb-item> -->
-          <!-- <el-breadcrumb-item>活动详情</el-breadcrumb-item> -->
-        </el-breadcrumb>
-      </div>
-      <div class="r-side r-white">
-        <el-menu
-          :default-active="$route.path"
-          class="el-menu-vertical-demo"
-          :unique-opened="true"
-          router
-        >
-          <el-submenu index="/services/labsolutions">
-            <template slot="title">
-              <i class="el-icon-location"></i>
-              <span slot="title">实验室解决方案</span>
-            </template>
-            <el-menu-item index="/services/labsolutions_iot">物联网</el-menu-item>
-            <el-menu-item index="/services/labsolutions_blockchain">区块链</el-menu-item>
-            <el-menu-item index="/services/labsolutions_ai">人工智能</el-menu-item>
-            <el-menu-item index="/services/labsolutions_coldchain">冷链物流</el-menu-item>
-          </el-submenu>
-          <el-menu-item index="/services/apprenticeships">
-            <i class="el-icon-menu"></i>
-            <span slot="title">现代学徒制</span>
-          </el-menu-item>
-          <el-submenu index="/services/product_intelligence_manufacture">
-            <template slot="title">
-              <i class="el-icon-document"></i>
-              <span slot="title">产品中心</span>
-            </template>
-            <el-menu-item index="/services/product_intelligence_manufacture">智能制造</el-menu-item>
-            <el-menu-item index="/services/product_industrial_iot">工业物联网</el-menu-item>
-            <el-menu-item index="/services/product_iot_teaching">物联网基础教学</el-menu-item>
-            <el-menu-item index="/services/product_iot_innovative">物联网创新应用套件</el-menu-item>
-          </el-submenu>
-          <el-menu-item index="/services/teachingresource">
-            <i class="el-icon-setting"></i>
-            <span slot="title">专业教学资源库</span>
-          </el-menu-item>
-        </el-menu>
-      </div>
-      <div class="r-white r-width944">
-        <router-view></router-view>
+  <div>
+    <img class="r-img head_background_img" src="/static/img/test2.png" alt />
+    <div class="r-news">
+      <div class="r-news-content">
+        <div class="content-title">
+          <el-breadcrumb separator-class="el-icon-arrow-right">
+            <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
+            <!-- <el-breadcrumb-item>业务服务</el-breadcrumb-item> -->
+            <el-breadcrumb-item v-for="(item,i) in breadList" :key="i">{{item}}</el-breadcrumb-item>
+            <!-- <el-breadcrumb-item>实验室解决方案</el-breadcrumb-item> -->
+            <!-- <el-breadcrumb-item>活动详情</el-breadcrumb-item> -->
+          </el-breadcrumb>
+        </div>
+        <div class="r-side r-white">
+          <el-menu
+            :default-active="$route.path"
+            class="el-menu-vertical-demo"
+            :unique-opened="true"
+            router
+          >
+            <el-submenu index="/services/labsolutions">
+              <template slot="title">
+                <i class="el-icon-location"></i>
+                <span slot="title">实验室解决方案</span>
+              </template>
+              <el-menu-item index="/services/labsolutions_iot">物联网</el-menu-item>
+              <el-menu-item index="/services/labsolutions_blockchain">区块链</el-menu-item>
+              <el-menu-item index="/services/labsolutions_ai">人工智能</el-menu-item>
+              <el-menu-item index="/services/labsolutions_coldchain">冷链物流</el-menu-item>
+            </el-submenu>
+            <el-menu-item index="/services/apprenticeships">
+              <i class="el-icon-menu"></i>
+              <span slot="title">现代学徒制</span>
+            </el-menu-item>
+            <el-submenu index="/services/product_intelligence_manufacture">
+              <template slot="title">
+                <i class="el-icon-document"></i>
+                <span slot="title">产品中心</span>
+              </template>
+              <el-menu-item index="/services/product_intelligence_manufacture">智能制造</el-menu-item>
+              <el-menu-item index="/services/product_industrial_iot">工业物联网</el-menu-item>
+              <el-menu-item index="/services/product_iot_teaching">物联网基础教学</el-menu-item>
+              <el-menu-item index="/services/product_iot_innovative">物联网创新应用套件</el-menu-item>
+            </el-submenu>
+            <el-menu-item index="/services/teachingresource">
+              <i class="el-icon-setting"></i>
+              <span slot="title">专业教学资源库</span>
+            </el-menu-item>
+          </el-menu>
+        </div>
+        <div class="r-white r-width944">
+          <router-view></router-view>
+        </div>
       </div>
     </div>
   </div>
@@ -123,6 +126,10 @@ export default {
 };
 </script>
 <style lang="less" scoped>
+.head_background_img {
+  opacity: 0.7;
+  filter: alpha(opacity=40);
+}
 .news {
   width: 1000px;
   margin: 0 auto;

@@ -64,6 +64,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.el-header {
+  padding: 0 ;
+}
 .el-footer {
     padding: 0;
 }
