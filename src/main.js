@@ -6,6 +6,7 @@ import iView from 'iview';
 import 'iview/dist/styles/iview.css';
 import './public/style/reset.less';
 import './public/style/common.less';
+import './public/style/iconfont.css';
 import App from './App';
 
 import ElementUI from 'element-ui';
