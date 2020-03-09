@@ -1,63 +1,13 @@
 <template>
   <div>
     <!-- 轮播图   -->
-    <div class="banner">
-      <!-- <div class="banner-pic1">
-        <a
-          href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=32"
-          class="banner-title"
-          style="display: block;"
-        >
-          <img
-            src="http://www.creditstate.cn/uploadfile/2019/0319/20190319020146182.png"
-            alt="金融服务"
-          />
-        </a>
-        <a
-          href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=33"
-          class="banner-title"
-          style="display: none;"
-        >
-          <img
-            src="http://www.creditstate.cn/uploadfile/2019/0319/20190319020206414.png"
-            alt="信用价值"
-          />
-        </a>
-        <a
-          href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=33"
-          class="banner-title"
-          style="display: none;"
-        >
-          <img
-            src="http://www.creditstate.cn/uploadfile/2019/0319/20190319020125758.jpg"
-            alt="信用城市"
-          />
-        </a>
-        <a
-          href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=28"
-          class="banner-title"
-          style="display: none;"
-        >
-          <img
-            src="http://www.creditstate.cn/uploadfile/2019/1209/20191209122852857.jpg"
-            alt="综合金融服务平台"
-          />
-        </a>
-        <div class="banner-pick">
-          <ul class="banner-dot-ground">
-            <li class="banner-dot addstyle"></li>
-            <li class="banner-dot"></li>
-            <li class="banner-dot"></li>
-            <li class="banner-dot"></li>
-          </ul>
-        </div>
-      </div> -->
+    <!-- <div class="banner">
       <el-carousel indicator-position="outside">
         <el-carousel-item v-for="item in 4" :key="item" >
           <h3>{{ item }}</h3>
         </el-carousel-item>
       </el-carousel>  
-    </div>
+    </div> -->
 
     <!-- 产品方案修改模块 -->
     <div class="case" router>
@@ -845,22 +795,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .banner .el-carousel__item h3 {
-    color: #475669;
-    font-size: 18px;
-    opacity: 0.75;
-    line-height: 300px;
-    margin: 0;
-  }
-  
-  .banner .el-carousel__item:nth-child(2n) {
-    //background-color: #99a9bf;
-    background-image: url(img/lunbotu-1.jpg);
-  }
-  
-  .banner .el-carousel__item:nth-child(2n+1) {
-    background-color: blue;
-  }
+
 
    .news-carousel .el-carousel__item  h3 {
     color: #475669;
