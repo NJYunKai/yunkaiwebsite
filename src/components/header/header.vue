@@ -7,8 +7,6 @@
       <div class="menu">
         <el-menu class="el-menu-demo" mode="horizontal" background-color="#f5f5f5" router>
           <el-menu-item index="/homepage">首页</el-menu-item>
-          <el-menu-item index="2">关于我们</el-menu-item>
-
           <el-submenu index="/services">
             <template slot="title">业务服务</template>
             <el-menu-item index="/services/labsolutions_iot">实验室解决方案</el-menu-item>
@@ -16,9 +14,6 @@
             <el-menu-item index="/services/product_intelligence_manufacture">产品中心</el-menu-item>
             <el-menu-item index="/services/teachingresource">专业教学资源库</el-menu-item>
           </el-submenu>
-          <el-menu-item index="/cooperative-education">协同育人</el-menu-item>
-          <el-menu-item index="/beltroad">一带一路</el-menu-item>
-
           <el-submenu index="/construction">
             <template slot="title">专业建设</template>
             <el-menu-item index="/construction/construction_iot">计算机类</el-menu-item>
@@ -26,30 +21,9 @@
             <el-menu-item index="/construction/other_de">物流+电商</el-menu-item>
             <el-menu-item index="/construction/electronic_de">电子信息</el-menu-item>
           </el-submenu>
-             <!-- <el-submenu index="6-1">
-              <template slot="title">计算机类</template>
-              <el-menu-item index="6-1-1">物联网</el-menu-item>
-              <el-menu-item index="6-1-2">大数据</el-menu-item>
-              <el-menu-item index="6-1-3">云计算</el-menu-item>
-              <el-menu-item index="6-1-4">人工智能</el-menu-item>
-              <el-menu-item index="6-1-5">通信工程</el-menu-item>
-              <el-menu-item index="6-1-6">区块链</el-menu-item>
-            </el-submenu>
-             <el-submenu index="6-2">
-              <template slot="title">机电类</template>
-              <el-menu-item index="6-2-1">电子信息</el-menu-item>
-              <el-menu-item index="6-2-2">工业机器人</el-menu-item>
-              <el-menu-item index="6-2-3">智能控制技术</el-menu-item>
-            </el-submenu> -->
-            <!-- <el-submenu index="6-4">
-              <template slot="title">电子信息</template>
-              <el-menu-item index="6-4-1">选项1</el-menu-item>
-              <el-menu-item index="6-4-2">选项2</el-menu-item>
-              <el-menu-item index="6-4-3">选项3</el-menu-item>
-            </el-submenu> -->
-          
-          <!-- <el-menu-item index="3" disabled>消息中心</el-menu-item>
-          <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>-->
+          <el-menu-item index="/cooperative-education">协同育人</el-menu-item>
+          <el-menu-item index="/beltroad">一带一路</el-menu-item>
+          <el-menu-item index="2">关于我们</el-menu-item>
         </el-menu>
       </div>
     </div>
@@ -106,7 +80,7 @@ export default {
   top: 0;
   width: 100%;
   height: 60px;
-  opacity:0.7;
+  opacity: 0.7;
   .nav {
     width: 80%;
     height: 100%;
