@@ -199,7 +199,7 @@ export default new Router({
       meta: {
         requireAuth: true
       },
-      // component: 1 + x,//待修改
+      component:() => import('../pages/productcenter/1+x.vue'),
     },
     //协同育人路由引用定义
     {
