@@ -193,14 +193,14 @@ export default new Router({
       component: () => import('../pages/index.vue'),
     },
     //产品中心方案页面
-    {
-      path: '/productcenter/1+x',
-      name: '1+x',
-      meta: {
-        requireAuth: true
-      },
-      component:() => import('../pages/productcenter/1+x.vue'),
-    },
+    // {
+    //   path: '/productcenter/1+x',
+    //   name: '1+x',
+    //   meta: {
+    //     requireAuth: true
+    //   },
+    //   component:() => import('../pages/productcenter/1+x.vue'),
+    // },
     //协同育人路由引用定义
     {
       path: '/cooperative-education',

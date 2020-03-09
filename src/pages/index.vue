@@ -297,8 +297,8 @@
     </div> -->
 
     <!-- 产品方案修改模块 -->
-    <div class="case" router>
-      <div class="case-demo">
+    <div class="case">
+      <div class="case-demo" name="productcenter">
         <h3 class="product-header">产品方案</h3>
         <p class="product-header-text">Curstem&nbsp;case</p>
         <p class="product-pic"></p>
@@ -310,7 +310,7 @@
               <div class="case-frame-img">
                 <img src="http://www.creditstate.cn/uploadfile/2019/1206/20191206032503770.png" alt />
               </div>
-               <router-link to="/productcenter/1+x" class="sub-link"><h3 class="case-title">1+x实验室</h3></router-link>
+               <h3 class="case-title" ><router-link to="/productcenter/xx" class="sub-link">1+x实验室</router-link></h3>
               <p class="case-content">1+x实验室提供学生进行相关实训，并且提供相关证书</p>
             </div>
           
@@ -364,7 +364,7 @@
           </div>
           <!-- 新闻图片文字叙述 -->
           <div class="news-carousel">
-            <div class="vessel" style="left: -5985px;">
+            <!-- <div class="vessel" style="left: -5985px;">
               <div class="new-carousel-content">
                 <img
                   class="carousel-photo"
@@ -821,7 +821,12 @@
             </a>
             <a href="javascript:;" class="next" title>
               <img src="http://www.creditstate.cn/assets/img/index/new_1.png" />
-            </a>
+            </a> -->
+            <el-carousel :interval="4000" type="card" height="200px">
+              <el-carousel-item class="newscompany" v-for="itemn in 6" :key="itemn">
+                <h3 class="medium">{{ itemn }}</h3>
+              </el-carousel-item>
+            </el-carousel>
           </div>
           <!-- 行业新闻模块 -->
           <div class="ne-box">
@@ -876,7 +881,7 @@
             </ul>
           </div>
           <!-- 媒体报道模块 -->
-          <div class="ne-box">
+          <!-- <div class="ne-box">
             <div class="ne-cont-header">
               <span class="ne-cont-bigfat">媒体报道</span>
               <span class="ne-cont-twofat">Media&nbsp;coverage</span>
@@ -932,7 +937,7 @@
                 <span class="ne-cont-text-other">2018-04-12</span>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -1183,7 +1188,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-    .el-carousel__item h3 {
+  .el-carousel__item h3 {
     color: #475669;
     font-size: 18px;
     opacity: 0.75;
@@ -1197,6 +1202,22 @@ export default {
   }
   
   .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+  }
+
+   .news-carousel .el-carousel__item  h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+  }
+  
+   .news-carousel .el-carousel__item :nth-child(2n) {
+    background-color: #99a9bf;
+  }
+  
+   .news-carousel .el-carousel__item :nth-child(2n+1) {
     background-color: #d3dce6;
   }
 
