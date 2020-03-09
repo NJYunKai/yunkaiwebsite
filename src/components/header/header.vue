@@ -146,7 +146,7 @@
           background-color="#f5f5f5"
           router
         >
-          <el-menu-item index="homepage">首页</el-menu-item>
+          <el-menu-item index="/homepage">首页</el-menu-item>
           <el-menu-item index="2">关于我们</el-menu-item>
 
           <el-submenu index="/services">
@@ -156,8 +156,8 @@
             <el-menu-item index="/services/product_intelligence_manufacture">产品中心</el-menu-item>
             <el-menu-item index="/services/teachingresource">专业教学资源库</el-menu-item>
           </el-submenu>
-          <el-menu-item index="cooperative-education">协同育人</el-menu-item>
-          <el-menu-item index="beltroad">一带一路</el-menu-item>
+          <el-menu-item index="/cooperative-education">协同育人</el-menu-item>
+          <el-menu-item index="/beltroad">一带一路</el-menu-item>
 
           <el-submenu index="/construction">
             <template slot="title">专业建设</template>

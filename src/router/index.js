@@ -182,85 +182,95 @@ export default new Router({
         },
         component: system,
       }]
-  },
-  //首页路由引用定义
-  {
-    path:'/homepage',
-    name:'homepage',
-    meta:{
-      requireAuth:true
     },
-    component: () => import('../pages/index.vue'),
-  },
-  //产品中心方案页面
-  // {
-  //   path:'/productcenter/1+x',
-  //   name:'1+x',
-  //   meta:{
-  //     requireAuth:true
-  //   },
-  //   component: 1+x,
-  // },
-  //协同育人路由引用定义
-  {
-    path:'/cooperative-education',
-    name:'cooperative-education',
-    meta:{
-      requireAuth:true
-    },
-    component: () => import('../pages/cooperative-education/cooperative-education'),
-  },
-  //一带一路路由引用定义
-  {
-    path:'/beltroad',
-    name:'beltroad',
-    meta:{
-      requireAuth:true
-    },
-    component: () => import('../pages/beltroad/beltroad'),
-  },
-	//专业服务路由引用定义
-	  {
-		path: '/construction',
-		name: 'services',
-		meta: {
-		  requireAuth: true
-		},
-		component: () => import('../pages/services/services.vue'),
-		children: [{
-			path: '/services/apprenticeships',
-			name: 'apprenticeships',
-			component: () => import('../pages/services/apprenticeships/apprenticeships.vue')
-		  },
-		  {
-			path: '/services/labsolutions_iot',
-			name: 'labsolutions_iot',
-			component: () => import('../pages/services/labsolutions/labsolution_iot.vue')
+    //首页路由引用定义
+    {
+      path: '/homepage',
+      name: 'homepage',
+      meta: {
+        requireAuth: true
       },
-      {
-        path: '/services/labsolutions_blockchain',
-        name: 'labsolutions_blockchain',
-        component: () => import('../pages/services/labsolutions/labsolutions_blockchain.vue')
+      component: () => import('../pages/index.vue'),
+    },
+    //产品中心方案页面
+    {
+      path: '/productcenter/xx',
+      name: 'xx',
+      meta: {
+        requireAuth: true
+      },
+      component:() => import('../pages/productcenter/xx.vue'),
+    },
+    //协同育人路由引用定义
+    {
+      path: '/cooperative-education',
+      name: 'cooperative-education',
+      meta: {
+        requireAuth: true
+      },
+      component: () => import('../pages/cooperative-education/cooperative-education'),
+    },
+    //一带一路路由引用定义
+    {
+      path: '/beltroad',
+      name: 'beltroad',
+      meta: {
+        requireAuth: true
+      },
+      component: () => import('../pages/beltroad/beltroad'),
+    },
+    //专业服务路由引用定义
+    {
+      path: '/services',
+      name: 'services',
+      meta: {
+        requireAuth: true
+      },
+      component: () => import('../pages/services/services.vue'),
+      children: [{
+          path: '/services/apprenticeships',
+          name: 'apprenticeships',
+          component: () => import('../pages/services/apprenticeships/apprenticeships.vue')
+        },
+        {
+          path: '/services/labsolutions_iot',
+          name: 'labsolutions_iot',
+          component: () => import('../pages/services/labsolutions/labsolution_iot.vue')
+        },
+        {
+          path: '/services/apprenticeships',
+          name: 'apprenticeships',
+          component: () => import('../pages/services/apprenticeships/apprenticeships.vue')
+        },
+        {
+          path: '/services/labsolutions_iot',
+          name: 'labsolutions_iot',
+          component: () => import('../pages/services/labsolutions/labsolution_iot.vue')
+        },
+        {
+          path: '/services/labsolutions_blockchain',
+          name: 'labsolutions_blockchain',
+          component: () => import('../pages/services/labsolutions/labsolutions_blockchain.vue')
         },
         {
           path: '/services/labsolutions_ai',
           name: 'labsolutions_ai',
           component: () => import('../pages/services/labsolutions/labsolutions_ai.vue')
-          },
-          {
-            path: '/services/labsolutions_coldchain',
-            name: 'labsolutions_coldchain',
-            component: () => import('../pages/services/labsolutions/labsolutions_coldchain.vue')
-            },
-		  {
-			path: '/services/product_intelligence_manufacture',
-			name: 'product_intelligence_manufacture',
-			component: () => import('../pages/services/product/product_intelligence_manufacture.vue')
-      },
-      {
-        path: '/services/product_industrial_iot',
-        name: 'product_industrial_iot',
-        component: () => import('../pages/services/product/product_industrial_iot.vue')
+        },
+        {
+          path: '/services/labsolutions_coldchain',
+          name: 'labsolutions_coldchain',
+          component: () => import('../pages/services/labsolutions/labsolutions_coldchain.vue')
+        },
+        {
+          path: '/services/product_intelligence_manufacture',
+          name: 'product_intelligence_manufacture',
+          component: () => import('../pages/services/product/product_intelligence_manufacture.vue')
+        },
+        {
+          path: '/services/product_industrial_iot',
+          name: 'product_industrial_iot',
+          component: () => import('../pages/services/product/product_industrial_iot.vue')
         },
         {
           path: '/services/product_iot_teaching',

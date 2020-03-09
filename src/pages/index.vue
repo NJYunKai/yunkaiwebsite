@@ -1,116 +1,5 @@
 <template>
-  <!-- <div class="main">
-		<div class="main-list">
-			<router-link to="/about/introduce" class="link">
-				<div class="top">
-					<span class="text">关于惠国
-					<small>About us</small>
-				</span>
-					<span class="fa fa-angle-right"></span>
-				</div>
-			</router-link>
-			<router-link to="/about/introduce" class="about">
-				<img class="logo" :src="logo_jpg" alt="惠国Logo">
-				<div class="content">
-					<p class="title">{{about.title}}</p>
-					<div class="describe">
-						<p class="text-indent">{{about.summary}}</p>
-						<p class="detail text-indent">{{about.detail}}</p>
-					</div>
-				</div>
-			</router-link>
-		</div>
-		<div class="main-list">
-			<router-link to="/news/index" class="link">
-				<div class="top">
-					<span class="text">公司动态
-					<small>Company news</small>
-				</span>
-					<span class="fa fa-angle-right"></span>
-				</div>
-			</router-link>
-			<div class="news">
-				<ul>
-					<li class="news-item" v-for="(item,index) in news" :key="index" @click="showNews(index)">
-						<div class="title">{{item.title}}</div>
-						<p class="text-indent detail">{{item.content}}</p>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="main-list">
-			<router-link to="/financial/credit" class="link">
-				<div class="top">
-					<span class="text">征信服务
-					<small>Credit information service</small>
-				</span>
-					<span class="fa fa-angle-right"></span>
-				</div>
-			</router-link>
-			<div class="service">
-				<ul>
-					<li class="service-item" v-for="(item,index) in service" :key="index">
-						<div class="avatar">
-							<img :src="item.imgUrl">
-						</div>
-						<div class="content">
-							<router-link :to="item.url">
-								<div class="title">{{item.title}}</div>
-								<p class="text-indent detail">{{item.content}}</p>
-							</router-link>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-  </div>-->
-
-  <!-- <div class="banner">
-    <div class="banner-pic1">
-      <a
-        href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=32"
-        class="banner-title"
-        style="display: none;"
-      >
-        <img src="http://www.creditstate.cn/uploadfile/2019/0319/20190319020146182.png" alt="金融服务" />
-      </a>
-      <a
-        href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=33"
-        class="banner-title"
-        style="display: none;"
-      >
-        <img src="http://www.creditstate.cn/uploadfile/2019/0319/20190319020206414.png" alt="信用价值" />
-      </a>
-      <a
-        href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=33"
-        class="banner-title"
-        style="display: none;"
-      >
-        <img src="http://www.creditstate.cn/uploadfile/2019/0319/20190319020125758.jpg" alt="信用城市" />
-      </a>
-      <a
-        href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=28"
-        class="banner-title"
-        style="display: block;"
-      >
-        <img
-          src="http://www.creditstate.cn/uploadfile/2019/1209/20191209122852857.jpg"
-          alt="综合金融服务平台"
-        />
-      </a>
-      <div class="banner-pick">
-        <ul class="banner-dot-ground">
-          <li class="banner-dot"></li>
-          <li class="banner-dot"></li>
-          <li class="banner-dot"></li>
-          <li class="banner-dot addstyle"></li>
-        </ul>
-      </div>
-    </div>
-  </div>-->
-
   <div>
-
     <!-- 轮播图   -->
     <div class="banner">
       <!-- <div class="banner-pic1">
@@ -170,135 +59,9 @@
       </el-carousel>  
     </div>
 
-    <!-- 产品中心模块 -->
-    <!-- <div class="product">
-      <div class="product-demo">
-        <h3 class="product-header">产品中心</h3>
-        <p class="product-header-text">Produce&nbsp;center</p>
-        <p class="product-pic"></p>
-        <p style="clear: both;"></p>
-        <div>
-          <p class="product-header-slogan">社会信用服务、中小企业金融服务、金融科技产品研发</p>
-          <a
-            href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=14"
-          >
-            <span class="product-more">更多</span>
-          </a>
-        </div>
-        <div class="operation">
-          <img src="http://www.creditstate.cn/assets/img/detail/default_1.png" class="prodlast" />
-          <img src="http://www.creditstate.cn/assets/img/detail/default_1.png" class="prodnextOne" />
-          <div class="operation-content">
-            <ul class="operation-farme" style="left: -301px;">
-              <li class="farme-content">
-                <div class="farme-pic">
-                  <div class="farme-photo">
-                    <img src="http://www.creditstate.cn/uploadfile/2019/0409/20190409014720386.png" />
-                  </div>
-                  <hr class="farme-hr" />
-                  <div class="farme-text">
-                    <div class="farme-text-cont">
-                      <p class="farme-headline">社会信用体系建设及运营</p>
-                      <p
-                        class="farme-content-text"
-                      >可为各地级市提供顶层规划设计 机制构建咨询 基础平台建设 应用体系规划 平台系统开发 运营模式设计 信易+场景设计开发及运营等全方位的服务。</p>
-                    </div>
-                    <a
-                      class="farme-bottom"
-                      href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=33"
-                    >查看详情</a>
-                  </div>
-                </div>
-              </li>
-              <li class="farme-content">
-                <div class="farme-pic">
-                  <div class="farme-photo">
-                    <img src="http://www.creditstate.cn/uploadfile/2019/0409/20190409122335798.png" />
-                  </div>
-                  <hr class="farme-hr" />
-                  <div class="farme-text">
-                    <div class="farme-text-cont">
-                      <p class="farme-headline">综合金融服务平台</p>
-                      <p
-                        class="farme-content-text"
-                      >构建完善数据和评价体系，推动各类金融和服务机构共同参与，全面满足企业各类需求（含金融服务），减少平台运营服务对政府财政投入的依赖。</p>
-                    </div>
-                    <a
-                      class="farme-bottom"
-                      href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=28"
-                    >查看详情</a>
-                  </div>
-                </div>
-              </li>
-              <li class="farme-content">
-                <div class="farme-pic">
-                  <div class="farme-photo">
-                    <img src="http://www.creditstate.cn/uploadfile/2019/0409/20190409013234216.png" />
-                  </div>
-                  <hr class="farme-hr" />
-                  <div class="farme-text">
-                    <div class="farme-text-cont">
-                      <p class="farme-headline">中小企业融资服务</p>
-                      <p
-                        class="farme-content-text"
-                      >“征信机构+银行+担保”的中小企业大数据信用贷融资模式，纯信用无抵押担保贷款，最高额度2000万，已累计发放贷款超20亿，不良率低于3‰。</p>
-                    </div>
-                    <a
-                      class="farme-bottom"
-                      href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=32"
-                    >查看详情</a>
-                  </div>
-                </div>
-              </li>
-              <li class="farme-content">
-                <div class="farme-pic">
-                  <div class="farme-photo">
-                    <img src="http://www.creditstate.cn/uploadfile/2019/0409/20190409123846251.png" />
-                  </div>
-                  <hr class="farme-hr" />
-                  <div class="farme-text">
-                    <div class="farme-text-cont">
-                      <p class="farme-headline">企业信用评级服务</p>
-                      <p
-                        class="farme-content-text"
-                      >面向中小企业做基于投行思维的大数据企业价值评估 其核心基础是行业分析+经营分析+财务分析 注重的是行业发展空间 企业成长能力和资源配置效率</p>
-                    </div>
-                    <a
-                      class="farme-bottom"
-                      href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=29"
-                    >查看详情</a>
-                  </div>
-                </div>
-              </li>
-              <li class="farme-content">
-                <div class="farme-pic">
-                  <div class="farme-photo">
-                    <img src="http://www.creditstate.cn/uploadfile/2019/0409/20190409013519730.png" />
-                  </div>
-                  <hr class="farme-hr" />
-                  <div class="farme-text">
-                    <div class="farme-text-cont">
-                      <p class="farme-headline">物联网智能风控系统</p>
-                      <p
-                        class="farme-content-text"
-                      >物联网智能风控系统是基于物联网、互联网、人工智能技术，实现金融机构远程监管企业贷（融、投）后风险的云服务平台，功能丰富。</p>
-                    </div>
-                    <a
-                      class="farme-bottom"
-                      href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=14&amp;id=31"
-                    >查看详情</a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <!-- 产品方案修改模块 -->
-    <div class="case" router>
-      <div class="case-demo">
+    <div class="case">
+      <div class="case-demo" name="productcenter">
         <h3 class="product-header">产品方案</h3>
         <p class="product-header-text">Curstem&nbsp;case</p>
         <p class="product-pic"></p>
@@ -310,7 +73,7 @@
               <div class="case-frame-img">
                 <img src="http://www.creditstate.cn/uploadfile/2019/1206/20191206032503770.png" alt />
               </div>
-               <router-link to="/productcenter/1+x" class="sub-link"><h3 class="case-title">1+x实验室</h3></router-link>
+               <h3 class="case-title" ><router-link to="/productcenter/xx" class="sub-link">1+x实验室</router-link></h3>
               <p class="case-content">1+x实验室提供学生进行相关实训，并且提供相关证书</p>
             </div>
           
@@ -364,7 +127,7 @@
           </div>
           <!-- 新闻图片文字叙述 -->
           <div class="news-carousel">
-            <div class="vessel" style="left: -5985px;">
+            <!-- <div class="vessel" style="left: -5985px;">
               <div class="new-carousel-content">
                 <img
                   class="carousel-photo"
@@ -821,7 +584,12 @@
             </a>
             <a href="javascript:;" class="next" title>
               <img src="http://www.creditstate.cn/assets/img/index/new_1.png" />
-            </a>
+            </a> -->
+            <el-carousel :interval="4000" type="card" height="200px">
+              <el-carousel-item class="newscompany" v-for="itemn in 6" :key="itemn">
+                <h3 class="medium">{{ itemn }}</h3>
+              </el-carousel-item>
+            </el-carousel>
           </div>
           <!-- 行业新闻模块 -->
           <div class="ne-box">
@@ -872,64 +640,6 @@
                   <span class="ne-cont-text-style">·&nbsp;&nbsp;发改委下文：鼓励第三方信用服务机构开展市场化信用评价</span>
                 </a>
                 <span class="ne-cont-text-other">2019-09-20</span>
-              </li>
-            </ul>
-          </div>
-          <!-- 媒体报道模块 -->
-          <div class="ne-box">
-            <div class="ne-cont-header">
-              <span class="ne-cont-bigfat">媒体报道</span>
-              <span class="ne-cont-twofat">Media&nbsp;coverage</span>
-              <span class="ne-cont-threefat ne-cont-threefat-style">
-                <a
-                  class="ne-cont-threefat-color"
-                  href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=17"
-                  title
-                >更多 &gt;</a>
-              </span>
-            </div>
-            <ul class="ne-cont-ground">
-              <li class="ne-cont-text">
-                <a href="https://mp.weixin.qq.com/s/oBqiUkmup_4Tm0d28LvOIw" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;《江淮晨报》：创新“芜湖模式”助力守信企业优质发展</span>
-                </a>
-                <span class="ne-cont-text-other">2019-12-23</span>
-              </li>
-              <li class="ne-cont-text ne-cont-text-right">
-                <a href="https://mp.weixin.qq.com/s/npvR_PwnnvqJc6SZTgm9jA" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;芜湖市及惠国征信创新的信易贷模式再获国家发改委推介</span>
-                </a>
-                <span class="ne-cont-text-other">2019-05-10</span>
-              </li>
-              <li class="ne-cont-text">
-                <a
-                  href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=17&amp;id=45"
-                  title
-                >
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;芜湖日报专题报道惠国征信助推信用芜湖建设</span>
-                </a>
-                <span class="ne-cont-text-other">2019-08-20</span>
-              </li>
-              <li class="ne-cont-text ne-cont-text-right">
-                <a href="https://mp.weixin.qq.com/s/W_uoLBU6xrIHq8QYVUcrbw" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;芜湖新闻频道对乐惠分应用场景报道：信用让生活更便利</span>
-                </a>
-                <span class="ne-cont-text-other">2018-09-03</span>
-              </li>
-              <li class="ne-cont-text">
-                <a
-                  href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=17&amp;id=44"
-                  title
-                >
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;芜湖新闻联播：惠国征信助力社会信用体系建设</span>
-                </a>
-                <span class="ne-cont-text-other">2019-08-20</span>
-              </li>
-              <li class="ne-cont-text ne-cont-text-right">
-                <a href="https://mp.weixin.qq.com/s/DSBVK26Nb7-tbDSfnZvuHQ" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;芜湖电视台《生活传真》栏目专题报道乐惠分</span>
-                </a>
-                <span class="ne-cont-text-other">2018-04-12</span>
               </li>
             </ul>
           </div>
@@ -1129,49 +839,6 @@ export default {
   data: function() {
     return {
       logo_jpg: logo_jpg,
-      // about: {
-      //   title: "",
-      //   summary: `惠国征信服务股份有限公司（以下简称“惠国征信”）是由芜湖市政府主导推动，
-			// 	芜湖市信息办、金融办、信用办联合引领的以征信平台为载体、致力于政务信用、
-			// 	中小企业征信以及农业征信等多元化征信产品服务，以金融大数据和商业物联网大数据为基础的综合性高端征信业服务机构。`,
-      //   detail: `惠国征信于2016年7月20日在国家工商管理总局正式注册，注册资本5000万元，主要股东是惠国投资管理合伙企业、
-			// 	芜湖市民强融资担保（集团）有限公司、安徽讯飞智能科技有限...`
-      // },
-      // news: [
-      //   {
-      //     title: "芜湖新闻频道“丹丹面对面”栏目邀请惠国征信徐博士谈征信",
-      //     id: 1,
-      //     content: `为更好地了解芜湖市社会信用体系建设现状，2017年9月5日上午，
-		  // 芜湖新闻频道“丹丹面对面”栏目特邀惠国征信服务股份有限公司...`
-      //   },
-      //   {
-      //     title: "惠国征信举办《建模方法论SEMMA建模路径》培训",
-      //     id: 2,
-      //     content: `为更好的实现信用贷项目的落地和执行，提高团队整体专业技能，拓宽学习和工作思路，2017年8月4日下午，
-		  // 惠国征信开展了《建模...`
-      //   },
-      //   {
-      //     title: "惠国征信董事长兼总裁徐慧囝博士应邀参加台州市第三期大数据论坛",
-      //     id: 3,
-      //     content: `2017年7月6日晚，台州市“大数据”第3期论坛《信用大数据》会议在台州市应急指挥中心大楼三楼大厅举办，本次活动是台州市应急指...`
-      //   }
-      // ],
-      // service: [
-      //   {
-      //     url: "/financial/credit",
-      //     title: "金融征信",
-      //     imgUrl: avatar_index_01,
-      //     content: `围绕进一步深化金融改革，提升金融服务实体经济发展能力，有效化解中小企业融资难、 融资贵问题，
-		  // 惠国征信以中小企业...`
-      //   },
-      //   {
-      //     url: "/government/benevolent",
-      //     title: "政务征信",
-      //     imgUrl: avatar_index_02,
-      //     content: `惠政平台旨在建立失信联合惩戒专题库，实现失信信息互通共享。
-		  // 汇集在市场行为中违背市场竞争准则和诚实信用原则，被...`
-      //   }
-      // ]
     };
   },
   methods: {
@@ -1183,7 +850,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-    .el-carousel__item h3 {
+  .banner .el-carousel__item h3 {
     color: #475669;
     font-size: 18px;
     opacity: 0.75;
@@ -1191,149 +858,29 @@ export default {
     margin: 0;
   }
   
-  .el-carousel__item:nth-child(2n) {
+  .banner .el-carousel__item:nth-child(2n) {
     //background-color: #99a9bf;
     background-image: url(img/lunbotu-1.jpg);
   }
   
-  .el-carousel__item:nth-child(2n+1) {
-    background-color: #d3dce6;
+  .banner .el-carousel__item:nth-child(2n+1) {
+    background-color: blue;
   }
 
+   .news-carousel .el-carousel__item  h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+  }
+  
+   .news-carousel .el-carousel__item :nth-child(2n) {
+    background-color: red;
+  }
+  
+   .news-carousel .el-carousel__item :nth-child(2n+1) {
+    background-color: red;
+  }
 
-// .main {
-//   display: flex;
-//   width: 1000px;
-//   margin: 0 auto;
-//   padding: 35px 0 44px;
-//   justify-content: space-between;
-//   .main-list {
-//     width: 320px;
-//     .top {
-//       position: relative;
-//       padding: 8px 15px;
-//       border-radius: 5px;
-//       color: rgb(255, 255, 255);
-//       background: rgb(179, 27, 36);
-//       .text {
-//         vertical-align: middle;
-//         font-size: 16px;
-//         small {
-//           margin-left: 10px;
-//         }
-//       }
-//       .fa-angle-right {
-//         position: absolute;
-//         right: 10px;
-//         font-size: 21px;
-//       }
-//     }
-//     .about,
-//     .news,
-//     .service {
-//       height: 364px;
-//       overflow: hidden;
-//     }
-//     .about {
-//       overflow: hidden;
-//       display: block;
-//       .logo {
-//         margin: 9px 5px;
-//       }
-//       .content {
-//         padding: 0 5px;
-//         .title {
-//           font-size: 16px;
-//         }
-//         .describe {
-//           font-size: 14px;
-//           line-height: 1.75;
-//           &:hover {
-//             color: #b31b24;
-//           }
-//           .detail {
-//             overflow: hidden;
-//             text-overflow: ellipsis;
-//             display: -webkit-box;
-//             -webkit-line-clamp: 4;
-//             -webkit-box-orient: vertical;
-//           }
-//         }
-//       }
-//     }
-//     .news {
-//       .news-item {
-//         position: relative;
-//         max-height: 92px;
-//         overflow: hidden;
-//         margin: 25px 0 30px;
-//         padding: 0 5px;
-//         cursor: pointer;
-//         &:hover {
-//           color: #b31b24;
-//         }
-//         &:last-child {
-//           margin-bottom: 0;
-//         }
-//         &::after {
-//           content: "";
-//           position: absolute;
-//           bottom: -15px;
-//           border-bottom: 2px dashed #e2e2e2;
-//           width: 100%;
-//         }
-//         .title {
-//           font-weight: bold;
-//           text-overflow: ellipsis;
-//           white-space: nowrap;
-//           overflow: hidden;
-//         }
-//         .detail {
-//           overflow: hidden;
-//           line-height: 1.75;
-//           font-size: 14px;
-//           text-overflow: ellipsis;
-//           display: -webkit-box;
-//           -webkit-line-clamp: 3;
-//           -webkit-box-orient: vertical;
-//         }
-//       }
-//     }
-//     .service {
-//       .service-item {
-//         display: flex;
-//         margin: 15px 0;
-//         padding: 0 5px;
-//         &:last-child {
-//           margin-bottom: 0;
-//         }
-//         .avatar {
-//           display: flex;
-//           flex: 1;
-//           align-items: center;
-//         }
-//         .content {
-//           flex: 1;
-//           margin-left: 10px;
-//           .title {
-//             font-weight: bold;
-//           }
-//           .detail {
-//             overflow: hidden;
-//             max-height: 141px;
-//             line-height: 1.75;
-//             font-size: 14px;
-//             text-overflow: ellipsis;
-//             display: -webkit-box;
-//             -webkit-line-clamp: 6;
-//             -webkit-box-orient: vertical;
-//             &:hover {
-//               color: #b31b24;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
 </style>
