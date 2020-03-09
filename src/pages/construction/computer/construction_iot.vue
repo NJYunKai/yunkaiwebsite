@@ -59,6 +59,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
- .iot {   background:	#00FF99;
+ .iot {   background:	#E0FFFF;
     }
 </style>

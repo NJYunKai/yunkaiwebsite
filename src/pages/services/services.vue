@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="r-img head_background_img" src="/static/img/test2.png" alt />
+    <!-- <img class="r-img head_background_img" src="/static/img/test2.png" alt /> -->
     <div class="r-news">
       <div class="r-news-content">
         <div class="content-title">
@@ -120,7 +120,7 @@ export default {
           this.breadList.push("专业教学资源库");
           break;
       }
-      console.log(this.$route.path, this.breadList);
+      // console.log(this.$route.path, this.breadList);
     }
   }
 };
