@@ -1,13 +1,14 @@
 <template>
   <div>
     <!-- 轮播图   -->
-    <!-- <div class="banner">
+    
+    <div class="banner">
       <el-carousel indicator-position="outside">
         <el-carousel-item v-for="item in 4" :key="item" >
           <h3>{{ item }}</h3>
         </el-carousel-item>
       </el-carousel>  
-    </div> -->
+    </div>
 
     <!-- 产品方案修改模块 -->
     <div class="case" router>
@@ -68,15 +69,21 @@
             <span class="ne-cont-bigfat">公司动态</span>
             <span class="ne-cont-twofat">Company&nbsp;dynamics</span>
             <span class="ne-cont-threefat">
-              <a
+              <!-- <a
                 class="ne-cont-threefat-color"
                 href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=16"
                 title
-              >更多&gt;</a>
+              >更多&gt;</a> -->
+              <router-link to="/companynews/dynamicnews" class="link">更多</router-link>
             </span>
           </div>
           <!-- 新闻图片文字叙述 -->
           <div class="news-carousel">
+            <el-carousel :interval="4000" type="card" height="200px">
+              <el-carousel-item class="newscompany" v-for="item in 6" :key="item">
+                <h3 class="medium">{{ item }}</h3>
+              </el-carousel-item>
+            </el-carousel>
             <div class="vessel" style="left: -5985px;">
               <div class="new-carousel-content">
                 <img
@@ -804,13 +811,14 @@ export default {
     line-height: 200px;
     margin: 0;
   }
-  
-   .news-carousel .el-carousel__item :nth-child(2n) {
+   .news-carousel .el-carousel__item:nth-child(2n+1) {
+    // background-image: url(img/1+x展示.jpg);
     background-color: red;
   }
-  
-   .news-carousel .el-carousel__item :nth-child(2n+1) {
-    background-color: red;
+
+    .news-carousel .el-carousel__item:nth-child(2n) {
+    //background-image: url(img/1+x实验室.jpg);
+    background-color: blue;
   }
 
 </style>

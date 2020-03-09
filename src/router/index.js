@@ -219,6 +219,31 @@ export default new Router({
       },
       component: () => import('../pages/beltroad/beltroad'),
     },
+    //公司新闻路由引用定义
+    {
+      path: '/companynews',
+      name: 'companynews',
+      meta: {
+        requireAuth: true
+      },
+      component: () =>import('../pages/companynews/companynews.vue'),
+      children: [{
+        path: '/companynews/dynamicnews',
+        name: 'dynamicnews' ,
+        component: () => import('../pages/companynews/dynamicnews/dynamicnews.vue')
+      },
+      {
+        path: '/companynews/fieldnews',
+        name: 'fieldnews' ,
+        component: () => import('../pages/companynews/fieldnews/fieldnews.vue')
+      },
+      {
+        path: '/companynews/1+x',
+        name: '1+x' ,
+        component: () => import('../pages/companynews/dynamicnews/1+x.vue')
+      }
+      ]
+    },
     //专业服务路由引用定义
     {
       path: '/services',
