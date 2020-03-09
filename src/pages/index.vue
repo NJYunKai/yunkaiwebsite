@@ -1,14 +1,14 @@
 <template>
   <div>
     <!-- 轮播图   -->
-    
+<!--     
     <div class="banner">
       <el-carousel indicator-position="outside">
         <el-carousel-item v-for="item in 4" :key="item" >
           <h3>{{ item }}</h3>
         </el-carousel-item>
       </el-carousel>  
-    </div>
+    </div> -->
 
     <!-- 产品方案修改模块 -->
     <div class="case" router>
