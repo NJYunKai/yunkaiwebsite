@@ -297,7 +297,7 @@
     </div> -->
 
     <!-- 产品方案修改模块 -->
-    <div class="case">
+    <div class="case" router>
       <div class="case-demo">
         <h3 class="product-header">产品方案</h3>
         <p class="product-header-text">Curstem&nbsp;case</p>
@@ -305,18 +305,15 @@
         <p style="clear: both;"></p>
         <p class="product-header-slogan">助力学校实验建设，促进学生实体发展</p>
         <div class="case-frame">
-          <a
-            href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=35"
-            title
-          >
+
             <div class="case-frame-list">
               <div class="case-frame-img">
                 <img src="http://www.creditstate.cn/uploadfile/2019/1206/20191206032503770.png" alt />
               </div>
-              <h3 class="case-title">1+x实验室</h3>
+               <router-link to="/productcenter/1+x" class="sub-link"><h3 class="case-title">1+x实验室</h3></router-link>
               <p class="case-content">1+x实验室提供学生进行相关实训，并且提供相关证书</p>
             </div>
-          </a>
+          
           <a
             href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=36"
             title
