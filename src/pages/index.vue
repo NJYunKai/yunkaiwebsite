@@ -13,7 +13,7 @@
     <!-- 产品方案修改模块 -->
     <div class="case" router>
       <div class="case-demo">
-        <h3 class="product-header">产品方案</h3>
+        <h3 class="product-header">经典案例</h3>
         <p class="product-header-text">Curstem&nbsp;case</p>
         <p class="product-pic"></p>
         <p style="clear: both;"></p>
