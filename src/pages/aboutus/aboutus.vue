@@ -52,7 +52,7 @@
                 <h3>联系我们</h3>
                 <p>CONTACT</p>
             </div>
-                <el-table
+                <!-- <el-table
                     :data="tableData"
                     border
                     style="width: 541px;margin-left: 350px;align: center">
@@ -74,7 +74,33 @@
                     align="center"
                     label="联系方式">
                     </el-table-column>
-                </el-table>
+                </el-table> -->
+
+              <!-- 联系方式 -->
+              <div style="height:300px">
+              <!-- 公司联系左列 -->
+                <ul style="border: 3px solid red;width:40%;margin-left:80px;height:210px;float:left">
+                  <p style="font-weight: bold;font-size:20px;margin:10px 0 20px 30px">南京云开数据科技有限公司</p>
+                  <li class="leftli">联系人：李经理</li>
+                  <li class="leftli">手机：18651837835</li>
+                  <li class="leftli">邮箱：88888@qq.com</li>
+                </ul>
+                <!-- 地区联系右列 -->
+                <ul style="border: 3px solid red;width:40%;height:210px;float:left;margin-left:100px">
+                  <ul class="rightul" style="margin-left:40px">
+                    <li class="rightli">地区</li>
+                    <li class="rightli">南京</li>
+                  </ul>
+                  <ul class="rightul" style="margin-left:120px">
+                    <li class="rightli">联系人</li>
+                    <li class="rightli">李松林</li>
+                  </ul>
+                  <ul class="rightul" style="margin-left:120px">
+                    <li class="rightli" style="margin-left:15px">联系方式</li>
+                    <li class="rightli">18651837835</li>
+                  </ul>
+                </ul>
+              </div>
         </div>
       </div>
     </div>
@@ -82,29 +108,29 @@
 </template>
 
 <script>
-    export default {
-      data() {
-        return {
-          tableData: [{
-            site: '南京',
-            name: '李松林',
-            phone: '18651837835'
-          }, {
-            site: '浙江',
-            name: '黄山',
-            phone: '111111'
-          }, {
-            site: '华北',
-            name: '王小虎',
-            phone: '22222'
-          }, {
-            site: '华西',
-            name: '王小虎',
-            phone: '333333'
-          }]
-        }
-      }
-    }
+    // export default {
+    //   data() {
+    //     return {
+    //       tableData: [{
+    //         site: '南京',
+    //         name: '李松林',
+    //         phone: '18651837835'
+    //       }, {
+    //         site: '浙江',
+    //         name: '黄山',
+    //         phone: '111111'
+    //       }, {
+    //         site: '华北',
+    //         name: '王小虎',
+    //         phone: '22222'
+    //       }, {
+    //         site: '华西',
+    //         name: '王小虎',
+    //         phone: '333333'
+    //       }]
+    //     }
+    //   }
+    // }
 </script>
 
 <style lang="less" scoped>
@@ -424,5 +450,18 @@
     background-color: #d3dce6;
   }
 
+.leftli{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
 
+.rightul{
+  float: left;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.rightli{
+  margin-bottom: 10px;
+}
 </style>
