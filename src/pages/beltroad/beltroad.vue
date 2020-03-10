@@ -14,37 +14,28 @@
 
       <div class="artview_content" style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
 		<div class="artview_detail" setsid="article250">
-			<div style="text-align: center;margin-bottom:10px">
-                <strong>教育部高等教育司关于公布</strong>
-            </div>
 
-            <strong><div style="text-align: center;margin-bottom:10px">
-                <strong>有关企业支持的产学合作协同育人项目</strong>
-            </div></strong>
+            <p>&nbsp; &nbsp;“一带一路”电商谷（金边）基地（简称“金边基地”）落地在柬埔寨工业技术学院，教学由电商谷南京分中心（江苏经贸职业技术学院）对口支撑，海外建设部分由南京云开数据科技有限公司投入。</p><br> &nbsp;<br> 
 
-            <strong><div style="text-align: center;margin-bottom:10px">
-                <strong>申报指南（2019年第二批）的通知<br></strong></div>
-            </strong>
+            <p>&nbsp; &nbsp;金边基地于2017年12月16日达成合作，2019年4月26日建成并投入使用。金边基地根据柬埔寨的实际情况，第一阶段以信息技术应用普及为重点，成功举办了国家职业教育移动商务专业教学资源库在海外的应用推广活动。</p><br> &nbsp;<br> 
 
-            <p>&nbsp; &nbsp;为深入贯彻全国教育大会精神，认真落实《国务院办公厅关于深化高等学校创新创业教育改革的实施意见》（国办发〔2015〕36号）和《国务院办公厅关于深化产教融合的若干意见》（国办发〔2017〕95号）要求，深化产教融合、产学合作、协同育人，经企业申报、产学合作协同育人项目专家组审议通过，形成了2019年第二批产学合作协同育人项目申报指南。本批次申报指南中，共有346家企业支持项目12350项，现予以公布（项目简介见附件）。</p><br> &nbsp;<br> 
+            <p>&nbsp; &nbsp;2019年11月17日，金边基地相关建设方在金边召开了二期建设工作会议，确定了2020年工作规划，并与柬埔寨泰州商会组织的本地企业达成了开发本地电商平台的合作意向。</p><br> &nbsp;<br> 
             
             <div style="text-align: center;">
-                <img src="../img/departmentinform.jpg" width="800" height="1053" alt="">
+                <img src="../img/cooperation.png" width="534" height="273" alt="">
             </div> <br>
-            
-            <p>&nbsp;&nbsp;在教育部指导下，南京云开数据科技有限公司拟在“人工智能”、“物联网”、“嵌入式”、“微电子”、“云计算”、“电子通信”、“自动化”、“大数据”、“机器人”、“移动商务”等几个方向上，开展产学合作协同育人项目，支持包含新工科建设、教学内容和课程体系改革、师资培训、实践条件和实践基地建设、创新创业教育改革五大类。各大院校可在“教育部产学合作协同育人项目平台”（项目平台网址：<a href="http://cxhz.hep.com.cn">http://cxhz.hep.com.cn</a>）注册申报，欢迎各院校申报南京云开数据科技有限公司2019产学合作协同育人项目。</p><br> &nbsp;<br>
+            <p>&nbsp;&nbsp;2017年12月16日，江苏经贸职业技术学院与柬埔寨工业技术学院达成金边基地共建合作协议。中方薛茂云院长与柬方MOAN SAM OEURN院长共同签署了合作协议。</p><br> &nbsp;<br><br>
             
             <div style="text-align: center;">
-                <img src="../img/companyedu2.png" width="800" height="283" alt="" style="padding-right: 0px;">
+                <img src="../img/active.png" width="534" height="273" alt="">
             </div> <br>
+             <p style="margin-left:150px">&nbsp;&nbsp;2019年4月26日，江苏经贸职业技术学院在金边基地举办国家职业教育移动商务专业教学资源库在海外的应用推广活动。</p><br> &nbsp;<br><br>
 
             <div style="text-align: center;">
-                <img src="../img/companyedu1.png" width="800" height="283" alt="" style="padding-right: 0px;">
-            </div> <br> <br> <br>
+                <img src="../img/meeting.png" width="546" height="298" alt="" style="padding-right: 0px;">
+            </div> <br>
+             <p style="margin-left:400px">&nbsp;&nbsp;2019年11月17日，金边基地召开二期建设工作会议。</p><br> &nbsp;<br><br>
             
-            <div>
-                <p>点击查看协同育人申报指南链接：<a href="http://cxhz.hep.com.cn" style="color:red">http://cxhz.hep.com.cn</a></p>
-            </div>
 		</div>
 		
 	</div>
