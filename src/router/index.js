@@ -192,14 +192,19 @@ export default new Router({
       },
       component: () => import('../pages/index.vue'),
     },
-    //产品中心方案页面
+    //产品案例方案页面
     {
-      path: '/productcenter/xx',
-      name: 'xx',
+      path: '/productcase',
+      name: 'productcase',
       meta: {
         requireAuth: true
       },
-      component:() => import('../pages/productcenter/xx.vue'),
+      component:() => import('../pages/productcase/productcase.vue'),
+      children: [{
+        path: '/productcase/xlab',
+        name: 'xlab',
+        component: () => import('../pages/productcase/xlab/xlab.vue')
+      }]
     },
     //协同育人路由引用定义
     {
@@ -208,7 +213,16 @@ export default new Router({
       meta: {
         requireAuth: true
       },
-      component: () => import('../pages/cooperative-education/cooperative-education'),
+      component: () => import('../pages/cooperative-education/cooperative-education.vue'),
+    },
+    //关于我们路由引用定义
+    {
+      path: '/aboutus',
+      name: 'aboutus',
+      meta: {
+        requireAuth: true
+      },
+      component: () => import('../pages/aboutus/aboutus.vue'),
     },
     //一带一路路由引用定义
     {

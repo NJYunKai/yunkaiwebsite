@@ -66,6 +66,7 @@ export default {
   }
 };
 </script>
+
 <style lang="less" scoped>
 .news {
   width: 1000px;
