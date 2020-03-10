@@ -8,8 +8,15 @@
         <!-- 轮播图   -->
         <div class="banner">
           <el-carousel>
-            <el-carousel-item v-for="item in 4" :key="item">
-              <h3>{{ item }}</h3>
+            <el-carousel-item>
+              <!-- <img src="item.idView" class="image"/> -->
+              <img src="../static/img/header.png" />
+            </el-carousel-item>
+            <el-carousel-item>
+              <img src="../static/img/bg-topbackground.png"/>
+            </el-carousel-item>
+            <el-carousel-item>
+              <img src="../static/img/home-centerbackground.png"/>
             </el-carousel-item>
           </el-carousel>
         </div>
@@ -37,16 +44,15 @@ export default {
   name: "app",
   data: function() {
     return {
-      // swiperOption: {
-      //   notNextTick: true,
-      //   pagination: ".swiper-pagination",
-      //   paginationClickable: true,
-      //   autoplay: 4000,
-      //   width: window.innerWidth
-      // },
       banners: [banner_01, banner_02],
       imgHeight: 0,
       num: "1"
+      // imagesbox:[
+      //   {id:0,idView:require("../static/img/header.png")},
+      //   {id:1,idView:require("../static/img/bg-topbackground.png")},
+      //   {id:2,idView:require("../static/img/home-centerbackground.png")},
+      //   {id:3,idView:require("../static/img/header.png")},
+      // ]
     };
   },
   components: {
@@ -77,15 +83,13 @@ export default {
   margin: 0;
 }
 
-.banner .el-carousel__item:nth-child(2n) {
-  //background-color: #99a9bf;
-  background-image: url(/static/img/header.png);
-}
+// .banner .el-carousel__item:nth-child(2n) {
+//   background-image: url(/static/img/header.png);
+// }
 
-.banner .el-carousel__item:nth-child(2n + 1) {
-  // background-color: blue;
-    background-image: url(/static/img/bg-topbackground.png);
-}
+// .banner .el-carousel__item:nth-child(2n + 1) {
+//     background-image: url(/static/img/bg-topbackground.png);
+// }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
