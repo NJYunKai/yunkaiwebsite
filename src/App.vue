@@ -7,16 +7,19 @@
       <el-main>
         <!-- 轮播图   -->
         <div class="banner">
-          <el-carousel>
+          <el-carousel height="400px">
             <el-carousel-item>
               <!-- <img src="item.idView" class="image"/> -->
-              <img src="../static/img/header.png" />
+              <img src="../static/img/homecarousel-1.png" />
             </el-carousel-item>
             <el-carousel-item>
-              <img src="../static/img/bg-topbackground.png"/>
+              <img src="../static/img/homecarousel-2.png"/>
             </el-carousel-item>
             <el-carousel-item>
-              <img src="../static/img/home-centerbackground.png"/>
+              <img src="../static/img/homecarousel-3.png"/>
+            </el-carousel-item>
+            <el-carousel-item>
+              <img src="../static/img/homecarousel-4.png"/>
             </el-carousel-item>
           </el-carousel>
         </div>
@@ -47,12 +50,6 @@ export default {
       banners: [banner_01, banner_02],
       imgHeight: 0,
       num: "1"
-      // imagesbox:[
-      //   {id:0,idView:require("../static/img/header.png")},
-      //   {id:1,idView:require("../static/img/bg-topbackground.png")},
-      //   {id:2,idView:require("../static/img/home-centerbackground.png")},
-      //   {id:3,idView:require("../static/img/header.png")},
-      // ]
     };
   },
   components: {
@@ -103,5 +100,8 @@ export default {
 }
 .el-main {
   padding: 0;
+}
+.el-carousel__container{
+  height: 600px;
 }
 </style>
