@@ -20,13 +20,15 @@
         <p class="product-header-slogan">助力学校实验建设，促进学生实体发展</p>
         <div class="case-frame">
 
-            <div class="case-frame-list">
-              <div class="case-frame-img">
-                <img src="http://www.creditstate.cn/uploadfile/2019/1206/20191206032503770.png" alt />
+            <router-link to="/productcase/xlab" class="sub-link">
+              <div class="case-frame-list">
+                <div class="case-frame-img">
+                  <img src="./img/xlab-1.jpg" alt />
+                </div>
+                <h3 class="case-title">江苏经贸职院</h3>
+                <p class="case-content">其中包括智能制造实训室、物流管理专业1+X考点实训室环境及智能化实训室、“人工智能冷链物流”实训室等</p>
               </div>
-               <router-link to="/productcase/xlab" class="sub-link"><h3 class="case-title">1+x实验室</h3></router-link>
-              <p class="case-content">1+x实验室提供学生进行相关实训，并且提供相关证书</p>
-            </div>
+            </router-link>
           
           <a
             href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=36"
@@ -74,11 +76,29 @@
           </div>
           <!-- 新闻图片文字叙述 -->
           <div class="news-carousel">
-            <el-carousel :interval="4000" type="card" height="200px">
-              <el-carousel-item class="newscompany" v-for="item in 6" :key="item">
-                <h3 class="medium">{{ item }}</h3>
+            <el-carousel :interval="4000" type="card" height="300px">
+
+              <el-carousel-item class="newscompany">
+                <img src="/static/img/homecarousel-2.png" />
+                <h2 class="medium" style="margin:10px 0 0 200px">一带一路顺利裁剪</h2>
+              </el-carousel-item>
+
+              <el-carousel-item class="newscompany">
+                <img src="/static/img/homecarousel-1.png" />
+                <h2 class="medium" style="margin:10px 0 0 200px">物联网大会成功召开</h2>
+              </el-carousel-item>
+
+              <el-carousel-item class="newscompany">
+                <img src="/static/img/homecarousel-3.png" />
+                <h2 class="medium" style="margin:10px 0 0 200px">智能智造实验室验收</h2>
+              </el-carousel-item>
+
+              <el-carousel-item class="newscompany">
+                <img src="/static/img/homecarousel-4.png" />
+                <h2 class="medium" style="margin:10px 0 0 200px">协同育人申报指南发布</h2>
               </el-carousel-item>
             </el-carousel>
+
           </div>
           <!-- 行业新闻模块 -->
           <div class="ne-box">
@@ -133,175 +153,64 @@
         <p class="product-header-slogan new-header-slogan">凝聚八方之力，共建云开未来</p>
         <div class="product-box">
           <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
-            <a href="javascript:;" title="中国人民银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220050728252.jpg"
-                title="中国人民银行"
-                alt="中国人民银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-1.png"  />     
             </a>
-            <a href="javascript:;" title="中国工商银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220050917241.jpg"
-                title="中国工商银行"
-                alt="中国工商银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-2.png"  />
             </a>
-            <a href="javascript:;" title="中国建设银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220051159651.jpg"
-                title="中国建设银行"
-                alt="中国建设银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-3.png"  />
             </a>
-            <a href="javascript:;" title="中国农业银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220051431981.jpg"
-                title="中国农业银行"
-                alt="中国农业银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-4.png"  />
             </a>
-            <a href="javascript:;" title="中国邮政储蓄银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220051656672.jpg"
-                title="中国邮政储蓄银行"
-                alt="中国邮政储蓄银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-5.png"  />
             </a>
-            <a href="javascript:;" title="中国银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220051820729.jpg"
-                title="中国银行"
-                alt="中国银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-6.png"  />
             </a>
-            <a href="javascript:;" title="交通银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220052328130.jpg"
-                title="交通银行"
-                alt="交通银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-7.png"  />
             </a>
-            <a href="javascript:;" title="招商银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220052651992.jpg"
-                title="招商银行"
-                alt="招商银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-8.png"  />
             </a>
-            <a href="javascript:;" title="徽商银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220052949492.jpg"
-                title="徽商银行"
-                alt="徽商银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-9.png"  />
             </a>
-            <a href="javascript:;" title="中国光大银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220053120740.jpg"
-                title="中国光大银行"
-                alt="中国光大银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-10.png" />
             </a>
-            <a href="javascript:;" title="广发银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220053314978.jpg"
-                title="广发银行"
-                alt="广发银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-11.png"  />
             </a>
-            <a href="javascript:;" title="兴业银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220053614180.jpg"
-                title="兴业银行"
-                alt="兴业银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-12.png"  />
             </a>
-            <a href="javascript:;" title="中国民生银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220053905325.jpg"
-                title="中国民生银行"
-                alt="中国民生银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-13.png"  />
             </a>
-            <a href="javascript:;" title="浦发银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220054141127.jpg"
-                title="浦发银行"
-                alt="浦发银行"
-              />
-            </a>
-            <a href="javascript:;" title="芜湖扬子银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220054624819.png"
-                title="芜湖扬子银行"
-                alt="芜湖扬子银行"
-              />
-            </a>
-            <a href="javascript:;" title="中信银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220054856689.jpg"
-                title="中信银行"
-                alt="中信银行"
-              />
-            </a>
-            <a href="javascript:;" title="芜湖津盛农商银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055002938.jpg"
-                title="芜湖津盛农商银行"
-                alt="芜湖津盛农商银行"
-              />
-            </a>
-            <a href="javascript:;" title="民强担保（集团）" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055155109.png"
-                title="民强担保（集团）"
-                alt="民强担保（集团）"
-              />
-            </a>
-            <a href="javascript:;" title="上瑞控股" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055324824.png"
-                title="上瑞控股"
-                alt="上瑞控股"
-              />
-            </a>
-            <a href="javascript:;" title="科大讯飞" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055514981.png"
-                title="科大讯飞"
-                alt="科大讯飞"
-              />
-            </a>
-            <a href="javascript:;" title="中信证券" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055653376.png"
-                title="中信证券"
-                alt="中信证券"
-              />
-            </a>
-            <a href="javascript:;" title="国厚资产" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055831423.png"
-                title="国厚资产"
-                alt="国厚资产"
-              />
-            </a>
-            <a href="javascript:;" title="申万宏源证券" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220060002127.png"
-                title="申万宏源证券"
-                alt="申万宏源证券"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationschool-14.png"  />
             </a>
           </div>
-          <!-- 轮滑插件 -->
-          <!-- <a href="javascript:;" class="product-prev" title>
-            <img src="http://www.creditstate.cn/assets/img/index/left.png" title />
-          </a>
-          <a href="javascript:;" class="product-next" title>
-            <img src="http://www.creditstate.cn/assets/img/index/right.png" title />
-          </a> -->
+
         </div>
       </div>
     </div>
@@ -315,175 +224,27 @@
         <p class="product-header-slogan new-header-slogan">凝聚八方之力，共建云开未来</p>
         <div class="product-box">
           <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
-            <a href="javascript:;" title="中国人民银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220050728252.jpg"
-                title="中国人民银行"
-                alt="中国人民银行"
-              />
+
+            <a href="javascript:;" style="display: inline-block;float: left;width: 300px;margin: 5px 23px;text-align: center;">
+              <img src="./img/cooperationcompany-1.png" style="height:150px" />
             </a>
-            <a href="javascript:;" title="中国工商银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220050917241.jpg"
-                title="中国工商银行"
-                alt="中国工商银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationcompany-2.png" />
             </a>
-            <a href="javascript:;" title="中国建设银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220051159651.jpg"
-                title="中国建设银行"
-                alt="中国建设银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationcompany-3.png"  />
             </a>
-            <a href="javascript:;" title="中国农业银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220051431981.jpg"
-                title="中国农业银行"
-                alt="中国农业银行"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationcompany-4.png"  />
             </a>
-            <a href="javascript:;" title="中国邮政储蓄银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220051656672.jpg"
-                title="中国邮政储蓄银行"
-                alt="中国邮政储蓄银行"
-              />
-            </a>
-            <a href="javascript:;" title="中国银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220051820729.jpg"
-                title="中国银行"
-                alt="中国银行"
-              />
-            </a>
-            <a href="javascript:;" title="交通银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220052328130.jpg"
-                title="交通银行"
-                alt="交通银行"
-              />
-            </a>
-            <a href="javascript:;" title="招商银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220052651992.jpg"
-                title="招商银行"
-                alt="招商银行"
-              />
-            </a>
-            <a href="javascript:;" title="徽商银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220052949492.jpg"
-                title="徽商银行"
-                alt="徽商银行"
-              />
-            </a>
-            <a href="javascript:;" title="中国光大银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220053120740.jpg"
-                title="中国光大银行"
-                alt="中国光大银行"
-              />
-            </a>
-            <a href="javascript:;" title="广发银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220053314978.jpg"
-                title="广发银行"
-                alt="广发银行"
-              />
-            </a>
-            <a href="javascript:;" title="兴业银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220053614180.jpg"
-                title="兴业银行"
-                alt="兴业银行"
-              />
-            </a>
-            <a href="javascript:;" title="中国民生银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220053905325.jpg"
-                title="中国民生银行"
-                alt="中国民生银行"
-              />
-            </a>
-            <a href="javascript:;" title="浦发银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220054141127.jpg"
-                title="浦发银行"
-                alt="浦发银行"
-              />
-            </a>
-            <a href="javascript:;" title="芜湖扬子银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220054624819.png"
-                title="芜湖扬子银行"
-                alt="芜湖扬子银行"
-              />
-            </a>
-            <a href="javascript:;" title="中信银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220054856689.jpg"
-                title="中信银行"
-                alt="中信银行"
-              />
-            </a>
-            <a href="javascript:;" title="芜湖津盛农商银行" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055002938.jpg"
-                title="芜湖津盛农商银行"
-                alt="芜湖津盛农商银行"
-              />
-            </a>
-            <a href="javascript:;" title="民强担保（集团）" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055155109.png"
-                title="民强担保（集团）"
-                alt="民强担保（集团）"
-              />
-            </a>
-            <a href="javascript:;" title="上瑞控股" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055324824.png"
-                title="上瑞控股"
-                alt="上瑞控股"
-              />
-            </a>
-            <a href="javascript:;" title="科大讯飞" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055514981.png"
-                title="科大讯飞"
-                alt="科大讯飞"
-              />
-            </a>
-            <a href="javascript:;" title="中信证券" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055653376.png"
-                title="中信证券"
-                alt="中信证券"
-              />
-            </a>
-            <a href="javascript:;" title="国厚资产" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220055831423.png"
-                title="国厚资产"
-                alt="国厚资产"
-              />
-            </a>
-            <a href="javascript:;" title="申万宏源证券" class="product-roll">
-              <img
-                src="http://huiguo.b.yayuanzi.net/uploadfile/2019/0220/20190220060002127.png"
-                title="申万宏源证券"
-                alt="申万宏源证券"
-              />
+
+            <a href="javascript:;" class="product-roll">
+              <img src="./img/cooperationcompany-5.png"  />
             </a>
           </div>
-          <!-- 轮滑插件 -->
-          <!-- <a href="javascript:;" class="product-prev" title>
-            <img src="http://www.creditstate.cn/assets/img/index/left.png" title />
-          </a>
-          <a href="javascript:;" class="product-next" title>
-            <img src="http://www.creditstate.cn/assets/img/index/right.png" title />
-          </a> -->
         </div>
       </div>
     </div>
@@ -519,14 +280,14 @@ export default {
     line-height: 200px;
     margin: 0;
   }
-   .news-carousel .el-carousel__item:nth-child(2n+1) {
-    // background-image: url(img/1+x展示.jpg);
-    background-color: red;
-  }
+  //  .news-carousel .el-carousel__item:nth-child(2n+1) {
+  //   // background-image: url(img/1+x展示.jpg);
+  //   background-color: red;
+  // }
 
-    .news-carousel .el-carousel__item:nth-child(2n) {
-    //background-image: url(img/1+x实验室.jpg);
-    background-color: blue;
-  }
+  //   .news-carousel .el-carousel__item:nth-child(2n) {
+  //   //background-image: url(img/1+x实验室.jpg);
+  //   background-color: blue;
+  // }
 
 </style>

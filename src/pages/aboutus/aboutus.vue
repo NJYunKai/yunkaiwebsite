@@ -8,16 +8,12 @@
             <p class="title">公司简介</p>
             <p class="eTitle">ABOUT US</p>
             <p class="content">
-              上海科建工程管理股份有限公司成立于2012年9月，注册资金500万。公司前身上海科建工程管理有限公司，
-              是一家从事专业工程技术服务及工程项目管理的企业。公司于2017年11月通过国家高新技术企业认定，
-              目前工程管理软件研发团队10人，包括硕士和研究生在内，平均年龄在35岁。公司自主研发工程项目管理
-              标准化+互联网协同工作系统平台，此软件广泛应用于工程项目管理过程，实现全覆盖检查、全过程控制、全方位协调的目标。
-              目前公司业务范围涉及上海、广东等多地，合作的单位有上海同济工程项目管理咨询有限公司、
-              上海华银日用品有限公司、中科建设开发总公司、广东怡轩房地产开发有限公司等多家知名企业。 立人立己、达人达己！公司一直秉承“
-              帮助施工单位解决技术问题、帮助业主解决协调问题 ”的管理理念，上海科建工程管理股份有限公司不断在工程项目管理领域开拓创新，
-              通过不断完善工程项目管理标准化+互联网协同工作系统平台，实现每项工程“无重大安全事故、无重大返工、工程施工材料无伪劣产品、
-              工程管理留下痕迹、施工过程可追溯”五大管理目标。
+              南京云开数据科技有限公司是一家从事物联网、云计算、大数据、人工智能、电子商务软件、智能制造及各种教学仪器等产品研发、销售、服务为一体的专业公司。公司拥有一批高素质的专业技术服务工程师，本着团结、敬业、诚信、奋进的企业文化。长期为各界新老客户提供优质的产品和优良的售后服务。
             </p>
+            <p class="content">
+              经过几年的积累，云开数据形成了完善的电子信息、电气自动化等相关技术的产品线，充分引进和吸收国际最新技术，自主研发数款教学及行业产品，涵盖智能制造、物联网、嵌入式系统、通信虚拟仿真综合实验系统等通信核心技术领域，形成了智能制造、智能校园、智能家居、智能交通、智能农业、智能物流、食品溯源、智能图书馆、智能工厂等多个行业应用系统解决方案。展望未来，云开数据将携手各方合作伙伴，创建资源整合平台以统合科研智力、产业技术之需求，将先进成熟之通信虚拟仿真解决方案迅速推向市场，以成为国内最优秀的通信虚拟仿真设备及方案服务商而努力奋斗。
+            </p>
+            <p class="content">公司总部设在南京，在杭州、郑州、西安、长沙、合肥、等地设有办事处；并在全国范围内设有代理服务机构，公司营销体系网络遍及全国三十余个省市。</p>
           </div>
           <div class="summary-right">
             <img src="../img/1+x实验室.jpg" alt />
@@ -35,7 +31,7 @@
             <h3>公司荣誉</h3>
             <p>HONOR</p>
           </div>
-            <el-carousel :interval="4000" type="card" height="200px">
+            <el-carousel :interval="4000" type="card" height="300px">
                 <el-carousel-item v-for="item in 6" :key="item">
                  <h3 class="medium">{{ item }}</h3>
                 </el-carousel-item>
@@ -83,21 +79,30 @@
                   <p style="font-weight: bold;font-size:20px;margin:10px 0 20px 30px">南京云开数据科技有限公司</p>
                   <li class="leftli">联系人：李经理</li>
                   <li class="leftli">手机：18651837835</li>
-                  <li class="leftli">邮箱：88888@qq.com</li>
+                  <li class="leftli">suesu11@qq.com</li>
                 </ul>
                 <!-- 地区联系右列 -->
                 <ul style="border: 3px solid red;width:40%;height:210px;float:left;margin-left:100px">
                   <ul class="rightul" style="margin-left:40px">
                     <li class="rightli">地区</li>
                     <li class="rightli">南京</li>
+                    <li class="rightli">杭州</li>
+                    <li class="rightli">长沙</li>
+                    <li class="rightli">西安</li>
                   </ul>
                   <ul class="rightul" style="margin-left:120px">
                     <li class="rightli">联系人</li>
-                    <li class="rightli">李松林</li>
+                    <li class="rightli">伍芳</li>
+                    <li class="rightli">黄山</li>
+                    <li class="rightli">张雷</li>
+                    <li class="rightli">刘义扬</li>
                   </ul>
                   <ul class="rightul" style="margin-left:120px">
                     <li class="rightli" style="margin-left:15px">联系方式</li>
-                    <li class="rightli">18651837835</li>
+                    <li class="rightli">18507227150</li>
+                    <li class="rightli">18268314670</li>
+                    <li class="rightli">15574478482</li>
+                    <li class="rightli">15515558657</li>
                   </ul>
                 </ul>
               </div>

@@ -16,7 +16,7 @@
         >
           <el-menu-item index="/productcase/xlab">
             <i class="el-icon-menu"></i>
-            <span slot="title">1+x实验室</span>
+            <span slot="title">江苏经贸职业技术学院</span>
           </el-menu-item>
 
         </el-menu>
@@ -33,7 +33,7 @@ export default {
   data: () => {
     return {
       isCollapse: false,
-      breadList: ["产品案例"]
+      breadList: ["项目案例"]
     };
   },
   //监听路由变化，更改菜单activeIndex值
@@ -46,11 +46,11 @@ export default {
   methods: {
     //动态刷新面包屑
     getPath() {
-      this.breadList = ["产品案例"];
+      this.breadList = ["项目案例"];
       switch (this.$route.path) {
         //1+x实验室
         case "/productcenter/xlab":
-          this.breadList.push("1+x实验室");
+          this.breadList.push("江苏经贸职业技术学院");
           break;
       }
       console.log(this.$route.path, this.breadList);
