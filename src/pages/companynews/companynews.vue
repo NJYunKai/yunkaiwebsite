@@ -19,10 +19,10 @@
             <span slot="title">公司动态</span>
           </el-menu-item>
 
-          <!-- <el-menu-item index="/companynews/fieldnews">
+          <el-menu-item index="/companynews/fieldnews">
             <i class="el-icon-setting"></i>
             <span slot="title">行业新闻</span>
-          </el-menu-item> -->
+          </el-menu-item>
         </el-menu>
       </div>
       <div class="r-white r-width944">
@@ -57,9 +57,9 @@ export default {
           this.breadList.push("公司动态");
           break;
         //行业新闻
-        // case "/companynews/fieldnews":
-        //   this.breadList.push("行业新闻");
-        //   break;
+        case "/companynews/fieldnews":
+          this.breadList.push("行业新闻");
+          break;
       }
       console.log(this.$route.path, this.breadList);
     }

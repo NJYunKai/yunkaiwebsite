@@ -7,19 +7,9 @@
       <el-main>
         <!-- 轮播图   -->
         <div class="banner">
-          <el-carousel height="400px">
-            <el-carousel-item>
-              <!-- <img src="item.idView" class="image"/> -->
-              <img src="../static/img/homecarousel-1.png" />
-            </el-carousel-item>
-            <el-carousel-item>
-              <img src="../static/img/homecarousel-2.png"/>
-            </el-carousel-item>
-            <el-carousel-item>
-              <img src="../static/img/homecarousel-3.png"/>
-            </el-carousel-item>
-            <el-carousel-item>
-              <img src="../static/img/homecarousel-4.png"/>
+          <el-carousel>
+            <el-carousel-item v-for="item in 4" :key="item">
+              <h3>{{ item }}</h3>
             </el-carousel-item>
           </el-carousel>
         </div>
@@ -47,6 +37,13 @@ export default {
   name: "app",
   data: function() {
     return {
+      // swiperOption: {
+      //   notNextTick: true,
+      //   pagination: ".swiper-pagination",
+      //   paginationClickable: true,
+      //   autoplay: 4000,
+      //   width: window.innerWidth
+      // },
       banners: [banner_01, banner_02],
       imgHeight: 0,
       num: "1"
@@ -80,13 +77,15 @@ export default {
   margin: 0;
 }
 
-// .banner .el-carousel__item:nth-child(2n) {
-//   background-image: url(/static/img/header.png);
-// }
+.banner .el-carousel__item:nth-child(2n) {
+  //background-color: #99a9bf;
+  background-image: url(/static/img/header.png);
+}
 
-// .banner .el-carousel__item:nth-child(2n + 1) {
-//     background-image: url(/static/img/bg-topbackground.png);
-// }
+.banner .el-carousel__item:nth-child(2n + 1) {
+  // background-color: blue;
+    background-image: url(/static/img/bg-topbackground.png);
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -100,8 +99,5 @@ export default {
 }
 .el-main {
   padding: 0;
-}
-.el-carousel__container{
-  height: 600px;
 }
 </style>
