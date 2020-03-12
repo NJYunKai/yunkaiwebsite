@@ -17,23 +17,7 @@
 
             <p style="margin-left:40px">&nbsp; &nbsp;物流管理专业1+X考点实训室环境及智能化实训室</p>
 
-            <p style="margin-left:30px">&nbsp; &nbsp;“人工智能冷链物流”实训室</p><br> &nbsp;<br> 
-            
-            <!-- <div style="text-align: center;">
-                <img src="../img/cooperation.png" width="534" height="273" alt="">
-            </div> <br>
-            <p>&nbsp;&nbsp;2017年12月16日，江苏经贸职业技术学院与柬埔寨工业技术学院达成金边基地共建合作协议。中方薛茂云院长与柬方MOAN SAM OEURN院长共同签署了合作协议。</p><br> &nbsp;<br><br>
-            
-            <div style="text-align: center;">
-                <img src="../img/active.png" width="534" height="273" alt="">
-            </div> <br>
-             <p style="margin-left:150px">&nbsp;&nbsp;2019年4月26日，江苏经贸职业技术学院在金边基地举办国家职业教育移动商务专业教学资源库在海外的应用推广活动。</p><br> &nbsp;<br><br>
-
-            <div style="text-align: center;">
-                <img src="../img/meeting.png" width="546" height="298" alt="" style="padding-right: 0px;">
-            </div> <br>
-             <p style="margin-left:400px">&nbsp;&nbsp;2019年11月17日，金边基地召开二期建设工作会议。</p><br> &nbsp;<br><br> -->
-            
+            <p style="margin-left:30px">&nbsp; &nbsp;“人工智能冷链物流”实训室</p><br> &nbsp;<br>
 		</div>
 	  </div>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="go-in">
-    <banner img="../img/1+x实验室.jpg" title="走进科建" />
+    <banner img="../img/xlab-4.jpg" title="走进云开" />
     <div class="section" v-loading="loading">
       <div class="section-content">
         <div class="content-summary">
@@ -16,7 +16,7 @@
             <p class="content">公司总部设在南京，在杭州、郑州、西安、长沙、合肥、等地设有办事处；并在全国范围内设有代理服务机构，公司营销体系网络遍及全国三十余个省市。</p>
           </div>
           <div class="summary-right">
-            <img src="../img/1+x实验室.jpg" alt />
+            <img src="../img/xlab-4.jpg" alt />
           </div>
         </div>
 

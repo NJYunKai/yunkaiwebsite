@@ -1451,6 +1451,7 @@ strong {
     word-break: keep-all;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .disperse {

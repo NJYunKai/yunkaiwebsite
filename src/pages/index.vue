@@ -29,19 +29,18 @@
                 <p class="case-content">其中包括智能制造实训室、物流管理专业1+X考点实训室环境及智能化实训室、“人工智能冷链物流”实训室等</p>
               </div>
             </router-link>
-          
-          <a
-            href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=36"
-            title
-          >
-            <div class="case-frame-list">
-              <div class="case-frame-img">
-                <img src="http://www.creditstate.cn/uploadfile/2019/1206/20191206032635548.png" alt />
+
+            <router-link to="/productcase/gongshang" class="sub-link">
+              <div class="case-frame-list">
+                <div class="case-frame-img">
+                  <img src="./img/gongshang-1.jpg" alt />
+                </div>
+                <h3 class="case-title">浙江工商大学</h3>
+                <p class="case-content">浙江工商大学物联网实践与智能体验实验室</p>
               </div>
-              <h3 class="case-title">金融机构</h3>
-              <p class="case-content">创新研发金融科技产品，为金融机构（非银和中介机构）提供专业精准的贷前、贷后服务，提升机构金融防范风险能力和业务效率</p>
-            </div>
-          </a>
+            </router-link>
+          
+
           <a
             href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=37"
             title
@@ -79,23 +78,23 @@
             <el-carousel :interval="4000" type="card" height="300px">
 
               <el-carousel-item class="newscompany">
-                <img src="/static/img/homecarousel-2.png" />
-                <h2 class="medium" style="margin:10px 0 0 200px">一带一路顺利裁剪</h2>
+                <img src="/static/img/companynews-5.png" class="newsimg" />
+                <h2 class="medium" style="margin:10px 0 0 200px">协同育人申报指南发布</h2>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
-                <img src="/static/img/homecarousel-1.png" />
+                <img src="/static/img/companynews-2.png" class="newsimg" />
                 <h2 class="medium" style="margin:10px 0 0 200px">物联网大会成功召开</h2>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
-                <img src="/static/img/homecarousel-3.png" />
-                <h2 class="medium" style="margin:10px 0 0 200px">智能智造实验室验收</h2>
+                <img src="/static/img/companynews-3.png" class="newsimg" />
+                <h2 class="medium" style="margin:10px 0 0 200px">一带一路电商谷剪彩</h2>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
-                <img src="/static/img/homecarousel-4.png" />
-                <h2 class="medium" style="margin:10px 0 0 200px">协同育人申报指南发布</h2>
+                <img src="/static/img/companynews-4.png" class="newsimg" />
+                <h2 class="medium" style="margin:10px 0 0 200px">智能制造实训室顺利验收</h2>
               </el-carousel-item>
             </el-carousel>
 
@@ -106,37 +105,37 @@
               <span class="ne-cont-bigfat">行业新闻</span>
               <span class="ne-cont-twofat">Industry&nbsp;news</span>
               <span class="ne-cont-threefat ne-cont-threefat-style">
-                <router-link to="/companynews/fieldnews" class="link">更多</router-link>
+                <!-- <router-link to="/companynews/fieldnews" class="link">更多</router-link> -->
               </span>
             </div>
             <!-- 左列 -->
             <ul class="ne-cont-ground">
               <li class="ne-cont-text">
-                <a href="https://mp.weixin.qq.com/s/ZYPa44QJd8GZA4AzTPsiyQ" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;黄奇帆：中国央行会是全球第一个推出数字货币的央行</span>
+                <a href="https://mp.weixin.qq.com/s/ttyZQhSQAQyUqZ8FeX06bA" title>
+                  <span class="ne-cont-text-style">·&nbsp;&nbsp;应用型本科高校和职业教育本科高校提前招生</span>
                 </a>
-                <span class="ne-cont-text-other">2019-11-21</span>
+                <span class="ne-cont-text-other">2020-03-12</span>
               </li>
               <li class="ne-cont-text ne-cont-text-right">
-                <a href="https://mp.weixin.qq.com/s/WaGwljsJ-GVW3mWOgBAiSw" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;重磅！ETC欠费超30日将上报个人征信</span>
+                <a href="https://mp.weixin.qq.com/s/tQn7KNV2QRzFe1RhGFMK4w" title>
+                  <span class="ne-cont-text-style">·&nbsp;&nbsp;重磅！科技部发文：支持再建四个人工智能国家试验区！</span>
                 </a>
-                <span class="ne-cont-text-other">2019-11-21</span>
+                <span class="ne-cont-text-other">2020-03-10</span>
               </li>
             </ul>
             <!-- 右列 -->
             <ul class="ne-cont-ground">
               <li class="ne-cont-text">
-                <a href="https://mp.weixin.qq.com/s/ZYPa44QJd8GZA4AzTPsiyQ" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;黄奇帆：中国央行会是全球第一个推出数字货币的央行</span>
+                <a href="https://mp.weixin.qq.com/s/6RPeOMBn9PgHk-gWxts7NA" title>
+                  <span class="ne-cont-text-style">·&nbsp;&nbsp;1+X职业技能等级证书编码规则及样式发布！</span>
                 </a>
-                <span class="ne-cont-text-other">2019-11-21</span>
+                <span class="ne-cont-text-other">2020-03-11</span>
               </li>
               <li class="ne-cont-text ne-cont-text-right">
-                <a href="https://mp.weixin.qq.com/s/WaGwljsJ-GVW3mWOgBAiSw" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;重磅！ETC欠费超30日将上报个人征信</span>
+                <a href="https://mp.weixin.qq.com/s/FvD7UmkdX30tulx5kRBgwQ" title>
+                  <span class="ne-cont-text-style">·&nbsp;&nbsp;里程碑：国内5G NB-IoT连接数突破1亿，大连接加速到来</span>
                 </a>
-                <span class="ne-cont-text-other">2019-11-21</span>
+                <span class="ne-cont-text-other">2019-03-11</span>
               </li>
             </ul>
           </div>
@@ -151,7 +150,7 @@
         <p class="product-header-text">Cooperative&nbsp;partner</p>
         <p class="product-pic new-pic"></p>
         <p class="product-header-slogan new-header-slogan">凝聚八方之力，共建云开未来</p>
-        <div class="product-box">
+        <div class="product-box" style="background:white">
           <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
 
             <a href="javascript:;" class="product-roll">
@@ -163,7 +162,7 @@
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-3.png"  />
+              <img src="./img/cooperationschool-5.png"  />
             </a>
 
             <a href="javascript:;" class="product-roll">
@@ -171,7 +170,7 @@
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-5.png"  />
+              <img src="./img/cooperationschool-10.png"  />
             </a>
 
             <a href="javascript:;" class="product-roll">
@@ -190,8 +189,8 @@
               <img src="./img/cooperationschool-9.png"  />
             </a>
 
-            <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-10.png" />
+            <a href="javascript:;" class="product-roll" style="width:170px">
+              <img src="./img/cooperationschool-14.png" style="width:170px" />
             </a>
 
             <a href="javascript:;" class="product-roll">
@@ -206,8 +205,8 @@
               <img src="./img/cooperationschool-13.png"  />
             </a>
 
-            <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-14.png"  />
+            <a href="javascript:;" class="product-roll" style="width:200px;margin-left:0px" >
+              <img src="./img/cooperationschool-3.png" style="width:200px" />
             </a>
           </div>
 
@@ -222,7 +221,7 @@
         <p class="product-header-text">Cooperative&nbsp;partner</p>
         <p class="product-pic new-pic"></p>
         <p class="product-header-slogan new-header-slogan">凝聚八方之力，共建云开未来</p>
-        <div class="product-box">
+        <div class="product-box" style="background:white">
           <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
 
             <a href="javascript:;" style="display: inline-block;float: left;width: 300px;margin: 5px 23px;text-align: center;">
@@ -233,16 +232,16 @@
               <img src="./img/cooperationcompany-2.png" />
             </a>
 
-            <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationcompany-3.png"  />
+            <a href="javascript:;" class="product-roll" style="width:200px">
+              <img src="./img/cooperationcompany-3.png" style="width:200px" />
             </a>
 
             <a href="javascript:;" class="product-roll">
               <img src="./img/cooperationcompany-4.png"  />
             </a>
 
-            <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationcompany-5.png"  />
+            <a href="javascript:;" class="product-roll" style="width:250px">
+              <img src="./img/cooperationcompany-5.png" style="width:250px" />
             </a>
           </div>
         </div>
@@ -271,6 +270,13 @@ export default {
 </script>
 
 <style lang="less" scoped>
+  .news-carousel{
+    height: 246px;
+  }
+
+  .newsimg{
+    margin-left: 50px;
+  }
 
 
    .news-carousel .el-carousel__item  h3 {
