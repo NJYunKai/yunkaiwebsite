@@ -8,7 +8,7 @@ import './public/style/reset.less';
 import './public/style/common.less';
 import './public/style/iconfont.css';
 import App from './App';
-
+import 'animate.css'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 

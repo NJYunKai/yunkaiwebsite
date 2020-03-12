@@ -1,0 +1,23 @@
+    .news .content-background-dark {
+        background-color: rgba(38, 39, 50, 0.6);
+    }
+
+    .news .content-background-white {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .news .content-background-blue {
+        background-color: rgba(59, 51, 239, 0.16);
+    }
+
+    .news .content-background-green {
+        background-color: rgba(18, 11, 186, 0.25);
+    }
+
+    .news .content-1 {
+        /* background-color: rgba(38, 39, 50, 0.6); */
+        width: 1400px;
+        margin: 0 auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }

@@ -6,15 +6,15 @@
       </el-header>
       <el-main>
         <!-- 轮播图   -->
-        <div class="banner">
+        <!-- <div class="banner">
           <el-carousel>
             <el-carousel-item v-for="item in 4" :key="item">
               <h3>{{ item }}</h3>
             </el-carousel-item>
           </el-carousel>
-        </div>
+        </div>-->
         <div class="content_bg">
-        <router-view v-on:setNav="setNavigationNum" />
+          <router-view v-on:setNav="setNavigationNum" />
         </div>
       </el-main>
       <el-footer>
@@ -31,7 +31,10 @@ import banner_02 from "./public/img/banner_02.jpg";
 import header from "./components/header/header";
 import footer from "./components/footer/footer";
 // import "swiper/dist/css/swiper.css";
+import "../static/css/style.css";
 import "../static/css/index.css";
+import "../static/css/yunkai.css"
+
 // import { swiper, swiperSlide } from "vue-awesome-swiper";
 export default {
   name: "app",
@@ -84,7 +87,7 @@ export default {
 
 .banner .el-carousel__item:nth-child(2n + 1) {
   // background-color: blue;
-    background-image: url(/static/img/bg-topbackground.png);
+  background-image: url(/static/img/bg-topbackground.png);
 }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
