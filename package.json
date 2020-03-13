@@ -6,11 +6,11 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --host 0.0.0.0 --progress --config build/webpack.dev.conf.js",
-    "build:prod": "cross-env NODE_ENV=production env_config=prod node build/build.js",
     "start": "npm run dev",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "cross-env": "^7.0.2",
     "element-ui": "^2.13.0",
     "iview": "^2.7.3",
     "vue": "^2.5.2",
