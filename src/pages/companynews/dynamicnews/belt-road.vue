@@ -52,22 +52,16 @@
                     <div class="content-1" style="width:800px">
                         <div class="r-news">
                             <div class="r-news-content">
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 300px">
-                                        南京云开-教育部
-                                </div>
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 170px">
-                                        产教融合协同育人项目申报指南发布
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 100px">
+                                    中柬一带一路电商谷柬埔寨金边基地顺利落成
                                 </div>
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <div setsid="article250">
-                                        <p style="margin:0 40px 0 40px;text-indent:2em;">自2018年起，南京云开数据科技有限公司持续开展教育部产学合作协同育人项目。本公司所支持的核心领域包括但不局限于："人工智能"、“物联网”、“嵌入式”、“微电子”、“云计算”、“电子通信”、“自动化”、“大数据”、“机器人”、“移动商务”等。本公司所支持的学合作协同育人项目包含：新工科建设、教学内容和课程体系改革、师资培训、实践条件和实践基地建设、创新创业教育改革五大类。欢迎各位院校的领导专家如有申报意愿，请联系：黄老师，18268314670。</p><br> &nbsp;<br>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">申报细则可查询 “教育部产学合作协同育人项目平台”（平台网址：http://cxhz.hep.com.cn）。</p><br> &nbsp;<br>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">我公司近期成功申报的项目其中五大类案例：</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（1）2019年第一批 郑州航空工业管理学院，创新创业教育改革项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（2）2019年第一批 南京信息工程大学，实践条件和实践基地建设项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（3）2019年第一批 金陵科技学院，师资培训项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（4）2019年第一批 浙江师范大学，教学内容和课程体系改革项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（5）2019年第一批 上海电机学院，新工科建设项目</p>
+                                        <p style="margin:0 40px 0 40px;text-indent:2em;">“一带一路”电商谷（金边）基地（简称“金边基地”）落地在柬埔寨柬埔寨工业技术学院，教学由电商谷南京分中心（江苏经贸职业技术学院）对口支撑，海外建设部分由南京云开数据科技有限公司投入。</p><br> &nbsp;<br>
+                                        <img src="../../../../static/img/cooperation.png" style="margin-left:200px;width:400px" />
+                                        <p style="margin:0 40px 0 40px;text-indent:2em">金边基地于2017年12月16日达成合作， 2019年4月26日简称并投入使用。金边基地根据柬埔寨的实际情况，第一阶段以信息技术应用普及为重点，成功举办了国家职业教育移动商务专业教学资源库在海外的应用推广活动。</p><br> &nbsp;<br>
+                                        <p style="margin:0 40px 0 40px;text-indent:2em">2019年11月17日，金边基地相关建设方在金边召开了二期建设工作会议，确定了2020年工作规划，并与柬埔寨泰州商会组织的本地企业达成了开发本地电商平台的合作意向。</p><br> &nbsp;<br>
+                                        <img src="../../../../static/img/companynews-3.png" style="margin-left:200px" />
                                     </div>
                                 </div>
                             </div>
@@ -79,8 +73,6 @@
 
     </div>
 </template>
-
-
 
 <style>
 

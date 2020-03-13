@@ -39,9 +39,6 @@ export default {
           this.breadList.push("公司动态");
           break;
         //行业新闻
-        case "/companynews/fieldnews":
-          this.breadList.push("行业新闻");
-          break;
       }
       console.log(this.$route.path, this.breadList);
     }

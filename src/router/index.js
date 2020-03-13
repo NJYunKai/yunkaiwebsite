@@ -43,6 +43,11 @@ export default new Router({
           name: '/gongshang',
           component: () => import('../pages/productcase/gongshang/gongshang.vue')
         },
+        {
+          path: '/productcase/dianji',
+          name: '/dianji',
+          component: () => import('../pages/productcase/dianji/dianji.vue')
+        },
       ]
     },
     //协同育人路由引用定义
@@ -94,6 +99,21 @@ export default new Router({
           path: '/companynews/1+x',
           name: '1+x',
           component: () => import('../pages/companynews/dynamicnews/1+x.vue')
+        },
+        {
+          path: '/companynews/belt-road',
+          name: 'belt-road',
+          component: () => import('../pages/companynews/dynamicnews/belt-road.vue')
+        },
+        {
+          path: '/companynews/iotmeeting',
+          name: 'iotmeeting',
+          component: () => import('../pages/companynews/dynamicnews/iotmeeting.vue')
+        },
+        {
+          path: '/companynews/jingmao-lab',
+          name: 'jingmao-lab',
+          component: () => import('../pages/companynews/dynamicnews/jingmao-lab')
         }
       ]
     },

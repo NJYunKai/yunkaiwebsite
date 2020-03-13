@@ -4,7 +4,7 @@
         <div>
             <!-- 侧边导航栏 -->
                 <div class="r-side">
-                <router-link to="/companynews/dynamicnews">
+                <router-link to="/productcase/xlab">
                     <div class="focuses">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
@@ -14,7 +14,7 @@
                     </div>
                     </div>
                 </router-link>
-                <router-link to="/services/labsolutions_blockchain">
+                <router-link to="/productcase/gongshang">
                     <div class="focuses">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
@@ -24,7 +24,7 @@
                     </div>
                     </div>
                 </router-link>
-                <router-link to="/services/labsolutions_ai">
+                <router-link to="/productcase/dianji">
                     <div class="focuses">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
