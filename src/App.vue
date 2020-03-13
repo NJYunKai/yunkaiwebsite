@@ -21,12 +21,11 @@
 <script>
 import banner_01 from "./public/img/banner_01.jpg";
 import banner_02 from "./public/img/banner_02.jpg";
-//import banner_03 from "./public/img/banner_02.jpg";
 import header from "./components/header/header";
 import footer from "./components/footer/footer";
-// import "swiper/dist/css/swiper.css";
 import "../static/css/index.css";
-// import { swiper, swiperSlide } from "vue-awesome-swiper";
+import "../static/css/style.css";
+import "../static/css/yunkai.css"
 export default {
   name: "app",
   data: function() {
