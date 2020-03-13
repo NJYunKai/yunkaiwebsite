@@ -1147,7 +1147,7 @@ strong {
     /* opacity: 1; */
     /* margin: 0px auto;
     max-width: 1200px; */
-    padding: 2px;
+    /* padding: 2px; */
     overflow: hidden;
 }
 
@@ -1308,7 +1308,8 @@ strong {
     float: left;
     border-radius: 5px;
 }
-.r-side:hover{
+
+.r-side:hover {
     /* display:; */
     /* box-shadow: 12px 11px 20px 4px rgba(0, 0, 0, 1); */
 }

@@ -81,7 +81,7 @@
         <ul class="list">
           <li>
             <!--<a href="javascript:;">招贤纳士</a>-->
-            <router-link to="/offers" class="link">招贤纳士</router-link>
+            <!-- <router-link to="/offers" class="link">招贤纳士</router-link> -->
           </li>
         </ul>
         <!-- 第六列 -->
