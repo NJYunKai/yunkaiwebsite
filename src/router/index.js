@@ -241,14 +241,6 @@ export default new Router({
           component: () => import('../pages/construction/electronic/electronic_de.vue')
         }
       ]
-    },
-    {
-      path: '/offers',
-      name: 'offers',
-      meta: {
-        index: '6'
-      },
-      component: offers
     }
   ]
 })
