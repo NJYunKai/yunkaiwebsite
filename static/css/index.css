@@ -1301,7 +1301,7 @@ strong {
     top: 10%;
     left: 10%;
     /* display: none; */
-    width: 240px;
+    /* width: 240px; */
     float: left;
     border-radius: 5px;
 }

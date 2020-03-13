@@ -857,15 +857,15 @@ section {
 }
 
 .focuses .single-focus1 {
-    width: 180px;
-    height: 180px;
+    width: 6em;
+    height: 6em;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 35px;
-    margin-top: 50px;
+    padding-top: 2em;
+    margin-top: 2em;
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.2);
-    font-size: 2em;
+    font-size: 1em;
     font-weight: bold;
     /*文字粗体*/
     text-align: center;
