@@ -35,8 +35,8 @@
         <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
             <p style="margin:0 40px 0 40px;text-indent:2em">此实验室项目建设主要包括：物联网基础教学实验平台、物联网综合教学实验平台、物联网行业应用体验教学实验部分（智慧农业综合实验平台、智慧交通综合实验平台、无人机综合实验平台）。</p>
             <p style="margin:0 40px 0 40px;text-indent:2em">能够满足物联网工程专业课程如下：《传感器与检测技术》、《RFID识别技术》、《Java程序设计》、《无线传感网络技术与应用》、《嵌入式Linux系统》、《物联网综合应用系统开发》、《Android应用程序开发》、《单片机原理及应用》、《Zigbee技术及应用》、《人工智能技术应用》、《毕业课程设计》、《无人机控制原理及应用》。</p><br> &nbsp;<br> 
-            <img src="../../img/gongshang-1.jpg" width="400px" height="200px" alt="" style="margin-left:50px">
-            <img src="../../img/gongshang-2.jpg" width="400px" height="200px" alt="" style="margin-left:40px">
+            <img src="../../../../static/img/gongshang-1.jpg" width="400px" height="200px" alt="" style="margin-left:50px">
+            <img src="../../../../static/img/gongshang-2.jpg" width="400px" height="200px" alt="" style="margin-left:40px">
         </div><br> &nbsp;<br> 
     
     </div>
