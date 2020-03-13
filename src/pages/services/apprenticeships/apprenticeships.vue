@@ -55,7 +55,7 @@
       </div>
       <div class="content-background-white">
         <div class="content-1">
-          <!-- <img src="/static/img/labsolution_iot_title.png" />>
+          <!-- <img src="/static/img/labsolution_iot_title.png" /
           <img src="/static/img/labsolution_iot1.png" />-->
           <img src="/static/img/apprenticeships2.png" />
           <!-- <img src="/static/img/labsolution_iot3.png" /> -->
@@ -63,7 +63,7 @@
       </div>
       <div class="content-background-blue">
         <div class="content-1">
-          <!-- <img src="/static/img/labsolution_iot_title.png" />>
+          <!-- <img src="/static/img/labsolution_iot_title.png" />
           <img src="/static/img/labsolution_iot1.png" />-->
           <!-- <img src="/static/img/labsolution_iot2.png" /> -->
           <img src="/static/img/apprenticeships3.png" />
