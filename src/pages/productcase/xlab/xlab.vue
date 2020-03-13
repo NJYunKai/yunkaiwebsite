@@ -10,7 +10,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.15s; animation-name: fadeInLeftBig;"
-                        >1+x”试验</div>
+                        >经贸学院</div>
                     </div>
                     </div>
                 </router-link>
@@ -20,7 +20,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.25s; animation-name: fadeInLeftBig;"
-                        >协同育人</div>
+                        >工商大学</div>
                     </div>
                     </div>
                 </router-link>
@@ -30,7 +30,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
-                        >一带一路</div>
+                        >电机学院</div>
                     </div>
                     </div>
                 </router-link>
@@ -49,7 +49,7 @@
             <!-- 内容主体 -->
             <div class="news">
                 <div class="content-background-blue">
-                    <div class="content-1" style="width:800px">
+                    <div class="content-1" style="width:900px">
                         <div class="r-news">
                             <div class="r-news-content">
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 320px">
@@ -85,11 +85,11 @@
 
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <p style="margin:0 40px 0 40px;text-indent:2em">智能制造实训室建设主要包括：智能仓库管控系统、SMT设备联网系统、标准化工单派送e化系统、设备远程监控及运维系统、产线智能化系统、设备健康监诊系统、水下巡检机器人等满足物联网应用技术、应用电子技术专业教学任务的软硬件设备。</p><br> &nbsp;<br> 
-                                    <img src="../../../../static/img/xlab-3.jpg" width="400px" height="200px" alt="" style="margin-left:50px">
-                                    <img src="../../../../static/img/xlab-1.jpg" width="400px" height="200px" alt="" style="margin-left:40px">
+                                    <img src="../../../../static/img/xlab-3.jpg" width="400px" height="200px" alt="" style="margin-left:50px;float:left">
+                                    <img src="../../../../static/img/xlab-1.jpg" width="400px" height="200px" alt="" style="margin-left:40px;float:left">
                                 </div><br> &nbsp;<br> 
 
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;margin-top: 200px;">
                                     <p style="margin:0 40px 0 40px;text-indent:2em">物流管理专业1+X考点实训室环境及智能化实训室建设主要包括：物流管理专业微课系统、实验室云桌面系统、智能化环境建设，既能够满足物流管理学生进行“1+x”实训以及考试，又能够满足在校学生的机房实训教学。</p><br> &nbsp;<br> 
                                     <img src="../../../../static/img/xlab-4.jpg" width="400px" height="200px" alt="" style="margin-left:300px">
                                 </div><br> &nbsp;<br> 
