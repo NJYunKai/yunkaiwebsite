@@ -53,7 +53,7 @@
                         <div class="r-news">
                             <div class="r-news-content">
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 320px">
-                                    浙江工商大学
+                                    上海电机学院
                                 </div>
 
                                  <h1 style="display:block;font-family:Microsoft YaHei;font-size:24px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 20px">
@@ -63,7 +63,8 @@
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <div setsid="article250">
 
-                                        <p style="margin-left:40px">&nbsp; &nbsp;物联网实践与智能体验实验室</p>
+                                        <p style="margin-left:40px">&nbsp; &nbsp;开放式专业竞赛与实践实验室</p>
+                                        <p style="margin-left:40px">&nbsp; &nbsp;物联网综合创新实验室</p>
 
                                     </div>
                                 </div>
@@ -73,8 +74,8 @@
                                 </h1>
 
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
-                                    <p style="margin:0 40px 0 40px;text-indent:2em">浙江工商大学物联网工程专业面向国家战略性新兴信息产业发展需要，以计算机网络为基础、信息网络为平台，突出电子技术、物联网感知技术、物联网控制技术、物联网编程技术、物联网技术开发与应用、物联网智能信息处理等；做到基础知识与前沿技术、理论方法与实践技能相结合。 </p>
-                                    <p style="margin:0 40px 0 40px;text-indent:2em">主要专业课程：电路与电子技术（上、中、下）、单片机技术综合、信号与系统、物联网体系结构、计算机网络、自动控制原理、感测技术、RFID技术及应用等。</p>
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">学校成立于1953年，由原第一机械工业部电器工业管理局筹建，并由上海中学、上海工业学校、国立上海高级机械职业学校部分师生组建而成。 </p>
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">学校长期紧贴先进制造业行业发展，致力于建设以区域经济社会发展需求为导向的科学研究和社会服务体系。学校“大锻件制造技术工程中心”被列入上海市协同创新中心，"大件热制造工程技术研究中心"获批上海市工程技术研究中心,“上海装备制造产业发展研究中心”被列入上海高校人文社会科学重点研究基地。学校在国家自然科学基金、上海市自然科学基金项目上不断取得新进展，获上海市科技进步奖等奖项。学校充分发挥行业优势，与上海电气集团股份有限公司、上海振华重工（集团）股份有限公司、上海临港集团在人才培养、科学研究、基地建设等方面密切合作。学校在长三角地区建有7个技术转移分中心，推进产学研合作向纵深发展。</p>
                                 </div><br> &nbsp;<br> 
 
                                 <h1 style="display:block;font-family:Microsoft YaHei;font-size:24px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 20px">
@@ -82,10 +83,9 @@
                                 </h1>
 
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
-                                    <p style="margin:0 40px 0 40px;text-indent:2em">此实验室项目建设主要包括：物联网基础教学实验平台、物联网综合教学实验平台、物联网行业应用体验教学实验部分（智慧农业综合实验平台、智慧交通综合实验平台、无人机综合实验平台）。</p>
-                                    <p style="margin:0 40px 0 40px;text-indent:2em">能够满足物联网工程专业课程如下：《传感器与检测技术》、《RFID识别技术》、《Java程序设计》、《无线传感网络技术与应用》、《嵌入式Linux系统》、《物联网综合应用系统开发》、《Android应用程序开发》、《单片机原理及应用》、《Zigbee技术及应用》、《人工智能技术应用》、《毕业课程设计》、《无人机控制原理及应用》。</p><br> &nbsp;<br> 
-                                    <img src="../../../../static/img/gongshang-1.jpg" width="400px" height="200px" alt="" style="margin-left:50px">
-                                    <img src="../../../../static/img/gongshang-2.jpg" width="400px" height="200px" alt="" style="margin-left:40px">
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">开放式专业竞赛与实践实验室建设主要由开放式专业竞赛与实践平台组建而成，能够充分满足学生的自主创新综合实验课程，并且支持大学生物联网创新设计竞赛、大学生电子设计竞赛、大学生创新创业竞赛等比赛的日常训练，并且能够借此平台直接参加BriasCom国际公开赛。</p>
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">物联网综合创新实验室建设主要由物联网工程设计实训开发系统组建而成，能够满足上海电机学院物联网工程专业《传感器与检测技术》、《RFID识别技术》、《Java程序设计》、《无线传感网络技术与应用》、《嵌入式Linux系统》、《物联网综合应用系统开发》、《Android应用程序开发》、《单片机原理及应用》、《Zigbee技术及应用》、《人工智能技术应用》、《毕业课程设计》等课程的教学。</p><br> &nbsp;<br> 
+                                    <img src="../../../../static/img/dianji-1.png" width="400px" height="200px" alt="" style="margin-left:50px">
                                 </div><br> &nbsp;<br> 
 
                             </div>
