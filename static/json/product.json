@@ -12,7 +12,7 @@
       "type": 1,
       "name": "智慧商业实训台",
       "title": "智慧商业实训平台 部署于江苏经贸实验室",
-      "imgurl": "/static/img/product_2.jpg",
+      "imgurl": "/static/img/product_2.png",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     },
     {
@@ -20,7 +20,7 @@
       "type": 1,
       "name": "智慧商业实训台",
       "title": "智慧商业实训平台 部署于江苏经贸实验室",
-      "imgurl": "/static/img/product_3.jpg",
+      "imgurl": "/static/img/product_3.png",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }, {
       "id": 4,
@@ -34,14 +34,14 @@
       "type": 2,
       "name": "智慧商业实训台",
       "title": "智慧商业实训平台 部署于江苏经贸实验室",
-      "imgurl": "/static/img/product_2.jpg",
+      "imgurl": "/static/img/product_2.png",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }, {
       "id": 6,
       "type": 2,
       "name": "智慧商业实训台",
       "title": "智慧商业实训平台 部署于江苏经贸实验室",
-      "imgurl": "/static/img/product_3.jpg",
+      "imgurl": "/static/img/product_3.png",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }
   ]
