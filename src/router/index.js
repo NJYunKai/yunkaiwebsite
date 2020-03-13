@@ -48,6 +48,26 @@ export default new Router({
           name: '/dianji',
           component: () => import('../pages/productcase/dianji/dianji.vue')
         },
+        {
+          path: '/productcase/gongmao',
+          name: '/gongmao',
+          component: () => import('../pages/productcase/gongmao/gongmao.vue')
+        },
+        {
+          path: '/productcase/nongye',
+          name: '/nongye',
+          component: () => import('../pages/productcase/nongye/nongye.vue')
+        },
+        {
+          path: '/productcase/shuili',
+          name: '/shuili',
+          component: () => import('../pages/productcase/shuili/shuili.vue')
+        },
+        {
+          path: '/productcase/xinxi',
+          name: '/xinxi',
+          component: () => import('../pages/productcase/xinxi/xinxi.vue')
+        },
       ]
     },
     //协同育人路由引用定义

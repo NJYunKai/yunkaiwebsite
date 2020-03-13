@@ -3,9 +3,9 @@
                                                                   
         <div>
             <!-- 侧边导航栏 -->
-                <div class="r-side">
+            <div class="r-side">
                 <router-link to="/productcase/xlab">
-                    <div class="focuses">
+                    <div class="school">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -14,37 +14,57 @@
                     </div>
                     </div>
                 </router-link>
-                <router-link to="/productcase/gongshang">
-                    <div class="focuses">
+                <router-link to="/productcase/dianji">
+                    <div class="school">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.25s; animation-name: fadeInLeftBig;"
-                        >工商大学</div>
-                    </div>
-                    </div>
-                </router-link>
-                <router-link to="/productcase/dianji">
-                    <div class="focuses">
-                    <div class="col-lg-3 col-sm-6 col-xs-12">
-                        <div
-                        class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
                         >电机学院</div>
                     </div>
                     </div>
                 </router-link>
-                <router-link to="/services/labsolutions_coldchain">
-                    <div class="focuses">
+                <router-link to="/productcase/gongmao">
+                    <div class="school">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div
+                        class="single-focus1 white-bg diffuse-shadow green-line-bottom"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
+                        >工贸学院</div>
+                    </div>
+                    </div>
+                </router-link>
+                <router-link to="/productcase/gongshang">
+                    <div class="school">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
-                        >物联大会</div>
+                        >工商大学</div>
                     </div>
                     </div>
                 </router-link>
-                </div>
+                <router-link to="/productcase/nongye">
+                    <div class="school">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div
+                        class="single-focus1 white-bg diffuse-shadow green-line-bottom"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.55s; animation-name: fadeInLeftBig;"
+                        >农业大学</div>
+                    </div>
+                    </div>
+                </router-link>
+                <router-link to="/productcase/shuili">
+                    <div class="school">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div
+                        class="single-focus1 white-bg diffuse-shadow green-line-bottom"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.65s; animation-name: fadeInLeftBig;"
+                        >水利学院</div>
+                    </div>
+                    </div>
+                </router-link>
+	        </div>
 
             <!-- 内容主体 -->
             <div class="news">
@@ -117,5 +137,16 @@ export default {
     a{
         color: red;
     }
+    .school .single-focus1{
+        width: 60px;
+        height: 60px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 15px;
+        margin-top: 50px;
+        border-radius: 50%;
+        margin: 0px;
+        background: rgba(1, 1, 2, 0.54);
+    }   
 
 </style>

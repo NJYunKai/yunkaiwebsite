@@ -5,7 +5,7 @@
             <!-- 侧边导航栏 -->
             <div class="r-side">
                 <router-link to="/companynews/dynamicnews">
-                    <div class="focuses">
+                    <div class="comnews">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -15,7 +15,7 @@
                     </div>
                 </router-link>
                 <router-link to="/companynews/dynamicnews">
-                    <div class="focuses">
+                    <div class="comnews">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -25,7 +25,7 @@
                     </div>
                 </router-link>
                 <router-link to="/companynews/dynamicnews">
-                    <div class="focuses">
+                    <div class="comnews">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -35,7 +35,7 @@
                     </div>
                 </router-link>
                 <router-link to="/companynews/dynamicnews">
-                    <div class="focuses">
+                    <div class="comnews">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -190,4 +190,15 @@
         color: red;
     }
 
+    .comnews .single-focus1{
+        width: 100px;
+        height: 100px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 26px;
+        margin-top: 50px;
+        border-radius: 50%;
+        margin: 0px;
+        background: rgba(1, 1, 2, 0.54);
+    }  
 </style>

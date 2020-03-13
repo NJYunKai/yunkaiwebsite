@@ -73,7 +73,7 @@
                         <div class="r-news">
                             <div class="r-news-content">
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 320px">
-                                    江苏经贸职业技术学院
+                                    湖南农业大学
                                 </div>
 
                                  <h1 style="display:block;font-family:Microsoft YaHei;font-size:24px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 20px">
@@ -83,11 +83,8 @@
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <div setsid="article250">
 
-                                        <p style="margin-left:40px">&nbsp; &nbsp;智能制造实训室</p>
+                                        <p style="margin-left:40px">&nbsp; &nbsp;物联网教学综合实验室</p>
 
-                                        <p style="margin-left:40px">&nbsp; &nbsp;物流管理专业1+X考点实训室环境及智能化实训室</p>
-
-                                        <p style="margin-left:30px">&nbsp; &nbsp;“人工智能冷链物流”实训室</p><br> &nbsp;<br>
                                     </div>
                                 </div>
 
@@ -96,7 +93,9 @@
                                 </h1>
 
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
-                                    <p style="margin:0 40px 0 40px;text-indent:2em">江苏经贸职业技术学院始建于1952年苏南镇江商业学校，几经改制与整合，2002年由江苏商业管理干部学院和江苏省商业学校改建成为高职院校，主要为商贸和现代服务业培养高素质技术技能型的人才。2005年学校以“优秀”等级通过教育部“高职高专人才培养工作水平评估”，2007年入选江苏省首批示范性高职院校建设单位，2010年入选国家示范（骨干）高职院校建设单位，2015年以“优秀”等级通过教育部、财政部验收，2017年入选江苏省高水平高职院校建设单位，2018年入选江苏省卓越高职院校建设单位，2019年入选中国特色高水平高职学校建设单位。 </p>
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">湖南农业大学是国家“2011”协同创新中心牵头建设单位，是农业农村部与湖南省人民政府共建大学、全国首批新农村发展研究院试点建设单位、教育部本科教学工作水平评估“优秀”高校、全国文明单位、全国文明校园、湖南省国内一流大学建设高校（A类）。 </p>
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">学校办学始于1903年10月8日创办的修业学堂，周震鳞、黄兴、徐特立、毛泽东等先后在此执教。1951年3月由修业学堂发展而来的湖南省立修业农林专科学校与湖南大学农业学院合并组建湖南农学院，毛泽东主席亲笔题写校名。1994年3月更名为湖南农业大学。  </p>
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">学校与30多个国家的100多所大学及政府机构、国际机构建立了密切联系，与美国俄亥俄州立大学、英国格林威治大学、日本鹿儿岛大学等20多所大学建立了合作办学关系，是湖南省最早开办中外合作办学项目的高校之一。 </p>
                                 </div><br> &nbsp;<br> 
 
                                 <h1 style="display:block;font-family:Microsoft YaHei;font-size:24px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 20px">
@@ -104,19 +103,7 @@
                                 </h1>
 
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
-                                    <p style="margin:0 40px 0 40px;text-indent:2em">智能制造实训室建设主要包括：智能仓库管控系统、SMT设备联网系统、标准化工单派送e化系统、设备远程监控及运维系统、产线智能化系统、设备健康监诊系统、水下巡检机器人等满足物联网应用技术、应用电子技术专业教学任务的软硬件设备。</p><br> &nbsp;<br> 
-                                    <img src="../../../../static/img/xlab-3.jpg" width="400px" height="200px" alt="" style="margin-left:50px;float:left">
-                                    <img src="../../../../static/img/xlab-1.jpg" width="400px" height="200px" alt="" style="margin-left:40px;float:left">
-                                </div><br> &nbsp;<br> 
-
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;margin-top: 200px;">
-                                    <p style="margin:0 40px 0 40px;text-indent:2em">物流管理专业1+X考点实训室环境及智能化实训室建设主要包括：物流管理专业微课系统、实验室云桌面系统、智能化环境建设，既能够满足物流管理学生进行“1+x”实训以及考试，又能够满足在校学生的机房实训教学。</p><br> &nbsp;<br> 
-                                    <img src="../../../../static/img/xlab-4.jpg" width="400px" height="200px" alt="" style="margin-left:300px">
-                                </div><br> &nbsp;<br> 
-
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
-                                    <p style="margin:0 40px 0 40px;text-indent:2em">“人工智能冷链物流”实训室建设主要包括：人工智能冷链拣选机械臂单元、人工智能冷链拣选视觉单元、人工智能冷链拣选语音控制单元、人工智能冷链无人驾驶运输车辆、冷藏、冷冻柜、基于ROS平台的移动协作机器人工作站、人工智能冷链物流数据可视化系统等满足物流管理专业教学任务的软硬件设备</p><br> &nbsp;<br> 
-                                    <img src="../../../../static/img/xlab-5.jpg" width="300px" height="380px" alt="" style="margin-left:320px">
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">物联网教学综合实验室建设主要由物联网多功能一体化教学科研平台组建而成，能够充分满足物联网工程专业所有基础实验课程的开设，并且支持大学生物联网创新设计竞赛等比赛的日常训练，能满足完整建制的专业班级的实验教学任务；能够满足湖南农业大学物联网工程专业《传感器与检测技术》、《RFID识别技术》、《物联网关键技术》、《无线传感网络技术与应用》、《嵌入式Linux系统》、《Android应用程序开发》、《IPV6技术及应用》、《Zigbee技术及应用》、《毕业课程设计》等课程的教学</p><br> &nbsp;<br> 
                                 </div><br> &nbsp;<br> 
                             </div>
                         </div>

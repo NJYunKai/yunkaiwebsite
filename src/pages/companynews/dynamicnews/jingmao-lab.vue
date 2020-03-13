@@ -5,7 +5,7 @@
             <!-- 侧边导航栏 -->
             <div class="r-side">
                 <router-link to="/companynews/dynamicnews">
-                    <div class="focuses">
+                    <div class="comnews">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -15,7 +15,7 @@
                     </div>
                 </router-link>
                 <router-link to="/companynews/dynamicnews">
-                    <div class="focuses">
+                    <div class="comnews">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -25,7 +25,7 @@
                     </div>
                 </router-link>
                 <router-link to="/companynews/dynamicnews">
-                    <div class="focuses">
+                    <div class="comnews">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -35,7 +35,7 @@
                     </div>
                 </router-link>
                 <router-link to="/companynews/dynamicnews">
-                    <div class="focuses">
+                    <div class="comnews">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -61,7 +61,7 @@
                                         <img src="../../../../static/img/companynews-4.png" style="margin-left:200px;width:400px" />
                                         <p style="margin:0 40px 0 40px;text-indent:2em">学院的实验室建设项目负责人对实验室的仪器设备购置情况、经费使用情况、实验课程及实验项目开设使用情况、实验室及设备管理维护情况等相关问题进行了详细汇报。</p><br> &nbsp;<br>
                                         <p style="margin:0 40px 0 40px;text-indent:2em">在认真听取了各项目的建设情况汇报后，验收组针对实验室建设、实验室管理及使用等具体环节进行了提问，详细查阅了实验室建设相关支撑资料、实地查看了实验室现场，对各项目建设成效进行了认真评议，提出实验室下一步管理和使用的意见和建议。本次验收工作对学院抓好实验室建设，提高实验室管理水平，有效用好实验室，做好人才培养工作，具有良好的促进和推动作用。</p><br> &nbsp;<br>
-                                        <img src="../../../../static/img/xlab-2.jpg" style="margin-left:200px;width:400px"" />
+                                        <img src="../../../../static/img/xlab-2.jpg" style="margin-left:200px;width:400px"/>
                                     </div>
                                 </div>
                             </div>
@@ -182,5 +182,17 @@
     a{
         color: red;
     }
+
+    .comnews .single-focus1{
+        width: 100px;
+        height: 100px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 26px;
+        margin-top: 50px;
+        border-radius: 50%;
+        margin: 0px;
+        background: rgba(1, 1, 2, 0.54);
+    } 
 
 </style>

@@ -5,7 +5,7 @@
         <!-- 侧边导航栏 -->
         <div class="r-side">
             <router-link to="/companynews/dynamicnews">
-                <div class="focuses">
+                <div class="comnews">
                 <div class="col-lg-3 col-sm-6 col-xs-12">
                     <div
                     class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -15,7 +15,7 @@
                 </div>
             </router-link>
             <router-link to="/companynews/dynamicnews">
-                <div class="focuses">
+                <div class="comnews">
                 <div class="col-lg-3 col-sm-6 col-xs-12">
                     <div
                     class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -25,7 +25,7 @@
                 </div>
             </router-link>
             <router-link to="/companynews/dynamicnews">
-                <div class="focuses">
+                <div class="comnews">
                 <div class="col-lg-3 col-sm-6 col-xs-12">
                     <div
                     class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -35,7 +35,7 @@
                 </div>
             </router-link>
             <router-link to="/companynews/dynamicnews">
-                <div class="focuses">
+                <div class="comnews">
                 <div class="col-lg-3 col-sm-6 col-xs-12">
                     <div
                     class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -52,8 +52,8 @@
             <div class="content-1" style="width:800px">
                 <div class="lime-content  lime-finance ">
                     <div class="lime-content-left">
-                        <p class="lime-dete-month">1月</p>
-                        <p class="lime-date-day">3日</p>
+                        <p class="lime-dete-month">2019年</p>
+                        <p class="lime-date-day">12月</p>
                     </div>
                     <div class="lime-content-right">
                         <p class="lime-style-one lime-style-margin">
@@ -67,8 +67,8 @@
 
                 <div class="lime-content  lime-finance ">
                     <div class="lime-content-left">
-                        <p class="lime-dete-month">1月</p>
-                        <p class="lime-date-day">3日</p>
+                        <p class="lime-dete-month">2019年</p>
+                        <p class="lime-date-day">11月</p>
                     </div>
                     <div class="lime-content-right">
                         <p class="lime-style-one lime-style-margin">
@@ -82,8 +82,8 @@
 
                 <div class="lime-content  lime-finance ">
                     <div class="lime-content-left">
-                        <p class="lime-dete-month">1月</p>
-                        <p class="lime-date-day">3日</p>
+                        <p class="lime-dete-month">2019年</p>
+                        <p class="lime-date-day">11月</p>
                     </div>
                     <div class="lime-content-right">
                         <p class="lime-style-one lime-style-margin">
@@ -97,8 +97,8 @@
 
                 <div class="lime-content  lime-finance ">
                     <div class="lime-content-left">
-                        <p class="lime-dete-month">1月</p>
-                        <p class="lime-date-day">3日</p>
+                        <p class="lime-dete-month">2020年</p>
+                        <p class="lime-date-day">1月</p>
                     </div>
                     <div class="lime-content-right">
                         <p class="lime-style-one lime-style-margin">
@@ -217,5 +217,17 @@
         color: #EF686D;
         font-size: 14px;
     }
+
+    .comnews .single-focus1{
+        width: 100px;
+        height: 100px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 26px;
+        margin-top: 50px;
+        border-radius: 50%;
+        margin: 0px;
+        background: rgba(1, 1, 2, 0.54);
+    } 
 
 </style>
