@@ -68,7 +68,7 @@
 </template>
 
 <script>
-import json from "/static/json/product.json";
+import json from "../../../../static/json/product.json";
 export default {
   data: () => {
     return {

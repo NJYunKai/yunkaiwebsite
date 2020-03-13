@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="r-news">
     <div class="r-news-content">
       <div class="content-title">
@@ -7,7 +8,7 @@
           <el-breadcrumb-item v-for="(item,i) in breadList" :key="i">{{item}}</el-breadcrumb-item>
         </el-breadcrumb>
       </div>
-      <div class="r-side r-white">
+      <!-- <div class="r-side r-white">
         <el-menu
           :default-active="$route.path"
           class="el-menu-vertical-demo"
@@ -48,11 +49,12 @@
           </el-menu-item>
 
         </el-menu>
-      </div>
+      </div> -->
       <div class="r-white r-width944">
         <router-view></router-view>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -123,15 +125,19 @@ export default {
           this.breadList.push("电子信息");
           break;
       }
-      console.log(this.$route.path, this.breadList);
+      //console.log(this.$route.path, this.breadList);
     }
   }
 };
 </script>
 <style lang="less" scoped>
+.head_background_img {
+  opacity: 0.7;
+  filter: alpha(opacity=40);
+}
 .news {
-  width: 1000px;
-  margin: 0 auto;
+  // width: 1000px;
+  // margin: 0 auto;
   .top {
     position: relative;
     height: 30px;
