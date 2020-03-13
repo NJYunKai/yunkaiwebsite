@@ -1,14 +1,24 @@
 <template>
   <div>
     <!-- 轮播图   -->
-<!--     
+
     <div class="banner">
-      <el-carousel indicator-position="outside">
-        <el-carousel-item v-for="item in 4" :key="item" >
-          <h3>{{ item }}</h3>
+      <el-carousel height="400px">
+        <el-carousel-item>
+          <!-- <img src="item.idView" class="image"/> -->
+          <!-- <img src="../static/img/homecarousel-1.png" /> -->
         </el-carousel-item>
-      </el-carousel>  
-    </div> -->
+        <el-carousel-item>
+          <!-- <img src="../static/img/homecarousel-2.png" /> -->
+        </el-carousel-item>
+        <el-carousel-item>
+          <!-- <img src="../static/img/homecarousel-3.png" /> -->
+        </el-carousel-item>
+        <el-carousel-item>
+          <!-- <img src="../static/img/homecarousel-4.png" /> -->
+        </el-carousel-item>
+      </el-carousel>
+    </div>
 
     <!-- 产品方案修改模块 -->
     <div class="case" router>
@@ -19,27 +29,25 @@
         <p style="clear: both;"></p>
         <p class="product-header-slogan">助力学校实验建设，促进学生实体发展</p>
         <div class="case-frame">
-
-            <router-link to="/productcase/xlab" class="sub-link">
-              <div class="case-frame-list">
-                <div class="case-frame-img">
-                  <img src="./img/xlab-1.jpg" alt />
-                </div>
-                <h3 class="case-title">江苏经贸职院</h3>
-                <p class="case-content">其中包括智能制造实训室、物流管理专业1+X考点实训室环境及智能化实训室、“人工智能冷链物流”实训室等</p>
+          <router-link to="/productcase/xlab" class="sub-link">
+            <div class="case-frame-list">
+              <div class="case-frame-img">
+                <img src="./img/xlab-1.jpg" alt />
               </div>
-            </router-link>
+              <h3 class="case-title">江苏经贸职院</h3>
+              <p class="case-content">其中包括智能制造实训室、物流管理专业1+X考点实训室环境及智能化实训室、“人工智能冷链物流”实训室等</p>
+            </div>
+          </router-link>
 
-            <router-link to="/productcase/gongshang" class="sub-link">
-              <div class="case-frame-list">
-                <div class="case-frame-img">
-                  <img src="./img/gongshang-1.jpg" alt />
-                </div>
-                <h3 class="case-title">浙江工商大学</h3>
-                <p class="case-content">浙江工商大学物联网实践与智能体验实验室</p>
+          <router-link to="/productcase/gongshang" class="sub-link">
+            <div class="case-frame-list">
+              <div class="case-frame-img">
+                <img src="./img/gongshang-1.jpg" alt />
               </div>
-            </router-link>
-          
+              <h3 class="case-title">浙江工商大学</h3>
+              <p class="case-content">浙江工商大学物联网实践与智能体验实验室</p>
+            </div>
+          </router-link>
 
           <a
             href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=37"
@@ -76,7 +84,6 @@
           <!-- 新闻图片文字叙述 -->
           <div class="news-carousel">
             <el-carousel :interval="4000" type="card" height="300px">
-
               <el-carousel-item class="newscompany">
                 <img src="/static/img/companynews-5.png" class="newsimg" />
                 <h2 class="medium" style="margin:10px 0 0 200px">协同育人申报指南发布</h2>
@@ -97,7 +104,6 @@
                 <h2 class="medium" style="margin:10px 0 0 200px">智能制造实训室顺利验收</h2>
               </el-carousel-item>
             </el-carousel>
-
           </div>
           <!-- 行业新闻模块 -->
           <div class="ne-box">
@@ -152,41 +158,40 @@
         <p class="product-header-slogan new-header-slogan">凝聚八方之力，共建云开未来</p>
         <div class="product-box" style="background:white">
           <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
-
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-1.png"  />     
+              <img src="./img/cooperationschool-1.png" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-2.png"  />
+              <img src="./img/cooperationschool-2.png" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-5.png"  />
+              <img src="./img/cooperationschool-5.png" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-4.png"  />
+              <img src="./img/cooperationschool-4.png" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-10.png"  />
+              <img src="./img/cooperationschool-10.png" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-6.png"  />
+              <img src="./img/cooperationschool-6.png" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-7.png"  />
+              <img src="./img/cooperationschool-7.png" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-8.png"  />
+              <img src="./img/cooperationschool-8.png" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-9.png"  />
+              <img src="./img/cooperationschool-9.png" />
             </a>
 
             <a href="javascript:;" class="product-roll" style="width:170px">
@@ -194,22 +199,21 @@
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-11.png"  />
+              <img src="./img/cooperationschool-11.png" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-12.png"  />
+              <img src="./img/cooperationschool-12.png" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationschool-13.png"  />
+              <img src="./img/cooperationschool-13.png" />
             </a>
 
-            <a href="javascript:;" class="product-roll" style="width:200px;margin-left:0px" >
+            <a href="javascript:;" class="product-roll" style="width:200px;margin-left:0px">
               <img src="./img/cooperationschool-3.png" style="width:200px" />
             </a>
           </div>
-
         </div>
       </div>
     </div>
@@ -223,8 +227,10 @@
         <p class="product-header-slogan new-header-slogan">凝聚八方之力，共建云开未来</p>
         <div class="product-box" style="background:white">
           <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
-
-            <a href="javascript:;" style="display: inline-block;float: left;width: 300px;margin: 5px 23px;text-align: center;">
+            <a
+              href="javascript:;"
+              style="display: inline-block;float: left;width: 300px;margin: 5px 23px;text-align: center;"
+            >
               <img src="./img/cooperationcompany-1.png" style="height:150px" />
             </a>
 
@@ -237,7 +243,7 @@
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="./img/cooperationcompany-4.png"  />
+              <img src="./img/cooperationcompany-4.png" />
             </a>
 
             <a href="javascript:;" class="product-roll" style="width:250px">
@@ -247,7 +253,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -258,7 +263,7 @@ import logo_jpg from "./img/logo.jpg";
 export default {
   data: function() {
     return {
-      logo_jpg: logo_jpg,
+      logo_jpg: logo_jpg
     };
   },
   methods: {
@@ -270,30 +275,31 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .news-carousel{
-    height: 246px;
-  }
+.news-carousel {
+  height: 246px;
+}
 
-  .newsimg{
-    margin-left: 50px;
-  }
+.newsimg {
+  margin-left: 50px;
+}
 
+.news {
+  background: url();
+}
+.news-carousel .el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 200px;
+  margin: 0;
+}
+//  .news-carousel .el-carousel__item:nth-child(2n+1) {
+//   // background-image: url(img/1+x展示.jpg);
+//   background-color: red;
+// }
 
-   .news-carousel .el-carousel__item  h3 {
-    color: #475669;
-    font-size: 14px;
-    opacity: 0.75;
-    line-height: 200px;
-    margin: 0;
-  }
-  //  .news-carousel .el-carousel__item:nth-child(2n+1) {
-  //   // background-image: url(img/1+x展示.jpg);
-  //   background-color: red;
-  // }
-
-  //   .news-carousel .el-carousel__item:nth-child(2n) {
-  //   //background-image: url(img/1+x实验室.jpg);
-  //   background-color: blue;
-  // }
-
+//   .news-carousel .el-carousel__item:nth-child(2n) {
+//   //background-image: url(img/1+x实验室.jpg);
+//   background-color: blue;
+// }
 </style>

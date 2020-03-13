@@ -6,23 +6,7 @@
       </el-header>
       <el-main>
         <!-- 轮播图   -->
-        <div class="banner">
-          <el-carousel height="400px">
-            <el-carousel-item>
-              <!-- <img src="item.idView" class="image"/> -->
-              <img src="../static/img/homecarousel-1.png" />
-            </el-carousel-item>
-            <el-carousel-item>
-              <img src="../static/img/homecarousel-2.png"/>
-            </el-carousel-item>
-            <el-carousel-item>
-              <img src="../static/img/homecarousel-3.png"/>
-            </el-carousel-item>
-            <el-carousel-item>
-              <img src="../static/img/homecarousel-4.png"/>
-            </el-carousel-item>
-          </el-carousel>
-        </div>
+
         <div class="content_bg">
         <router-view v-on:setNav="setNavigationNum" />
         </div>
