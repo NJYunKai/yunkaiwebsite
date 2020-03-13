@@ -1308,7 +1308,8 @@ strong {
     float: left;
     border-radius: 5px;
 }
-.r-side:hover{
+
+.r-side:hover {
     /* display:; */
     /* box-shadow: 12px 11px 20px 4px rgba(0, 0, 0, 1); */
 }
