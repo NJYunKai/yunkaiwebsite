@@ -52,22 +52,16 @@
                     <div class="content-1" style="width:800px">
                         <div class="r-news">
                             <div class="r-news-content">
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 300px">
-                                        南京云开-教育部
-                                </div>
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 170px">
-                                        产教融合协同育人项目申报指南发布
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 100px">
+                                    江苏经贸职业技术学院智能制造实训室顺利验收并交付使用
                                 </div>
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <div setsid="article250">
-                                        <p style="margin:0 40px 0 40px;text-indent:2em;">自2018年起，南京云开数据科技有限公司持续开展教育部产学合作协同育人项目。本公司所支持的核心领域包括但不局限于："人工智能"、“物联网”、“嵌入式”、“微电子”、“云计算”、“电子通信”、“自动化”、“大数据”、“机器人”、“移动商务”等。本公司所支持的学合作协同育人项目包含：新工科建设、教学内容和课程体系改革、师资培训、实践条件和实践基地建设、创新创业教育改革五大类。欢迎各位院校的领导专家如有申报意愿，请联系：黄老师，18268314670。</p><br> &nbsp;<br>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">申报细则可查询 “教育部产学合作协同育人项目平台”（平台网址：http://cxhz.hep.com.cn）。</p><br> &nbsp;<br>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">我公司近期成功申报的项目其中五大类案例：</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（1）2019年第一批 郑州航空工业管理学院，创新创业教育改革项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（2）2019年第一批 南京信息工程大学，实践条件和实践基地建设项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（3）2019年第一批 金陵科技学院，师资培训项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（4）2019年第一批 浙江师范大学，教学内容和课程体系改革项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（5）2019年第一批 上海电机学院，新工科建设项目</p>
+                                        <p style="margin:0 40px 0 40px;text-indent:2em;">2019年11月18日下午，实验室与设备管理处组织相关职能部门人员对江苏经贸工业物联网实验室建设项目进行了验收。</p><br> &nbsp;<br>
+                                        <img src="../../../../static/img/companynews-4.png" style="margin-left:200px;width:400px" />
+                                        <p style="margin:0 40px 0 40px;text-indent:2em">学院的实验室建设项目负责人对实验室的仪器设备购置情况、经费使用情况、实验课程及实验项目开设使用情况、实验室及设备管理维护情况等相关问题进行了详细汇报。</p><br> &nbsp;<br>
+                                        <p style="margin:0 40px 0 40px;text-indent:2em">在认真听取了各项目的建设情况汇报后，验收组针对实验室建设、实验室管理及使用等具体环节进行了提问，详细查阅了实验室建设相关支撑资料、实地查看了实验室现场，对各项目建设成效进行了认真评议，提出实验室下一步管理和使用的意见和建议。本次验收工作对学院抓好实验室建设，提高实验室管理水平，有效用好实验室，做好人才培养工作，具有良好的促进和推动作用。</p><br> &nbsp;<br>
+                                        <img src="../../../../static/img/xlab-2.jpg" style="margin-left:200px;width:400px"" />
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +73,6 @@
 
     </div>
 </template>
-
 
 
 <style>

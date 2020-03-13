@@ -864,8 +864,14 @@ section {
     padding-top: 35px;
     margin-top: 50px;
     border-radius: 50%;
-
     background: rgba(0, 0, 0, 0.2);
+    font-size: 2em;
+    font-weight: bold;
+    /*文字粗体*/
+    text-align: center;
+    /*文字居中对齐*/
+    vertical-align: middle;
+    /*垂直居中对齐*/
 }
 
 .focuses .single-focus1 .icon {

@@ -47,18 +47,15 @@
             </div>
           </router-link>
 
-          <a
-            href="http://www.creditstate.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=37"
-            title
-          >
+          <router-link to="/productcase/dianji" class="sub-link">
             <div class="case-frame-list">
               <div class="case-frame-img">
-                <img src="http://www.creditstate.cn/uploadfile/2019/1206/20191206032855390.png" alt />
+                <img src="../../static/img/dianji-1.png" alt />
               </div>
-              <h3 class="case-title">企业</h3>
-              <p class="case-content">创新企业信用评级和风控管理模式，以各地市产业园内中小企业为主体，开展中小企业大数据信用贷评级服务和风险管理服务。</p>
+              <h3 class="case-title">上海电机学院</h3>
+              <p class="case-content">上海电机学院物联网综合创新实验室</p>
             </div>
-          </a>
+          </router-link>
         </div>
       </div>
     </div>

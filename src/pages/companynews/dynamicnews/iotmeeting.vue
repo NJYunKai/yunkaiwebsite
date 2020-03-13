@@ -52,22 +52,17 @@
                     <div class="content-1" style="width:800px">
                         <div class="r-news">
                             <div class="r-news-content">
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 300px">
-                                        南京云开-教育部
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 50px">
+                                        中国物联网大会暨智能技术与智慧商业专委会顺利召开
                                 </div>
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 170px">
-                                        产教融合协同育人项目申报指南发布
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:14px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 100px">
+                                        【关于召开2019全国智能技术与智慧商业专业委员会学术年会暨中国物联网大会数字经济分论坛】
                                 </div>
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <div setsid="article250">
-                                        <p style="margin:0 40px 0 40px;text-indent:2em;">自2018年起，南京云开数据科技有限公司持续开展教育部产学合作协同育人项目。本公司所支持的核心领域包括但不局限于："人工智能"、“物联网”、“嵌入式”、“微电子”、“云计算”、“电子通信”、“自动化”、“大数据”、“机器人”、“移动商务”等。本公司所支持的学合作协同育人项目包含：新工科建设、教学内容和课程体系改革、师资培训、实践条件和实践基地建设、创新创业教育改革五大类。欢迎各位院校的领导专家如有申报意愿，请联系：黄老师，18268314670。</p><br> &nbsp;<br>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">申报细则可查询 “教育部产学合作协同育人项目平台”（平台网址：http://cxhz.hep.com.cn）。</p><br> &nbsp;<br>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">我公司近期成功申报的项目其中五大类案例：</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（1）2019年第一批 郑州航空工业管理学院，创新创业教育改革项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（2）2019年第一批 南京信息工程大学，实践条件和实践基地建设项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（3）2019年第一批 金陵科技学院，师资培训项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（4）2019年第一批 浙江师范大学，教学内容和课程体系改革项目</p>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">（5）2019年第一批 上海电机学院，新工科建设项目</p>
+                                        <p style="margin:0 40px 0 40px;text-indent:2em;">面对当今世界激烈的商业竞争环境，人工智能作为一种颠覆性的科技力量，正在帮助企业去获取最大的竞争优势，这种结合必然会碰撞出无数火花，彻底变革整个商业规则。物联网作为智能商业的“基础设施”，在人工智能、大数据、5G等新技术正在通过物联网的手段赋能商业的变革，使商业正在从“智能+商业”1.0向“IOT+商业”2.0过渡。</p><br> &nbsp;<br>
+                                        <p style="margin:0 40px 0 40px;text-indent:2em">在这场商业的智能化、生态化变革中，高校作为我国原始创新的主渠道和人才培养的主阵地，如何聚焦关键核心技术，整合政府、高校、企业的创新资源，把高校的科技创新与人才培养优势转化为产业发展的优势，为实现中华民族的伟大复兴出力。</p><br> &nbsp;<br>
+                                        <img src="../../../../static/img/companynews-2.png" style="margin-left:200px" />
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +74,6 @@
 
     </div>
 </template>
-
 
 
 <style>
