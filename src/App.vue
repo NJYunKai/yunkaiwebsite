@@ -19,8 +19,6 @@
 </template>
 
 <script>
-import banner_01 from "./public/img/banner_01.jpg";
-import banner_02 from "./public/img/banner_02.jpg";
 import header from "./components/header/header";
 import footer from "./components/footer/footer";
 import "../static/css/index.css";
@@ -30,7 +28,6 @@ export default {
   name: "app",
   data: function() {
     return {
-      banners: [banner_01, banner_02],
       imgHeight: 0,
       num: "1"
     };

@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import router from './router';
 
-import './public/style/icon.css';
+// import './public/style/icon.css';
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
 import './public/style/reset.less';
