@@ -204,7 +204,13 @@ export default new Router({
         path: '/productcase/xlab',
         name: 'xlab',
         component: () => import('../pages/productcase/xlab/xlab.vue')
-      }]
+      },
+        {
+          path: '/productcase/gongshang',
+          name: '/gongshang',
+          component: () => import('../pages/productcase/gongshang/gongshang.vue')
+        },
+    ]
     },
     //协同育人路由引用定义
     {

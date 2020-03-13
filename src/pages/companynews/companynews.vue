@@ -7,24 +7,6 @@
           <el-breadcrumb-item v-for="(item,i) in breadList" :key="i">{{item}}</el-breadcrumb-item>
         </el-breadcrumb>
       </div>
-      <div class="r-side r-white">
-        <el-menu
-          :default-active="$route.path"
-          class="el-menu-vertical-demo"
-          :unique-opened="true"
-          router
-        >
-          <el-menu-item index="/companynews/dynamicnews">
-            <i class="el-icon-menu"></i>
-            <span slot="title">公司动态</span>
-          </el-menu-item>
-
-          <el-menu-item index="/companynews/fieldnews">
-            <i class="el-icon-setting"></i>
-            <span slot="title">行业新闻</span>
-          </el-menu-item>
-        </el-menu>
-      </div>
       <div class="r-white r-width944">
         <router-view></router-view>
       </div>

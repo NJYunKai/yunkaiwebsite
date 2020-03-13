@@ -7,20 +7,6 @@
           <el-breadcrumb-item v-for="(item,i) in breadList" :key="i">{{item}}</el-breadcrumb-item>
         </el-breadcrumb>
       </div>
-      <div class="r-side r-white">
-        <el-menu
-          :default-active="$route.path"
-          class="el-menu-vertical-demo"
-          :unique-opened="true"
-          router
-        >
-          <el-menu-item index="/productcase/xlab">
-            <i class="el-icon-menu"></i>
-            <span slot="title">1+x实验室</span>
-          </el-menu-item>
-
-        </el-menu>
-      </div>
       <div class="r-white r-width944">
         <router-view></router-view>
       </div>
@@ -33,7 +19,7 @@ export default {
   data: () => {
     return {
       isCollapse: false,
-      breadList: ["产品案例"]
+      breadList: ["项目案例"]
     };
   },
   //监听路由变化，更改菜单activeIndex值
@@ -46,11 +32,15 @@ export default {
   methods: {
     //动态刷新面包屑
     getPath() {
-      this.breadList = ["产品案例"];
+      this.breadList = ["项目案例"];
       switch (this.$route.path) {
-        //1+x实验室
-        case "/productcenter/xlab":
-          this.breadList.push("1+x实验室");
+        //公司动态
+        case "/companynews/dynamicnews":
+          this.breadList.push("1+x试验基地");
+          break;
+        //行业新闻
+        case "/companynews/fieldnews":
+          this.breadList.push("1+x试验基地");
           break;
       }
       console.log(this.$route.path, this.breadList);
@@ -58,3 +48,60 @@ export default {
   }
 };
 </script>
+
+<style lang="less" scoped>
+.news {
+  width: 1000px;
+  margin: 0 auto;
+  .top {
+    position: relative;
+    height: 30px;
+    padding: 4px 15px;
+    margin: 18px 0 28px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(179, 27, 36);
+    .text {
+      vertical-align: middle;
+      font-size: 12px;
+    }
+  }
+  .list {
+    .list-left {
+      float: left;
+      width: 200px;
+      color: #010101;
+      text-align: left;
+      .link.active {
+        color: #b31b24;
+      }
+      li {
+        color: 16px;
+        span {
+          padding-left: 27px;
+        }
+        .caret {
+          position: absolute;
+          right: 3rem;
+          top: 1.5rem;
+          border-top: 5px solid transparent;
+          border-right: 5px solid;
+          border-bottom: 5px solid transparent;
+          border-left: 5px solid transparent;
+        }
+      }
+      .line {
+        border-bottom: 1px #e5e3e0 solid;
+        padding-top: 16px;
+        margin-bottom: 16px;
+        width: 80%;
+      }
+    }
+    .list-right {
+      float: left;
+      width: 80%;
+      margin-bottom: 33px;
+    }
+  }
+}
+</style>

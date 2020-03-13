@@ -235,7 +235,7 @@ strong {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 400px;
+    height: 530px;
     margin-left: .7%;
 }
 
@@ -265,7 +265,7 @@ strong {
     overflow: hidden;
     top: 37px;
     width: 1000px;
-    height: 400px;
+    height: 510px;
     margin-left: 2200px;
 }
 
@@ -428,15 +428,15 @@ strong {
 .product-roll {
     display: inline-block;
     float: left;
-    width: 194px;
+    width: 150px;
     margin: 5px 23px;
     text-align: center;
 }
 
 .product-roll img {
     overflow: hidden;
-    width: 194px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
 }
 
 .product-header {
@@ -775,8 +775,8 @@ strong {
 }
 
 .customer {
-    height: 600px;
-    background: rgba(250, 249, 249, 0.9);
+	height: 700px;
+	background: rgba(250, 249, 249, 0.9);
     /* background: url(../img/detail_one/bg.png) no-repeat center; */
 }
 
@@ -1128,25 +1128,25 @@ strong {
 }
 
 .r-news {
-    /* background: #F8F8F8; */
-    background-color: rgba(255, 255, 255, 0);
-    /* padding-bottom: 120px; */
-    width: 100%;
+	/* background: #F8F8F8; */
+	background-color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 120px;
+	width: 100%;
 }
 
 .content_bg {
-    background: url(/static/img/yunkai1.png)no-repeat center top fixed;
+	background: url(/static/img/home-centerbackground.png) no-repeat;
     /* background: url(http://csssecrets.io/images/tiger.jpg) no-repeat; */
     background-size: cover;
     width: 100%;
     height: 100%;
-    position: relative;
+	position: relative;
 }
 
 .r-news-content {
     /* opacity: 1; */
-    /* margin: 0px auto;
-    max-width: 1200px; */
+    margin: 0px auto;
+    max-width: 1200px;
     padding: 2px;
     overflow: hidden;
 }
@@ -1178,14 +1178,10 @@ strong {
     visibility: hidden;
 }
 
-.el-menu {
-    border-right: 0 !important;
-    background: rgba(116, 177, 157, 0) !important;
-}
-
 .r-white {
-    /* background: #e7edf2; */
-    background: rgba(116, 177, 157, 0);
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
 }
 
 .r-new-title {
@@ -1283,10 +1279,10 @@ strong {
 }
 
 .r-width944 {
-    /* max-width: 944px; */
-    /* width: 944px; */
+    max-width: 944px;
+    width: 944px;
     overflow: hidden;
-    /* float: right; */
+    float: right;
 }
 
 .r-hr-width744 {
@@ -1299,18 +1295,8 @@ strong {
 }
 
 .r-side {
-    z-index: 999;
-    position: fixed;
-    top: 10%;
-    left: 10%;
-    /* display: none; */
     width: 240px;
     float: left;
-    border-radius: 5px;
-}
-.r-side:hover{
-    /* display:; */
-    /* box-shadow: 12px 11px 20px 4px rgba(0, 0, 0, 1); */
 }
 
 .r-side a {
@@ -1465,6 +1451,7 @@ strong {
     word-break: keep-all;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .disperse {
@@ -1473,8 +1460,9 @@ strong {
 
 .ne-cont-ground {
     overflow: hidden;
-    width: 100%;
-    margin-left: 250px;
+    width: 50%;
+    float: left;
+    /* margin-left: 250px; */
 }
 
 .footer-text {
@@ -1942,8 +1930,8 @@ strong {
 }
 
 .case {
-    width: 100%;
-    background: rgba(250, 249, 249, 0.9);
+	width: 100%;
+	background: rgba(250, 249, 249, 0.9);
 }
 
 .case-demo {
