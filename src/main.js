@@ -15,11 +15,11 @@ Vue.use(ElementUI);
 // router.beforeEach((to, from, next) => {
 // 	console.log(to.name)
 // })
-new Vue({
-	el: '#app',
-	router,
-	template: '<App/>',
-	components: {
-		App
-	}
+window.vm = new Vue({
+  el: '#app',
+  router,
+  template: '<App/>',
+  components: {
+    App
+  }
 })

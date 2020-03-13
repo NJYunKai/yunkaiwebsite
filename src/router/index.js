@@ -141,12 +141,12 @@ export default new Router({
           component: () => import('../pages/services/labsolutions/labsolutions_coldchain.vue')
         },
         {
-          path: '/services/product/:type/:id',
+          path: '/services/product/:type',
           name: 'product',
           component: () => import('../pages/services/product/product.vue')
         },
         {
-          path: '/services/productdetails',
+          path: '/services/productdetails/:id',
           name: 'productdetails',
           component: () => import('../pages/services/product/productdetails.vue')
         },
