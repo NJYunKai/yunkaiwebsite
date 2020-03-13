@@ -4,76 +4,116 @@
         <div>
             <!-- 侧边导航栏 -->
             <div class="r-side">
-                <router-link to="/companynews/dynamicnews">
-                    <div class="comnews">
+                <router-link to="/productcase/xlab">
+                    <div class="school">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.15s; animation-name: fadeInLeftBig;"
-                        >协同育人申报指南</div>
+                        >经贸学院</div>
                     </div>
                     </div>
                 </router-link>
-                <router-link to="/companynews/dynamicnews">
-                    <div class="comnews">
+                <router-link to="/productcase/dianji">
+                    <div class="school">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.25s; animation-name: fadeInLeftBig;"
-                        >中国物联网大会</div>
+                        >电机学院</div>
                     </div>
                     </div>
                 </router-link>
-                <router-link to="/companynews/dynamicnews">
-                    <div class="comnews">
+                <router-link to="/productcase/gongmao">
+                    <div class="school">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
-                        >中柬一带一路</div>
+                        >工贸学院</div>
                     </div>
                     </div>
                 </router-link>
-                <router-link to="/companynews/dynamicnews">
-                    <div class="comnews">
+                <router-link to="/productcase/gongshang">
+                    <div class="school">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
-                        >智能制造实训室验收</div>
+                        >工商大学</div>
                     </div>
                     </div>
                 </router-link>
-            </div>
+                <router-link to="/productcase/nongye">
+                    <div class="school">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div
+                        class="single-focus1 white-bg diffuse-shadow green-line-bottom"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.55s; animation-name: fadeInLeftBig;"
+                        >农业大学</div>
+                    </div>
+                    </div>
+                </router-link>
+                <router-link to="/productcase/shuili">
+                    <div class="school">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div
+                        class="single-focus1 white-bg diffuse-shadow green-line-bottom"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.65s; animation-name: fadeInLeftBig;"
+                        >水利学院</div>
+                    </div>
+                    </div>
+                </router-link>
+	        </div>
 
             <!-- 内容主体 -->
             <div class="news">
                 <div class="content-background-blue">
-                    <div class="content-1" style="width:800px">
+                    <div class="content-1" style="width:900px">
                         <div class="r-news">
                             <div class="r-news-content">
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 50px">
-                                        中国物联网大会暨智能技术与智慧商业专委会顺利召开
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 320px">
+                                    浙江工贸职业技术学院
                                 </div>
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:14px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 100px">
-                                        【关于召开2019全国智能技术与智慧商业专业委员会学术年会暨中国物联网大会数字经济分论坛】
-                                </div>
+
+                                 <h1 style="display:block;font-family:Microsoft YaHei;font-size:24px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 20px">
+                                        一、项目名称
+                                </h1>
+
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <div setsid="article250">
-                                        <p style="margin:0 40px 0 40px;text-indent:2em;">面对当今世界激烈的商业竞争环境，人工智能作为一种颠覆性的科技力量，正在帮助企业去获取最大的竞争优势，这种结合必然会碰撞出无数火花，彻底变革整个商业规则。物联网作为智能商业的“基础设施”，在人工智能、大数据、5G等新技术正在通过物联网的手段赋能商业的变革，使商业正在从“智能+商业”1.0向“IOT+商业”2.0过渡。</p><br> &nbsp;<br>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">在这场商业的智能化、生态化变革中，高校作为我国原始创新的主渠道和人才培养的主阵地，如何聚焦关键核心技术，整合政府、高校、企业的创新资源，把高校的科技创新与人才培养优势转化为产业发展的优势，为实现中华民族的伟大复兴出力。</p><br> &nbsp;<br>
-                                        <img src="../../../../static/img/companynews-2.png" style="margin-left:200px" />
+
+                                        <p style="margin-left:40px">&nbsp; &nbsp;物联网实验室</p>
+
                                     </div>
                                 </div>
+
+                                <h1 style="display:block;font-family:Microsoft YaHei;font-size:24px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 20px">
+                                        二、客户介绍
+                                </h1>
+
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">浙江工贸职业技术学院电子工程系成立于1999年，现设置电子信息工程技术（省级示范专业、优势专业）、机电一体化技术（智能控制技术方向）（省级重点专业）、工业机器人技术等三个高职专业，在校生近1000人。</p>
+                                </div><br> &nbsp;<br> 
+
+                                <h1 style="display:block;font-family:Microsoft YaHei;font-size:24px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 20px">
+                                    三、项目建设内容
+                                </h1>
+
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">物联网实验室主要包括人工智能物联网综合实训系统组成，满足浙江工贸职业技术学院电子工程系（物联网方向）《嵌入式系统与应用》、《Android开发技术》、《物联网工程与实践》、《Java程序设计》、《物联网应用与开发》、《网络数据库应用》、《计算机网络技术》、《Python创意编程》、《HTML5移动web技术》、《Android UI设计》、《微信小程序开发》、《现代传感技术》、《单片机技术及应用》、《无线组网技术》等课程</p><br> &nbsp;<br> 
+                                </div><br> &nbsp;<br> 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div> 
 
     </div>
 </template>
+
 
 
 <style>
@@ -184,16 +224,16 @@
         color: red;
     }
 
-    .comnews .single-focus1{
-        width: 100px;
-        height: 100px;
+    .school .single-focus1{
+        width: 60px;
+        height: 60px;
         padding-left: 5px;
         padding-right: 5px;
-        padding-top: 26px;
+        padding-top: 15px;
         margin-top: 50px;
         border-radius: 50%;
         margin: 0px;
         background: rgba(1, 1, 2, 0.54);
-    } 
+    }   
 
 </style>
