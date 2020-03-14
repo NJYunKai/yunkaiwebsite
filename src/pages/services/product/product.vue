@@ -7,7 +7,7 @@
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.15s; animation-name: fadeInLeftBig;"
-          >物联网</div>
+          >智能制造</div>
         </div>
       </div>
       <div class="focuses" @click="changeproduct(2)">
@@ -15,7 +15,7 @@
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.25s; animation-name: fadeInLeftBig;"
-          >区块链</div>
+          >工业物联网</div>
         </div>
       </div>
       <div class="focuses" @click="changeproduct(3)">
@@ -23,7 +23,7 @@
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
-          >人工智能</div>
+          >物联网基础教学</div>
         </div>
       </div>
       <div class="focuses" @click="changeproduct(4)">
@@ -31,7 +31,7 @@
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
-          >冷链物流</div>
+          >物联网创新应用套件</div>
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@ export default {
   background-color: #fff0;
 }
 .el-card__body {
-  height: 420px;
+  height: 18em;
 }
 .el-card.is-always-shadow,
 .el-card.is-hover-shadow:focus,
@@ -102,7 +102,7 @@ export default {
 .image {
   width: 100%;
   display: block;
-  height: 350px;
+  height: 13em;
 }
 .title{
   color: white;
