@@ -14,12 +14,16 @@
         background-color: rgba(18, 11, 186, 0.25);
     }
 
-    .news .content-background-shallow-black {  
+    .news .content-background-shallow-black {
         background-color: rgba(46, 41, 103, 0.25);
     }
 
     .news .content-background-bright-green {
         background-color: rgba(50, 243, 70, 0.3);
+    }
+
+    .news .content-background-grey {
+        background-color: rgb(79, 96, 108);
     }
 
     .news .content-1 {

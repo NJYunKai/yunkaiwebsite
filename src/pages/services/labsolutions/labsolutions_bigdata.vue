@@ -6,19 +6,23 @@
     <div class="news">
       <div class="content-background-dark">
         <div class="content-1">
-          <img src="/static/img/labsolutions_coldchain_title.png" />
-          <img src="/static/img/labsolutions_coldchain1.png" />
+          <img src="/static/img/labsolutions_bigdata_title.png" />
+          <img src="/static/img/labsolutions_bigdata1.png" />
         </div>
       </div>
-      <div class="content-background-white">
+      <div class="content-background-grey">
         <div class="content-1">
-          <img src="/static/img/labsolutions_coldchain2.png" />
+          <img src="/static/img/labsolutions_bigdata2.png" />
         </div>
       </div>
       <div class="content-background-blue">
         <div class="content-1">
-          <img src="/static/img/labsolutions_coldchain3.png" />
-          <img src="/static/img/labsolutions_coldchain4.png" />
+          <img src="/static/img/labsolutions_bigdata3.png" />
+        </div>
+      </div>
+            <div class="content-background-green">
+        <div class="content-1">
+          <img src="/static/img/labsolutions_bigdata4.png" />
         </div>
       </div>
     </div>

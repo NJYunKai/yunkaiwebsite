@@ -22,12 +22,13 @@ const webpackConfig = merge(baseWebpackConfig, {
   },
   devtool: config.build.productionSourceMap ? config.build.devtool : false,
   output: {
-    publicPath: process.env.NODE_ENV === 'production'
-    ? './' +config.build.assetsPublicPath
-    : './' + config.dev.assetsPublicPath,
     path: config.build.assetsRoot,
-    filename: utils.assetsPath('js/[name].[chunkhash].js'),
-    chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
+    filename: utils.assetsPath('js/[name]_[chunkhash].js'),
+    chunkFilename: utils.assetsPath('js/[id]_[chunkhash].js'),
+    publicPath: './'
+    // publicPath: process.env.NODE_ENV === 'production'
+    // ? './' +config.build.assetsPublicPath
+    // : './' + config.dev.assetsPublicPath,
   },
   plugins: [
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
