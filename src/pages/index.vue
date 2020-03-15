@@ -9,13 +9,13 @@
           </router-link>
         </el-carousel-item>
         <el-carousel-item>
-          <router-link to="/beltroad">
-            <img src="../../static/img/homecarousel-2.png" />
+          <router-link to="/companynews/jingmao-lab">
+            <img src="../../static/img/homecarousel-3.png" />
           </router-link>
         </el-carousel-item>
         <el-carousel-item>
-          <router-link to="/productcase/xlab">
-            <img src="../../static/img/homecarousel-3.png" />
+          <router-link to="/beltroad">
+            <img src="../../static/img/homecarousel-2.png" />
           </router-link>
         </el-carousel-item>
         <el-carousel-item>

@@ -1,5 +1,5 @@
 <template>
-    <div class="lime-right-demo">                                      
+    <div class="news-right-demo">                                      
                                                                   
         <div>
             <!-- 侧边导航栏 -->
@@ -98,7 +98,7 @@
         /* background: url(../img/detail/line.png) no-repeat 91px 154px; */
     }
     
-    .lime-right-demo{
+    .news-right-demo{
         margin: 0 0 0 300px;
         padding: 0;
         border: 0;
