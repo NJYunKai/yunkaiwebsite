@@ -61,7 +61,7 @@
                   <!-- 联系方式 -->
                   <div style="height:300px;color:black">
                   <!-- 公司联系左列 -->
-                    <ul style="border: 3px solid red;width:40%;margin-left:80px;height:210px;float:left">
+                    <ul style="border: 3px solid red;width:40%;margin-left:103px;height:210px;float:left">
                       <p style="font-weight: bold;font-size:20px;margin:10px 0 20px 30px">南京云开数据科技有限公司</p>
                       <li class="leftli">联系人：李经理</li>
                       <li class="leftli">手机：18651837835</li>
@@ -71,10 +71,10 @@
                     <ul style="border: 3px solid red;width:40%;height:210px;float:left;margin-left:100px">
                       <ul class="rightul" style="margin-left:40px">
                         <li class="rightli">地区</li>
-                        <li class="rightli">南京</li>
-                        <li class="rightli">杭州</li>
-                        <li class="rightli">长沙</li>
-                        <li class="rightli">西安</li>
+                        <li class="rightli">南京总部</li>
+                        <li class="rightli">杭州办事处</li>
+                        <li class="rightli">长沙办事处</li>
+                        <li class="rightli">西安办事处</li>
                       </ul>
                       <ul class="rightul" style="margin-left:120px">
                         <li class="rightli">联系人</li>

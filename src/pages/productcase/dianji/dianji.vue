@@ -126,17 +126,113 @@ export default {
 </script>
 
 <style>
-    .el-breadcrumb{
+
+    .lime-content  .lime-content{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-style: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-caps: inherit;
+        font-variant-numeric: inherit;
+        font-stretch: inherit;
+        font-size: 100%;
+        line-height: inherit;
+        font-family: inherit;
+        vertical-align: baseline;
+        width: 100%;
+        height: 146px;
+        margin-top: 4.8%;
+        padding-bottom: 1.2%;
+        background-color: red;
+        /* background: url(../img/detail/line.png) no-repeat 91px 154px; */
+    }
+    
+    .lime-right-demo{
+        margin: 0 0 0 450px;
+        padding: 0;
+        border: 0;
+        font-style: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-caps: inherit;
+        font-variant-numeric: inherit;
+        font-stretch: inherit;
+        font-size: 100%;
+        line-height: inherit;
+        font-family: inherit;
+        vertical-align: baseline;
+        float: left;
+        width: 944px;
+        margin-bottom: 18px;
+        padding-bottom: 30px;
+        margin-top: 3.3%;
+        background: #36612e00;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+    }
+
+    .lime-content-left{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-style: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-caps: inherit;
+        font-variant-numeric: inherit;
+        font-stretch: inherit;
+        font-size: 100%;
+        line-height: inherit;
+        font-family: inherit;
+        vertical-align: baseline;
+        float: left;
+        width: 164px;
+        height: 68px;
+    }
+
+    .lime-dete-month{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-style: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-caps: inherit;
+        font-variant-numeric: inherit;
+        font-stretch: inherit;
+        font-family: inherit;
+        vertical-align: baseline;
+        width: 48px;
+        line-height: 22px;
+        margin-left: 54%;
+        text-align: center;
+        letter-spacing: 0;
+        display: inline-block;
+        margin-top: 12%;
+        font-size: 14px;
+        background-color:#EF686D;
+        /* color: red; */
+    }
+
+    .lime-date-day{
+        display: block;
+        line-height: 24px;
+        font-size: 24px;
+        color: #EF686D;
+        font-size: 14px;
+    }
+
+        .el-breadcrumb{
         font-size: 20px;
     }
 
     p{
         line-height: 2;
+        color: black;
     }
 
     a{
         color: red;
     }
+
     .school .single-focus1{
         width: 60px;
         height: 60px;

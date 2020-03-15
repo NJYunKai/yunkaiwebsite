@@ -4,16 +4,24 @@
     <div class="banner">
       <el-carousel height="400px">
         <el-carousel-item>
-          <img src="../../static/img/homecarousel-1.png" />
+          <router-link to="/companynews/iotmeeting">
+            <img src="../../static/img/homecarousel-1.png" />
+          </router-link>
         </el-carousel-item>
         <el-carousel-item>
-          <img src="../../static/img/homecarousel-2.png" />
+          <router-link to="/beltroad">
+            <img src="../../static/img/homecarousel-2.png" />
+          </router-link>
         </el-carousel-item>
         <el-carousel-item>
-          <img src="../../static/img/homecarousel-3.png" />
+          <router-link to="/productcase/xlab">
+            <img src="../../static/img/homecarousel-3.png" />
+          </router-link>
         </el-carousel-item>
         <el-carousel-item>
-          <img src="../../static/img/homecarousel-4.png" />
+          <router-link to="/cooperative-education">
+            <img src="../../static/img/homecarousel-4.png" />
+          </router-link>
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -80,23 +88,31 @@
           <div class="news-carousel">
             <el-carousel :interval="4000" type="card" height="300px">
               <el-carousel-item class="newscompany">
-                <img src="../../static/img/companynews-5.png" class="newsimg" />
-                <h2 class="medium" style="margin:10px 0 0 200px">协同育人申报指南发布</h2>
+                <router-link to="/companynews/1+x">
+                  <img src="../../static/img/companynews-5.png" class="newsimg" />
+                  <h2 class="medium" style="margin:10px 0 0 200px">协同育人申报指南发布</h2>
+                </router-link>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
-                <img src="../../static/img/companynews-2.png" class="newsimg" />
-                <h2 class="medium" style="margin:10px 0 0 200px">物联网大会成功召开</h2>
+                <router-link to="/companynews/iotmeeting">
+                  <img src="../../static/img/companynews-2.png" class="newsimg" />
+                  <h2 class="medium" style="margin:10px 0 0 200px">物联网大会成功召开</h2>
+                </router-link>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
-                <img src="../../static/img/companynews-3.png" class="newsimg" />
-                <h2 class="medium" style="margin:10px 0 0 200px">一带一路电商谷剪彩</h2>
+                <router-link to="/companynews/belt-road">
+                  <img src="../../static/img/companynews-3.png" class="newsimg" />
+                  <h2 class="medium" style="margin:10px 0 0 200px">一带一路电商谷剪彩</h2>
+                </router-link>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
-                <img src="../../static/img/companynews-4.png" class="newsimg" />
-                <h2 class="medium" style="margin:10px 0 0 200px">智能制造实训室顺利验收</h2>
+                <router-link to="/companynews/jingmao-lab">
+                  <img src="../../static/img/companynews-4.png" class="newsimg" />
+                  <h2 class="medium" style="margin:10px 0 0 200px">智能制造实训室顺利验收</h2>
+                </router-link>
               </el-carousel-item>
             </el-carousel>
           </div>
@@ -150,7 +166,7 @@
         <h3 class="product-header">合作院校</h3>
         <p class="product-header-text">Cooperative&nbsp;partner</p>
         <p class="product-pic new-pic"></p>
-        <p class="product-header-slogan new-header-slogan">凝聚八方之力，共建云开未来</p>
+        <p class="product-header-slogan new-header-slogan" style="margin-bottom:30px">云上开花，数据结果</p>
         <div class="product-box" style="background:white">
           <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
             <a href="javascript:;" class="product-roll">
@@ -219,7 +235,7 @@
         <h3 class="product-header">合作企业</h3>
         <p class="product-header-text">Cooperative&nbsp;partner</p>
         <p class="product-pic new-pic"></p>
-        <p class="product-header-slogan new-header-slogan">凝聚八方之力，共建云开未来</p>
+        <p class="product-header-slogan new-header-slogan" style="margin-bottom:30px">凝聚八方之力，共建云开未来</p>
         <div class="product-box" style="background:white">
           <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
             <a

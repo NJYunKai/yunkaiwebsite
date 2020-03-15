@@ -3,7 +3,7 @@
                                                                   
         <div>
             <!-- 侧边导航栏 -->
-            <div class="r-side">
+            <!-- <div class="r-side">
                 <router-link to="/companynews/dynamicnews">
                     <div class="comnews">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
@@ -44,7 +44,7 @@
                     </div>
                     </div>
                 </router-link>
-            </div>
+            </div> -->
 
             <!-- 内容主体 -->
             <div class="news">
@@ -100,7 +100,7 @@
     }
     
     .lime-right-demo{
-        margin: 0 0 0 450px;
+        margin: 0 0 0 300px;
         padding: 0;
         border: 0;
         font-style: inherit;
