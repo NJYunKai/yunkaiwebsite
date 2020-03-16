@@ -5,22 +5,22 @@
       <el-carousel height="400px">
         <el-carousel-item>
           <router-link to="/companynews/iotmeeting">
-            <img src="../../static/img/homecarousel-1.png" />
+            <img v-lazy="img1" />
           </router-link>
         </el-carousel-item>
         <el-carousel-item>
           <router-link to="/companynews/jingmao-lab">
-            <img src="../../static/img/homecarousel-3.png" />
+            <img v-lazy="img2" />
           </router-link>
         </el-carousel-item>
         <el-carousel-item>
           <router-link to="/beltroad">
-            <img src="../../static/img/homecarousel-2.png" />
+            <img v-lazy="img3" />
           </router-link>
         </el-carousel-item>
         <el-carousel-item>
           <router-link to="/cooperative-education">
-            <img src="../../static/img/homecarousel-4.png" />
+            <img v-lazy="img4" />
           </router-link>
         </el-carousel-item>
       </el-carousel>
@@ -38,7 +38,7 @@
           <router-link to="/productcase/xlab" class="sub-link">
             <div class="case-frame-list">
               <div class="case-frame-img">
-                <img src="../../static/img/xlab-1.jpg" alt />
+                <img v-lazy="img5" alt />
               </div>
               <h3 class="case-title">江苏经贸职院</h3>
               <p class="case-content">其中包括智能制造实训室、物流管理专业1+X考点实训室环境及智能化实训室、“人工智能冷链物流”实训室等</p>
@@ -48,7 +48,7 @@
           <router-link to="/productcase/gongshang" class="sub-link">
             <div class="case-frame-list">
               <div class="case-frame-img">
-                <img src="../../static/img/gongshang-1.jpg" alt />
+                <img v-lazy="img6" alt />
               </div>
               <h3 class="case-title">浙江工商大学</h3>
               <p class="case-content">浙江工商大学物联网实践与智能体验实验室</p>
@@ -58,7 +58,7 @@
           <router-link to="/productcase/dianji" class="sub-link">
             <div class="case-frame-list">
               <div class="case-frame-img">
-                <img src="../../static/img/dianji-1.png" alt />
+                <img v-lazy="img7" alt />
               </div>
               <h3 class="case-title">上海电机学院</h3>
               <p class="case-content">上海电机学院物联网综合创新实验室</p>
@@ -89,28 +89,28 @@
             <el-carousel :interval="4000" type="card" height="300px">
               <el-carousel-item class="newscompany">
                 <router-link to="/companynews/1+x">
-                  <img src="../../static/img/companynews-5.png" class="newsimg" />
+                  <img v-lazy="img8" class="newsimg" />
                   <h2 class="medium" style="margin:10px 0 0 200px">协同育人申报指南发布</h2>
                 </router-link>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
                 <router-link to="/companynews/iotmeeting">
-                  <img src="../../static/img/companynews-2.png" class="newsimg" />
+                  <img v-lazy="img9" class="newsimg" />
                   <h2 class="medium" style="margin:10px 0 0 200px">物联网大会成功召开</h2>
                 </router-link>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
                 <router-link to="/companynews/belt-road">
-                  <img src="../../static/img/companynews-3.png" class="newsimg" />
+                  <img v-lazy="img10" class="newsimg" />
                   <h2 class="medium" style="margin:10px 0 0 200px">一带一路电商谷剪彩</h2>
                 </router-link>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
                 <router-link to="/companynews/jingmao-lab">
-                  <img src="../../static/img/companynews-4.png" class="newsimg" />
+                  <img v-lazy="img11" class="newsimg" />
                   <h2 class="medium" style="margin:10px 0 0 200px">智能制造实训室顺利验收</h2>
                 </router-link>
               </el-carousel-item>
@@ -170,59 +170,59 @@
         <div class="product-box" style="background:white">
           <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-1.png" />
+              <img v-lazy="img12" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-2.png" />
+              <img v-lazy="img13" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-5.png" />
+              <img v-lazy="img14" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-4.png" />
+              <img v-lazy="img15" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-10.png" />
+              <img v-lazy="img16" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-6.png" />
+              <img v-lazy="img17" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-7.png" />
+              <img v-lazy="img18" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-8.png" />
+              <img v-lazy="img19" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-9.png" />
+              <img v-lazy="img20" />
             </a>
 
             <a href="javascript:;" class="product-roll" style="width:170px">
-              <img src="../../static/img/cooperationschool-14.png" style="width:170px" />
+              <img v-lazy="img21" style="width:170px" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-11.png" />
+              <img v-lazy="img22" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-12.png" />
+              <img v-lazy="img23" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationschool-13.png" />
+              <img v-lazy="img24" />
             </a>
 
             <a href="javascript:;" class="product-roll" style="width:200px;margin-left:0px">
-              <img src="../../static/img/cooperationschool-3.png" style="width:200px" />
+              <img v-lazy="img25" style="width:200px" />
             </a>
           </div>
         </div>
@@ -242,23 +242,23 @@
               href="javascript:;"
               style="display: inline-block;float: left;width: 300px;margin: 5px 23px;text-align: center;"
             >
-              <img src="../../static/img/cooperationcompany-1.png" style="height:150px" />
+              <img v-lazy="img26" style="height:150px" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationcompany-2.png" />
+              <img v-lazy="img27" />
             </a>
 
             <a href="javascript:;" class="product-roll" style="width:200px">
-              <img src="../../static/img/cooperationcompany-3.png" style="width:200px" />
+              <img v-lazy="img28" style="width:200px" />
             </a>
 
             <a href="javascript:;" class="product-roll">
-              <img src="../../static/img/cooperationcompany-4.png" />
+              <img v-lazy="img29" />
             </a>
 
             <a href="javascript:;" class="product-roll" style="width:250px">
-              <img src="../../static/img/cooperationcompany-5.png" style="width:250px" />
+              <img v-lazy="img30" style="width:250px" />
             </a>
           </div>
         </div>
@@ -269,10 +269,70 @@
 
 <script>
 import logo_jpg from "../../static/img/logo2.jpg";
+import img1 from "../../static/img/homecarousel-1.png";
+import img2 from "../../static/img/homecarousel-3.png";
+import img3 from "../../static/img/homecarousel-2.png";
+import img4 from "../../static/img/homecarousel-4.png";
+import img5 from "../../static/img/xlab-1.jpg";
+import img6 from "../../static/img/gongshang-1.jpg";
+import img7 from "../../static/img/dianji-1.png";
+import img8 from "../../static/img/companynews-5.png";
+import img9 from "../../static/img/companynews-2.png";
+import img10 from "../../static/img/companynews-3.png";
+import img11 from "../../static/img/companynews-4.png";
+import img12 from "../../static/img/cooperationschool-1.png";
+import img13 from "../../static/img/cooperationschool-2.png";
+import img14 from "../../static/img/cooperationschool-5.png";
+import img15 from "../../static/img/cooperationschool-4.png";
+import img16 from "../../static/img/cooperationschool-10.png";
+import img17 from "../../static/img/cooperationschool-6.png";
+import img18 from "../../static/img/cooperationschool-7.png";
+import img19 from "../../static/img/cooperationschool-8.png";
+import img20 from "../../static/img/cooperationschool-9.png";
+import img21 from "../../static/img/cooperationschool-14.png";
+import img22 from "../../static/img/cooperationschool-11.png";
+import img23 from "../../static/img/cooperationschool-12.png";
+import img24 from "../../static/img/cooperationschool-13.png";
+import img25 from "../../static/img/cooperationschool-3.png";
+import img26 from "../../static/img/cooperationcompany-1.png";
+import img27 from "../../static/img/cooperationcompany-2.png";
+import img28 from "../../static/img/cooperationcompany-3.png";
+import img29 from "../../static/img/cooperationcompany-4.png";
+import img30 from "../../static/img/cooperationcompany-5.png";
 export default {
   data: function() {
     return {
-      logo_jpg: logo_jpg
+      logo_jpg,
+      img1,
+      img2,
+      img3,
+      img4,
+      img5,
+      img6,
+      img7,
+      img8,
+      img9,
+      img10,
+      img11,
+      img12,
+      img13,
+      img14,
+      img15,
+      img16,
+      img17,
+      img18,
+      img19,
+      img20,
+      img21,
+      img22,
+      img23,
+      img24,
+      img25,
+      img26,
+      img27,
+      img28,
+      img29,
+      img30
     };
   },
   methods: {
@@ -304,55 +364,56 @@ export default {
 }
 
 .product-box {
-    height: 530px;
+  height: 530px;
 }
 
 .product-vessel {
-    height: 510px;
+  height: 510px;
 }
 
 .product-roll {
-    width: 150px;
+  width: 150px;
 }
 
 .product-roll img {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 .customer {
-    height: 700px;
+  height: 700px;
 }
 
 .r-news {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding-bottom: 120px; 
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-bottom: 120px;
 }
 
 .content_bg {
-    background: url(../../static/img/home-centerbackground.png)no-repeat center top fixed;
-    /* background: url(http://csssecrets.io/images/tiger.jpg) no-repeat; */
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    position: relative;
+  background: url(../../static/img/home-centerbackground.png) no-repeat center
+    top fixed;
+  /* background: url(http://csssecrets.io/images/tiger.jpg) no-repeat; */
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 .r-news-content {
-    /* opacity: 1; */
-    margin: 0px auto;
-    max-width: 1200px;
-    padding: 2px;
-    overflow: hidden;
+  /* opacity: 1; */
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 2px;
+  overflow: hidden;
 }
 
 .r-white {
-    /* background: #e7edf2; */
-    background: rgba(116, 177, 157, 0);
+  /* background: #e7edf2; */
+  background: rgba(116, 177, 157, 0);
 }
 
 .ne-cont-ground {
-    width: 50%;
-    float: left;
-    margin-left: 0px;
+  width: 50%;
+  float: left;
+  margin-left: 0px;
 }
 </style>
