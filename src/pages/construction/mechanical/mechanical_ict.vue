@@ -145,7 +145,7 @@ img {
 	display: inline-block;
 	height: auto;
 	max-width: 100%;
-	transform: scale(0.8);
+	transform: scale(1.0);
 	}
 p{
 	font-size: x-large;
