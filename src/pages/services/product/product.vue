@@ -7,7 +7,7 @@
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.15s; animation-name: fadeInLeftBig;"
-          >智能制造</div>
+          >基础教学类</div>
         </div>
       </div>
       <div class="focuses" @click="changeproduct(2)">
@@ -15,7 +15,7 @@
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.25s; animation-name: fadeInLeftBig;"
-          >工业物联网</div>
+          >综合实训类</div>
         </div>
       </div>
       <div class="focuses" @click="changeproduct(3)">
@@ -23,7 +23,7 @@
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
-          >物联网基础教学</div>
+          >行业应用类</div>
         </div>
       </div>
       <div class="focuses" @click="changeproduct(4)">
@@ -31,7 +31,23 @@
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
-          >物联网创新应用套件</div>
+          >智能控制类</div>
+        </div>
+      </div>
+            <div class="focuses" @click="changeproduct(5)">
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div
+            class="single-focus1 white-bg diffuse-shadow green-line-bottom"
+            style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
+          >无人机类</div>
+        </div>
+      </div>
+            <div class="focuses" @click="changeproduct(6)">
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div
+            class="single-focus1 white-bg diffuse-shadow green-line-bottom"
+            style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
+          >智慧生活环境体验馆</div>
         </div>
       </div>
     </div>
@@ -91,7 +107,7 @@ export default {
   background-color: #fff0;
 }
 .el-card__body {
-  height: 18em;
+  height: 20em;
 }
 .el-card.is-always-shadow,
 .el-card.is-hover-shadow:focus,
