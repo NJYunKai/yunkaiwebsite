@@ -6,7 +6,8 @@ import './public/style/common.less';
 import './public/style/iconfont.css';
 import './public/style/forbidding.css';
 import App from './App';
-import 'animate.css'
+import 'animate.css';
+import 'lib-flexible';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
@@ -14,7 +15,8 @@ Vue.config.productionTip = false;
 Vue.use(ElementUI);
 // router.beforeEach((to, from, next) => {
 // 	console.log(to.name)
-// })import VueLazyload from 'vue-lazyload'
+// })
+import VueLazyload from 'vue-lazyload'
 Vue.use(VueLazyload, {
   //完全显示的时候加载
   preLoad: 1,
