@@ -54,25 +54,15 @@
                     </div>
                     </div>
                 </router-link>
-                <router-link to="/productcase/shuili">
-                    <div class="school">
-                    <div class="col-lg-3 col-sm-6 col-xs-12">
-                        <div
-                        class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.65s; animation-name: fadeInLeftBig;"
-                        >水利学院</div>
-                    </div>
-                    </div>
-                </router-link>
 	        </div>
 
             <!-- 内容主体 -->
             <div class="news">
                 <div class="content-background-blue">
-                    <div class="content-1" style="width:900px">
+                    <div class="content-1" style="width:100%">
                         <div class="r-news">
                             <div class="r-news-content">
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 320px">
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;text-align:center">
                                     湖南农业大学
                                 </div>
 
@@ -142,7 +132,7 @@
     }
     
     .lime-right-demo{
-        margin: 0 0 0 450px;
+        margin: 0 20%;
         padding: 0;
         border: 0;
         font-style: inherit;
@@ -155,7 +145,7 @@
         font-family: inherit;
         vertical-align: baseline;
         float: left;
-        width: 944px;
+        width: 60%;
         margin-bottom: 18px;
         padding-bottom: 30px;
         margin-top: 3.3%;
@@ -236,6 +226,8 @@
         border-radius: 50%;
         margin: 0px;
         background: rgba(1, 1, 2, 0.54);
-    }   
+    }
+    
+
 
 </style>

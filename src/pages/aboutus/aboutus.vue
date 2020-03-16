@@ -61,34 +61,37 @@
                   <!-- 联系方式 -->
                   <div style="height:300px;color:black">
                   <!-- 公司联系左列 -->
-                    <ul style="border: 3px solid red;width:40%;margin-left:103px;height:210px;float:left">
+                    <ul style="border: 3px solid #005fff8c;width:40%;margin-left:7%;height:70%;float:left">
                       <p style="font-weight: bold;font-size:20px;margin:10px 0 20px 30px">南京云开数据科技有限公司</p>
-                      <li class="leftli">联系人：李经理</li>
-                      <li class="leftli">手机：18651837835</li>
+                      <li class="leftli">联系人：伍芳</li>
+                      <li class="leftli">手机：13357804061</li>
                       <li class="leftli">suesu11@qq.com</li>
                     </ul>
                     <!-- 地区联系右列 -->
-                    <ul style="border: 3px solid red;width:40%;height:210px;float:left;margin-left:100px">
+                    <ul style="border: 3px solid #005fff8c;width:40%;height:70%;float:left;margin-left:6%">
                       <ul class="rightul" style="margin-left:40px">
                         <li class="rightli">地区</li>
                         <li class="rightli">南京总部</li>
-                        <li class="rightli">杭州办事处</li>
-                        <li class="rightli">长沙办事处</li>
-                        <li class="rightli">西安办事处</li>
+                        <li class="rightli">华东、京津区域</li>
+                        <li class="rightli">西南区域</li>
+                        <li class="rightli">西北区域</li>
+                        <li class="rightli">南北区域</li>
                       </ul>
                       <ul class="rightul" style="margin-left:120px">
                         <li class="rightli">联系人</li>
                         <li class="rightli">伍芳</li>
                         <li class="rightli">黄山</li>
-                        <li class="rightli">张雷</li>
                         <li class="rightli">刘义扬</li>
+                        <li class="rightli">张雷</li>
+                        <li class="rightli">裴帅</li>
                       </ul>
                       <ul class="rightul" style="margin-left:120px">
-                        <li class="rightli" style="margin-left:15px">联系方式</li>
-                        <li class="rightli">18507227150</li>
-                        <li class="rightli">18268314670</li>
-                        <li class="rightli">15574478482</li>
-                        <li class="rightli">15515558657</li>
+                        <li class="rightcontaction" style="margin-left:15px">联系方式</li>
+                        <li class="rightcontaction">13357804061</li>
+                        <li class="rightcontaction">18268314670</li>
+                        <li class="rightcontaction">15574478482</li>
+                        <li class="rightcontaction">15515558657</li>
+                        <li class="rightcontaction">17826675267</li>
                       </ul>
                     </ul>
                   </div>
@@ -140,15 +143,19 @@ export default {
   padding: 0;
 }
 
+.rightcontaction{
+  margin-bottom: 13%;
+}
+
 .summary-right {
-  width: 400px;
+  width: 25%;
   height: 310px;
   border: 2px solid #1d42b9;
   border-radius: 10px;
   margin-top: 80px;
   text-align: center;
   img {
-    width: 360px;
+    width: 80%;
     height: 270px;
     margin-top: 20px;
   }
@@ -165,7 +172,7 @@ export default {
       justify-content: space-around;
       padding: 100px 0;
     .summary-left {
-      width: 600px;
+      width: 40%;
 
       .title {
         font-size: 25px;

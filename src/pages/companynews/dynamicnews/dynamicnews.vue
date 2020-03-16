@@ -1,5 +1,5 @@
 <template>
-    <div class="news-right-demo">                                      
+    <div class="news-right-demo" >                                      
                                                                   
         <div>
         <!-- 侧边导航栏 -->
@@ -49,7 +49,7 @@
         <div class="news">
             
         <div class="content-background-blue">
-            <div class="content-1" style="width:800px">
+            <div class="content-1" style="width:100%">
                 <div class="lime-content  lime-finance ">
                     <div class="lime-content-left">
                         <p class="lime-dete-month">2019年</p>
@@ -125,8 +125,8 @@
 
 <style>
 
-    .lime-content  .lime-content{
-        margin: 0;
+    .lime-content{
+        margin: 0 5%;
         padding: 0;
         border: 0;
         font-style: inherit;
@@ -138,16 +138,16 @@
         line-height: inherit;
         font-family: inherit;
         vertical-align: baseline;
-        width: 100%;
+        width: 90%;
         height: 146px;
-        margin-top: 4.8%;
+        margin-top: 2.4% 5%;
         padding-bottom: 1.2%;
-        background-color: red;
+        /* background-color: red; */
         /* background: url(../img/detail/line.png) no-repeat 91px 154px; */
     }
     
     .news-right-demo{
-        margin: 0 0 0 300px;
+        margin: 0 20%;
         padding: 0;
         border: 0;
         font-style: inherit;
@@ -160,7 +160,7 @@
         font-family: inherit;
         vertical-align: baseline;
         float: left;
-        width: 944px;
+        width: 60%;
         margin-bottom: 18px;
         padding-bottom: 30px;
         margin-top: 3.3%;

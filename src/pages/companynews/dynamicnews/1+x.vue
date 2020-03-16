@@ -49,13 +49,13 @@
             <!-- 内容主体 -->
             <div class="news">
                 <div class="content-background-blue">
-                    <div class="content-1" style="width:800px">
+                    <div class="content-1" style="width:100%">
                         <div class="r-news">
                             <div class="r-news-content">
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 300px">
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;text-align: center;">
                                         南京云开-教育部
                                 </div>
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 170px">
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;text-align: center;margin-bottom:5%">
                                         产教融合协同育人项目申报指南发布
                                 </div>
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
@@ -106,7 +106,7 @@
     }
     
     .news-right-demo{
-        margin: 0 0 0 300px;
+        margin: 0 20%;
         padding: 0;
         border: 0;
         font-style: inherit;
@@ -119,7 +119,7 @@
         font-family: inherit;
         vertical-align: baseline;
         float: left;
-        width: 944px;
+        width: 60%;
         margin-bottom: 18px;
         padding-bottom: 30px;
         margin-top: 3.3%;
@@ -190,15 +190,7 @@
         color: red;
     }
 
-    .comnews .single-focus1{
-        width: 100px;
-        height: 100px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 26px;
-        margin-top: 50px;
-        border-radius: 50%;
-        margin: 0px;
-        background: rgba(1, 1, 2, 0.54);
-    }  
+    .news .content-1{
+        width: 100%;
+    }
 </style>

@@ -54,25 +54,16 @@
                     </div>
                     </div>
                 </router-link>
-                <router-link to="/productcase/shuili">
-                    <div class="school">
-                    <div class="col-lg-3 col-sm-6 col-xs-12">
-                        <div
-                        class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.65s; animation-name: fadeInLeftBig;"
-                        >水利学院</div>
-                    </div>
-                    </div>
-                </router-link>
+
 	        </div>
 
             <!-- 内容主体 -->
             <div class="news">
                 <div class="content-background-blue">
-                    <div class="content-1" style="width:900px">
+                    <div class="content-1" style="width:100%">
                         <div class="r-news">
                             <div class="r-news-content">
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 320px">
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;text-align: center;">
                                     上海电机学院
                                 </div>
 
@@ -105,7 +96,10 @@
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <p style="margin:0 40px 0 40px;text-indent:2em">开放式专业竞赛与实践实验室建设主要由开放式专业竞赛与实践平台组建而成，能够充分满足学生的自主创新综合实验课程，并且支持大学生物联网创新设计竞赛、大学生电子设计竞赛、大学生创新创业竞赛等比赛的日常训练，并且能够借此平台直接参加BriasCom国际公开赛。</p>
                                     <p style="margin:0 40px 0 40px;text-indent:2em">物联网综合创新实验室建设主要由物联网工程设计实训开发系统组建而成，能够满足上海电机学院物联网工程专业《传感器与检测技术》、《RFID识别技术》、《Java程序设计》、《无线传感网络技术与应用》、《嵌入式Linux系统》、《物联网综合应用系统开发》、《Android应用程序开发》、《单片机原理及应用》、《Zigbee技术及应用》、《人工智能技术应用》、《毕业课程设计》等课程的教学。</p><br> &nbsp;<br> 
-                                    <img src="../../../../static/img/dianji-1.png" width="400px" height="200px" alt="" style="margin-left:50px">
+                                    <div style="text-align: center">
+                                        <img src="../../../../static/img/dianji-1.png" width="400px" height="200px" alt="" style="margin-left:50px">
+                                    </div>
+                                    
                                 </div><br> &nbsp;<br> 
 
                             </div>
@@ -149,7 +143,7 @@ export default {
     }
     
     .lime-right-demo{
-        margin: 0 0 0 450px;
+        margin: 0 20%;
         padding: 0;
         border: 0;
         font-style: inherit;
@@ -162,7 +156,7 @@ export default {
         font-family: inherit;
         vertical-align: baseline;
         float: left;
-        width: 944px;
+        width: 60%;
         margin-bottom: 18px;
         padding-bottom: 30px;
         margin-top: 3.3%;
@@ -243,6 +237,8 @@ export default {
         border-radius: 50%;
         margin: 0px;
         background: rgba(1, 1, 2, 0.54);
-    }   
+    }
+    
+
 
 </style>

@@ -54,25 +54,15 @@
                     </div>
                     </div>
                 </router-link>
-                <router-link to="/productcase/shuili">
-                    <div class="school">
-                    <div class="col-lg-3 col-sm-6 col-xs-12">
-                        <div
-                        class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.65s; animation-name: fadeInLeftBig;"
-                        >水利学院</div>
-                    </div>
-                    </div>
-                </router-link>
 	        </div>
 
             <!-- 内容主体 -->
             <div class="news">
                 <div class="content-background-blue">
-                    <div class="content-1" style="width:900px">
+                    <div class="content-1" style="width:100%">
                         <div class="r-news">
                             <div class="r-news-content">
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 320px">
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;text-align: center">
                                     江苏经贸职业技术学院
                                 </div>
 
@@ -104,19 +94,27 @@
                                 </h1>
 
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
-                                    <p style="margin:0 40px 0 40px;text-indent:2em">智能制造实训室建设主要包括：智能仓库管控系统、SMT设备联网系统、标准化工单派送e化系统、设备远程监控及运维系统、产线智能化系统、设备健康监诊系统、水下巡检机器人等满足物联网应用技术、应用电子技术专业教学任务的软硬件设备。</p><br> &nbsp;<br> 
-                                    <img src="../../../../static/img/xlab-3.jpg" width="400px" height="200px" alt="" style="margin-left:50px;float:left">
-                                    <img src="../../../../static/img/xlab-1.jpg" width="400px" height="200px" alt="" style="margin-left:40px;float:left">
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">智能制造实训室建设主要包括：智能仓库管控系统、SMT设备联网系统、标准化工单派送e化系统、设备远程监控及运维系统、产线智能化系统、设备健康监诊系统、水下巡检机器人等满足物联网应用技术、应用电子技术专业教学任务的软硬件设备。</p><br> &nbsp;<br>
+                                    <div style="text-align: center;">
+                                        <img src="../../../../static/img/xlab-3.jpg" width="400px" height="200px" alt="" >
+                                    </div> 
+
                                 </div><br> &nbsp;<br> 
 
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;margin-top: 200px;">
+                                <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <p style="margin:0 40px 0 40px;text-indent:2em">物流管理专业1+X考点实训室环境及智能化实训室建设主要包括：物流管理专业微课系统、实验室云桌面系统、智能化环境建设，既能够满足物流管理学生进行“1+x”实训以及考试，又能够满足在校学生的机房实训教学。</p><br> &nbsp;<br> 
-                                    <img src="../../../../static/img/xlab-4.jpg" width="400px" height="200px" alt="" style="margin-left:300px">
+                                    <div style="text-align: center;">
+                                        <img src="../../../../static/img/xlab-4.jpg" width="400px" height="200px" alt="" >
+                                    </div>
+                                    
                                 </div><br> &nbsp;<br> 
 
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <p style="margin:0 40px 0 40px;text-indent:2em">“人工智能冷链物流”实训室建设主要包括：人工智能冷链拣选机械臂单元、人工智能冷链拣选视觉单元、人工智能冷链拣选语音控制单元、人工智能冷链无人驾驶运输车辆、冷藏、冷冻柜、基于ROS平台的移动协作机器人工作站、人工智能冷链物流数据可视化系统等满足物流管理专业教学任务的软硬件设备</p><br> &nbsp;<br> 
-                                    <img src="../../../../static/img/xlab-5.jpg" width="300px" height="380px" alt="" style="margin-left:320px">
+                                    <div style="text-align: center;">
+                                        <img src="../../../../static/img/xlab-5.jpg" width="300px" height="380px" alt="" >
+                                    </div>
+                                    
                                 </div><br> &nbsp;<br> 
                             </div>
                         </div>
@@ -155,7 +153,7 @@
     }
     
     .lime-right-demo{
-        margin: 0 0 0 450px;
+        margin: 0 20%;
         padding: 0;
         border: 0;
         font-style: inherit;
@@ -168,7 +166,7 @@
         font-family: inherit;
         vertical-align: baseline;
         float: left;
-        width: 944px;
+        width: 60%;
         margin-bottom: 18px;
         padding-bottom: 30px;
         margin-top: 3.3%;
@@ -249,6 +247,8 @@
         border-radius: 50%;
         margin: 0px;
         background: rgba(1, 1, 2, 0.54);
-    }   
+    }
+    
+
 
 </style>

@@ -27,10 +27,10 @@
     </div>
 
     <!-- 产品方案修改模块 -->
-    <div class="case" router>
+    <div class="case" router style="background-color:rgba(237, 243, 242, 0.76)">
       <div class="case-demo">
         <h3 class="product-header">经典案例</h3>
-        <p class="product-header-text">Curstem&nbsp;case</p>
+        <p class="product-header-text index-p">Curstem&nbsp;case</p>
         <p class="product-pic"></p>
         <p style="clear: both;"></p>
         <p class="product-header-slogan">助力学校实验建设，促进学生实体发展</p>
@@ -69,10 +69,10 @@
     </div>
 
     <!-- 新闻中心修改模块 -->
-    <div class="new">
+    <div class="new" style="background-color:#faf9f991">
       <div class="new-demo">
         <h3 class="product-header">新闻中心</h3>
-        <p class="product-header-text">News&nbsp;center</p>
+        <p class="product-header-text index-p">News&nbsp;center</p>
         <p class="product-pic new-pic"></p>
         <p class="product-header-slogan new-header-slogan">多角度展现企业动态，全方位呈现云开风貌</p>
         <div class="news-content">
@@ -161,10 +161,10 @@
     </div>
 
     <!-- 合作院校 -->
-    <div class="customer">
+    <div class="customer" style="background: rgba(194, 221, 212, 0.65)">
       <div class="new-demo">
         <h3 class="product-header">合作院校</h3>
-        <p class="product-header-text">Cooperative&nbsp;partner</p>
+        <p class="product-header-text index-p">Cooperative&nbsp;school</p>
         <p class="product-pic new-pic"></p>
         <p class="product-header-slogan new-header-slogan" style="margin-bottom:30px">云上开花，数据结果</p>
         <div class="product-box" style="background:white">
@@ -230,10 +230,10 @@
     </div>
 
     <!-- 合作企业 -->
-    <div class="customer">
+    <div class="customer" style="background-color:rgba(169, 208, 182, 0.7)">
       <div class="new-demo">
         <h3 class="product-header">合作企业</h3>
-        <p class="product-header-text">Cooperative&nbsp;partner</p>
+        <p class="product-header-text index-p">Cooperative&nbsp;partner</p>
         <p class="product-pic new-pic"></p>
         <p class="product-header-slogan new-header-slogan" style="margin-bottom:30px">凝聚八方之力，共建云开未来</p>
         <div class="product-box" style="background:white">
@@ -292,8 +292,8 @@ export default {
   margin-left: 50px;
 }
 
-.news {
-  background: url();
+.new {
+  background: rgb(250, 249, 249);
 }
 .news-carousel .el-carousel__item h3 {
   color: #475669;
@@ -320,7 +320,7 @@ export default {
     height: 150px;
 }
 .customer {
-    height: 700px;
+    height: 45em;
 }
 
 .r-news {
@@ -354,5 +354,9 @@ export default {
     width: 50%;
     float: left;
     margin-left: 0px;
+}
+
+.index-p{
+  color:black;
 }
 </style>
