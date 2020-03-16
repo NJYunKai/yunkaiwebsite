@@ -2,47 +2,160 @@
   "productlist": [{
       "id": 1,
       "type": 1,
-      "name": "智慧商业实训台",
-      "title": "智慧商业实训平台 江苏经贸实验室",
-      "imgurl": "/static/img/product_1.png",
+      "name": "物联网综合应用教学平台",
+      "title": "物联网综合应用教学平台",
+      "imgurl": "/static/img/product_type1-1.png",
       "detailcontent": "1、本套系统主要作为学生认知实训、物联网场景体验、学生综合设计使用，以现有物联网班级学生作为底库，进行学生的综合实训；"
     },
     {
       "id": 2,
       "type": 1,
-      "name": "智慧商业实训台",
-      "title": "智慧商业实训平台 部署于江苏经贸实验室",
-      "imgurl": "/static/img/product_2.png",
+      "name": "应用型RFID教学科研平台",
+      "title": "应用型RFID教学科研平台",
+      "imgurl": "/static/img/product_type1-2.png",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     },
     {
       "id": 3,
       "type": 1,
-      "name": "智慧商业实训台",
-      "title": "智慧商业实训平台 部署于江苏经贸实验室",
-      "imgurl": "/static/img/product_3.png",
+      "name": "嵌入式教学科研平台",
+      "title": "嵌入式教学科研平台",
+      "imgurl": "/static/img/product_type1-3.png",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }, {
       "id": 4,
-      "type": 2,
-      "name": "智慧商业实训台",
-      "title": "智慧商业实训平台 部署于江苏经贸实验室",
-      "imgurl": "/static/img/product_1.jpg",
+      "type": 1,
+      "name": "传感器原理与应用技术教学科研平台",
+      "title": "传感器原理与应用技术教学科研平台",
+      "imgurl": "/static/img/product_type1-4.png",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }, {
       "id": 5,
       "type": 2,
-      "name": "智慧商业实训台",
-      "title": "智慧商业实训平台 部署于江苏经贸实验室",
-      "imgurl": "/static/img/product_3.png",
+      "name": "物联网项目化工程设计实训开发系统",
+      "title": "物联网项目化工程设计实训开发系统",
+      "imgurl": "/static/img/product_type2-1.png",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }, {
       "id": 6,
       "type": 2,
-      "name": "智慧商业实训台",
-      "title": "智慧商业实训平台 部署于江苏经贸实验室",
-      "imgurl": "/static/img/product_2.png",
+      "name": "人工智能教学综合应用实训平台",
+      "title": "人工智能教学综合应用实训平台",
+      "imgurl": "/static/img/product_type2-2.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 7,
+      "type": 2,
+      "name": "人工智能教学综合应用实训平台",
+      "title": "人工智能教学综合应用实训平台",
+      "imgurl": "/static/img/product_type2-3.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 8,
+      "type": 3,
+      "name": "物联网智能家居实训平台",
+      "title": "物联网智能家居实训平台",
+      "imgurl": "/static/img/product_type3-1.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 9,
+      "type": 3,
+      "name": "物联网智慧城市交通系统",
+      "title": "物联网智慧城市交通系统",
+      "imgurl": "/static/img/product_type3-2.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 10,
+      "type": 3,
+      "name": "物联网智慧农业实训系统",
+      "title": "物联网智慧农业实训系统",
+      "imgurl": "/static/img/product_type3-3.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 11,
+      "type": 4,
+      "name": "工业级物联网多功能创新套件",
+      "title": "工业级物联网多功能创新套件",
+      "imgurl": "/static/img/product_type4-1.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 12,
+      "type": 4,
+      "name": "智能仓库管控系统",
+      "title": "智能仓库管控系统",
+      "imgurl": "/static/img/product_type4-2.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 13,
+      "type": 4,
+      "name": "SMT设备联网系统",
+      "title": "SMT设备联网系统",
+      "imgurl": "/static/img/product_type4-3.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 14,
+      "type": 4,
+      "name": "设备远程监控及运维系统",
+      "title": "设备远程监控及运维系统",
+      "imgurl": "/static/img/product_type4-4.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 15,
+      "type": 4,
+      "name": "产线智能化系统",
+      "title": "产线智能化系统",
+      "imgurl": "/static/img/product_type4-5.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 16,
+      "type": 4,
+      "name": "设备健康监诊系统",
+      "title": "设备健康监诊系统",
+      "imgurl": "/static/img/product_type4-6.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 17,
+      "type": 4,
+      "name": "水下巡检机器人",
+      "title": "水下巡检机器人",
+      "imgurl": "/static/img/product_type4-7.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 18,
+      "type": 5,
+      "name": "四旋翼飞行器A型",
+      "title": "四旋翼飞行器A型",
+      "imgurl": "/static/img/product_type5-1.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 19,
+      "type": 5,
+      "name": "四旋翼飞行器B型",
+      "title": "四旋翼飞行器B型",
+      "imgurl": "/static/img/product_type5-2.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 20,
+      "type": 5,
+      "name": "四旋翼飞行器C型",
+      "title": "四旋翼飞行器C型",
+      "imgurl": "/static/img/product_type5-3.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 21,
+      "type": 5,
+      "name": "六旋翼飞行器",
+      "title": "六旋翼飞行器",
+      "imgurl": "/static/img/product_type5-4.png",
+      "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
+    }, {
+      "id": 22,
+      "type": 6,
+      "name": "智慧生活环境体验馆",
+      "title": "智慧生活环境体验馆",
+      "imgurl": "/static/img/product_type6-1.png",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }
+
   ]
 }
