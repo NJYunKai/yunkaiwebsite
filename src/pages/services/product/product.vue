@@ -98,9 +98,8 @@ export default {
       });
     }
   },
-  created(){
-    this.values = this.$route.params;
-    this.changeproduct(this.values);
+  created:function(){
+    this.changeproduct(this.$route.params);
     console.log("==========", this.$route.params);
   }
 };
