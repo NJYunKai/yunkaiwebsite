@@ -83,7 +83,7 @@
                         <li class="rightli">黄山</li>
                         <li class="rightli">刘义扬</li>
                         <li class="rightli">张雷</li>
-                        <li class="rightli">裴帅</li>
+                        <li class="rightli">裴帅帅</li>
                       </ul>
                       <ul class="rightul" style="margin-left:120px">
                         <li class="rightcontaction" style="margin-left:15px">联系方式</li>
