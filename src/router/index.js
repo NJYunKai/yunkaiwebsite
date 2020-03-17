@@ -30,6 +30,7 @@ export default new Router({
     {
       path: '/productcase',
       name: 'productcase',
+      base: '/productcase/',
       meta: {
         requireAuth: true
       },
@@ -102,6 +103,7 @@ export default new Router({
     {
       path: '/companynews',
       name: 'companynews',
+      base: '/companynews/',
       meta: {
         requireAuth: true
       },
@@ -142,6 +144,7 @@ export default new Router({
     {
       path: '/services',
       name: 'services',
+      base: '/services/',
       meta: {
         requireAuth: true
       },
@@ -207,6 +210,7 @@ export default new Router({
     {
       path: '/construction',
       name: 'construction',
+      base: '/construction/',
       meta: {
         requireAuth: true
       },
