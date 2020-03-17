@@ -671,7 +671,7 @@ strong {
 .foot {
     width: 100%;
     height: 321px;
-    background: #4A4A4A;
+    background: rgba(53, 115, 94, 0.99);
 }
 
 .foot-demo {

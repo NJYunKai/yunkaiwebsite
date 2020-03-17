@@ -38,9 +38,9 @@
       </div>
       <div class="footer-below">
         <div class="public_security">
-          <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34020202000335">
+          <a href="http://njyksj.com/">
             <img :src="publicurl" style="float:left;" />&nbsp;
-            <span>苏ICP备  20011685号</span>
+            <span>苏ICP备  30158381486757420</span>
           </a>
         </div>
         <div class="line"></div>
