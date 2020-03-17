@@ -1,14 +1,13 @@
 <template>
   <div id="app">
-    <el-container>
+    <el-backtop></el-backtop>
+    <el-container class="container">
       <el-header>
         <h-header :imgHeight="imgHeight" :activeName="num"></h-header>
       </el-header>
       <el-main>
-        <!-- 轮播图   -->
-
         <div class="content_bg">
-        <router-view v-on:setNav="setNavigationNum" />
+          <router-view v-on:setNav="setNavigationNum" />
         </div>
       </el-main>
       <el-footer>
@@ -23,7 +22,7 @@ import header from "./components/header/header";
 import footer from "./components/footer/footer";
 import "../static/css/index.css";
 import "../static/css/style.css";
-import "../static/css/yunkai.css"
+import "../static/css/yunkai.css";
 export default {
   name: "app",
   data: function() {
@@ -59,7 +58,8 @@ export default {
   line-height: 300px;
   margin: 0;
 }
-
+.container {
+}
 // .banner .el-carousel__item:nth-child(2n) {
 //   background-image: url(/static/img/header.png);
 // }
@@ -81,7 +81,7 @@ export default {
 .el-main {
   padding: 0;
 }
-.el-carousel__container{
+.el-carousel__container {
   height: 600px;
 }
 </style>

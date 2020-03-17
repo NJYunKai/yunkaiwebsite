@@ -1151,6 +1151,7 @@ strong {
 .r-news-content .content-title {
     padding: 40px 30px;
     overflow: hidden;
+    display: none;
 }
 
 .content-title a {
