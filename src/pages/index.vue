@@ -269,8 +269,8 @@
 
 <script>
 import logo_jpg from "../../static/img/logo2.jpg";
-import img1 from "../../static/img/homecarousel-1.png";
-import img2 from "../../static/img/homecarousel-3.png";
+import img1 from "../../static/img/homecarousel-1.jpg";
+import img2 from "../../static/img/homecarousel-3.jpg";
 import img3 from "../../static/img/homecarousel-2.png";
 import img4 from "../../static/img/homecarousel-4.png";
 import img5 from "../../static/img/xlab-1.jpg";
@@ -389,8 +389,7 @@ export default {
 }
 
 .content_bg {
-  background: url(../../static/img/home-centerbackground.png) no-repeat center
-    top fixed;
+  // background: url(../../static/img/home-centerbackground.png) no-repeat center top fixed;
   /* background: url(http://csssecrets.io/images/tiger.jpg) no-repeat; */
   background-size: cover;
   width: 100%;
