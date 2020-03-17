@@ -171,17 +171,17 @@ export default {
 
 <style lang="less" scoped>
 
-.focuses .single-focus1{
-    width: 60px;
-	height: 60px;
-	padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 15px;
-    margin-top: 50px;
-	border-radius: 50%;
-    margin: 0px;
-    background: rgba(1, 1, 2, 0.54);
-}
+// .focuses .single-focus1{
+//     width: 60px;
+// 	height: 60px;
+// 	padding-left: 5px;
+//     padding-right: 5px;
+//     padding-top: 15px;
+//     margin-top: 50px;
+// 	border-radius: 50%;
+//     margin: 0px;
+//     background: rgba(1, 1, 2, 0.54);
+// }
 img {
 	display: inline-block;
 	height: auto;

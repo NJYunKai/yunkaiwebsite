@@ -58,15 +58,13 @@ export default {
   line-height: 300px;
   margin: 0;
 }
-.container {
+li.el-submenu__title {
+  font-size: 0.3rem;
 }
-// .banner .el-carousel__item:nth-child(2n) {
-//   background-image: url(/static/img/header.png);
-// }
 
-// .banner .el-carousel__item:nth-child(2n + 1) {
-//     background-image: url(/static/img/bg-topbackground.png);
-// }
+.el-menu-item {
+  font-size: 0.3rem;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

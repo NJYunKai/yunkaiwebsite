@@ -7,14 +7,6 @@
     padding: 0;
 }
 
-html,
-body {
-    position: relative;
-    width: 100%;
-    background: #fff;
-    height: 100px;
-    font-family: "Ã¥Â¾Â®Ã¨Â½Â¯Ã©â€ºâ€¦Ã©Â»â€˜";
-}
 
 .wrap {
     width: 100%;
@@ -1300,9 +1292,9 @@ strong {
     z-index: 999;
     position: fixed;
     top: 10%;
-    left: 10%;
+    left: 3%;
     /* display: none; */
-    /* width: 240px; */
+    width: 240px;
     float: left;
     border-radius: 5px;
 }
@@ -1319,6 +1311,17 @@ strong {
     font-size: 16px;
     color: #9B9B9B;
     text-align: center;
+    float: left;
+}
+
+.r-side .focuses {
+    display: block;
+    margin: 20px 0px;
+    padding: 4px;
+    font-size: 16px;
+    color: #9B9B9B;
+    text-align: center;
+    float: left;
 }
 
 .r-side hr {

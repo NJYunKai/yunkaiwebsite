@@ -33,3 +33,10 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+
+    .content-1 .labimg_title {
+        width: 50%;
+        margin: 0 20%;
+        margin-bottom: 10%;
+    }
+

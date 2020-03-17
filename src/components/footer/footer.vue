@@ -14,7 +14,7 @@
             <router-link to="/aboutus">云开简介</router-link>
           </li>
           <li>
-            <router-link to="">合作伙伴</router-link>
+            <router-link to>合作伙伴</router-link>
           </li>
         </ul>
         <!-- 第二列 -->
@@ -26,7 +26,7 @@
             <router-link to="/companynews/dynamicnews" class="sub-link">公司动态</router-link>
           </li>
           <li>
-            <router-link to="" class="sub-link">行业新闻</router-link>
+            <router-link to class="sub-link">行业新闻</router-link>
           </li>
         </ul>
         <!-- 第六列 -->
@@ -40,7 +40,7 @@
         <div class="public_security">
           <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34020202000335">
             <img :src="publicurl" style="float:left;" />&nbsp;
-            <span>苏ICP备  20011685号</span>
+            <span>苏ICP备 20011685号</span>
           </a>
         </div>
         <div class="line"></div>
@@ -85,6 +85,8 @@ a {
 .footer {
   height: 300px;
   width: 100%;
+  // position: absolute;
+  // bottom: 0px;
   background-color: rgba(53, 87, 115, 0.9);
   overflow: hidden;
   .footer-all {

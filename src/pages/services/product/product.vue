@@ -3,7 +3,7 @@
     <!-- 侧边导航栏 -->
     <div class="r-side">
       <div class="focuses" @click="changeproduct(1)">
-        <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="">
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.15s; animation-name: fadeInLeftBig;"
@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="focuses" @click="changeproduct(2)">
-        <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="">
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.25s; animation-name: fadeInLeftBig;"
@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="focuses" @click="changeproduct(3)">
-        <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="">
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="focuses" @click="changeproduct(4)">
-        <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="">
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
@@ -35,7 +35,7 @@
         </div>
       </div>
             <div class="focuses" @click="changeproduct(5)">
-        <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="">
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
@@ -43,7 +43,7 @@
         </div>
       </div>
             <div class="focuses" @click="changeproduct(6)">
-        <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="">
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
@@ -84,24 +84,28 @@ export default {
     };
   },
   mounted() {
+    console.log("==========", this.$route.params);
     this.type = this.$route.params.type;
     this.productlist = json.productlist.filter(values => {
-      return values.type == 1;
+      return values.type == this.type;
     });
-    // console.log(this.type, this.productlist);
+    // console.log(this.type,"mounted", this.productlist);
   },
   methods: {
     changeproduct(values) {
-      // console.log("==========", values);
+      // console.log("=====changeproduct=====", values);
       this.productlist = json.productlist.filter(val => {
         return val.type == values;
       });
+    },
+    getproduct(){
+          // console.log("=====getproduct=====", this.$route.params.type);
+          this.changeproduct(this.$route.params.type);
     }
   },
-  created:function(){
-    this.changeproduct(this.$route.params);
-    console.log("==========", this.$route.params);
-  }
+   watch: {
+    $route: "getproduct"
+  },
 };
 </script>
 
