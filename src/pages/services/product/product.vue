@@ -97,6 +97,10 @@ export default {
         return val.type == values;
       });
     }
+  },
+  created:function(){
+    this.changeproduct(this.$route.params);
+    console.log("==========", this.$route.params);
   }
 };
 </script>
