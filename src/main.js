@@ -6,7 +6,8 @@ import './public/style/common.less';
 import './public/style/iconfont.css';
 import './public/style/forbidding.css';
 import App from './App';
-import 'animate.css'
+import 'animate.css';
+import 'lib-flexible';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
