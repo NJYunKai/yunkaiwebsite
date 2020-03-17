@@ -81,7 +81,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;共建产业学院是将公司的产业资源、政策资质、行业经验、业务标准、实习岗位、人事招聘、内部培训、研发技术、经营管理等发展要素植入产业学院，依托高校的人才、人力、技术以及丰富的社会资源完成企业战略转型和区域化发展规划，高校在产业学院中负责提供日常管理、专业培养、区域交流、专项研究以及人力资源等服务。
         </p>
             <p style="text-align:center;">
-		    <img src="../../../../static/img/r1.png">
+		    <img src="../../../../static/img/r1.jpg">
 		</p>
         </div>
 	 </div>
@@ -97,6 +97,9 @@
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;委派企业工程师担任高校外聘教师，指导并开展企业项目化教学；承担专业课程，定期为学生进行上课指导；配合学校针对“实训周”进行课程设计，并由企业负责实验教学、项目教学。
         </p>
+        <p style="text-align:center;">
+		    <img src="../../../../static/img/r2.jpg">
+		</p>
         </div>
       </div>
 
@@ -120,6 +123,9 @@
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;校外基地建设：大学生校外实践教学基地建设是以区域经济和社会发展的需求为引导，以创业技能型专业人才培养定位为核心，以人才培养模式改革为重点，以“校企共建”为形式，以实践教学内容与课程体系改革为载体，将“学业、企业、就业、创业”四业贯通的实践教学特色，分期逐步深入建设大学生校外实践教学基地，发挥基地的社会服务和辐射功能。
         </p>
+        <p style="text-align:center;">
+		    <img src="../../../../static/img/r3.jpg">
+		</p>
         </div>
         </div>
 
@@ -129,7 +135,7 @@
             <strong><strong>四、教学课程资源建设</strong></strong>
         </h2>
         <p style="text-align:center;">
-		    <img src="../../../../static/img/r4.png">
+		    <img src="../../../../static/img/r4.jpg">
 		</p>
        </div>
         </div>
@@ -143,7 +149,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;针对合作高校，南京云开联合合作企业组织人工智能毕业班学生开展校外实习实训，企业为实习实训项目学生提供软硬件技术支持，以及应用开发平台、课程、案例、教学指导、开发指南等，以“产、学、研”相结合的发展基调，为社会培养既有良好职业素质又有很强的操作技能的人工智能技术应用型人才。
         </p>
         <p style="text-align:center;">
-		    <img src="../../../../static/img/5.png">
+		    <img src="../../../../static/img/r5.jpg">
 		</p>
         </div>
         </div>
@@ -163,7 +169,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最后，针对有创业想法的部分学生，南京云开给予相应的创业辅导；对于比较优秀的创业思维，南京云参加提供专门的创业导师前期全程参与以及部分创业基金支持。
         </p>
          <p style="text-align:center;">
-		    <img src="../../../../static/img/6.png">
+		    <img src="../../../../static/img/r6.jpg">
 		</p>
         </div>
         </div>

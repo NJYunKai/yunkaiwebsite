@@ -268,7 +268,7 @@
 </template>
 
 <script>
-import logo_jpg from "../../static/img/logo2.jpg";
+import logo_jpg from "../../static/img/logo.png";
 import img1 from "../../static/img/homecarousel-1.jpg";
 import img2 from "../../static/img/homecarousel-3.jpg";
 import img3 from "../../static/img/homecarousel-2.png";

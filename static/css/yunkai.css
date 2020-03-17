@@ -13,7 +13,7 @@
     .news .content-background-green {
         background-color: rgba(18, 11, 186, 0.25);
     }
-
+    /*  light blue */
     .news .content-background-shallow-black {
         background-color: rgba(46, 41, 103, 0.25);
     }
@@ -24,6 +24,10 @@
 
     .news .content-background-grey {
         background-color: rgb(79, 96, 108);
+    }
+
+    .news .content-background-light-blue {
+        background-color:rgba(11, 186, 186, 0.39);
     }
 
     .news .content-1 {
