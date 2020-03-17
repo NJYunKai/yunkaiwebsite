@@ -8,7 +8,7 @@
         </el-breadcrumb>
       </div>
 
-      <div class="news">
+      <div class="news" style="margin: 0 15em;">
         <div class="artdetail_title" style="display:block;font-family:Microsoft YaHei;font-size:1.4em;color:#000000;font-weight:bold;text-decoration:none;text-align: center">
           <p>
             一带一路 ———— 柬埔寨金边基地
@@ -86,7 +86,4 @@ export default {
         color: red;
     }
 
-    .news{
-      margin: 0 15em;
-    }
 </style>

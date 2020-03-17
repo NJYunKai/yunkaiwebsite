@@ -34,14 +34,28 @@ export default {
     getPath() {
       this.breadList = ["项目案例"];
       switch (this.$route.path) {
-        //公司动态
-        case "/companynews/dynamicnews":
-          this.breadList.push("1+x试验基地");
+       
+        case "/productcase/xlab":
+          this.breadList.push("江苏经贸职业技术学院");
           break;
-        //行业新闻
-        case "/companynews/fieldnews":
-          this.breadList.push("1+x试验基地");
+        
+        case "/productcase/dianji":
+          this.breadList.push("上海电机学院");
           break;
+
+          case "/productcase/gongmao":
+          this.breadList.push("浙江工贸职业技术学院");
+          break;
+
+          case "/productcase/gongshang":
+          this.breadList.push("浙江工商大学");
+          break;
+
+          case "/productcase/nongye":
+          this.breadList.push("湖南农业大学");
+          break;
+
+
       }
       console.log(this.$route.path, this.breadList);
     }
