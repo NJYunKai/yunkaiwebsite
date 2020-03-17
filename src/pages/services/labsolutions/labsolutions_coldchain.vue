@@ -6,7 +6,7 @@
     <div class="news">
       <div class="content-background-dark">
         <div class="content-1">
-          <img src="/static/img/labsolutions_coldchain_title.png" />
+          <img src="/static/img/labsolutions_coldchain_title.png"  class="labimg_title" />
           <img src="/static/img/labsolutions_coldchain1.png" />
         </div>
       </div>

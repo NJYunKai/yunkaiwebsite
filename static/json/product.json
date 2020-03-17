@@ -4,7 +4,7 @@
       "type": 1,
       "name": "物联网综合应用教学平台",
       "title": "物联网综合应用教学平台",
-      "imgurl": "/static/img/product_type1-1.png",
+      "imgurl": "/static/img/product_type1-1.jpg",
       "detailcontent": "1、本套系统主要作为学生认知实训、物联网场景体验、学生综合设计使用，以现有物联网班级学生作为底库，进行学生的综合实训；"
     },
     {
@@ -12,7 +12,7 @@
       "type": 1,
       "name": "应用型RFID教学科研平台",
       "title": "应用型RFID教学科研平台",
-      "imgurl": "/static/img/product_type1-2.png",
+      "imgurl": "/static/img/product_type1-2.jpg",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     },
     {
@@ -20,7 +20,7 @@
       "type": 1,
       "name": "嵌入式教学科研平台",
       "title": "嵌入式教学科研平台",
-      "imgurl": "/static/img/product_type1-3.png",
+      "imgurl": "/static/img/product_type1-3.jpg",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }, {
       "id": 4,
@@ -90,28 +90,28 @@
       "type": 4,
       "name": "SMT设备联网系统",
       "title": "SMT设备联网系统",
-      "imgurl": "/static/img/product_type4-3.png",
+      "imgurl": "/static/img/product_type4-3.jpg",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }, {
       "id": 14,
       "type": 4,
       "name": "设备远程监控及运维系统",
       "title": "设备远程监控及运维系统",
-      "imgurl": "/static/img/product_type4-4.png",
+      "imgurl": "/static/img/product_type4-4.jpg",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }, {
       "id": 15,
       "type": 4,
       "name": "产线智能化系统",
       "title": "产线智能化系统",
-      "imgurl": "/static/img/product_type4-5.png",
+      "imgurl": "/static/img/product_type4-5.jpg",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }, {
       "id": 16,
       "type": 4,
       "name": "设备健康监诊系统",
       "title": "设备健康监诊系统",
-      "imgurl": "/static/img/product_type4-6.png",
+      "imgurl": "/static/img/product_type4-6.jpg",
       "detailcontent": "这是2018年交付于江苏经贸学院电子商务实验室的实验台，主要包含。。。。。。"
     }, {
       "id": 17,

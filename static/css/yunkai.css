@@ -13,7 +13,7 @@
     .news .content-background-green {
         background-color: rgba(18, 11, 186, 0.25);
     }
-
+    /*  light blue */
     .news .content-background-shallow-black {
         background-color: rgba(46, 41, 103, 0.25);
     }
@@ -26,6 +26,10 @@
         background-color: rgb(79, 96, 108);
     }
 
+    .news .content-background-light-blue {
+        background-color:rgba(11, 186, 186, 0.39);
+    }
+
     .news .content-1 {
         /* background-color: rgba(38, 39, 50, 0.6); */
         width: 50%;
@@ -33,3 +37,10 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+
+    .content-1 .labimg_title {
+        width: 50%;
+        margin: 0 20%;
+        margin-bottom: 10%;
+    }
+

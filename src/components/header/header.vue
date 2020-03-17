@@ -116,8 +116,8 @@ export default {
   background-color: #fff0;
 }
 .header {
-  z-index: 999;
-  position: fixed;
+  // z-index: 999;
+  // position: fixed;
   top: 0;
   width: 100%;
   height: 60px;

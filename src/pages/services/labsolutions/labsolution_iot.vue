@@ -6,25 +6,17 @@
     <div class="news">
       <div class="content-background-dark">
         <div class="content-1">
-          <img src="/static/img/labsolution_iot_title.png" />
+          <img src="/static/img/labsolution_iot_title.png" class="labimg_title" />
           <img src="/static/img/labsolution_iot1.png" />
-          <!-- <img src="/static/img/labsolution_iot2.png" />
-          <img src="/static/img/labsolution_iot3.png" />-->
         </div>
       </div>
       <div class="content-background-white">
         <div class="content-1">
-          <!-- <img src="/static/img/labsolution_iot_title.png" />
-          <img src="/static/img/labsolution_iot1.png" />-->
           <img src="/static/img/labsolution_iot2.png" />
-          <!-- <img src="/static/img/labsolution_iot3.png" /> -->
         </div>
       </div>
       <div class="content-background-blue">
         <div class="content-1">
-          <!-- <img src="/static/img/labsolution_iot_title.png" />
-          <img src="/static/img/labsolution_iot1.png" />-->
-          <!-- <img src="/static/img/labsolution_iot2.png" /> -->
           <img src="/static/img/labsolution_iot3.png" />
         </div>
       </div>
