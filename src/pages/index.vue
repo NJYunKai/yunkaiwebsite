@@ -26,49 +26,7 @@
       </el-carousel>
     </div>
 
-    <!-- 产品方案修改模块 -->
-    <div class="case" router style="background-color:rgba(237, 243, 242, 0.76)">
-      <div class="case-demo">
-        <h3 class="product-header">经典案例</h3>
-        <p class="product-header-text index-p">Curstem&nbsp;case</p>
-        <p class="product-pic"></p>
-        <p style="clear: both;"></p>
-        <p class="product-header-slogan">助力学校实验建设，促进学生实体发展</p>
-        <div class="case-frame">
-          <router-link to="/productcase/xlab" class="sub-link">
-            <div class="case-frame-list">
-              <div class="case-frame-img">
-                <img v-lazy="img5" alt />
-              </div>
-              <h3 class="case-title">江苏经贸职院</h3>
-              <p class="case-content">其中包括智能制造实训室、物流管理专业1+X考点实训室环境及智能化实训室、“人工智能冷链物流”实训室等</p>
-            </div>
-          </router-link>
-
-          <router-link to="/productcase/gongshang" class="sub-link">
-            <div class="case-frame-list">
-              <div class="case-frame-img">
-                <img v-lazy="img6" alt />
-              </div>
-              <h3 class="case-title">浙江工商大学</h3>
-              <p class="case-content">浙江工商大学物联网实践与智能体验实验室</p>
-            </div>
-          </router-link>
-
-          <router-link to="/productcase/dianji" class="sub-link">
-            <div class="case-frame-list">
-              <div class="case-frame-img">
-                <img v-lazy="img7" alt />
-              </div>
-              <h3 class="case-title">上海电机学院</h3>
-              <p class="case-content">上海电机学院物联网综合创新实验室</p>
-            </div>
-          </router-link>
-        </div>
-      </div>
-    </div>
-
-    <!-- 新闻中心修改模块 -->
+        <!-- 新闻中心修改模块 -->
     <div class="new" style="background-color:#faf9f991">
       <div class="new-demo">
         <h3 class="product-header">新闻中心</h3>
@@ -156,6 +114,48 @@
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 产品方案修改模块 -->
+    <div class="case" router style="background-color:rgba(237, 243, 242, 0.76)">
+      <div class="case-demo">
+        <h3 class="product-header">经典案例</h3>
+        <p class="product-header-text index-p">Curstem&nbsp;case</p>
+        <p class="product-pic"></p>
+        <p style="clear: both;"></p>
+        <p class="product-header-slogan">助力学校实验建设，促进学生实体发展</p>
+        <div class="case-frame">
+          <router-link to="/productcase/xlab" class="sub-link">
+            <div class="case-frame-list">
+              <div class="case-frame-img">
+                <img v-lazy="img5" alt />
+              </div>
+              <h3 class="case-title">江苏经贸职院</h3>
+              <p class="case-content">其中包括智能制造实训室、物流管理专业1+X考点实训室环境及智能化实训室、“人工智能冷链物流”实训室等</p>
+            </div>
+          </router-link>
+
+          <router-link to="/productcase/gongshang" class="sub-link">
+            <div class="case-frame-list">
+              <div class="case-frame-img">
+                <img v-lazy="img6" alt />
+              </div>
+              <h3 class="case-title">浙江工商大学</h3>
+              <p class="case-content">浙江工商大学物联网实践与智能体验实验室</p>
+            </div>
+          </router-link>
+
+          <router-link to="/productcase/dianji" class="sub-link">
+            <div class="case-frame-list">
+              <div class="case-frame-img">
+                <img v-lazy="img7" alt />
+              </div>
+              <h3 class="case-title">上海电机学院</h3>
+              <p class="case-content">上海电机学院物联网综合创新实验室</p>
+            </div>
+          </router-link>
         </div>
       </div>
     </div>
