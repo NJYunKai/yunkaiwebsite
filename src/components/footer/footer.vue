@@ -38,9 +38,9 @@
       </div>
       <div class="footer-below">
         <div class="public_security">
-          <a href="http://njyksj.com/">
+          <a href="http://beian.miit.gov.cn/">
             <img :src="publicurl" style="float:left;" />&nbsp;
-            <span>苏ICP备  30158381486757420</span>
+            <span>苏ICP备  20011685号</span>
           </a>
         </div>
         <div class="line"></div>
