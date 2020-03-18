@@ -87,7 +87,7 @@ a {
   width: 100%;
   // position: absolute;
   // bottom: 0px;
-  background-color: rgba(53, 87, 115, 0.9);
+  background-color: rgba(53, 115, 85, 0.9);
   overflow: hidden;
   .footer-all {
     height: 100%;
