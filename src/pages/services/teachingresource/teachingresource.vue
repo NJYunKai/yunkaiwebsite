@@ -3,7 +3,7 @@
     <div class="news">
       <div class="content-background-dark">
         <div class="content-1">
-          <img src="/static/img/teachingresource_title.png" />
+          <img src="/static/img/teachingresource_title.png" class="labimg_title"/>
           <img src="/static/img/teachingresource_1.png" />
         </div>
       </div>

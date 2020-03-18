@@ -3,7 +3,7 @@
     <!-- 侧边导航栏 -->
     <div class="r-side">
       <div class="focuses" @click="changeproduct(1)">
-        <div class="">
+        <div class>
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.15s; animation-name: fadeInLeftBig;"
@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="focuses" @click="changeproduct(2)">
-        <div class="">
+        <div class>
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.25s; animation-name: fadeInLeftBig;"
@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="focuses" @click="changeproduct(3)">
-        <div class="">
+        <div class>
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
@@ -27,23 +27,23 @@
         </div>
       </div>
       <div class="focuses" @click="changeproduct(4)">
-        <div class="">
+        <div class>
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
           >智能控制类</div>
         </div>
       </div>
-            <div class="focuses" @click="changeproduct(5)">
-        <div class="">
+      <div class="focuses" @click="changeproduct(5)">
+        <div class>
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
           >无人机类</div>
         </div>
       </div>
-            <div class="focuses" @click="changeproduct(6)">
-        <div class="">
+      <div class="focuses" @click="changeproduct(6)">
+        <div class>
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
@@ -60,8 +60,8 @@
               <router-link :to="{ name: 'productdetails', params: { id: item.id }}">
                 <el-card shadow="hover">
                   <img :src="item.imgurl" class="image" />
-                  <div class="title" >
-                    <span >{{item.name}}</span>
+                  <div class="title">
+                    <span>{{item.name}}</span>
                   </div>
                 </el-card>
               </router-link>
@@ -98,14 +98,14 @@ export default {
         return val.type == values;
       });
     },
-    getproduct(){
-          // console.log("=====getproduct=====", this.$route.params.type);
-          this.changeproduct(this.$route.params.type);
+    getproduct() {
+      // console.log("=====getproduct=====", this.$route.params.type);
+      this.changeproduct(this.$route.params.type);
     }
   },
-   watch: {
+  watch: {
     $route: "getproduct"
-  },
+  }
 };
 </script>
 
@@ -114,13 +114,20 @@ export default {
   border: 1px solid #c3d9e89e;
   background-color: #fff0;
 }
+.el-col-8 {
+    width: 30%;
+}
 .el-card__body {
   height: 20em;
+}
+.el-col-offset-0 {
+    margin-left: 3%;
+    margin-top: 3%;
 }
 .el-card.is-always-shadow,
 .el-card.is-hover-shadow:focus,
 .el-card.is-hover-shadow:hover {
-  -webkit-box-shadow: 9px 8px 12px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 9px 8px 12px 3px rgba(238, 229, 229, 0.38);
   box-shadow: 1 12px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .image {
