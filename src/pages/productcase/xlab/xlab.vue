@@ -127,7 +127,17 @@
     </div>
 </template>
 
+<script>
+export default {
+    mounted () 
+    {
+        this.$router.afterEach((to, from, next) => {
+            window.scrollTo(0, 0)
+        })
+    }
 
+}
+</script>
 
 <style>
 
