@@ -2,25 +2,25 @@
   <div>
     <!-- 轮播图   -->
     <div class="banner">
-      <el-carousel height="400px">
-        <el-carousel-item>
-          <router-link to="/companynews/iotmeeting">
-            <img v-lazy="img1" />
-          </router-link>
-        </el-carousel-item>
-        <el-carousel-item>
-          <router-link to="/companynews/jingmao-lab">
-            <img v-lazy="img2" />
-          </router-link>
-        </el-carousel-item>
-        <el-carousel-item>
-          <router-link to="/beltroad">
-            <img v-lazy="img3" />
-          </router-link>
-        </el-carousel-item>
+      <el-carousel height="10rem">
         <el-carousel-item>
           <router-link to="/cooperative-education">
-            <img v-lazy="img4" />
+            <img v-lazy="img4" class="indeximg" />
+          </router-link>
+        </el-carousel-item>
+        <!-- <el-carousel-item>
+          <router-link to="/companynews/jingmao-lab">
+            <img v-lazy="img2" class="indeximg" />
+          </router-link>
+        </el-carousel-item> -->
+        <el-carousel-item>
+          <router-link to="/beltroad">
+            <img v-lazy="img3" class="indeximg"/>
+          </router-link>
+        </el-carousel-item>
+        <el-carousel-item>
+          <router-link to="/companynews/iotmeeting">
+            <img v-lazy="img1" class="indeximg" />
           </router-link>
         </el-carousel-item>
       </el-carousel>
@@ -31,9 +31,7 @@
       <div class="new-demo">
         <h3 class="product-header">新闻中心</h3>
         <p class="product-header-text index-p">News&nbsp;center</p>
-        <p class="product-pic new-pic"></p>
-        <p class="product-header-slogan new-header-slogan">多角度展现企业动态，全方位呈现云开风貌</p>
-        <div class="news-content">
+        <div class="news-content" style="margin-top:1%;background:#ffffff75">
           <!-- 新闻头部 -->
           <div class="ne-cont-header">
             <span class="ne-cont-bigfat">公司动态</span>
@@ -123,52 +121,53 @@
       <div class="case-demo">
         <h3 class="product-header">经典案例</h3>
         <p class="product-header-text index-p">Curstem&nbsp;case</p>
-        <p class="product-pic"></p>
-        <p style="clear: both;"></p>
-        <p class="product-header-slogan">助力学校实验建设，促进学生实体发展</p>
-        <div class="case-frame">
-          <router-link to="/productcase/xlab" class="sub-link">
-            <div class="case-frame-list">
-              <div class="case-frame-img">
-                <img v-lazy="img5" alt />
+        <div class="news-content" style="margin-top:1%;background:#ffffff75;height:10rem">
+          <div class="case-frame">
+            <router-link to="/productcase/xlab" class="sub-link">
+              <div class="case-frame-list">
+                <div class="case-frame-img">
+                  <img v-lazy="img5" alt />
+                </div>
+                <h3 class="case-title">江苏经贸职院</h3>
+                <p class="case-content">其中包括智能制造实训室、物流管理专业1+X考点实训室环境及智能化实训室、“人工智能冷链物流”实训室等</p>
               </div>
-              <h3 class="case-title">江苏经贸职院</h3>
-              <p class="case-content">其中包括智能制造实训室、物流管理专业1+X考点实训室环境及智能化实训室、“人工智能冷链物流”实训室等</p>
-            </div>
-          </router-link>
+            </router-link>
 
-          <router-link to="/productcase/gongshang" class="sub-link">
-            <div class="case-frame-list">
-              <div class="case-frame-img">
-                <img v-lazy="img6" alt />
+            <router-link to="/productcase/gongshang" class="sub-link">
+              <div class="case-frame-list">
+                <div class="case-frame-img">
+                  <img v-lazy="img6" alt />
+                </div>
+                <h3 class="case-title">浙江工商大学</h3>
+                <p class="case-content">浙江工商大学物联网实践与智能体验实验室</p>
               </div>
-              <h3 class="case-title">浙江工商大学</h3>
-              <p class="case-content">浙江工商大学物联网实践与智能体验实验室</p>
-            </div>
-          </router-link>
+            </router-link>
 
-          <router-link to="/productcase/dianji" class="sub-link">
-            <div class="case-frame-list">
-              <div class="case-frame-img">
-                <img v-lazy="img7" alt />
+            <router-link to="/productcase/dianji" class="sub-link">
+              <div class="case-frame-list">
+                <div class="case-frame-img">
+                  <img v-lazy="img7" alt />
+                </div>
+                <h3 class="case-title">上海电机学院</h3>
+                <p class="case-content">上海电机学院物联网综合创新实验室</p>
               </div>
-              <h3 class="case-title">上海电机学院</h3>
-              <p class="case-content">上海电机学院物联网综合创新实验室</p>
-            </div>
-          </router-link>
+            </router-link>
+          </div>
         </div>
+        
       </div>
     </div>
 
     <!-- 合作院校 -->
-    <div class="customer" style="background: rgba(194, 221, 212, 0.65)">
-      <div class="new-demo">
+    <div class="customer" style="background: rgba(194, 221, 212, 0.65);height:16rem">
+      <div class="new-demo" style="height:95%">
         <h3 class="product-header">合作院校</h3>
         <p class="product-header-text index-p">Cooperative&nbsp;school</p>
         <p class="product-pic new-pic"></p>
-        <p class="product-header-slogan new-header-slogan" style="margin-bottom:30px">云上开花，数据结果</p>
-        <div class="product-box" style="background:white">
-          <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
+        <!-- <p class="product-pic new-pic"></p>
+        <p class="product-header-slogan new-header-slogan" style="margin-bottom:30px">云上开花，数据结果</p> -->
+        <div class="product-box" style="background:#faf9f991;height:13.2rem">
+          <!-- <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
             <a href="javascript:;" class="product-roll">
               <img v-lazy="img12" />
             </a>
@@ -224,7 +223,32 @@
             <a href="javascript:;" class="product-roll" style="width:200px;margin-left:0px">
               <img v-lazy="img25" style="width:200px" />
             </a>
+          </div> -->
+          <!-- 本科院校 -->
+          <div>
+            <div style="margin:0.5rem 0 0 0"><span class="ne-cont-bigfat">本科院校</span></div>
+            <div style="margin:0 5%">
+              <el-carousel :interval="4000" type="card" height="270px">
+                <el-carousel-item v-for="item in rcschoolbox" :key="item.id">
+                  <img :src="item.idView" class="rcschoolimage" style="margin:1rem 3rem">
+                </el-carousel-item>
+              </el-carousel>
+            </div>
+
           </div>
+
+          <!-- 高职院校 -->
+          <div>
+            <div style="margin:0.5rem 0 0 0"><span class="ne-cont-bigfat">高职院校</span></div>
+            <div style="margin:0 5%">
+              <el-carousel :interval="4000" type="card" height="270px">
+                <el-carousel-item v-for="item in hvschoolbox" :key="item.id">
+                  <img :src="item.idView" class="rcschoolimage" style="margin:1rem 3rem">
+                </el-carousel-item>
+              </el-carousel>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -235,30 +259,28 @@
         <h3 class="product-header">合作企业</h3>
         <p class="product-header-text index-p">Cooperative&nbsp;partner</p>
         <p class="product-pic new-pic"></p>
-        <p class="product-header-slogan new-header-slogan" style="margin-bottom:30px">凝聚八方之力，共建云开未来</p>
-        <div class="product-box" style="background:white">
-          <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
-            <a
-              href="javascript:;"
-              style="display: inline-block;float: left;width: 300px;margin: 5px 23px;text-align: center;"
-            >
-              <img v-lazy="img26" style="height:150px" />
-            </a>
+        <!-- <p class="product-header-slogan new-header-slogan" style="margin-bottom:30px">凝聚八方之力，共建云开未来</p> -->
+        <div class="product-box" style="background:#ffffff8c;height:8rem">
+          <div class="product-vessel product-vessel-vive" style="left: -2112.95px;height:7rem">
 
-            <a href="javascript:;" class="product-roll">
+            <a href="javascript:;" class="product-roll" style="margin:0 2rem">
               <img v-lazy="img27" />
             </a>
 
-            <a href="javascript:;" class="product-roll" style="width:200px">
-              <img v-lazy="img28" style="width:200px" />
+            <a href="javascript:;" class="product-roll" style="width:4rem">
+              <img v-lazy="img28" style="width:5rem;height:2rem;margin:0.5rem" />
             </a>
 
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img29" />
+            <a href="javascript:;" class="product-roll" style="margin:0 2rem">
+              <img v-lazy="img26" />
             </a>
 
-            <a href="javascript:;" class="product-roll" style="width:250px">
-              <img v-lazy="img30" style="width:250px" />
+            <a href="javascript:;" class="product-roll" style="width:5rem">
+              <img v-lazy="img30"  style="width:4rem;height:2rem;margin:1rem 1.5rem 1rem 1.5rem"/>
+            </a>
+
+            <a href="javascript:;" class="product-roll" style="width:5rem">
+              <img v-lazy="img29" style="width:4rem;height:2rem;margin: 0 1rem 1.2rem 1rem;" />
             </a>
           </div>
         </div>
@@ -302,6 +324,40 @@ import img30 from "../../static/img/cooperationcompany-5.png";
 export default {
   data: function() {
     return {
+      rcschoolbox:[
+        {id:0,idView:require("../../static/img/rcschool-1")},
+        {id:1,idView:require("../../static/img/rcschool-2")},
+        {id:2,idView:require("../../static/img/rcschool-3")},
+        {id:3,idView:require("../../static/img/rcschool-4")},
+        {id:4,idView:require("../../static/img/rcschool-5")},
+        {id:5,idView:require("../../static/img/rcschool-6")},
+        {id:6,idView:require("../../static/img/rcschool-7")},
+        {id:7,idView:require("../../static/img/rcschool-8")},
+        {id:8,idView:require("../../static/img/rcschool-9")},
+        {id:9,idView:require("../../static/img/rcschool-10")},
+        {id:10,idView:require("../../static/img/rcschool-11")},
+        {id:11,idView:require("../../static/img/rcschool-12")},
+        {id:12,idView:require("../../static/img/rcschool-13")},
+        {id:13,idView:require("../../static/img/rcschool-14")},
+        {id:14,idView:require("../../static/img/rcschool-15")},
+        {id:15,idView:require("../../static/img/rcschool-16")},
+        {id:16,idView:require("../../static/img/rcschool-17")},
+        {id:17,idView:require("../../static/img/rcschool-18")},
+        {id:18,idView:require("../../static/img/rcschool-19")},
+        {id:19,idView:require("../../static/img/rcschool-20")},
+        {id:20,idView:require("../../static/img/rcschool-21")},
+        {id:21,idView:require("../../static/img/rcschool-22")},
+        {id:22,idView:require("../../static/img/rcschool-23")}
+      ],
+      hvschoolbox:[
+        {id:0,idView:require("../../static/img/hvschool-1")},
+        {id:1,idView:require("../../static/img/hvschool-2")},
+        {id:2,idView:require("../../static/img/hvschool-3")},
+        {id:3,idView:require("../../static/img/hvschool-4")},
+        {id:4,idView:require("../../static/img/hvschool-5")},
+        {id:5,idView:require("../../static/img/hvschool-6")},
+        {id:6,idView:require("../../static/img/hvschool-7")},
+      ],
       logo_jpg,
       img1,
       img2,
@@ -418,5 +474,14 @@ export default {
 
 .index-p{
   color:black;
+}
+
+.indeximg{
+  height: 100%;
+}
+
+.rcschoolimage{
+  height: 200px;
+  width: 200px;
 }
 </style>

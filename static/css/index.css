@@ -419,7 +419,7 @@ strong {
 
 .product-roll {
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 194px;
     margin: 5px 23px;
     text-align: center;

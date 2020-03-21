@@ -75,10 +75,7 @@
 
                                         <p style="margin-left:40px">&nbsp; &nbsp;智能制造实训室</p>
 
-                                        <p style="margin-left:40px">&nbsp; &nbsp;物流管理专业1+X考点实训室环境及智能化实训室</p>
-
-                                        <p style="margin-left:30px">&nbsp; &nbsp;“人工智能冷链物流”实训室</p><br> &nbsp;<br>
-                                    </div>
+                                    </div><br> &nbsp;<br>
                                 </div>
 
                                 <h1 style="display:block;font-family:Microsoft YaHei;font-size:24px;color:#000000;font-weight:bold;text-decoration:none;margin: 10px 0 30px 20px">

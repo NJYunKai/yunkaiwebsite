@@ -1,6 +1,6 @@
 <template>
   <div class="r-news">
-    <div class="r-news-content" style="background:white">
+    <div class="r-news-content">
       <div class="content-title">
         <el-breadcrumb separator-class="el-icon-arrow-right">
           <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
@@ -8,7 +8,7 @@
         </el-breadcrumb>
       </div>
 
-      <div class="news" style="margin: 0 15em;">
+      <div class="news" style="margin: 3em 15em;padding: 3em 3em;background: #553be224">
         <div class="artdetail_title" style="display:block;font-family:Microsoft YaHei;font-size:2em;color:#000000;font-weight:bold;text-decoration:none;text-align: center">
           <p>
             一带一路 ———— 柬埔寨金边基地

@@ -62,7 +62,7 @@
                                     <div setsid="article250">
                                         <p style="margin:0 40px 0 40px;text-indent:2em;">面对当今世界激烈的商业竞争环境，人工智能作为一种颠覆性的科技力量，正在帮助企业去获取最大的竞争优势，这种结合必然会碰撞出无数火花，彻底变革整个商业规则。物联网作为智能商业的“基础设施”，在人工智能、大数据、5G等新技术正在通过物联网的手段赋能商业的变革，使商业正在从“智能+商业”1.0向“IOT+商业”2.0过渡。</p><br> &nbsp;<br>
                                         <p style="margin:0 40px 0 40px;text-indent:2em">在这场商业的智能化、生态化变革中，高校作为我国原始创新的主渠道和人才培养的主阵地，如何聚焦关键核心技术，整合政府、高校、企业的创新资源，把高校的科技创新与人才培养优势转化为产业发展的优势，为实现中华民族的伟大复兴出力。</p><br> &nbsp;<br>
-                                        <img src="../../../../static/img/companynews-2.png" style="margin-left:200px" />
+                                        <img src="../../../../static/img/companynews-2.png" style="margin:0 32%" />
                                     </div>
                                 </div>
                             </div>

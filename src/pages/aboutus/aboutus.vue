@@ -143,6 +143,7 @@ export default {
   padding: 0;
 }
 
+
 .rightcontaction{
   margin-bottom: 13%;
 }
@@ -162,7 +163,7 @@ export default {
 }
 
 .content {
-  font-size: 14px;
+  font-size: 1.3em;
   text-indent: 25px;
   line-height: 30px;
 }
@@ -360,12 +361,14 @@ export default {
 .leftli{
   margin-left: 30px;
   margin-bottom: 20px;
+  font-size: 1.3em;
 }
 
 .rightul{
   float: left;
   margin-top: 15px;
   font-weight: bold;
+  font-size: 1.3em;
 }
 
 .rightli{
