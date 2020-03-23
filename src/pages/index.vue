@@ -42,7 +42,7 @@
           </div>
           <!-- 新闻图片文字叙述 -->
           <div class="news-carousel">
-            <el-carousel :interval="4000" type="card" height="300px">
+            <el-carousel :interval="4000" type="card" height="300px" style="background-color:#faf9f991">
               <el-carousel-item class="newscompany">
                 <router-link to="/companynews/1+x">
                   <img v-lazy="img8" class="newsimg" />
@@ -159,7 +159,7 @@
     </div>
 
     <!-- 合作院校 -->
-    <div class="customer" style="background: rgba(194, 221, 212, 0.65);height:16rem">
+    <div class="customer" style="background: #faf9f991;height:16rem">
       <div class="new-demo" style="height:95%">
         <h3 class="product-header">合作院校</h3>
         <p class="product-header-text index-p">Cooperative&nbsp;school</p>
@@ -229,8 +229,8 @@
             <div style="margin:0.5rem 0 0 0"><span class="ne-cont-bigfat">本科院校</span></div>
             <div style="margin:0 5%">
               <el-carousel :interval="4000" type="card" height="270px">
-                <el-carousel-item v-for="item in rcschoolbox" :key="item.id">
-                  <img :src="item.idView" class="rcschoolimage" style="margin:1rem 3rem">
+                <el-carousel-item v-for="item in rcschoolbox" :key="item.id" style="background-color:rgba(250, 249, 249, 0)">
+                  <img :src="item.idView" class="rcschoolimage" style="margin:1rem 3rem;">
                 </el-carousel-item>
               </el-carousel>
             </div>
@@ -241,8 +241,8 @@
           <div>
             <div style="margin:0.5rem 0 0 0"><span class="ne-cont-bigfat">高职院校</span></div>
             <div style="margin:0 5%">
-              <el-carousel :interval="4000" type="card" height="270px">
-                <el-carousel-item v-for="item in hvschoolbox" :key="item.id">
+              <el-carousel :interval="9000" type="card" height="270px" >
+                <el-carousel-item v-for="item in hvschoolbox" :key="item.id" style="background-color:rgba(250, 249, 249, 0)">
                   <img :src="item.idView" class="rcschoolimage" style="margin:1rem 3rem">
                 </el-carousel-item>
               </el-carousel>
@@ -280,7 +280,7 @@
             </a>
 
             <a href="javascript:;" class="product-roll" style="width:5rem">
-              <img v-lazy="img29" style="width:4rem;height:2rem;margin: 0 1rem 1.2rem 1rem;" />
+              <img v-lazy="img29" style="width:4rem;height:2rem;margin: 0 0 1.2rem 1.5rem;" />
             </a>
           </div>
         </div>
