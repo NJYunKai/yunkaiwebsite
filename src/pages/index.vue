@@ -46,28 +46,28 @@
               <el-carousel-item class="newscompany">
                 <router-link to="/companynews/1+x">
                   <img v-lazy="img8" class="newsimg" />
-                  <h2 class="medium" style="margin:10px 0 0 200px">协同育人申报指南发布</h2>
+                  <h2 class="medium" style="margin:10px 0 0 220px">协同育人申报指南发布</h2>
                 </router-link>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
                 <router-link to="/companynews/iotmeeting">
                   <img v-lazy="img9" class="newsimg" />
-                  <h2 class="medium" style="margin:10px 0 0 200px">物联网大会成功召开</h2>
+                  <h2 class="medium" style="margin:10px 0 0 220px">物联网大会成功召开</h2>
                 </router-link>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
                 <router-link to="/companynews/belt-road">
                   <img v-lazy="img10" class="newsimg" />
-                  <h2 class="medium" style="margin:10px 0 0 200px">一带一路电商谷剪彩</h2>
+                  <h2 class="medium" style="margin:10px 0 0 220px">一带一路电商谷剪彩</h2>
                 </router-link>
               </el-carousel-item>
 
               <el-carousel-item class="newscompany">
                 <router-link to="/companynews/jingmao-lab">
                   <img v-lazy="img11" class="newsimg" />
-                  <h2 class="medium" style="margin:10px 0 0 200px">智能制造实训室顺利验收</h2>
+                  <h2 class="medium" style="margin:10px 0 0 220px">智能制造实训室顺利验收</h2>
                 </router-link>
               </el-carousel-item>
             </el-carousel>
@@ -405,7 +405,8 @@ export default {
 }
 
 .newsimg {
-  margin-left: 50px;
+  margin-left: 1.5rem;
+  margin-top: 0.2rem;
 }
 
 .new {
