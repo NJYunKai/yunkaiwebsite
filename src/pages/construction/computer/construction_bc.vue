@@ -72,7 +72,7 @@
 		<div class="content-1">
         <p>&nbsp;</p>
         <h2>
-            <strong>一、学科定位（人才培养方案）</strong>
+            <strong>一、专业定位（人才培养方案）</strong>
         </h2>
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组织行业专家、企业工程技术人员和高校教研人员共同组建区块链人才培养方案指导委员会，依托院校实际教学资源，结合区块链领域相关企业用人需求探讨制定出更加符合市场需求的区块链人才培养解决方案。
@@ -86,7 +86,7 @@
        <div class="content-background-shallow-black">
 		<div class="content-1">
         <h2>
-            <strong><strong>二、学科队伍建设</strong></strong>
+            <strong><strong>二、师资队伍建设</strong></strong>
         </h2>
         <p style="text-align:center;">
             <img src="../../../../static/img/q2.png">
@@ -97,7 +97,7 @@
         <div class="content-background-white">
         <div class="content-1">
         <h2>
-            <strong><strong>三、学科基地建设</strong></strong>
+            <strong><strong>三、教学基地建设</strong></strong>
         </h2>
         <p style="text-align:center;">
             <img src="../../../../static/img/q3.png">
@@ -164,11 +164,12 @@ export default {
 img {
 	display: inline-block;
 	height: auto;
+	margin-top: 25px;
 	max-width: 100%;
 	transform: scale(1.0);
 	}
 p{
-	font-size: x-large;
+	font-size: large;
     color: aliceblue;
 	word-wrap: break-word;
 	word-break: break-all;

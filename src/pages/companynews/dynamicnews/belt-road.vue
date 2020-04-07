@@ -188,7 +188,4 @@
         color: red;
     }
 
-    .news .content-1{
-        width: 100%;
-    }
 </style>

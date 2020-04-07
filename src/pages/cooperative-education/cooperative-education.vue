@@ -1,6 +1,6 @@
 <template>
   <div class="r-news">
-    <div class="r-news-content" style="background:white">
+    <div class="r-news-content">
       <div class="content-title">
         <el-breadcrumb separator-class="el-icon-arrow-right">
           <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
@@ -8,7 +8,7 @@
         </el-breadcrumb>
       </div>
 
-      <div class="news" style="margin: 0 15em;">
+      <div class="news" style="margin: 3em 15em;padding: 3em 10em;background: #553be224">
         <div  class="artdetail_title" style="display:block;font-family:Microsoft YaHei;font-size:2em;color:#000000;font-weight:bold;text-decoration:none;margin: 1em 3em;text-align: center">
           <p>
             2019年第二批南京云开数据科技有限公司·教育部产学合作协同育人项目申报指南发布
@@ -43,12 +43,8 @@
               <p style="text-indent:2em;">在教育部指导下，南京云开数据科技有限公司拟在“人工智能”、“物联网”、“嵌入式”、“微电子”、“云计算”、“电子通信”、“自动化”、“大数据”、“机器人”、“移动商务”等几个方向上，开展产学合作协同育人项目，支持包含新工科建设、教学内容和课程体系改革、师资培训、实践条件和实践基地建设、创新创业教育改革五大类。各大院校可在“教育部产学合作协同育人项目平台”（项目平台网址：<a href="http://cxhz.hep.com.cn">http://cxhz.hep.com.cn</a>）注册申报，欢迎各院校申报南京云开数据科技有限公司2019产学合作协同育人项目。</p><br> &nbsp;<br>
                     
               <div style="text-align: center;">
-                <img src="../../../static/img/companyedu2.png" width="800" height="283" alt="" style="padding-right: 0px;">
+                <img src="../../../static/img/companyedu2.png"  alt="" style="padding-right: 0px;">
               </div> <br>
-
-              <div style="text-align: center;">
-                <img src="../../../static/img/companyedu1.png" width="800" height="283" alt="" style="padding-right: 0px;">
-              </div> <br> <br> <br>
             </div><br>&nbsp;<br> 
 
             <!-- 申报方法 -->
@@ -73,18 +69,18 @@
             <div>
               <h1>四、项目申报文件下载</h1><br>
 
-              <p style="text-indent:2em;">附件1：南京云开数据科技有限公司-教育部产学合作协同育人项目申报书（2019年第二批）<a href="../../../static/filezip/2019年第二批项目申报指南-南京云开数据科技有限公司.rar"> 点击下载</a></p><br>
-              <p style="text-indent:2em;">附件2：高校申报书模板（2019年第二批） <a href="../../../static/filezip/高校申报书模板.rar">点击下载 </a></p><br>
-              <p style="text-indent:2em;">附件3：合作协议模板（2019年第二批） <a href="../../../static/filezip/合作协议模板.rar">点击下载</a></p><br>
-              <p style="text-indent:2em;">附件4：项目结题报告模板（2019年第二批） <a href="../../../static/filezip/项目结题报告模板.rar">点击下载</a></p><br>
+              <a href="../../../static/filezip/2019年第二批项目申报指南-南京云开数据科技有限公司.rar"> <p style="text-indent:2em;">附件1：南京云开数据科技有限公司-教育部产学合作协同育人项目申报书（2019年第二批）点击下载</p></a><br>
+              <a href="../../../static/filezip/高校申报书模板.rar"><p style="text-indent:2em;">附件2：高校申报书模板（2019年第二批） 点击下载 </p></a><br>
+              <a href="../../../static/filezip/合作协议模板.rar"><p style="text-indent:2em;">附件3：合作协议模板（2019年第二批） 点击下载</p></a><br>
+              <a href="../../../static/filezip/项目结题报告模板.rar"><p style="text-indent:2em;">附件4：项目结题报告模板（2019年第二批）点击下载</p></a><br>
             </div><br>&nbsp;<br> 
 
             <!-- 申报回顾 -->
             <div>
               <h1>五、2018第二批、2019年第二批协同育人项目高校立项名单公示回顾：</h1><br>
 
-              <p style="text-indent:2em;">南京云开数据科技有限公司2018第二批协同育人项目高校立项名单 <a href="../../../static/filezip/2018年第二批协同育人项目立项名单.rar">点击下载</a></p><br>
-              <p style="text-indent:2em;">南京云开数据科技有限公司2019第一批协同育人项目高校立项名单 <a href="../../../static/filezip/2019年第一批协同育人项目立项名单.rar">点击下载</a></p><br>
+              <a href="../../../static/filezip/2018年第二批协同育人项目立项名单.rar"><p style="text-indent:2em;">南京云开数据科技有限公司2018第二批协同育人项目高校立项名单 点击下载</p></a><br>
+              <a href="../../../static/filezip/2019年第一批协同育人项目立项名单.rar"><p style="text-indent:2em;">南京云开数据科技有限公司2019第一批协同育人项目高校立项名单 点击下载</p></a><br>
             </div><br>&nbsp;<br> 
 
           </div>

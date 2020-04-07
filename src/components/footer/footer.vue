@@ -2,53 +2,89 @@
   <div class="footer">
     <div class="footer-all">
       <div class="footer-left">
-        <p>南京云开数据科技有限公司</p>
+        <p>南京云开数据科技有限公司</p>&nbsp;&nbsp;
+        <p class="mess">联系电话&nbsp;&nbsp;13357804061</p>&nbsp;&nbsp;
+        <p class="mess">邮箱&nbsp;&nbsp;suesu11@qq.com</p>&nbsp;&nbsp;
+        <p class="mess">地址：南京市栖霞区尧化街道甘家边东108号01幢401室</p>
       </div>
       <div class="footer-right">
         <!-- 第一列 -->
         <ul class="list">
           <li>
-            <a href="javascript:;">关于云开</a>
+            <a href="javascript:;">业务服务</a>
           </li>
           <li>
-            <router-link to="/aboutus">云开简介</router-link>
+            <router-link to="/">实验室解决方案</router-link>
           </li>
           <li>
-            <router-link to>合作伙伴</router-link>
+            <router-link to>现代学徒制</router-link>
+          </li>
+          <li>
+            <router-link to>产品中心</router-link>
+          </li>
+          <li>
+            <router-link to>专业教学资源库</router-link>
           </li>
         </ul>
         <!-- 第二列 -->
         <ul class="list">
           <li>
+            <a href="javascript:;">专业建设</a>
+          </li>
+          <li>
+            <router-link to class="sub-link">计算机类</router-link>
+          </li>
+          <li>
+            <router-link to class="sub-link">机电类</router-link>
+          </li>
+          <li>
+            <router-link to class="sub-link">物流+电商</router-link>
+          </li>
+            <li>
+            <router-link to class="sub-link">电子信息</router-link>
+          </li>
+        </ul>
+        <!-- 新闻 -->
+        <ul class="list">
+          <li>
             <a href="javascript:;">新闻中心</a>
           </li>
           <li>
-            <router-link to="/companynews/dynamicnews" class="sub-link">公司动态</router-link>
+            <router-link to="/companynews/dynamicnews" class="sub-link">公司新闻</router-link>
           </li>
-          <li>
-            <router-link to class="sub-link">行业新闻</router-link>
+            <li>
+            <router-link to >行业动态</router-link>
           </li>
         </ul>
-        <!-- 第六列 -->
+        <!-- 第三列 -->
         <ul class="list">
           <li>
-            <router-link to="/aboutus" class="link">联系我们</router-link>
+            <a href="javascript:;">协同育人</a>
+          </li>
+        </ul>
+        <!-- 第四列 -->
+        <ul class="list">
+          <li>
+            <a href="javascript:;">一带一路</a>
+          </li>
+        </ul>
+        <!-- 第五列 -->
+        <ul class="list">
+          <li>
+            <a href="javascript:;">关于我们</a>
           </li>
         </ul>
       </div>
       <div class="footer-below">
-        <div class="public_security">
-          <a href="http://beian.miit.gov.cn/">
-            <img :src="publicurl" style="float:left;" />&nbsp;
-            <span>苏ICP备  20011685号</span>
+        <div class="public_security" >
+          <a href="http://beian.miit.gov.cn/" style="margin:0.5rem 0" >
+            <span >苏ICP备  20011685号</span>
           </a>
-        </div>
-        <div class="line"></div>
-        <div class="message">
-          <p class="message-left">联系电话&nbsp;&nbsp;13357804061</p>
-          <p
-            class="message-right"
-          >Copyright&nbsp;&nbsp;©&nbsp;&nbsp;南京云开数据科技有限公司&nbsp;&nbsp;南京市栖霞区尧化街道甘家边东108号01幢401室</p>
+          <span  style="margin:0 36%">
+            <span style="font-size:1.3em;color:rgba(242, 242, 242, 0.69)">友情链接：</span>
+            <a href="http://www.moe.gov.cn/" style="font-size:1.3em" >教育部</a>
+            <a href="https://www.tech.net.cn/" style="font-size:1.3em;margin-left:0.2rem" >高职高专教育网</a>
+          </span>
         </div>
       </div>
     </div>
@@ -91,12 +127,12 @@ a {
   overflow: hidden;
   .footer-all {
     height: 100%;
-    width: 1000px;
-    margin: 0 auto;
+    width: 70%;
+    margin: 0 20%;
     .footer-left {
       padding-top: 15px;
       height: 70%;
-      width: 39%;
+      width: 40%;
       padding-top: 25px;
       color: #d8d5d0;
       font-size: 18px;
@@ -104,8 +140,9 @@ a {
       text-align: left;
     }
     .footer-right {
+      margin: 0 5%;
       height: 70%;
-      width: 61%;
+      width: 50%;
       float: left;
       /*text-align: left;*/
       .list {
@@ -142,7 +179,7 @@ a {
       }
       .message {
         color: #d8d5d0;
-        font-size: 12px;
+        font-size: 10px;
         .message-left {
           float: left;
         }
@@ -152,5 +189,9 @@ a {
       }
     }
   }
+}
+
+.mess{
+  font-size: 0.9em;
 }
 </style>
