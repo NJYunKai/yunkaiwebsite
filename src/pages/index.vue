@@ -282,6 +282,10 @@
             <a href="javascript:;" class="product-roll" style="width:5rem">
               <img v-lazy="img29" style="width:4rem;height:2rem;margin: 0 0 1.2rem 1.5rem;" />
             </a>
+
+            <a href="javascript:;" class="product-roll" style="width:5rem">
+              <img src="../../static/img/cooperationcompany-6.png" style="width:4rem;height:1.5rem;margin: 0 0 1.2rem 1.5rem;" />
+            </a>
           </div>
         </div>
       </div>
@@ -357,6 +361,7 @@ export default {
         {id:4,idView:require("../../static/img/hvschool-5")},
         {id:5,idView:require("../../static/img/hvschool-6")},
         {id:6,idView:require("../../static/img/hvschool-7")},
+        {id:7,idView:require("../../static/img/hvschool-8")}
       ],
       logo_jpg,
       img1,

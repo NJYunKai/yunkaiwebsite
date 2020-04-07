@@ -98,7 +98,7 @@
 
                                 </div><br> &nbsp;<br> 
 
-                                <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
+                                <!-- <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <p style="margin:0 40px 0 40px;text-indent:2em">物流管理专业1+X考点实训室环境及智能化实训室建设主要包括：物流管理专业微课系统、实验室云桌面系统、智能化环境建设，既能够满足物流管理学生进行“1+x”实训以及考试，又能够满足在校学生的机房实训教学。</p><br> &nbsp;<br> 
                                     <div style="text-align: center;">
                                         <img src="../../../../static/img/xlab-4.jpg" width="400px" height="200px" alt="" >
@@ -112,7 +112,7 @@
                                         <img src="../../../../static/img/xlab-5.jpg" width="300px" height="380px" alt="" >
                                     </div>
                                     
-                                </div><br> &nbsp;<br> 
+                                </div><br> &nbsp;<br>  -->
                             </div>
                         </div>
                     </div>

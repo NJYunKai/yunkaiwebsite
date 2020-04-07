@@ -80,9 +80,11 @@
           <a href="http://beian.miit.gov.cn/" style="margin:0.5rem 0" >
             <span >苏ICP备  20011685号</span>
           </a>
-          <a href="" style="margin:0 36%">
-            <span style="font-size:1.3em">友情链接</span>
-          </a>
+          <span  style="margin:0 36%">
+            <span style="font-size:1.3em;color:rgba(242, 242, 242, 0.69)">友情链接：</span>
+            <a href="http://www.moe.gov.cn/" style="font-size:1.3em" >教育部</a>
+            <a href="https://www.tech.net.cn/" style="font-size:1.3em;margin-left:0.2rem" >高职高专教育网</a>
+          </span>
         </div>
       </div>
     </div>
