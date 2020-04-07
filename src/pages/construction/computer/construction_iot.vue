@@ -71,7 +71,7 @@
 		<div class="content-1">
         <p>&nbsp;</p>
         <h2>
-            <strong>一、学科定位（人才培养方案）</strong>
+            <strong>一、专业定位（人才培养方案）</strong>
         </h2>
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组织行业专家，企业工程技术人员和高校教研人员共同组建物联网人才培养方案指导委员会，依托院校实际教学资源，结合物联网领域相关企业用人需求拟订出更加符合市场需求的物联网人才培养解决方案方案。
@@ -86,7 +86,7 @@
 	  <div class="content-background-shallow-black">
 		<div class="content-1">
         <h2>
-            <strong><strong>二、学科队伍建设</strong></strong>
+            <strong><strong>二、师资队伍建设</strong></strong>
         </h2>
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公司定期举办全国性的物联网师资培训，来提高学院物联网及其相关专业教师的专业技术水平和教学实践能力。师资培训过程中公司派遣企业内部经验丰富的专家分享企业在物联网行业的创新成果，讲解物联网工程应用项目，并进行实训指导，帮助学校培养出既具有高校教学经验又具有企业项目经验的高水平师资队伍；此外企业工程师可以采用高校外聘的形式到学校授课，承担部分物联网课程。
@@ -100,7 +100,7 @@
         <div class="content-background-white">
         <div class="content-1">
         <h2>
-            <strong><strong>三、学科基地建设</strong></strong>
+            <strong><strong>三、教学基地建设</strong></strong>
         </h2>
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;校企共同通过实地调查，分析院校需求及实际学科基础条件，结合物联网专业的学科特点和市场对相关人才的要求，基于企业持续整合教学资源开发生产出的物联网基础类教学平台，物联网综合应用类教学平台，物联网行业应用类教学平台以及物联网综合创新类教学平台搭建出符合高校人才培养需求的学科建设基地。
@@ -185,11 +185,12 @@ export default {
 img {
 	display: inline-block;
 	height: auto;
+	margin-top: 25px;
 	max-width: 100%;
 	transform: scale(1.0);
 	}
 p{
-	font-size: x-large;
+	font-size: large;
     color: aliceblue;
 	word-wrap: break-word;
 	word-break: break-all;
