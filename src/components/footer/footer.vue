@@ -1,6 +1,8 @@
 <template>
   <div class="footer">
-    <div class="footer-all">
+      
+
+    <div class="footer-all" style="float:left">
       <div class="footer-left">
         <p>南京云开数据科技有限公司</p>&nbsp;&nbsp;
         <p class="mess">联系电话&nbsp;&nbsp;13357804061</p>&nbsp;&nbsp;
@@ -88,6 +90,10 @@
         </div>
       </div>
     </div>
+    <!-- 二维码图片 -->
+    <div style="float:left;margin:40px -40px">
+      <img src="../../../static/img/qrcode.jpg" style="width:4rem" >
+    </div>
   </div>
 </template>
 
@@ -128,7 +134,7 @@ a {
   .footer-all {
     height: 100%;
     width: 70%;
-    margin: 0 20%;
+    margin: 0 0 0 18%;
     .footer-left {
       padding-top: 15px;
       height: 70%;
