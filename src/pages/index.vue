@@ -14,7 +14,7 @@
           </router-link>
         </el-carousel-item> -->
         <el-carousel-item>
-          <router-link to="/beltroad">
+          <router-link to="/companynews/belt-road">
             <img v-lazy="img3" class="indeximg"/>
           </router-link>
         </el-carousel-item>

@@ -50,7 +50,7 @@
 
             <el-submenu index="/construction/mechanical_ei">
               <template slot="title">机电类</template>
-              <el-menu-item index="/construction/mechanical_ei">电子信息</el-menu-item>
+              <!-- <el-menu-item index="/construction/mechanical_ei">电子信息</el-menu-item> -->
               <el-menu-item index="/construction/mechanical_ir">工业机器人</el-menu-item>
               <el-menu-item index="/construction/mechanical_ict">智能控制技术</el-menu-item>
             </el-submenu>

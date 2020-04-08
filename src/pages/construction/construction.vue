@@ -104,10 +104,10 @@ export default {
           this.breadList.push("区块链");
           break;
         //机电类
-        case "/construction/mechanical_ei":
-          this.breadList.push("机电类");
-          this.breadList.push("电子信息");
-          break;
+        // case "/construction/mechanical_ei":
+        //   this.breadList.push("机电类");
+        //   this.breadList.push("电子信息");
+        //   break;
         case "/construction/mechanical_ir":
           this.breadList.push("机电类");
           this.breadList.push("工业机器人");

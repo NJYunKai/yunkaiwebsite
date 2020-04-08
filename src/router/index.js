@@ -245,11 +245,11 @@ export default new Router({
           name: 'construction_bc',
           component: () => import('../pages/construction/computer/construction_bc.vue')
         },
-        {
-          path: '/construction/mechanical_ei',
-          name: 'mechanical_ei',
-          component: () => import('../pages/construction/mechanical/mechanical_ei.vue')
-        },
+        // {
+        //   path: '/construction/mechanical_ei',
+        //   name: 'mechanical_ei',
+        //   component: () => import('../pages/construction/mechanical/mechanical_ei.vue')
+        // },
         {
           path: '/construction/mechanical_ir',
           name: 'mechanical_ir',

@@ -4,7 +4,7 @@
 
      	<!-- 侧边导航栏 -->
 	<div class="r-side">
-	  <router-link to="/construction/mechanical_ei">
+	  <!-- <router-link to="/construction/mechanical_ei">
 		<div class="focuses">
 		  <div class="col-lg-3 col-sm-6 col-xs-12">
 			<div
@@ -13,7 +13,7 @@
 			>电子信息</div>
 		  </div>
 		</div>
-	  </router-link>
+	  </router-link> -->
 	  <router-link to="/construction/mechanical_ir">
 		<div class="focuses">
 		  <div class="col-lg-3 col-sm-6 col-xs-12">
