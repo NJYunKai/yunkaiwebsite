@@ -13,7 +13,7 @@
     "cross-env": "^7.0.2",
     "element-ui": "^2.13.0",
     "iview": "^2.7.3",
-    "babel-ployfill":"^6.26.0",
+    "babel-ployfill": "^6.26.0",
     "lib-flexible": "^0.3.2",
     "px2rem-loader": "^0.1.9",
     "vue": "^2.5.2",

@@ -13,6 +13,7 @@
     .news .content-background-green {
         background-color: rgba(18, 11, 186, 0.25);
     }
+
     /*  light blue */
     .news .content-background-shallow-black {
         background-color: rgba(46, 41, 103, 0.25);
@@ -27,7 +28,7 @@
     }
 
     .news .content-background-light-blue {
-        background-color:rgba(11, 186, 186, 0.39);
+        background-color: rgba(11, 186, 186, 0.39);
     }
 
     .news .content-1 {
@@ -44,3 +45,62 @@
         margin-bottom: 10%;
     }
 
+    .lab_title1 {
+        font-size: 0.85rem;
+        text-align: center;
+        font-weight: bold;
+        line-height: 300%;
+    }
+
+    .lab_title2 {
+        font-size: 0.65rem;
+        text-align: left;
+        font-weight: bold;
+        line-height: 300%;
+    }
+
+    .lab_title3 {
+        font-size: 0.55rem;
+        text-align: left;
+        font-weight: bold;
+        line-height: 300%;
+    }
+
+    .lab_title4 {
+        font-size: 0.45rem;
+        text-align: left;
+        font-weight: bold;
+        line-height: 300%;
+    }
+
+    .lab_content1 {
+        font-size: 0.35rem;
+        letter-spacing: 1pt;
+        text-indent: 2em;
+        text-transform: capitalize;
+        text-align: left;
+        line-height: 200%;
+    }
+
+    .content-1 p {
+        word-wrap: break-word;
+        word-break: break-all;
+        color: white;
+
+    }
+    .content-1 img{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .content-1 .left10 {
+        margin: 5% 10%;
+    }
+    .content-1 .left20 {
+        margin: 5% 20%;
+    }
+    .content-1 .left30 {
+        margin: 5% 30%;
+    }
+    .content-1 .left40 {
+        margin: 5% 35%;
+    }

@@ -16,6 +16,7 @@
                   <el-menu-item index="/services/labsolutions_blockchain">区块链</el-menu-item>
                   <el-menu-item index="/services/labsolutions_ai">人工智能</el-menu-item>
                   <el-menu-item index="/services/labsolutions_coldchain">冷链物流</el-menu-item>
+                  <el-menu-item index="/services/labsolutions_bigdata">大数据</el-menu-item>
               </el-submenu>
             <!-- <el-menu-item index="/services/labsolutions_iot">实验室解决方案</el-menu-item> -->
 
