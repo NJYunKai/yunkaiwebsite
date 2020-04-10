@@ -36,3 +36,6 @@ window.vm = new Vue({
     App
   }
 })
+router.afterEach((to,from,next) => {
+  window.scrollTo(0,0);
+});
