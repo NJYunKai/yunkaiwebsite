@@ -14,6 +14,16 @@
 		  </div>
 		</div>
 	  </router-link>
+     <router-link to="/construction/construction_bc">
+		<div class="focuses">
+		  <div class="col-lg-3 col-sm-6 col-xs-12">
+			<div
+			  class="single-focus1 white-bg diffuse-shadow green-line-bottom"
+			  style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.65s; animation-name: fadeInLeftBig;"
+			>区块链</div>
+		  </div>
+		</div>
+	  </router-link>
 	  <router-link to="/construction/construction_bd">
 		<div class="focuses">
 		  <div class="col-lg-3 col-sm-6 col-xs-12">
@@ -54,16 +64,7 @@
 		  </div>
 		</div>
 	  </router-link>
-	  <router-link to="/construction/construction_bc">
-		<div class="focuses">
-		  <div class="col-lg-3 col-sm-6 col-xs-12">
-			<div
-			  class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-			  style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.65s; animation-name: fadeInLeftBig;"
-			>区块链</div>
-		  </div>
-		</div>
-	  </router-link>
+	 
 	</div>
 
     <div class="news">
@@ -152,7 +153,7 @@
             <strong><strong>六、学生就业</strong></strong>
         </h2>
         <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南京南云在合作院校毕业学生方面组织企业就业导师到学校为学生提供专业指导和支持，为后续的就业发展打下良好的基础。
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南京云开在合作院校毕业学生方面组织企业就业导师到学校为学生提供专业指导和支持，为后续的就业发展打下良好的基础。
         </p>
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此外，南京云开针对高校推荐的优秀毕业生，采取推荐式就业的方式给予学生指导，学生可以到南京云开数据有限公司或者其上下游行业优秀系统集成商、云计算行业应用企业响应工作岗位开展工作。

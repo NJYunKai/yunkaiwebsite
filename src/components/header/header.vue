@@ -41,11 +41,11 @@
             <el-submenu index="/construction/construction_iot">
               <template slot="title">计算机类</template>
               <el-menu-item index="/construction/construction_iot">物联网</el-menu-item>
+              <el-menu-item index="/construction/construction_bc">区块链</el-menu-item>
               <el-menu-item index="/construction/construction_bd">大数据</el-menu-item>
               <el-menu-item index="/construction/construction_cc">云计算</el-menu-item>
               <el-menu-item index="/construction/construction_ai">人工智能</el-menu-item>
               <el-menu-item index="/construction/construction_ce">通信工程</el-menu-item>
-              <el-menu-item index="/construction/construction_bc">区块链</el-menu-item>
             </el-submenu>
             <!-- <el-menu-item index="/construction/construction_iot">计算机类</el-menu-item> -->
 
@@ -56,8 +56,8 @@
               <el-menu-item index="/construction/mechanical_ict">智能控制技术</el-menu-item>
             </el-submenu>
             <!-- <el-menu-item index="/construction/mechanical_ei">机电类</el-menu-item> -->
-
-            <el-menu-item index="/construction/other_de">物流+电商</el-menu-item>
+            <el-menu-item index="/construction/elcommerce">电子商务</el-menu-item>
+            <el-menu-item index="/construction/other_de">物流管理</el-menu-item>
             <el-menu-item index="/construction/electronic_de">电子信息</el-menu-item>
           </el-submenu>
           <el-menu-item index="/cooperative-education">协同育人</el-menu-item>

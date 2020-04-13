@@ -14,6 +14,16 @@
 		  </div>
 		</div>
 	  </router-link>
+	   <router-link to="/construction/construction_bc">
+		<div class="focuses">
+		  <div class="col-lg-3 col-sm-6 col-xs-12">
+			<div
+			  class="single-focus1 white-bg diffuse-shadow green-line-bottom"
+			  style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.65s; animation-name: fadeInLeftBig;"
+			>区块链</div>
+		  </div>
+		</div>
+	  </router-link>
 	  <router-link to="/construction/construction_bd">
 		<div class="focuses">
 		  <div class="col-lg-3 col-sm-6 col-xs-12">
@@ -54,16 +64,7 @@
 		  </div>
 		</div>
 	  </router-link>
-	  <router-link to="/construction/construction_bc">
-		<div class="focuses">
-		  <div class="col-lg-3 col-sm-6 col-xs-12">
-			<div
-			  class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-			  style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.65s; animation-name: fadeInLeftBig;"
-			>区块链</div>
-		  </div>
-		</div>
-	  </router-link>
+	 
 	</div>
 
     <div class="news">

@@ -261,6 +261,11 @@ export default new Router({
           component: () => import('../pages/construction/mechanical/mechanical_ict.vue')
         },
         {
+          path: '/construction/elcommerce',
+          name: 'elcommerce',
+          component: () => import('../pages/construction/elcommerce/elcommerce.vue')
+        },
+        {
           path: '/construction/other_de',
           name: 'other_de',
           component: () => import('../pages/construction/other/other_de.vue')

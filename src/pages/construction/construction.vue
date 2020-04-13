@@ -83,6 +83,10 @@ export default {
           this.breadList.push("计算机类");
           this.breadList.push("物联网");
           break;
+        case "/construction/construction_bc":
+          this.breadList.push("计算机类");
+          this.breadList.push("区块链");
+        break;
         case "/construction/construction_bd":
           this.breadList.push("计算机类");
           this.breadList.push("大数据");
@@ -99,10 +103,6 @@ export default {
           this.breadList.push("计算机类");
           this.breadList.push("通信工程");
           break;
-        case "/construction/construction_bc":
-          this.breadList.push("计算机类");
-          this.breadList.push("区块链");
-          break;
         //机电类
         // case "/construction/mechanical_ei":
         //   this.breadList.push("机电类");
@@ -116,9 +116,13 @@ export default {
           this.breadList.push("机电类");
           this.breadList.push("智能控制技术");
           break;
-        //物流+电商
+        //电子商务
+        case "/construction/elcommerce":
+          this.breadList.push("电子商务");
+          break;
+        //物流管理
         case "/construction/other_de":
-          this.breadList.push("物流+电商");
+          this.breadList.push("物流管理");
           break;
         //电子信息
         case "/construction/electronic_de":

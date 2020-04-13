@@ -16,16 +16,16 @@
             <a href="javascript:;">业务服务</a>
           </li>
           <li>
-            <router-link to="/">实验室解决方案</router-link>
+            <router-link to="/services/labsolutions_iot">实验室解决方案</router-link>
           </li>
           <li>
-            <router-link to>现代学徒制</router-link>
+            <router-link to="/services/apprenticeships">现代学徒制</router-link>
           </li>
           <li>
-            <router-link to>产品中心</router-link>
+            <router-link to="/services/product/1">产品中心</router-link>
           </li>
           <li>
-            <router-link to>专业教学资源库</router-link>
+            <router-link to="/services/teachingresource">专业教学资源库</router-link>
           </li>
         </ul>
         <!-- 第二列 -->
@@ -34,16 +34,19 @@
             <a href="javascript:;">专业建设</a>
           </li>
           <li>
-            <router-link to class="sub-link">计算机类</router-link>
+            <router-link to="/construction/construction_iot" class="sub-link">计算机类</router-link>
           </li>
           <li>
-            <router-link to class="sub-link">机电类</router-link>
+            <router-link to="/construction/mechanical_ir" class="sub-link">机电类</router-link>
           </li>
           <li>
-            <router-link to class="sub-link">物流+电商</router-link>
+            <router-link to="/construction/elcommerce" class="sub-link">电子商务</router-link>
+          </li>
+          <li>
+            <router-link to="/construction/other_de" class="sub-link">物流管理</router-link>
           </li>
             <li>
-            <router-link to class="sub-link">电子信息</router-link>
+            <router-link to="/construction/electronic_de" class="sub-link">电子信息</router-link>
           </li>
         </ul>
         <!-- 新闻 -->
@@ -55,25 +58,24 @@
             <router-link to="/companynews/dynamicnews" class="sub-link">公司新闻</router-link>
           </li>
             <li>
-            <router-link to >行业动态</router-link>
           </li>
         </ul>
         <!-- 第三列 -->
         <ul class="list">
           <li>
-            <a href="javascript:;">协同育人</a>
+            <router-link to="/cooperative-education" class="sub-link">协同育人</router-link>
           </li>
         </ul>
         <!-- 第四列 -->
         <ul class="list">
           <li>
-            <a href="javascript:;">一带一路</a>
+            <router-link to="/beltroad" class="sub-link">一带一路</router-link>
           </li>
         </ul>
         <!-- 第五列 -->
         <ul class="list">
           <li>
-            <a href="javascript:;">关于我们</a>
+            <router-link to="/aboutus" class="sub-link">关于我们</router-link>
           </li>
         </ul>
       </div>
@@ -82,7 +84,7 @@
           <a href="http://beian.miit.gov.cn/" style="margin:0.5rem 0" >
             <span >苏ICP备  20011685号</span>
           </a>
-          <span  style="margin:0 36%">
+          <span  style="margin:0 30% 0 36%">
             <span style="font-size:1.3em;color:rgba(242, 242, 242, 0.69)">友情链接：</span>
             <a href="http://www.moe.gov.cn/" style="font-size:1.3em" >教育部</a>
             <a href="https://www.tech.net.cn/" style="font-size:1.3em;margin-left:0.2rem" >高职高专教育网</a>
@@ -134,7 +136,7 @@ a {
   .footer-all {
     height: 100%;
     width: 70%;
-    margin: 0 0 0 18%;
+    margin: 0 0 0 16%;
     .footer-left {
       padding-top: 15px;
       height: 70%;
