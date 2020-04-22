@@ -55,7 +55,7 @@ export default {
           break;
         case "/services/labsolutions_coldchain":
           this.breadList.push("实验室解决方案");
-          this.breadList.push("冷链物流");
+          this.breadList.push("物流实训室");
           break;
         //现代学徒制
         case "/services/apprenticeships":
