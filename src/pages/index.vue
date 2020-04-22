@@ -41,7 +41,7 @@
             </span>
           </div>
           <!-- 新闻图片文字叙述 -->
-          <div class="news-carousel">
+          <div class="news-carousel" style="height:4.8rem">
             <el-carousel :interval="4000" type="card" height="300px" style="background-color:#faf9f991">
               <el-carousel-item class="newscompany">
                 <router-link to="/companynews/1+x">

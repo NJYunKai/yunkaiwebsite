@@ -1,13 +1,14 @@
 <template>
-  <div class="footer">
+  <div class="footer" style="height:6rem">
       
 
     <div class="footer-all" style="float:left">
       <div class="footer-left">
-        <p>南京云开数据科技有限公司</p>&nbsp;&nbsp;
-        <p class="mess">联系电话&nbsp;&nbsp;13357804061</p>&nbsp;&nbsp;
-        <p class="mess">邮箱&nbsp;&nbsp;suesu11@qq.com</p>&nbsp;&nbsp;
-        <p class="mess">地址：南京市栖霞区尧化街道甘家边东108号01幢401室</p>
+        <p>南京云开数据科技有限公司</p>&nbsp;
+        <p class="mess" style="line-height:1;">联系电话&nbsp;&nbsp;13357804061</p>&nbsp;
+        <p class="mess" style="line-height:1;">邮箱&nbsp;&nbsp;suesu11@qq.com</p>&nbsp;
+        <p class="mess" style="line-height:1;">地址：南京市栖霞区尧化街道甘家边东108号01幢401室</p>&nbsp;
+        <p class="mess" style="line-height:1;">办公地址：南京市雨花台区赛虹桥街道凤台南路138号305室</p>
       </div>
       <div class="footer-right">
         <!-- 第一列 -->

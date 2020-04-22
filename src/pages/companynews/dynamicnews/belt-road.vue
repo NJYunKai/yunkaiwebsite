@@ -57,12 +57,12 @@
                                 </div>
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <div setsid="article250">
-                                        <p style="margin:0 40px 0 40px;text-indent:2em;">“一带一路”电商谷（金边）基地（简称“金边基地”）落地在柬埔寨柬埔寨工业技术学院，教学由电商谷南京分中心（江苏经贸职业技术学院）对口支撑，海外建设部分由南京云开数据科技有限公司投入。</p><br> &nbsp;<br>
+                                        <p style="margin:0 40px 0 40px;text-indent:2em;">“一带一路”电商谷（金边）基地（简称“金边基地”）落地在柬埔寨柬埔寨工业技术学院，教学由电商谷南京分中心（江苏经贸职业技术学院）对口支撑，海外建设部分由南京云开数据科技有限公司支持。</p><br> &nbsp;<br>
                                         <div style="text-align:center">
                                             <img src="../../../../static/img/cooperation.png" style="width:10rem" />
                                         </div><br> &nbsp;<br> 
                                         
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">金边基地于2017年12月16日达成合作， 2019年4月26日简称并投入使用。金边基地根据柬埔寨的实际情况，第一阶段以信息技术应用普及为重点，成功举办了国家职业教育移动商务专业教学资源库在海外的应用推广活动。</p><br> &nbsp;<br>
+                                        <p style="margin:0 40px 0 40px;text-indent:2em">金边基地于2017年12月16日达成合作， 2019年4月26日建成并投入使用。金边基地根据柬埔寨的实际情况，第一阶段以信息技术应用普及为重点，成功举办了国家职业教育移动商务专业教学资源库在海外的应用推广活动。</p><br> &nbsp;<br>
                                         <p style="margin:0 40px 0 40px;text-indent:2em">2019年11月17日，金边基地相关建设方在金边召开了二期建设工作会议，确定了2020年工作规划，并与柬埔寨泰州商会组织的本地企业达成了开发本地电商平台的合作意向。</p><br> &nbsp;<br>
                                         <div style="text-align:center">
                                             <img src="../../../../static/img/companynews-3.png" style="width:10rem;height:7rem" />
