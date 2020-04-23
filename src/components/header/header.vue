@@ -28,8 +28,8 @@
                 <el-menu-item index="/services/product/2">综合实训类</el-menu-item>
                 <el-menu-item index="/services/product/3">行业应用类</el-menu-item>
                 <el-menu-item index="/services/product/4">智能控制类</el-menu-item>
-                <el-menu-item index="/services/product/5">无人机类</el-menu-item>
-                <el-menu-item index="/services/product/6">智慧生活环境体验馆</el-menu-item>
+                <!-- <el-menu-item index="/services/product/5">无人机类</el-menu-item>
+                <el-menu-item index="/services/product/6">智慧生活环境体验馆</el-menu-item> -->
               </el-submenu>
             <!-- <el-menu-item index="/services/product/1">产品中心</el-menu-item> -->
 
