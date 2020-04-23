@@ -37,7 +37,7 @@
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
-          >冷链物流</div>
+          >物流实训室</div>
         </div>
       </div>
     </router-link>

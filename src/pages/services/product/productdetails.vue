@@ -7,8 +7,15 @@
           <div class="">
             <div
               class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-              style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.15s; animation-name: fadeInLeftBig;"
-            >基础教学类</div>
+              style="
+                visibility: visible;
+                animation-duration: 1.5s;
+                animation-delay: 0.15s;
+                animation-name: fadeInLeftBig;
+              "
+            >
+              基础教学类
+            </div>
           </div>
         </div>
       </router-link>
@@ -17,8 +24,15 @@
           <div class="">
             <div
               class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-              style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.25s; animation-name: fadeInLeftBig;"
-            >综合实训类</div>
+              style="
+                visibility: visible;
+                animation-duration: 1.5s;
+                animation-delay: 0.25s;
+                animation-name: fadeInLeftBig;
+              "
+            >
+              综合实训类
+            </div>
           </div>
         </div>
       </router-link>
@@ -27,8 +41,15 @@
           <div class="">
             <div
               class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-              style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
-            >行业应用类</div>
+              style="
+                visibility: visible;
+                animation-duration: 1.5s;
+                animation-delay: 0.35s;
+                animation-name: fadeInLeftBig;
+              "
+            >
+              行业应用类
+            </div>
           </div>
         </div>
       </router-link>
@@ -37,12 +58,19 @@
           <div class="">
             <div
               class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-              style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
-            >智能控制类</div>
+              style="
+                visibility: visible;
+                animation-duration: 1.5s;
+                animation-delay: 0.45s;
+                animation-name: fadeInLeftBig;
+              "
+            >
+              智能控制类
+            </div>
           </div>
         </div>
       </router-link>
-            <router-link to="/services/product/5">
+      <!-- <router-link to="/services/product/5">
         <div class="focuses">
           <div class="">
             <div
@@ -61,7 +89,7 @@
             >智慧生活环境体验馆</div>
           </div>
         </div>
-      </router-link>
+      </router-link> -->
     </div>
     <!-- 内容主体 -->
     <div class="news">
@@ -79,10 +107,37 @@
               </el-card>
             </el-col>
           </el-row>-->
-          <p class="product_title">{{productlist[0].title}}</p>
-          <img :src="productlist[0].imgurl" class="pd_img" />
-          <img :src="productlist[0].detailcontent" />
-          <!-- <p class="product_content">{{productlist[0].detailcontent}}</p> -->
+          <div v-if="productlist[0].id != 23">
+            <p class="product_title">{{ productlist[0].title }}</p>
+            <img
+              v-if="
+                (productlist[0].id != 2) &
+                (productlist[0].id != 3) &
+                (productlist[0].id != 17)
+              "
+              :src="productlist[0].imgurl"
+              class="pd_img"
+            />
+            <img :src="productlist[0].detailcontent" />
+          </div>
+          <div v-if="productlist[0].id == 23">
+            <p class="product_title">{{ productlist[0].title }}</p>
+            <img :src="productlist[0].detailcontent" />
+            <img :src="productlist[0].detailcontent1" />
+            <img :src="productlist[0].detailcontent2" />
+            <img :src="productlist[0].detailcontent3" />
+            <img :src="productlist[0].detailcontent4" />
+            <img :src="productlist[0].detailcontent5" />
+            <p class="lab_title3">
+              系统支撑实验：
+            </p>
+            <img class="left20" :src="productlist[0].detailcontent6" />
+          </div>
+          <!-- <div v-if="productlist[0].id == 24">
+            <p class="product_title">{{ productlist[0].title }}</p>
+            <img :src="productlist[0].imgurl" class="pd_img" />
+            <img :src="productlist[0].detailcontent" />
+          </div> -->
         </div>
       </div>
     </div>
@@ -97,7 +152,7 @@ export default {
       // currentDate: new Date()
       productlist: [],
       type: 0,
-      id: 0
+      id: 0,
     };
   },
   created() {
@@ -112,11 +167,11 @@ export default {
   methods: {
     changeproduct(values) {
       // console.log("==========", values);
-      this.productlist = json.productlist.filter(val => {
+      this.productlist = json.productlist.filter((val) => {
         return val.id == values;
       });
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -57,16 +57,15 @@
                                 </div>
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
                                     <div setsid="article250">
-                                        <p style="margin:0 40px 0 40px;text-indent:2em;">2019年11月18日下午，实验室与设备管理处组织相关职能部门人员对江苏经贸工业物联网实验室建设项目进行了验收。</p><br> &nbsp;<br>
-                                        <div style="text-align:center">
+                                        <p style="margin:0 40px 0 40px;text-indent:2em;">智能制造实训室2018年11月建设完成，可同时满足60名学生上课，内容主要包括：智能仓库管控系统、SMT设备联网系统、标准化工单派送e化系统、设备远程监控及运维系统、产线智能化系统、设备健康监诊系统、水下巡检机器人。</p><br> &nbsp;<br>
+                                        <!-- <div style="text-align:center">
                                             <img src="../../../../static/img/companynews-4.png" style="width:400px" />
-                                        </div><br> &nbsp;<br>
+                                        </div><br> &nbsp;<br> -->
                                         
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">学院的实验室建设项目负责人对实验室的仪器设备购置情况、经费使用情况、实验课程及实验项目开设使用情况、实验室及设备管理维护情况等相关问题进行了详细汇报。</p><br> &nbsp;<br>
-                                        <p style="margin:0 40px 0 40px;text-indent:2em">在认真听取了各项目的建设情况汇报后，验收组针对实验室建设、实验室管理及使用等具体环节进行了提问，详细查阅了实验室建设相关支撑资料、实地查看了实验室现场，对各项目建设成效进行了认真评议，提出实验室下一步管理和使用的意见和建议。本次验收工作对学院抓好实验室建设，提高实验室管理水平，有效用好实验室，做好人才培养工作，具有良好的促进和推动作用。</p><br> &nbsp;<br>
-                                        <div style="text-align:center">
+                                        <p style="margin:0 40px 0 40px;text-indent:2em">此实训室的建设可以支撑物联网应用技术、应用电子技术专业以下课程的教学：《单片机技术与应用》、《PLC技术及应用》、《智能电子产品设计与制作》、《过程装备控制技术及应用》、《智能生产线安装与调试》、《智能工厂集成系统》、《课程设计》。</p><br> &nbsp;<br>
+                                        <!-- <div style="text-align:center">
                                             <img src="../../../../static/img/xlab-2.jpg" style="width:400px"/>
-                                        </div>
+                                        </div> -->
                                         
                                     </div>
                                 </div>

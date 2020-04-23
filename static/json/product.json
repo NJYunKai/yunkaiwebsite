@@ -42,7 +42,7 @@
       "name": "人工智能教学综合应用实训平台",
       "title": "人工智能教学综合应用实训平台",
       "imgurl": "/static/img/product_type2-2.png",
-      "detailcontent": "/static/img/productdetail_type2-1.png"
+      "detailcontent": "/static/img/productdetail_type2-2.png"
     }, {
       "id": 7,
       "type": 2,
@@ -122,39 +122,46 @@
       "detailcontent": "/static/img/productdetail_type4-7.png"
     }, {
       "id": 18,
-      "type": 5,
-      "name": "四旋翼飞行器A型",
-      "title": "四旋翼飞行器A型",
+      "type": 1,
+      "name": "四旋翼飞行器",
+      "title": "四旋翼飞行器",
       "imgurl": "/static/img/product_type5-1.png",
       "detailcontent": "/static/img/productdetail_type5-1.png"
-    }, {
-      "id": 19,
-      "type": 5,
-      "name": "四旋翼飞行器B型",
-      "title": "四旋翼飞行器B型",
-      "imgurl": "/static/img/product_type5-2.png",
-      "detailcontent": "/static/img/productdetail_type5-2.png"
-    }, {
-      "id": 20,
-      "type": 5,
-      "name": "四旋翼飞行器C型",
-      "title": "四旋翼飞行器C型",
-      "imgurl": "/static/img/product_type5-3.png",
-      "detailcontent": "/static/img/productdetail_type5-3.png"
-    }, {
+    },
+    {
       "id": 21,
-      "type": 5,
+      "type": 1,
       "name": "六旋翼飞行器",
       "title": "六旋翼飞行器",
       "imgurl": "/static/img/product_type5-4.png",
       "detailcontent": "/static/img/productdetail_type5-4.png"
     }, {
       "id": 22,
-      "type": 6,
+      "type": 3,
       "name": "智慧生活环境体验馆",
       "title": "智慧生活环境体验馆",
       "imgurl": "/static/img/product_type6-1.png",
       "detailcontent": "/static/img/productdetail_type6-1.png"
+    }, {
+      "id": 23,
+      "type": 1,
+      "name": "大数据",
+      "title": "大数据",
+      "imgurl": "/static/img/productdetail_bd.png",
+      "detailcontent": "/static/img/productdetail_bd1.png",
+      "detailcontent1": "/static/img/productdetail_bd2.png",
+      "detailcontent2": "/static/img/productdetail_bd3.png",
+      "detailcontent3": "/static/img/productdetail_bd4.png",
+      "detailcontent4": "/static/img/productdetail_bd5.png",
+      "detailcontent5": "/static/img/productdetail_bd6.png",
+      "detailcontent6": "/static/img/labsolutions_bigdata4.png"
+    }, {
+      "id": 24,
+      "type": 1,
+      "name": "区块链",
+      "title": "区块链",
+      "imgurl": "/static/img/labsolutions_blockchain2.png",
+      "detailcontent": "/static/img/productdetail_type1-5.png"
     }
 
   ]

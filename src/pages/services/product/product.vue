@@ -34,7 +34,7 @@
           >智能控制类</div>
         </div>
       </div>
-      <div class="focuses" @click="changeproduct(5)">
+      <!-- <div class="focuses" @click="changeproduct(5)">
         <div class>
           <div
             class="single-focus1 white-bg diffuse-shadow green-line-bottom"
@@ -49,7 +49,7 @@
             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
           >智慧生活环境体验馆</div>
         </div>
-      </div>
+      </div> -->
     </div>
     <!-- 内容主体 -->
     <div class="news">
@@ -113,6 +113,7 @@ export default {
 .el-card {
   border: 1px solid #c3d9e89e;
   background-color: #fff0;
+  height: 22.5em;
 }
 .el-col-8 {
     width: 30%;

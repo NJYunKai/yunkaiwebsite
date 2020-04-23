@@ -18,7 +18,7 @@
         <div class="content-1">
           <p class="lab_title2">二、目标专业</p>
           <p class="lab_content1">
-            支持进行《物联网应用技术专业》、《人工智能技术服务专业》、《应用电子技术专业》、《电子商务技术专业》、《移动互联应用技术专业》专业。
+            支持进行物联网应用技术专业、人工智能技术服务专业、应用电子技术专业、电子商务技术专业、移动互联应用技术专业。
           </p>
           <img src="/static/img/apprenticeships1.png" />
         </div>
