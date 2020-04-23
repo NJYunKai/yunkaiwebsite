@@ -41,14 +41,10 @@
             <router-link to="/construction/mechanical_ir" class="sub-link">机电类</router-link>
           </li>
           <li>
-<<<<<<< HEAD
             <router-link to="/construction/elcommerce" class="sub-link">电子商务</router-link>
           </li>
           <li>
             <router-link to="/construction/other_de" class="sub-link">物流管理</router-link>
-=======
-            <router-link to="/construction/other_de" class="sub-link">物流+电商</router-link>
->>>>>>> 66284862cdff067744b3c23223ea22846c64c57b
           </li>
             <li>
             <router-link to="/construction/electronic_de" class="sub-link">电子信息</router-link>
