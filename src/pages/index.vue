@@ -128,7 +128,7 @@
                 <div class="case-frame-img">
                   <img v-lazy="img5" alt />
                 </div>
-                <h3 class="case-title">江苏经贸职院</h3>
+                <h3 class="case-title">江苏经贸职业技术学院</h3>
                 <p class="case-content">其中包括智能制造实训室、物流管理专业1+X考点实训室环境及智能化实训室、“人工智能冷链物流”实训室等</p>
               </div>
             </router-link>

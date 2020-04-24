@@ -10,7 +10,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.15s; animation-name: fadeInLeftBig;"
-                        >经贸学院</div>
+                        >江苏经贸职业技术学院</div>
                     </div>
                     </div>
                 </router-link>
@@ -20,7 +20,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.25s; animation-name: fadeInLeftBig;"
-                        >电机学院</div>
+                        >上海电机学院</div>
                     </div>
                     </div>
                 </router-link>
@@ -30,7 +30,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
-                        >工贸学院</div>
+                        >浙江工贸学院</div>
                     </div>
                     </div>
                 </router-link>
@@ -40,7 +40,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
-                        >工商大学</div>
+                        >浙江工商大学</div>
                     </div>
                     </div>
                 </router-link>
@@ -50,7 +50,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.55s; animation-name: fadeInLeftBig;"
-                        >农业大学</div>
+                        >湖南农业大学</div>
                     </div>
                     </div>
                 </router-link>
@@ -227,8 +227,8 @@
     }
 
     .school .single-focus1{
-        width: 60px;
-        height: 60px;
+        width: 1.5rem;
+        height: 1.5rem;
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 15px;

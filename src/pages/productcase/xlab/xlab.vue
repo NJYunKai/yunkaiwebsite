@@ -10,7 +10,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.15s; animation-name: fadeInLeftBig;"
-                        >经贸学院</div>
+                        >江苏经贸职业技术学院</div>
                     </div>
                     </div>
                 </router-link>
@@ -20,7 +20,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.25s; animation-name: fadeInLeftBig;"
-                        >电机学院</div>
+                        >上海电机学院</div>
                     </div>
                     </div>
                 </router-link>
@@ -30,7 +30,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
-                        >工贸学院</div>
+                        >浙江工贸学院</div>
                     </div>
                     </div>
                 </router-link>
@@ -40,7 +40,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
-                        >工商大学</div>
+                        >浙江工商大学</div>
                     </div>
                     </div>
                 </router-link>
@@ -50,7 +50,7 @@
                         <div
                         class="single-focus1 white-bg diffuse-shadow green-line-bottom"
                         style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.55s; animation-name: fadeInLeftBig;"
-                        >农业大学</div>
+                        >湖南农业大学</div>
                     </div>
                     </div>
                 </router-link>
@@ -91,7 +91,7 @@
                                 </h1>
 
                                 <div style="display:block;font-family:Microsoft YaHei;font-size:16px;color:#5A5A5A;font-weight:normal;text-decoration:none;">
-                                    <p style="margin:0 40px 0 40px;text-indent:2em">智能制造实训室建设主要包括：智能仓库管控系统、SMT设备联网系统、标准化工单派送e化系统、设备远程监控及运维系统、产线智能化系统、设备健康监诊系统、水下巡检机器人等满足物联网应用技术、应用电子技术专业教学任务的软硬件设备。</p><br> &nbsp;<br>
+                                    <p style="margin:0 40px 0 40px;text-indent:2em">智能制造实训室2018年11月建设完成，可同时满足60名学生上课，内容主要包括：智能仓库管控系统、SMT设备联网系统、标准化工单派送e化系统、设备远程监控及运维系统、产线智能化系统、设备健康监诊系统、水下巡检机器人。此实训室的建设可以支撑物联网应用技术、应用电子技术专业以下课程的教学：《单片机技术与应用》、《PLC技术及应用》、《智能电子产品设计与制作》、《过程装备控制技术及应用》、《智能生产线安装与调试》、《智能工厂集成系统》、《课程设计》。</p><br> &nbsp;<br>
                                     <div style="text-align: center;">
                                         <img src="../../../../static/img/xlab-3.jpg" width="400px" height="200px" alt="" >
                                     </div> 
@@ -245,8 +245,8 @@ export default {
     }
 
     .school .single-focus1{
-        width: 60px;
-        height: 60px;
+        width: 1.5rem;
+        height: 1.5rem;
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 15px;
