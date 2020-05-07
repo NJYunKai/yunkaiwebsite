@@ -63,9 +63,9 @@
                                         </div><br> &nbsp;<br> -->
                                         
                                         <p style="margin:0 40px 0 40px;text-indent:2em">此实训室的建设可以支撑物联网应用技术、应用电子技术专业以下课程的教学：《单片机技术与应用》、《PLC技术及应用》、《智能电子产品设计与制作》、《过程装备控制技术及应用》、《智能生产线安装与调试》、《智能工厂集成系统》、《课程设计》。</p><br> &nbsp;<br>
-                                        <!-- <div style="text-align:center">
-                                            <img src="../../../../static/img/xlab-2.jpg" style="width:400px"/>
-                                        </div> -->
+                                        <div style="text-align:center">
+                                            <img src="../../../../static/img/xlab-2.png" style="width:400px;height:300px"/>
+                                        </div>
                                         
                                     </div>
                                 </div>

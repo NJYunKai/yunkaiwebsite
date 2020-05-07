@@ -84,31 +84,31 @@
             <!-- 左列 -->
             <ul class="ne-cont-ground">
               <li class="ne-cont-text">
-                <a href="https://mp.weixin.qq.com/s/ttyZQhSQAQyUqZ8FeX06bA" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;应用型本科高校和职业教育本科高校提前招生</span>
+                <a href="https://mp.weixin.qq.com/s/kNux1VJUnDIokv4m7voZGA" title>
+                  <span class="ne-cont-text-style">·&nbsp;&nbsp;中等职业教育的发展历程、特征及未来走向</span>
                 </a>
-                <span class="ne-cont-text-other">2020-03-12</span>
+                <span class="ne-cont-text-other">2020-05-01</span>
               </li>
               <li class="ne-cont-text ne-cont-text-right">
-                <a href="https://mp.weixin.qq.com/s/tQn7KNV2QRzFe1RhGFMK4w" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;重磅！科技部发文：支持再建四个人工智能国家试验区！</span>
+                <a href="https://mp.weixin.qq.com/s/eEYK5a5ggP4udROd12Pr_w" title>
+                  <span class="ne-cont-text-style">·&nbsp;&nbsp;关于公布首批全国职业院校“双师型”教师队伍建设典型案例的通知</span>
                 </a>
-                <span class="ne-cont-text-other">2020-03-10</span>
+                <span class="ne-cont-text-other">2020-04-30</span>
               </li>
             </ul>
             <!-- 右列 -->
             <ul class="ne-cont-ground">
               <li class="ne-cont-text">
-                <a href="https://mp.weixin.qq.com/s/6RPeOMBn9PgHk-gWxts7NA" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;1+X职业技能等级证书编码规则及样式发布！</span>
+                <a href="https://mp.weixin.qq.com/s/U1VwsRLfeKV4xYFRmC3LIQ" title>
+                  <span class="ne-cont-text-style">·&nbsp;&nbsp;如何有效推进1+X证书制度试点工作</span>
                 </a>
-                <span class="ne-cont-text-other">2020-03-11</span>
+                <span class="ne-cont-text-other">2020-05-06</span>
               </li>
               <li class="ne-cont-text ne-cont-text-right">
-                <a href="https://mp.weixin.qq.com/s/FvD7UmkdX30tulx5kRBgwQ" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;里程碑：国内5G NB-IoT连接数突破1亿，大连接加速到来</span>
+                <a href="https://mp.weixin.qq.com/s/cm6oWYr1rLpVLna-hQHC_Q" title>
+                  <span class="ne-cont-text-style">·&nbsp;&nbsp;教育部教师工作司关于公布首批全国职业院校“双师型”教师队伍建设典型案例的通知</span>
                 </a>
-                <span class="ne-cont-text-other">2019-03-11</span>
+                <span class="ne-cont-text-other">2019-05-04</span>
               </li>
             </ul>
           </div>
