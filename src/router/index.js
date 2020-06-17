@@ -276,6 +276,26 @@ export default new Router({
           component: () => import('../pages/construction/electronic/electronic_de.vue')
         }
       ]
-    }
+    },
+    //视频播放页面
+    {
+      path: '/video/:id',
+      name: 'video',
+      base: '/video/',
+      meta: {
+        requireAuth: true
+      },
+      component: () => import('../pages/video/video.vue'),
+
+    },
+    //视频列表页面
+    {
+      path: '/videolist',
+      name: 'videolist',
+      meta: {
+        requireAuth: true
+      },
+      component: () => import('../pages/video/videolist.vue'),
+    },
   ]
 })

@@ -13,3 +13,7 @@ static/img/
 *.njsproj
 *.sln
 
+static/testvideo1.mp4
+static/testvideo.mp4
+static/testvideo2.mp4
+static/testvideo3.mp4

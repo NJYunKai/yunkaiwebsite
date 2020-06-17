@@ -10,16 +10,18 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "babel-ployfill": "^6.26.0",
     "cross-env": "^7.0.2",
     "element-ui": "^2.13.0",
     "iview": "^2.7.3",
-    "babel-ployfill": "^6.26.0",
     "lib-flexible": "^0.3.2",
     "px2rem-loader": "^0.1.9",
     "vue": "^2.5.2",
     "vue-awesome": "^2.3.4",
     "vue-awesome-swiper": "^2.6.7",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-video-player": "^5.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

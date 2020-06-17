@@ -63,6 +63,7 @@
           <el-menu-item index="/cooperative-education">协同育人</el-menu-item>
           <el-menu-item index="/beltroad">一带一路</el-menu-item>
           <el-menu-item index="/aboutus">关于我们</el-menu-item>
+          <!-- <el-menu-item index="/videolist">相关视频</el-menu-item> -->
         </el-menu>
       </div>
     </div>
