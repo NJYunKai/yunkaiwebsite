@@ -1,140 +1,125 @@
 <template>
     <div class="news-right-demo" >                                      
                                                                   
-        <div>
-        <!-- 侧边导航栏 -->
-        <!-- <div class="r-side">
-            <router-link to="/companynews/dynamicnews">
-                <div class="comnews">
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div
-                    class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-                    style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.15s; animation-name: fadeInLeftBig;"
-                    >协同育人申报指南</div>
-                </div>
-                </div>
-            </router-link>
-            <router-link to="/companynews/dynamicnews">
-                <div class="comnews">
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div
-                    class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-                    style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.25s; animation-name: fadeInLeftBig;"
-                    >中国物联网大会</div>
-                </div>
-                </div>
-            </router-link>
-            <router-link to="/companynews/dynamicnews">
-                <div class="comnews">
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div
-                    class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-                    style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeftBig;"
-                    >中柬一带一路</div>
-                </div>
-                </div>
-            </router-link>
-            <router-link to="/companynews/dynamicnews">
-                <div class="comnews">
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div
-                    class="single-focus1 white-bg diffuse-shadow green-line-bottom"
-                    style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.45s; animation-name: fadeInLeftBig;"
-                    >智能制造实训室验收</div>
-                </div>
-                </div>
-            </router-link>
-        </div> -->
         <!-- 内容主体 -->
         <div class="news">
             
-        <div class="content-background-blue">
-            <div class="content-1" style="width:100%">
-                <div class="lime-content  lime-finance ">
-                    <div class="lime-content-left">
-                        <p class="lime-dete-month">2019年</p>
-                        <p class="lime-date-day">12月</p>
-                    </div>
-                    <div class="lime-content-right">
-                        <router-link to="/companynews/1+x">
-                            <p class="lime-style-one lime-style-margin news-title">
-                                <span class="lime-text-head">南京云开-教育部 产教融合协同育人项目申报指南发布</span>
-                            </p>
-                            <p class="lime-style-one-two" style="color:black;width:600px;font-size:1.3em">自2018年起，南京云开数据科技有限公司持续开展教育部产学合作协同育人项目。本公司所支持的核心领域包括但不局限于：“人工智能”、“物联网”、“嵌入式”、“微电子”、“云计算”、“电子通信”、“自动化”、“大数据”、“机器人”、“移动商务”等。</p>
-                            <span class="lime-style-three">查看详情&gt;&gt;</span>
-                        </router-link>
-                    </div>
-                </div>
-                <el-divider></el-divider>
+            <div class="content-background-blue">
+                <div class="content-1" style="width:100%">
 
-                <div class="lime-content  lime-finance ">
-                    <div class="lime-content-left">
-                        <p class="lime-dete-month">2019年</p>
-                        <p class="lime-date-day">11月</p>
+                    <!-- <div class="lime-content  lime-finance ">
+                        <div class="lime-content-left">
+                            <p class="lime-dete-month">2019年</p>
+                            <p class="lime-date-day">12月</p>
+                        </div>
+                        <div class="lime-content-right">
+                            <router-link to="/companynews/1+x">
+                                <p class="lime-style-one lime-style-margin news-title">
+                                    <span class="lime-text-head">南京云开-教育部 产教融合协同育人项目申报指南发布</span>
+                                </p>
+                                <p class="lime-style-one-two" style="color:black;width:600px;font-size:1.3em">自2018年起，南京云开数据科技有限公司持续开展教育部产学合作协同育人项目。本公司所支持的核心领域包括但不局限于：“人工智能”、“物联网”、“嵌入式”、“微电子”、“云计算”、“电子通信”、“自动化”、“大数据”、“机器人”、“移动商务”等。</p>
+                                <span class="lime-style-three">查看详情&gt;&gt;</span>
+                            </router-link>
+                        </div>
                     </div>
-                    <div class="lime-content-right">
-                        <router-link to="/companynews/iotmeeting">
-                            <p class="lime-style-one lime-style-margin news-title">
-                                <span class="lime-text-head">中国物联网大会暨智能技术与智慧商业专委会顺利召开</span>
-                            </p>
-                            <p class="lime-style-one-two" style="color:black;width:600px;font-size:1.3em">面对当今世界激烈的商业竞争环境，人工智能作为一种颠覆性的科技力量，正在帮助企业去获取最大的竞争优势，这种结合必然会碰撞出无数火花，彻底变革整个商业规则。</p>
-                            <span class="lime-style-three">查看详情&gt;&gt;</span>
-                        </router-link>
-                    </div>
-                </div>
-                <el-divider></el-divider>
+                    <el-divider></el-divider>
 
-                <div class="lime-content  lime-finance ">
-                    <div class="lime-content-left">
-                        <p class="lime-dete-month">2019年</p>
-                        <p class="lime-date-day">11月</p>
+                    <div class="lime-content  lime-finance ">
+                        <div class="lime-content-left">
+                            <p class="lime-dete-month">2019年</p>
+                            <p class="lime-date-day">11月</p>
+                        </div>
+                        <div class="lime-content-right">
+                            <router-link to="/companynews/iotmeeting">
+                                <p class="lime-style-one lime-style-margin news-title">
+                                    <span class="lime-text-head">中国物联网大会暨智能技术与智慧商业专委会顺利召开</span>
+                                </p>
+                                <p class="lime-style-one-two" style="color:black;width:600px;font-size:1.3em">面对当今世界激烈的商业竞争环境，人工智能作为一种颠覆性的科技力量，正在帮助企业去获取最大的竞争优势，这种结合必然会碰撞出无数火花，彻底变革整个商业规则。</p>
+                                <span class="lime-style-three">查看详情&gt;&gt;</span>
+                            </router-link>
+                        </div>
                     </div>
-                    <div class="lime-content-right">
-                        <router-link to="/companynews/belt-road">
-                            <p class="lime-style-one lime-style-margin news-title">
-                                <span class="lime-text-head">中柬一带一路电商谷柬埔寨金边基地顺利落成</span>
-                            </p>
-                            <p class="lime-style-one-two" style="color:black;width:600px;font-size:1.3em">“一带一路”电商谷（金边）基地（简称“金边基地”）落地在柬埔寨柬埔寨工业技术学院，教学由电商谷南京分中心（江苏经贸职业技术学院）对口支撑，海外建设部分由南京云开数据科技有限公司投入。</p>
-                            <span class="lime-style-three">查看详情&gt;&gt;</span>
-                        </router-link>
-                    </div>
-                </div>
-                <el-divider></el-divider>
+                    <el-divider></el-divider>
 
-                <div class="lime-content  lime-finance ">
-                    <div class="lime-content-left">
-                        <p class="lime-dete-month">2020年</p>
-                        <p class="lime-date-day">1月</p>
+                    <div class="lime-content  lime-finance ">
+                        <div class="lime-content-left">
+                            <p class="lime-dete-month">2019年</p>
+                            <p class="lime-date-day">11月</p>
+                        </div>
+                        <div class="lime-content-right">
+                            <router-link to="/companynews/belt-road">
+                                <p class="lime-style-one lime-style-margin news-title">
+                                    <span class="lime-text-head">中柬一带一路电商谷柬埔寨金边基地顺利落成</span>
+                                </p>
+                                <p class="lime-style-one-two" style="color:black;width:600px;font-size:1.3em">“一带一路”电商谷（金边）基地（简称“金边基地”）落地在柬埔寨柬埔寨工业技术学院，教学由电商谷南京分中心（江苏经贸职业技术学院）对口支撑，海外建设部分由南京云开数据科技有限公司投入。</p>
+                                <span class="lime-style-three">查看详情&gt;&gt;</span>
+                            </router-link>
+                        </div>
                     </div>
-                    <div class="lime-content-right">
-                        <router-link to="/companynews/jingmao-lab">
-                            <p class="lime-style-one lime-style-margin news-title">
-                                <span class="lime-text-head">江苏经贸职业技术学院智能制造实训室顺利验收并交付使用</span>
-                            </p>
-                            <p class="lime-style-one-two" style="color:black;width:600px;font-size:1.3em">2019年11月18日下午，实验室与设备管理处组织相关职能部门人员对江苏经贸工业物联网实验室建设项目进行了验收。</p>
-                            <span class="lime-style-three">查看详情&gt;&gt;</span>
-                        </router-link>
-                    </div>
-                </div>
-                <el-divider></el-divider>
+                    <el-divider></el-divider>
 
+                    <div class="lime-content  lime-finance ">
+                        <div class="lime-content-left">
+                            <p class="lime-dete-month">2020年</p>
+                            <p class="lime-date-day">1月</p>
+                        </div>
+                        <div class="lime-content-right">
+                            <router-link to="/companynews/jingmao-lab">
+                                <p class="lime-style-one lime-style-margin news-title">
+                                    <span class="lime-text-head">江苏经贸职业技术学院智能制造实训室顺利验收并交付使用</span>
+                                </p>
+                                <p class="lime-style-one-two" style="color:black;width:600px;font-size:1.3em">2019年11月18日下午，实验室与设备管理处组织相关职能部门人员对江苏经贸工业物联网实验室建设项目进行了验收。</p>
+                                <span class="lime-style-three">查看详情&gt;&gt;</span>
+                            </router-link>
+                        </div>
+                    </div>
+                    <el-divider></el-divider> -->
+
+                    <!-- 循环改写 -->
+                    <div v-for="(item, index) in companynews" :key="index" :offset="0" class="lime-content  lime-finance ">
+                        <div class="lime-content-right" style="width:90%;margin:0 5%">
+                            <router-link :to="{ name: 'newsdetails', params: { id: item.id }}">
+                                <p class="lime-style-one lime-style-margin news-title">
+                                    <span class="lime-text-head">{{item.title}}</span>
+                                </p>
+                                <p class="lime-style-one-two" style="color:black;width:90%;font-size:1.3em">{{item.marks}}</p>
+                                <span class="lime-style-three">查看详情&gt;&gt;</span>
+                            </router-link>
+                        </div>
+                        <el-divider></el-divider>
+                    </div>
+
+                </div>
             </div>
-        </div>
 
         
 
         </div>
-    </div>        
+      
                                      
     </div>
 </template>
 
-
+<script>
+import json from "../../../../static/json/companynews.json";
+export default {
+    data: function(){
+        return{
+            companynews:[],
+            id: 0
+        };
+    },
+    mounted(){
+        console.log("==========", this.$route.params);
+        // 获取到路径传入的参数id，通过filter过滤数据选取对应的id数组
+        this.id = this.$route.params.id;
+        this.companynews = json.companynewslist;
+        console.log(json.companynewslist);
+    }
+}
+</script>
 
 <style>
-
-
-
     .lime-content{
         margin: 0 5%;
         padding: 0;

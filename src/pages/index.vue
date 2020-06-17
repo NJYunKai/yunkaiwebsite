@@ -42,7 +42,8 @@
           </div>
           <!-- 新闻图片文字叙述 -->
           <div class="news-carousel" style="height:4.8rem">
-            <el-carousel :interval="4000" type="card" height="300px" style="background-color:#faf9f991">
+
+            <!-- <el-carousel :interval="4000" type="card" height="300px" style="background-color:#faf9f991">
               <el-carousel-item class="newscompany">
                 <router-link to="/companynews/1+x">
                   <img v-lazy="img8" class="newsimg" />
@@ -70,8 +71,20 @@
                   <h2 class="medium" style="margin:10px 0 0 220px">智能制造实训室顺利验收</h2>
                 </router-link>
               </el-carousel-item>
+            </el-carousel> -->
+
+            <!-- 循环改写 -->
+            <el-carousel :interval="4000" type="card" height="300px" style="background-color:#faf9f991">
+              <el-carousel-item v-for="(item, index) in companynewslist" :key="index" :offset="0" class="newscompany">
+                <router-link :to="{ name: 'newsdetails', params: { id: item.id }}">
+                  <img :src="item.notable" class="newsimg" />
+                  <h2 class="medium" style="margin:10px 0 0 220px">{{item.sub_title}}</h2>
+                </router-link>
+              </el-carousel-item>
             </el-carousel>
+
           </div>
+
           <!-- 行业新闻模块 -->
           <div class="ne-box">
             <div class="ne-cont-header">
@@ -82,7 +95,7 @@
               </span>
             </div>
             <!-- 左列 -->
-            <ul class="ne-cont-ground">
+            <!-- <ul class="ne-cont-ground">
               <li class="ne-cont-text">
                 <a href="https://mp.weixin.qq.com/s/kNux1VJUnDIokv4m7voZGA" title>
                   <span class="ne-cont-text-style">·&nbsp;&nbsp;中等职业教育的发展历程、特征及未来走向</span>
@@ -95,9 +108,9 @@
                 </a>
                 <span class="ne-cont-text-other">2020-04-30</span>
               </li>
-            </ul>
+            </ul> -->
             <!-- 右列 -->
-            <ul class="ne-cont-ground">
+            <!-- <ul class="ne-cont-ground">
               <li class="ne-cont-text">
                 <a href="https://mp.weixin.qq.com/s/U1VwsRLfeKV4xYFRmC3LIQ" title>
                   <span class="ne-cont-text-style">·&nbsp;&nbsp;如何有效推进1+X证书制度试点工作</span>
@@ -110,7 +123,46 @@
                 </a>
                 <span class="ne-cont-text-other">2019-05-04</span>
               </li>
+            </ul> -->
+
+            <!-- 改写 -->
+            <!-- <ul class="ne-cont-ground" style="width:1200px">
+              <li class="ne-cont-text" style="width:40%;float:left;display:block">
+                <a href="https://mp.weixin.qq.com/s/U1VwsRLfeKV4xYFRmC3LIQ" title>
+                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;如何有效推进1+X证书制度试点工作</span>
+                </a>
+                <span class="ne-cont-text-other">2020-05-06</span>
+              </li>
+              <li class="ne-cont-text ne-cont-text-right" style="width:40%;float:left;display:block">
+                <a href="https://mp.weixin.qq.com/s/cm6oWYr1rLpVLna-hQHC_Q" title>
+                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;教育部教师工作司关于公布首批全国职业院校“双师型”教师队伍建设典型案例的通知</span>
+                </a>
+                <span class="ne-cont-text-other">2019-05-04</span>
+              </li>
+              <li class="ne-cont-text" style="width:40%;float:left;display:block">
+                <a href="https://mp.weixin.qq.com/s/kNux1VJUnDIokv4m7voZGA" title>
+                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;中等职业教育的发展历程、特征及未来走向</span>
+                </a>
+                <span class="ne-cont-text-other">2020-05-01</span>
+              </li>
+              <li class="ne-cont-text ne-cont-text-right" style="width:40%;float:left;display:block">
+                <a href="https://mp.weixin.qq.com/s/eEYK5a5ggP4udROd12Pr_w" title>
+                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;关于公布首批全国职业院校“双师型”教师队伍建设典型案例的通知</span>
+                </a>
+                <span class="ne-cont-text-other">2020-04-30</span>
+              </li>
+            </ul> -->
+
+            <!-- 循环改写 -->
+            <ul class="ne-cont-ground" style="width:1200px">
+              <li v-for="(item, index) in fieldnews" :key="index" :offset="0" class="ne-cont-text" style="width:40%;float:left;display:block">
+                <a :href= "item.herf">
+                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;{{item.title}}</span>
+                </a>
+                <span class="ne-cont-text-other">{{item.publish_time}}</span>
+              </li>
             </ul>
+
           </div>
         </div>
       </div>
@@ -294,6 +346,8 @@
 </template>
 
 <script>
+import json from "../../static/json/fieldnews.json";
+import companynewsjson from "../../static/json/companynews.json";
 import logo_jpg from "../../static/img/logo.png";
 import img1 from "../../static/img/homecarousel-1.jpg";
 import img2 from "../../static/img/homecarousel-3.jpg";
@@ -328,6 +382,25 @@ import img30 from "../../static/img/cooperationcompany-5.png";
 export default {
   data: function() {
     return {
+      fieldnews: [
+        // {        
+        // id: 1,
+        // type: 1,
+        // name: "应用型本科高校和职业教育本科高校提前招生",
+        // title: "应用型本科高校和职业教育本科高校提前招生",
+        // href: "https://mp.weixin.qq.com/s/ttyZQhSQAQyUqZ8FeX06bA",
+        // detailcontent: "应用型本科高校和职业教育本科高校提前招生",
+        // updatetime: "2020-05-09"},
+        // {id: 2,
+        // type: 1,
+        // name: "重磅！科技部发文：支持再建四个人工智能国家试验区！",
+        // title: "重磅！科技部发文：支持再建四个人工智能国家试验区！",
+        // href: "https://mp.weixin.qq.com/s/tQn7KNV2QRzFe1RhGFMK4w",
+        // detailcontent: "重磅！科技部发文：支持再建四个人工智能国家试验区！",
+        // updatetime:"2020-05-09"
+        // }
+      ],
+      companynewslist: [],
       rcschoolbox:[
         {id:0,idView:require("../../static/img/rcschool-1")},
         {id:1,idView:require("../../static/img/rcschool-2")},
@@ -395,6 +468,12 @@ export default {
       img29,
       img30
     };
+  },
+  mounted(){
+    this.fieldnews = json.fieldnewslist;
+    this.companynewslist = companynewsjson.companynewslist;
+     console.log(json.fieldnewslist);
+     console.log(companynewsjson.companynewslist);
   },
   methods: {
     showNews: function(index) {

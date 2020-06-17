@@ -1,0 +1,26 @@
+{
+    "fieldnewslist": [{
+        "id": 1,
+        "title": "应用型本科高校和职业教育本科高校提前招生",
+        "herf": "https://mp.weixin.qq.com/s/ttyZQhSQAQyUqZ8FeX06bA",
+        "publish_time": "2020-05-09"
+      },
+      {
+        "id": 2,
+        "title": "重磅！科技部发文：支持再建四个人工智能国家试验区！",
+        "herf": "https://mp.weixin.qq.com/s/tQn7KNV2QRzFe1RhGFMK4w",
+        "publish_time":"2020-05-09"
+      },
+      {
+        "id": 3,
+        "title": "1+X职业技能等级证书编码规则及样式发布！",
+        "herf": "https://mp.weixin.qq.com/s/6RPeOMBn9PgHk-gWxts7NA",
+        "publish_time":"2020-05-09"
+      }, {
+        "id": 4,
+        "title": "里程碑：国内5G NB-IoT连接数突破1亿，大连接加速到来",
+        "herf": "https://mp.weixin.qq.com/s/FvD7UmkdX30tulx5kRBgwQ",
+        "publish_time":"2020-05-09"
+      }
+    ]
+  }

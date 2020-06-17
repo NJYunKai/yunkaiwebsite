@@ -137,6 +137,11 @@ export default new Router({
           path: '/companynews/jingmao-lab',
           name: 'jingmao-lab',
           component: () => import('../pages/companynews/dynamicnews/jingmao-lab')
+        },
+        {
+          path: '/companynews/newsdetails/:id',
+          name: 'newsdetails',
+          component: () => import('../pages/companynews/dynamicnews/newsdetails.vue')
         }
       ]
     },
