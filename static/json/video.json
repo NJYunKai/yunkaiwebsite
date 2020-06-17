@@ -1,0 +1,156 @@
+{
+  "classifylist": [{
+      "id": 1,
+      "type": 1,
+      "title": "java基础教学",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "编程基础教学视频，包含java、C、C#等常见编程语言基础教学"
+    },
+    {
+      "id": 2,
+      "type": 1,
+      "title": "C语言基础教学",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "编程基础教学视频，包含java、C、C#等常见编程语言基础教学"
+    },
+    {
+      "id": 3,
+      "type": 1,
+      "title": "C#基础教学",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "编程基础教学视频，包含java、C、C#等常见编程语言基础教学"
+    },
+    {
+      "id": 4,
+      "type": 1,
+      "title": "安卓基础教学",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "编程基础教学视频，包含java、C、C#等常见编程语言基础教学"
+    },
+    {
+      "id": 5,
+      "type": 2,
+      "title": "java进阶视频",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "编程进阶教学视频，包含javaweb、C、.net等常见编程语言进阶教学"
+    },
+    {
+      "id": 6,
+      "type": 2,
+      "title": "C语言进阶视频",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "编程进阶教学视频，包含javaweb、C、.net等常见编程语言进阶教学"
+    },
+    {
+      "id": 7,
+      "type": 2,
+      "title": "C#进阶视频",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "编程进阶教学视频，包含javaweb、C、.net等常见编程语言进阶教学"
+    },
+    {
+      "id": 8,
+      "type": 2,
+      "title": "安卓进阶视频",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "编程进阶教学视频，包含javaweb、C、.net等常见编程语言进阶教学"
+    },
+    {
+      "id": 9,
+      "type": 3,
+      "title": "物联网综合应用教学平台介绍视频",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "公司产品介绍视频"
+    },
+    {
+      "id": 10,
+      "type": 3,
+      "title": "应用型RFID教学科研平台介绍视频",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "公司产品介绍视频"
+    },
+    {
+      "id": 11,
+      "type": 3,
+      "title": "嵌入式教学科研平台介绍视频",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "公司产品介绍视频"
+    },
+    {
+      "id": 12,
+      "type": 3,
+      "title": "物联网智能家居介绍视频",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "公司产品介绍视频"
+    },
+    {
+      "id": 13,
+      "type": 4,
+      "title": "智能仓储系统实验指导手册教学视频",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "公司产品对应"
+    },
+    {
+      "id": 14,
+      "type": 4,
+      "title": "冷链物流系统实验指导手册教学视频",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "公司产品对应"
+    },
+    {
+      "id": 15,
+      "type": 4,
+      "title": "智慧商业系统实验指导手册教学视频",
+      "imgurl": "/static/img/product_type1-1.jpg",
+      "introduction": "公司产品对应"
+    }
+  ],
+  "videolist": [{
+      "id": 1,
+      "classify": 1,
+      "title": "java基础",
+      "sub_title": "java常见变量",
+      "videourl": "../../../static/testvideo.mp4",
+      "detailcontent": "这是java基础中学习多种变量的视频",
+      "duration": "视频时长(4:20)"
+    },
+    {
+      "id": 2,
+      "classify": 1,
+      "title": "java基础",
+      "sub_title": "java面向对象",
+      "videourl": "../../../static/testvideo1.mp4",
+      "detailcontent": "这是java基础中学习面向对象的视频",
+      "duration": "视频时长(4:20)"
+    }, {
+      "id": 3,
+      "classify": 1,
+      "title": "java基础",
+      "sub_title": "java线程处理",
+      "videourl": "../../../static/testvideo2.mp4",
+      "detailcontent": "这是java基础中学习多线程处理的视频",
+      "duration": "视频时长(4:20)"
+    }, {
+      "id": 4,
+      "classify": 1,
+      "title": "java基础",
+      "sub_title": "java网络编程",
+      "videourl": "../../../static/testvideo3.mp4",
+      "detailcontent": "这是java基础中学习网络编程的视频",
+      "duration": "视频时长(4:20)"
+    }
+  ],
+  "custom": [{
+    "id": 1,
+    "username": "shiyaoyaoya",
+    "password": "123456",
+    "province_name": "江苏省",
+    "city_name": "南京市",
+    "university": "江苏经贸学院",
+    "college ": "物贸学院",
+    "department": "物流专业",
+    "name": "夏株奕",
+    "tel": "12345678987",
+    "email": "9689@16.com"
+  }]
+}
