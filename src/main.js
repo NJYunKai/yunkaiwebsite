@@ -20,6 +20,8 @@ Vue.use(ElementUI);
 // router.beforeEach((to, from, next) => {
 // 	console.log(to.name)
 // })
+// axios.defaults.baseURL = 'http://localhost:8081/'
+axios.defaults.baseURL = '/api/interface'
 Vue.prototype.$http = axios
 import VueLazyload from 'vue-lazyload'
 Vue.use(VueLazyload, {

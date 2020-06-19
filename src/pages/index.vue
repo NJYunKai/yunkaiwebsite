@@ -8,11 +8,6 @@
             <img v-lazy="img4" class="indeximg" />
           </router-link>
         </el-carousel-item>
-        <!-- <el-carousel-item>
-          <router-link to="/companynews/jingmao-lab">
-            <img v-lazy="img2" class="indeximg" />
-          </router-link>
-        </el-carousel-item> -->
         <el-carousel-item>
           <router-link to="/companynews/belt-road">
             <img v-lazy="img3" class="indeximg"/>
@@ -42,37 +37,6 @@
           </div>
           <!-- 新闻图片文字叙述 -->
           <div class="news-carousel" style="height:4.8rem">
-
-            <!-- <el-carousel :interval="4000" type="card" height="300px" style="background-color:#faf9f991">
-              <el-carousel-item class="newscompany">
-                <router-link to="/companynews/1+x">
-                  <img v-lazy="img8" class="newsimg" />
-                  <h2 class="medium" style="margin:10px 0 0 220px">协同育人申报指南发布</h2>
-                </router-link>
-              </el-carousel-item>
-
-              <el-carousel-item class="newscompany">
-                <router-link to="/companynews/iotmeeting">
-                  <img v-lazy="img9" class="newsimg" />
-                  <h2 class="medium" style="margin:10px 0 0 220px">物联网大会成功召开</h2>
-                </router-link>
-              </el-carousel-item>
-
-              <el-carousel-item class="newscompany">
-                <router-link to="/companynews/belt-road">
-                  <img v-lazy="img10" class="newsimg" />
-                  <h2 class="medium" style="margin:10px 0 0 220px">一带一路电商谷剪彩</h2>
-                </router-link>
-              </el-carousel-item>
-
-              <el-carousel-item class="newscompany">
-                <router-link to="/companynews/jingmao-lab">
-                  <img v-lazy="img11" class="newsimg" />
-                  <h2 class="medium" style="margin:10px 0 0 220px">智能制造实训室顺利验收</h2>
-                </router-link>
-              </el-carousel-item>
-            </el-carousel> -->
-
             <!-- 循环改写 -->
             <el-carousel :interval="4000" type="card" height="300px" style="background-color:#faf9f991">
               <el-carousel-item v-for="(item, index) in companynewslist" :key="index" :offset="0" class="newscompany">
@@ -82,7 +46,6 @@
                 </router-link>
               </el-carousel-item>
             </el-carousel>
-
           </div>
 
           <!-- 行业新闻模块 -->
@@ -94,65 +57,6 @@
                 <!-- <router-link to="/companynews/fieldnews" class="link">更多</router-link> -->
               </span>
             </div>
-            <!-- 左列 -->
-            <!-- <ul class="ne-cont-ground">
-              <li class="ne-cont-text">
-                <a href="https://mp.weixin.qq.com/s/kNux1VJUnDIokv4m7voZGA" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;中等职业教育的发展历程、特征及未来走向</span>
-                </a>
-                <span class="ne-cont-text-other">2020-05-01</span>
-              </li>
-              <li class="ne-cont-text ne-cont-text-right">
-                <a href="https://mp.weixin.qq.com/s/eEYK5a5ggP4udROd12Pr_w" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;关于公布首批全国职业院校“双师型”教师队伍建设典型案例的通知</span>
-                </a>
-                <span class="ne-cont-text-other">2020-04-30</span>
-              </li>
-            </ul> -->
-            <!-- 右列 -->
-            <!-- <ul class="ne-cont-ground">
-              <li class="ne-cont-text">
-                <a href="https://mp.weixin.qq.com/s/U1VwsRLfeKV4xYFRmC3LIQ" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;如何有效推进1+X证书制度试点工作</span>
-                </a>
-                <span class="ne-cont-text-other">2020-05-06</span>
-              </li>
-              <li class="ne-cont-text ne-cont-text-right">
-                <a href="https://mp.weixin.qq.com/s/cm6oWYr1rLpVLna-hQHC_Q" title>
-                  <span class="ne-cont-text-style">·&nbsp;&nbsp;教育部教师工作司关于公布首批全国职业院校“双师型”教师队伍建设典型案例的通知</span>
-                </a>
-                <span class="ne-cont-text-other">2019-05-04</span>
-              </li>
-            </ul> -->
-
-            <!-- 改写 -->
-            <!-- <ul class="ne-cont-ground" style="width:1200px">
-              <li class="ne-cont-text" style="width:40%;float:left;display:block">
-                <a href="https://mp.weixin.qq.com/s/U1VwsRLfeKV4xYFRmC3LIQ" title>
-                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;如何有效推进1+X证书制度试点工作</span>
-                </a>
-                <span class="ne-cont-text-other">2020-05-06</span>
-              </li>
-              <li class="ne-cont-text ne-cont-text-right" style="width:40%;float:left;display:block">
-                <a href="https://mp.weixin.qq.com/s/cm6oWYr1rLpVLna-hQHC_Q" title>
-                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;教育部教师工作司关于公布首批全国职业院校“双师型”教师队伍建设典型案例的通知</span>
-                </a>
-                <span class="ne-cont-text-other">2019-05-04</span>
-              </li>
-              <li class="ne-cont-text" style="width:40%;float:left;display:block">
-                <a href="https://mp.weixin.qq.com/s/kNux1VJUnDIokv4m7voZGA" title>
-                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;中等职业教育的发展历程、特征及未来走向</span>
-                </a>
-                <span class="ne-cont-text-other">2020-05-01</span>
-              </li>
-              <li class="ne-cont-text ne-cont-text-right" style="width:40%;float:left;display:block">
-                <a href="https://mp.weixin.qq.com/s/eEYK5a5ggP4udROd12Pr_w" title>
-                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;关于公布首批全国职业院校“双师型”教师队伍建设典型案例的通知</span>
-                </a>
-                <span class="ne-cont-text-other">2020-04-30</span>
-              </li>
-            </ul> -->
-
             <!-- 循环改写 -->
             <ul class="ne-cont-ground" style="width:1200px">
               <li v-for="(item, index) in fieldnews" :key="index" :offset="0" class="ne-cont-text" style="width:40%;float:left;display:block">
@@ -216,66 +120,8 @@
         <h3 class="product-header">合作院校</h3>
         <p class="product-header-text index-p">Cooperative&nbsp;school</p>
         <p class="product-pic new-pic"></p>
-        <!-- <p class="product-pic new-pic"></p>
-        <p class="product-header-slogan new-header-slogan" style="margin-bottom:30px">云上开花，数据结果</p> -->
         <div class="product-box" style="background:#faf9f991;height:13.2rem">
-          <!-- <div class="product-vessel product-vessel-vive" style="left: -2112.95px;">
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img12" />
-            </a>
 
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img13" />
-            </a>
-
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img14" />
-            </a>
-
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img15" />
-            </a>
-
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img16" />
-            </a>
-
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img17" />
-            </a>
-
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img18" />
-            </a>
-
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img19" />
-            </a>
-
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img20" />
-            </a>
-
-            <a href="javascript:;" class="product-roll" style="width:170px">
-              <img v-lazy="img21" style="width:170px" />
-            </a>
-
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img22" />
-            </a>
-
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img23" />
-            </a>
-
-            <a href="javascript:;" class="product-roll">
-              <img v-lazy="img24" />
-            </a>
-
-            <a href="javascript:;" class="product-roll" style="width:200px;margin-left:0px">
-              <img v-lazy="img25" style="width:200px" />
-            </a>
-          </div> -->
           <!-- 本科院校 -->
           <div>
             <div style="margin:0.5rem 0 0 0"><span class="ne-cont-bigfat">本科院校</span></div>
@@ -311,7 +157,6 @@
         <h3 class="product-header">合作企业</h3>
         <p class="product-header-text index-p">Cooperative&nbsp;partner</p>
         <p class="product-pic new-pic"></p>
-        <!-- <p class="product-header-slogan new-header-slogan" style="margin-bottom:30px">凝聚八方之力，共建云开未来</p> -->
         <div class="product-box" style="background:#ffffff8c;height:8rem">
           <div class="product-vessel product-vessel-vive" style="left: -2112.95px;height:7rem">
 
@@ -383,22 +228,6 @@ export default {
   data: function() {
     return {
       fieldnews: [
-        // {        
-        // id: 1,
-        // type: 1,
-        // name: "应用型本科高校和职业教育本科高校提前招生",
-        // title: "应用型本科高校和职业教育本科高校提前招生",
-        // href: "https://mp.weixin.qq.com/s/ttyZQhSQAQyUqZ8FeX06bA",
-        // detailcontent: "应用型本科高校和职业教育本科高校提前招生",
-        // updatetime: "2020-05-09"},
-        // {id: 2,
-        // type: 1,
-        // name: "重磅！科技部发文：支持再建四个人工智能国家试验区！",
-        // title: "重磅！科技部发文：支持再建四个人工智能国家试验区！",
-        // href: "https://mp.weixin.qq.com/s/tQn7KNV2QRzFe1RhGFMK4w",
-        // detailcontent: "重磅！科技部发文：支持再建四个人工智能国家试验区！",
-        // updatetime:"2020-05-09"
-        // }
       ],
       companynewslist: [],
       rcschoolbox:[
@@ -470,10 +299,20 @@ export default {
     };
   },
   mounted(){
-    this.fieldnews = json.fieldnewslist;
-    this.companynewslist = companynewsjson.companynewslist;
-     console.log(json.fieldnewslist);
-     console.log(companynewsjson.companynewslist);
+    // this.fieldnews = json.fieldnewslist;
+    // this.companynewslist = companynewsjson.companynewslist;
+    // console.log(json.fieldnewslist);
+    // console.log(companynewsjson.companynewslist);
+    this.$http
+     .post("/Fieldnews/GetFieldnewsAll", {}, {})
+     .then(response => {
+        window.console.log(response);
+        this.fieldnews = response;
+        this.loading = false;
+      })
+      .catch(e => {
+        console.log("fieldnews加载错误")
+      })
   },
   methods: {
     showNews: function(index) {
