@@ -10,10 +10,10 @@
 
                                 <div v-for="(item, index) in companynews" :key="index" :offset="0">
                                     <div style="display:block;font-family:Microsoft YaHei;font-size:30px;color:#000000;font-weight:bold;text-decoration:none;text-align: center;">
-                                        {{item.title}}
+                                        {{item.Title}} <br><br>
                                     </div>
-                                    <div>
-                                       <p v-html= "item.content"></p>
+                                    <div style="margin:0 7%">
+                                       <p v-html= "item.Content"></p>
                                        <!-- <img :src= "item.imgurl2"> -->
                                     </div>
                                 </div>
@@ -40,10 +40,25 @@
         console.log("==========", this.$route.params);
         // 获取到路径传入的参数id，通过filter过滤数据选取对应的id数组
         this.id = this.$route.params.id;
-        this.companynews = json.companynewslist.filter(values =>{
-             return values.id == this.id;
-        });
-        console.log(json.companynewslist);
+        // this.companynews = json.companynewslist.filter(values =>{
+        //      return values.id == this.id;
+        // });
+        // console.log(json.companynewslist);
+        this.$http
+         .post("/Companynews/GetCompanynewsAll", {}, {})
+         .then(response => {
+         window.console.log(response.data);
+         this.companynews = response.data.filter(values => {
+             return values.Id == this.id;
+         });
+         console.log("详细新闻");
+         console.log(response.data);
+         console.log(this.companynews);
+         this.loading = false;
+        })
+        .catch(e => {
+         console.log("companynewslist加载错误")
+        })
         }
     }
 </script>

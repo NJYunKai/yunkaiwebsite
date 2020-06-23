@@ -78,11 +78,11 @@
                     <!-- 循环改写 -->
                     <div v-for="(item, index) in companynews" :key="index" :offset="0" class="lime-content  lime-finance ">
                         <div class="lime-content-right" style="width:90%;margin:0 5%">
-                            <router-link :to="{ name: 'newsdetails', params: { id: item.id }}">
+                            <router-link :to="{ name: 'newsdetails', params: { id: item.Id }}">
                                 <p class="lime-style-one lime-style-margin news-title">
-                                    <span class="lime-text-head">{{item.title}}</span>
+                                    <span class="lime-text-head">{{item.Title}}</span>
                                 </p>
-                                <p class="lime-style-one-two" style="color:black;width:90%;font-size:1.3em">{{item.marks}}</p>
+                                <p class="lime-style-one-two" style="color:black;width:90%;font-size:1.3em">{{item.Marks}}</p>
                                 <span class="lime-style-three">查看详情&gt;&gt;</span>
                             </router-link>
                         </div>
@@ -113,8 +113,21 @@ export default {
         console.log("==========", this.$route.params);
         // 获取到路径传入的参数id，通过filter过滤数据选取对应的id数组
         this.id = this.$route.params.id;
-        this.companynews = json.companynewslist;
-        console.log(json.companynewslist);
+        // this.companynews = json.companynewslist;
+        // console.log(json.companynewslist);
+        this.$http
+         .post("/Companynews/GetCompanynewsAll", {}, {})
+         .then(response => {
+         window.console.log(response.data);
+         this.companynews = response.data;
+         console.log("新闻列表");
+         console.log(response.data);
+         console.log(this.companynews);
+         this.loading = false;
+        })
+        .catch(e => {
+         console.log("companynewslist加载错误")
+        })  
     }
 }
 </script>

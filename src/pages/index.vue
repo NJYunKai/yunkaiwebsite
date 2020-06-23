@@ -38,11 +38,40 @@
           <!-- 新闻图片文字叙述 -->
           <div class="news-carousel" style="height:4.8rem">
             <!-- 循环改写 -->
+            <!-- <el-carousel :interval="4000" type="card" height="300px" style="background-color:#faf9f991">
+              <el-carousel-item class="newscompany">
+                <router-link to="/companynews/1+x">
+                  <img v-lazy="img8" class="newsimg" />
+                  <h2 class="medium" style="margin:10px 0 0 220px">协同育人申报指南发布</h2>
+                </router-link>
+              </el-carousel-item>
+
+              <el-carousel-item class="newscompany">
+                <router-link to="/companynews/iotmeeting">
+                  <img v-lazy="img9" class="newsimg" />
+                  <h2 class="medium" style="margin:10px 0 0 220px">物联网大会成功召开</h2>
+                </router-link>
+              </el-carousel-item>
+
+              <el-carousel-item class="newscompany">
+                <router-link to="/companynews/belt-road">
+                  <img v-lazy="img10" class="newsimg" />
+                  <h2 class="medium" style="margin:10px 0 0 220px">一带一路电商谷剪彩</h2>
+                </router-link>
+              </el-carousel-item>
+
+              <el-carousel-item class="newscompany">
+                <router-link to="/companynews/jingmao-lab">
+                  <img v-lazy="img11" class="newsimg" />
+                  <h2 class="medium" style="margin:10px 0 0 220px">智能制造实训室顺利验收</h2>
+                </router-link>
+              </el-carousel-item>
+            </el-carousel> -->
             <el-carousel :interval="4000" type="card" height="300px" style="background-color:#faf9f991">
               <el-carousel-item v-for="(item, index) in companynewslist" :key="index" :offset="0" class="newscompany">
-                <router-link :to="{ name: 'newsdetails', params: { id: item.id }}">
-                  <img :src="item.notable" class="newsimg" />
-                  <h2 class="medium" style="margin:10px 0 0 220px">{{item.sub_title}}</h2>
+                <router-link :to="{ name: 'newsdetails', params: { id: item.Id }}">
+                  <img :src= "item.Notable"  class="newsimg" />
+                  <h2 class="medium" style="margin:10px 0 0 220px">{{item.Sub_title}}</h2>
                 </router-link>
               </el-carousel-item>
             </el-carousel>
@@ -60,8 +89,8 @@
             <!-- 循环改写 -->
             <ul class="ne-cont-ground" style="width:1200px">
               <li v-for="(item, index) in fieldnews" :key="index" :offset="0" class="ne-cont-text" style="width:40%;float:left;display:block">
-                <a :href= "item.herf">
-                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;{{item.title}}</span>
+                <a :href= "item.Herf">
+                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;{{item.Title}}</span>
                 </a>
                 <span class="ne-cont-text-other">{{item.publish_time}}</span>
               </li>
@@ -306,13 +335,28 @@ export default {
     this.$http
      .post("/Fieldnews/GetFieldnewsAll", {}, {})
      .then(response => {
-        window.console.log(response);
-        this.fieldnews = response;
+        // window.console.log(response.data);
+        this.fieldnews = response.data;
+        console.log("============");
+        // console.log(this.fieldnews);
         this.loading = false;
       })
       .catch(e => {
         console.log("fieldnews加载错误")
-      })
+      });
+      this.$http
+       .post("/Companynews/GetCompanynewsAll", {}, {})
+       .then(response => {
+         window.console.log(response.data);
+         this.companynewslist = response.data;
+        //  console.log("============");
+        //  console.log(this.companynewslist);
+        //  console.log(this.companynewslist);
+         this.loading = false;
+       })
+       .catch(e => {
+         console.log("companynewslist加载错误")
+       })
   },
   methods: {
     showNews: function(index) {
