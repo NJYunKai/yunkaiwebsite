@@ -82,16 +82,19 @@
             <div class="ne-cont-header">
               <span class="ne-cont-bigfat">行业新闻</span>
               <span class="ne-cont-twofat">Industry&nbsp;news</span>
-              <span class="ne-cont-threefat ne-cont-threefat-style">
-                <!-- <router-link to="/companynews/fieldnews" class="link">更多</router-link> -->
+              <span class="ne-cont-threefat ne-cont-threefat-style" style="margin-left:24.3em">
+                <router-link to="/companynews/fieldnews" class="link">更多</router-link>
               </span>
             </div>
             <!-- 循环改写 -->
             <ul class="ne-cont-ground" style="width:1200px">
               <li v-for="(item, index) in fieldnews" :key="index" :offset="0" class="ne-cont-text" style="width:40%;float:left;display:block">
-                <a :href= "item.Herf">
+                <!-- <a :href= "item.Sub_title" target="_blank">
                   <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;{{item.Title}}</span>
-                </a>
+                </a> -->
+                <router-link :to="{ name: 'fielddetails', params: { id: item.Id }}">
+                  <span class="ne-cont-text-style" style="width:60%">·&nbsp;&nbsp;{{item.Title}}</span>
+                </router-link>
                 <span class="ne-cont-text-other">{{item.publish_time}}</span>
               </li>
             </ul>
@@ -338,7 +341,7 @@ export default {
         // window.console.log(response.data);
         this.fieldnews = response.data;
         console.log("============");
-        // console.log(this.fieldnews);
+        console.log(this.fieldnews);
         this.loading = false;
       })
       .catch(e => {

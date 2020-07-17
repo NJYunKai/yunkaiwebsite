@@ -1,6 +1,6 @@
 <template>
-    <div class="news-right-demo">                                      
-                                                         
+    <div class="news-right-demo">
+        <div>                                    
             <!-- 内容主体 -->
             <div class="news">
                 <div class="content-background-blue">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-
+        </div>      
     </div>
 </template>
 
@@ -45,7 +45,7 @@
         // });
         // console.log(json.companynewslist);
         this.$http
-         .post("/Companynews/GetCompanynewsAll", {}, {})
+         .post("/Fieldnews/GetFieldnewsAll", {}, {})
          .then(response => {
          window.console.log(response.data);
          this.companynews = response.data.filter(values => {

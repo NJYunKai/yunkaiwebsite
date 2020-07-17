@@ -145,6 +145,23 @@ export default new Router({
         }
       ]
     },
+    //行业动态路由引用定义
+    {
+      path: '/companynews',
+      name: 'companynews',
+      base: '/companynews/',
+      meta: {
+        requireAuth: true
+      },
+      component: () => import('../pages/companynews/companynews.vue'),
+      children: [
+        {
+          path: '/companynews/fielddetails/:id',
+          name: 'fielddetails',
+          component: () => import('../pages/companynews/fieldnews/fielddetails.vue')
+        }
+      ]
+    },
     //专业服务路由引用定义
     {
       path: '/services',

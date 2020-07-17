@@ -54,7 +54,6 @@
                     </div>
                     </div>
                 </router-link>
-
 	        </div>
 
             <!-- 内容主体 -->
@@ -220,7 +219,7 @@ export default {
 
     p{
         line-height: 2;
-        color: black;
+        /* color: black; */
     }
 
     a{

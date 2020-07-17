@@ -219,7 +219,7 @@
 
     p{
         line-height: 2;
-        color: black;
+        /* color: black; */
     }
 
     a{
