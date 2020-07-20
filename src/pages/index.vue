@@ -83,7 +83,7 @@
               <span class="ne-cont-bigfat">行业新闻</span>
               <span class="ne-cont-twofat">Industry&nbsp;news</span>
               <span class="ne-cont-threefat ne-cont-threefat-style" style="margin-left:24.3em">
-                <router-link to="/companynews/fieldnews" class="link">更多</router-link>
+                <router-link to="/companynews/fieldpages" class="link">更多</router-link>
               </span>
             </div>
             <!-- 循环改写 -->

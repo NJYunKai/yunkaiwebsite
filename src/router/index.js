@@ -119,6 +119,11 @@ export default new Router({
           component: () => import('../pages/companynews/fieldnews/fieldnews.vue')
         },
         {
+          path: '/companynews/fieldpages',
+          name: 'fieldpages',
+          component: () => import('../pages/companynews/fieldnews/fieldpages.vue')
+        },
+        {
           path: '/companynews/1+x',
           name: '1+x',
           component: () => import('../pages/companynews/dynamicnews/1+x.vue')
